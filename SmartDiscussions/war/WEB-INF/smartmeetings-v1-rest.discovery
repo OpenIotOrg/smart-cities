@@ -1,0 +1,764 @@
+{
+ "kind": "discovery#restDescription",
+ "etag": "\"nPbVolg1F8jpPe9kkErPtt8mpZE/IoyLs5arUeUOj_gqnCsguDbHxYg\"",
+ "discoveryVersion": "v1",
+ "id": "smartmeetings:v1",
+ "name": "smartmeetings",
+ "version": "v1",
+ "description": "This is an API",
+ "ownerDomain": "google.com",
+ "ownerName": "Google",
+ "icons": {
+  "x16": "http://www.google.com/images/icons/product/search-16.gif",
+  "x32": "http://www.google.com/images/icons/product/search-32.gif"
+ },
+ "protocol": "rest",
+ "baseUrl": "https://smartdiscussions-endpoint.appspot.com/_ah/api/smartmeetings/v1/",
+ "basePath": "/_ah/api/smartmeetings/v1/",
+ "rootUrl": "https://smartdiscussions-endpoint.appspot.com/_ah/api/",
+ "servicePath": "smartmeetings/v1/",
+ "batchPath": "batch",
+ "parameters": {
+  "alt": {
+   "type": "string",
+   "description": "Data format for the response.",
+   "default": "json",
+   "enum": [
+    "json"
+   ],
+   "enumDescriptions": [
+    "Responses with Content-Type of application/json"
+   ],
+   "location": "query"
+  },
+  "fields": {
+   "type": "string",
+   "description": "Selector specifying which fields to include in a partial response.",
+   "location": "query"
+  },
+  "key": {
+   "type": "string",
+   "description": "API key. Your API key identifies your project and provides you with API access, quota, and reports. Required unless you provide an OAuth 2.0 token.",
+   "location": "query"
+  },
+  "oauth_token": {
+   "type": "string",
+   "description": "OAuth 2.0 token for the current user.",
+   "location": "query"
+  },
+  "prettyPrint": {
+   "type": "boolean",
+   "description": "Returns response with indentations and line breaks.",
+   "default": "true",
+   "location": "query"
+  },
+  "quotaUser": {
+   "type": "string",
+   "description": "Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.",
+   "location": "query"
+  },
+  "userIp": {
+   "type": "string",
+   "description": "IP address of the site where the request originates. Use this if you want to enforce per-user limits.",
+   "location": "query"
+  }
+ },
+ "schemas": {
+  "Address": {
+   "id": "Address",
+   "type": "object",
+   "properties": {
+    "city": {
+     "type": "string"
+    },
+    "latitude": {
+     "type": "number",
+     "format": "double"
+    },
+    "longitude": {
+     "type": "number",
+     "format": "double"
+    },
+    "street": {
+     "type": "string"
+    },
+    "zipCode": {
+     "type": "string"
+    }
+   }
+  },
+  "Building": {
+   "id": "Building",
+   "type": "object",
+   "properties": {
+    "address": {
+     "$ref": "Address"
+    },
+    "buildYear": {
+     "type": "string"
+    },
+    "buildingNumber": {
+     "type": "string"
+    },
+    "campusAreaName": {
+     "type": "string"
+    },
+    "label": {
+     "type": "string"
+    },
+    "uri": {
+     "type": "string"
+    }
+   }
+  },
+  "BuildingCollection": {
+   "id": "BuildingCollection",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "Building"
+     }
+    }
+   }
+  },
+  "Discussion": {
+   "id": "Discussion",
+   "type": "object",
+   "properties": {
+    "publicName": {
+     "type": "string"
+    },
+    "topic": {
+     "type": "string"
+    }
+   }
+  },
+  "Post": {
+   "id": "Post",
+   "type": "object",
+   "properties": {
+    "date": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "id": {
+     "type": "string",
+     "format": "int64"
+    },
+    "text": {
+     "type": "string"
+    },
+    "topic": {
+     "type": "string"
+    },
+    "user": {
+     "$ref": "User"
+    }
+   }
+  },
+  "PostContainer": {
+   "id": "PostContainer",
+   "type": "object",
+   "properties": {
+    "date": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "id": {
+     "type": "string",
+     "format": "int64"
+    },
+    "text": {
+     "type": "string"
+    },
+    "userId": {
+     "type": "string"
+    },
+    "userName": {
+     "type": "string"
+    }
+   }
+  },
+  "PostContainerCollection": {
+   "id": "PostContainerCollection",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "PostContainer"
+     }
+    }
+   }
+  },
+  "Reservation": {
+   "id": "Reservation",
+   "type": "object",
+   "properties": {
+    "endDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "loginState": {
+     "type": "boolean"
+    },
+    "reservationId": {
+     "type": "string"
+    },
+    "room": {
+     "$ref": "Room"
+    },
+    "roomId": {
+     "type": "string"
+    },
+    "startDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "timestamp": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "userId": {
+     "type": "string"
+    }
+   }
+  },
+  "ReservationCollection": {
+   "id": "ReservationCollection",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "Reservation"
+     }
+    }
+   }
+  },
+  "ReturnStatus": {
+   "id": "ReturnStatus",
+   "type": "object",
+   "properties": {
+    "success": {
+     "type": "boolean"
+    }
+   }
+  },
+  "Room": {
+   "id": "Room",
+   "type": "object",
+   "properties": {
+    "building": {
+     "$ref": "Building"
+    },
+    "floorSpace": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "label": {
+     "type": "string"
+    },
+    "numberOfSeats": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "roomNumber": {
+     "type": "string"
+    },
+    "uri": {
+     "type": "string"
+    }
+   }
+  },
+  "RoomCollection": {
+   "id": "RoomCollection",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "Room"
+     }
+    }
+   }
+  },
+  "RoomProperty": {
+   "id": "RoomProperty",
+   "type": "object",
+   "properties": {
+    "children": {
+     "type": "array",
+     "items": {
+      "$ref": "RoomProperty"
+     }
+    },
+    "id": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    }
+   }
+  },
+  "RoomPropertyCollection": {
+   "id": "RoomPropertyCollection",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "RoomProperty"
+     }
+    }
+   }
+  },
+  "RoomSearchCriteria": {
+   "id": "RoomSearchCriteria",
+   "type": "object",
+   "properties": {
+    "criteria": {
+     "type": "array",
+     "items": {
+      "$ref": "RoomProperty"
+     }
+    }
+   }
+  },
+  "SensorData": {
+   "id": "SensorData",
+   "type": "object",
+   "properties": {
+    "humidity": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "pressure": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "roomURI": {
+     "type": "string"
+    },
+    "temperature": {
+     "type": "integer",
+     "format": "int32"
+    }
+   }
+  },
+  "User": {
+   "id": "User",
+   "type": "object",
+   "properties": {
+    "authDomain": {
+     "type": "string"
+    },
+    "email": {
+     "type": "string"
+    },
+    "federatedIdentity": {
+     "type": "string"
+    },
+    "nickname": {
+     "type": "string"
+    },
+    "userId": {
+     "type": "string"
+    }
+   }
+  },
+  "UserInfo": {
+   "id": "UserInfo",
+   "type": "object",
+   "properties": {
+    "id": {
+     "type": "string",
+     "format": "int64"
+    },
+    "topics": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "topicsList": {
+     "type": "array",
+     "items": {
+      "$ref": "Discussion"
+     }
+    },
+    "user": {
+     "$ref": "User"
+    },
+    "userName": {
+     "type": "string"
+    }
+   }
+  }
+ },
+ "resources": {
+  "backend": {
+   "methods": {
+    "setUsername": {
+     "id": "smartmeetings.backend.setUsername",
+     "path": "discussions/setUserName/{token}",
+     "httpMethod": "POST",
+     "parameters": {
+      "token": {
+       "type": "string",
+       "required": true,
+       "location": "path"
+      }
+     },
+     "parameterOrder": [
+      "token"
+     ],
+     "response": {
+      "$ref": "UserInfo"
+     }
+    }
+   }
+  },
+  "discussions": {
+   "methods": {
+    "getTopicInfo": {
+     "id": "smartmeetings.discussions.getTopicInfo",
+     "path": "discussions/getTopicInfo",
+     "httpMethod": "GET",
+     "parameters": {
+      "topic": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "topic"
+     ],
+     "response": {
+      "$ref": "Discussion"
+     }
+    },
+    "getUserInfo": {
+     "id": "smartmeetings.discussions.getUserInfo",
+     "path": "discussions/getUserInfo",
+     "httpMethod": "GET",
+     "response": {
+      "$ref": "UserInfo"
+     }
+    },
+    "insert": {
+     "id": "smartmeetings.discussions.insert",
+     "path": "post",
+     "httpMethod": "POST",
+     "request": {
+      "$ref": "Post",
+      "parameterName": "resource"
+     },
+     "response": {
+      "$ref": "Post"
+     }
+    },
+    "list": {
+     "id": "smartmeetings.discussions.list",
+     "path": "postcontainer/{topic}",
+     "httpMethod": "GET",
+     "parameters": {
+      "limit": {
+       "type": "string",
+       "location": "query"
+      },
+      "older": {
+       "type": "string",
+       "format": "date-time",
+       "location": "query"
+      },
+      "topic": {
+       "type": "string",
+       "required": true,
+       "location": "path"
+      }
+     },
+     "parameterOrder": [
+      "topic"
+     ],
+     "response": {
+      "$ref": "PostContainerCollection"
+     }
+    },
+    "removeUserTopic": {
+     "id": "smartmeetings.discussions.removeUserTopic",
+     "path": "discussions/removeUserTopic/{topic}",
+     "httpMethod": "DELETE",
+     "parameters": {
+      "topic": {
+       "type": "string",
+       "required": true,
+       "location": "path"
+      }
+     },
+     "parameterOrder": [
+      "topic"
+     ],
+     "response": {
+      "$ref": "UserInfo"
+     }
+    }
+   }
+  },
+  "phonesensors": {
+   "methods": {
+    "processSensorData": {
+     "id": "smartmeetings.phonesensors.processSensorData",
+     "path": "processSensorData",
+     "httpMethod": "POST",
+     "request": {
+      "$ref": "SensorData",
+      "parameterName": "resource"
+     }
+    },
+    "setGSNServerAddress": {
+     "id": "smartmeetings.phonesensors.setGSNServerAddress",
+     "path": "setGSNServerAddress/{address}",
+     "httpMethod": "POST",
+     "parameters": {
+      "address": {
+       "type": "string",
+       "required": true,
+       "location": "path"
+      }
+     },
+     "parameterOrder": [
+      "address"
+     ]
+    }
+   }
+  },
+  "roommanagement": {
+   "methods": {
+    "addReservation": {
+     "id": "smartmeetings.roommanagement.addReservation",
+     "path": "roommanagement/addReservation",
+     "httpMethod": "POST",
+     "parameters": {
+      "endDate": {
+       "type": "string",
+       "required": true,
+       "format": "date-time",
+       "location": "query"
+      },
+      "roomId": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      },
+      "startDate": {
+       "type": "string",
+       "required": true,
+       "format": "date-time",
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "endDate",
+      "roomId",
+      "startDate"
+     ],
+     "response": {
+      "$ref": "ReturnStatus"
+     }
+    },
+    "getAllBuildings": {
+     "id": "smartmeetings.roommanagement.getAllBuildings",
+     "path": "roommanagement/getAllBuildings",
+     "httpMethod": "GET",
+     "response": {
+      "$ref": "BuildingCollection"
+     }
+    },
+    "getAllRoomProperties": {
+     "id": "smartmeetings.roommanagement.getAllRoomProperties",
+     "path": "roommanagement/getAllRoomProperties",
+     "httpMethod": "GET",
+     "response": {
+      "$ref": "RoomPropertyCollection"
+     }
+    },
+    "getAllRooms": {
+     "id": "smartmeetings.roommanagement.getAllRooms",
+     "path": "roommanagement/getAllRooms",
+     "httpMethod": "GET",
+     "response": {
+      "$ref": "RoomCollection"
+     }
+    },
+    "getAllRoomsOfBuilding": {
+     "id": "smartmeetings.roommanagement.getAllRoomsOfBuilding",
+     "path": "roommanagement/getAllRoomsOfBuilding",
+     "httpMethod": "GET",
+     "parameters": {
+      "buildingID": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "buildingID"
+     ],
+     "response": {
+      "$ref": "RoomCollection"
+     }
+    },
+    "getPropertiesOfRoom": {
+     "id": "smartmeetings.roommanagement.getPropertiesOfRoom",
+     "path": "roommanagement/getPropertiesOfRoom",
+     "httpMethod": "GET",
+     "parameters": {
+      "roomId": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "roomId"
+     ],
+     "response": {
+      "$ref": "RoomPropertyCollection"
+     }
+    },
+    "getReservationById": {
+     "id": "smartmeetings.roommanagement.getReservationById",
+     "path": "roommanagement/getReservationById",
+     "httpMethod": "GET",
+     "parameters": {
+      "id": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "id"
+     ],
+     "response": {
+      "$ref": "Reservation"
+     }
+    },
+    "getReservationsOfRoom": {
+     "id": "smartmeetings.roommanagement.getReservationsOfRoom",
+     "path": "roommanagement/getReservationsOfRoom",
+     "httpMethod": "GET",
+     "parameters": {
+      "roomId": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "roomId"
+     ],
+     "response": {
+      "$ref": "ReservationCollection"
+     }
+    },
+    "getReservationsOfUser": {
+     "id": "smartmeetings.roommanagement.getReservationsOfUser",
+     "path": "roommanagement/getReservationsOfUser",
+     "httpMethod": "GET",
+     "response": {
+      "$ref": "ReservationCollection"
+     }
+    },
+    "getRoomById": {
+     "id": "smartmeetings.roommanagement.getRoomById",
+     "path": "roommanagement/getRoomById",
+     "httpMethod": "GET",
+     "parameters": {
+      "id": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "id"
+     ],
+     "response": {
+      "$ref": "Room"
+     }
+    },
+    "registerAtRoom": {
+     "id": "smartmeetings.roommanagement.registerAtRoom",
+     "path": "roommanagement/registerAtRoom",
+     "httpMethod": "POST",
+     "parameters": {
+      "reservationId": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "reservationId"
+     ],
+     "response": {
+      "$ref": "ReturnStatus"
+     }
+    },
+    "removeReservation": {
+     "id": "smartmeetings.roommanagement.removeReservation",
+     "path": "roommanagement/removeReservation",
+     "httpMethod": "DELETE",
+     "parameters": {
+      "reservationId": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "reservationId"
+     ],
+     "response": {
+      "$ref": "ReturnStatus"
+     }
+    },
+    "searchRoom": {
+     "id": "smartmeetings.roommanagement.searchRoom",
+     "path": "roommanagement/searchRoom",
+     "httpMethod": "POST",
+     "request": {
+      "$ref": "RoomSearchCriteria",
+      "parameterName": "resource"
+     },
+     "response": {
+      "$ref": "RoomCollection"
+     }
+    },
+    "unregisterFromRoom": {
+     "id": "smartmeetings.roommanagement.unregisterFromRoom",
+     "path": "roommanagement/unregisterFromRoom",
+     "httpMethod": "POST",
+     "parameters": {
+      "reservationId": {
+       "type": "string",
+       "required": true,
+       "location": "query"
+      }
+     },
+     "parameterOrder": [
+      "reservationId"
+     ],
+     "response": {
+      "$ref": "ReturnStatus"
+     }
+    }
+   }
+  }
+ }
+}

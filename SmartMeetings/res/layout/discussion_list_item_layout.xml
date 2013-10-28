@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="8dp"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/textViewDiscussionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Lineare Algebra 1 - 1"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewLastPostPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="Max Mustermann: Blablabla Blablabla Blablabla Blablabla Blablabla" />
+
+    <TextView
+        android:id="@+id/textViewLastPostDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01.01.2013"
+        android:textColor="@color/secondary_grey" />
+
+</LinearLayout>

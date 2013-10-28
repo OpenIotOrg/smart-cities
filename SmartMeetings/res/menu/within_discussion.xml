@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_share_discussion"
+        android:icon="@drawable/ic_action_social_share"
+        android:orderInCategory="99"
+        android:showAsAction="ifRoom"
+        android:title="@string/share">
+    </item>
+    <item
+        android:id="@+id/send_room"
+        android:orderInCategory="99"
+        android:showAsAction="never"
+        android:title="@string/send_room"/>
+    
+    <item
+        android:id="@+id/toggle_notifications"
+        android:orderInCategory="99"
+        android:showAsAction="never"
+        android:title="@string/enable_notification"
+        android:checkable="true"/>
+
+</menu>

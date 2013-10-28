@@ -1,0 +1,51 @@
+﻿Geb.*R.Nr.*R.Bez.*OE.Abk.*OE.Bez.*Fläche*Sitzplätze*RNA*RNA.Bez.
+10.11*126*Hertz-Hörsaal  (HES) *ZVW*HS Hertz*204*242*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.21*110*Carl-Benz-Hörsaal  (HMU)*ZVW*Hörsaal Mathematik unten (HMU)*326,65*378*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.21*301*Gottlieb-Daimler-Hörsaal  (HMO)*ZVW*Hörsaal Mathematik oben (HMO)*327,35*380*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.23*110*Nusselt-Hörsaal*ZVW*Nusselt-Hörsaal*208*266*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.50*001*Bauingenieure, Grosser Hörsaal*ZVW*großer Hörsaal Bauingenieurwesen*230*236*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.50*002*Bauingenieure, Kleiner Hörsaal *ZVW*kleiner Hörsaal Bauingenieurwesen*180*176*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.81*150*Theodor-Rehbock-Hörsaal (HS59)*ZVW*Theodor-Rehbock-Hörsaal (HS 59)*96*50*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.81*153*Bauingenieure Hörsaal 62  (HS62)*ZVW*Bauingenieure, Hörsaal 62 (HS 62)*66*32*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.81*293*Engesser-Hörsaal  (HS93)*ZVW*Engesser-Hörsaal (HS 93)*132*150*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.91*050*Redtenbacher-Hörsaal*ZVW*Redtenbacher-Hörsaal*219,21*200*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.91*150*Maschinenbau, Mittlerer Hörsaal *ZVW*Maschinenbau, Mittlerer Hörsaal*74,05*66*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.91*222*Maschinenbau, Oberer Hörsaal*ZVW*Maschinenbau, Oberer Hörsaal*78,18*77*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.91*231*Grashof-Hörsaal*ZVW*Grashof-Hörsaal*196,88*181*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+11.10*105*Elektrotechnik  Kleiner Hörsaal  (kl. ETI)*ZVW*Elektrotechnik, kleiner Hörsaal (kl.ETI)*76*62*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+11.10*107*Engelbert-Arnold-Hörsaal  (EAS)*ZVW*Engelbert-Arnold-Hörsaal (EAS)*154*201*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+11.21*006*Hörsaal 006*ZVW*Hörsaal 006, 11.21, 006*93*36*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+11.40*103*Johann-Gottfried-Tulla-Hörsaal*ZVW*Johann-Gottfried-Tulla-Hörsaal*329*299*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+20.13*001*Kollegium am Schloss, Hörsaal 001*ZVW*Seminarraum 20.13, 001 ZVW*162*66*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+20.13*111*Kollegium am Schloss, Hörsaal 111*ZVW*Seminarraum 20.13, 111 ZVW*112*52*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+20.40*001*Architektur, Hörsaal Nr.37  (HS37)*ZVW*Architektur, Hörsaal Nr. 37 (HS 37)*254,72*302*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+20.40*003*Architektur, Neuer Hörsaal (NH)*ZVW*Architektur, neuer Hörsaal (NH)*111,68*100*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+20.40*101*Egon-Eiermann-Hörsaal  (HS16)*ZVW*Egon-Eiermann-Hörsaal (HS 16)*170*154*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+20.40*102*Architektur, Hörsaal Nr.9 (HS9)*ZVW*Architektur, Hörsaal Nr. 9 (HS9)*112*90*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+30.10*030*Nachrichtentechnik-Hörsaal  (NTI)*ZVW*Nachrichtentechnik-Hörsaal (NTI)*212*206*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.21*001*Gerthsen-Hörsaal*ZVW*Gerthsen-Hörsaal*530*682*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.22*020*Physik-Hörsaal Nr.3  (Kl.HS.A)*ZVW*Physik-Hörsaal Nr. 3 (Kl. HS. A)*73*70*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.22*021*Physik-Hörsaal Nr.4  (Kl.HS.B)*ZVW*Physik-Hörsaal Nr. 4 (Kl. HS.B)*73*70*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.22*022*Otto-Lehmann-Hörsaal (Mittl. HS)*ZVW*Otto-Lehmann-Hörsaal (Mittl. HS)*181*174*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.22*130.1*Gaede-Hörsaal*ZVW*Gaede-Hörsaal*211*304*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.33*001*Messtechnik-Hörsaal  (MTI)*ZVW*HS Messtechnik*243*232*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.34*022*Lichttechnik-Hörsaal  (LTI)*ZVW*HS Lichttechnik (LTI)*122*102*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.35*040*Hochspannungstechnik-Hörsaal (HSI)*ZVW*HS Hochspannungstechnik (HSI)*213*163*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.41*004*Chemie-Hörsaal Nr. 1  (HS1)*ZVW*Chemie-Hörsaal Nr. 1 (HS 1)*138*113*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.41*005*Chemie-Hörsaal Nr. 2 (HS2)*ZVW*Chemie-Hörsaal Nr. 2 (HS 2)*138*118*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.41*104*Rudolf-Criegee-Hörsaal (HS4)*ZVW*Rudolf-Criegée-Hörsaal (HS 4)*163*168*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.41*105*Chemie-Hörsaal Nr. 3  (HS3)*ZVW*Chemie-Hörsaal Nr. 3 (HS 3)*163*168*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.46*001*Chemie, Neuer Hörsaal*ZVW*Chemie, neuer Hörsaal*374*376*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.95*001.1*Forum Hörsaal A (Audimax)*ZVW*HS Audimax, Teil A*291*367*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+30.95*001.2*Forum Hörsaal B (Audimax)*ZVW*HS Audimax, Teil B*291*367*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+30.95*101.1*Forum Hörsaal A Empore*ZVW*HS Audimax, Teil A*174*0*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+30.95*101.2*Forum Hörsaal B Empore*ZVW*HS Audimax, Teil B*174*0*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+40.11*001*Engler-Bunte-Hörsaal  (EBI)*ZVW*Engler-Bunte-Hörsaal (EBI)*126*64*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+40.32*045*Rudolf-Plank-Hörsaal*ZVW*HS Rudolf Plank*160*129*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+40.40*007*Hörsaal Sport*ZVW*zentral verwaltete Hörsäle allgemein*152*105*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+50.20*012*Seminarraum 50.20 Nr.2  (ZVW)*STK*Allgemeiner Betrieb*60,88**511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+50.31*107.1*Bauingenieure Hörsaal 107  (HS107)*ZVW*zentral verwaltete Hörsäle allgemein*156*78*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+50.34*-101*Informatik Hörsaal 1*INFORMATIK*Fakultät (zentral)*141*125*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+50.34*-102*Informatik Hörsaal 2*INFORMATIK*Fakultät (zentral)*116*75*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+50.35*006*Fasanengarten-Hörsaal  (HS.a.F)*ZVW*HS Fasanengarten mit Empore*462*448*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+50.35*103*Empore Fasanengarten-Hörsaal*ZVW*HS Fasanengarten mit Empore*113*133*513*Hör-/Lehrsäle anst.ohne Exp.Bühne

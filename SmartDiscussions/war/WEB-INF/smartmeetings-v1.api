@@ -1,0 +1,891 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://smartdiscussions-endpoint.appspot.com/_ah/api",
+  "name" : "smartmeetings",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://smartdiscussions-endpoint.appspot.com/_ah/spi",
+    "deadline" : 10.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "methods" : {
+    "smartmeetings.discussions.getTopicInfo" : {
+      "path" : "discussions/getTopicInfo",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartdiscussions.DiscussionService.getTopicInfo",
+      "request" : {
+        "parameters" : {
+          "topic" : {
+            "type" : "string",
+            "required" : true
+          },
+          "name" : {
+            "type" : "string",
+            "required" : false
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.discussions.list" : {
+      "path" : "postcontainer/{topic}",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartdiscussions.DiscussionService.list",
+      "request" : {
+        "parameters" : {
+          "topic" : {
+            "type" : "string",
+            "required" : true
+          },
+          "older" : {
+            "type" : "datetime",
+            "required" : false
+          },
+          "limit" : {
+            "type" : "string",
+            "required" : false
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.discussions.insert" : {
+      "path" : "post",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartdiscussions.DiscussionService.insert",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.discussions.getUserInfo" : {
+      "path" : "discussions/getUserInfo",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartdiscussions.DiscussionService.getUserInfo",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.discussions.removeUserTopic" : {
+      "path" : "discussions/removeUserTopic/{topic}",
+      "httpMethod" : "DELETE",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartdiscussions.DiscussionService.removeUserTopic",
+      "request" : {
+        "parameters" : {
+          "topic" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.backend.setUsername" : {
+      "path" : "discussions/setUserName/{token}",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.SmartMeetingsBackendService.setUsername",
+      "request" : {
+        "parameters" : {
+          "token" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.getPropertiesOfRoom" : {
+      "path" : "roommanagement/getPropertiesOfRoom",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getPropertiesOfRoom",
+      "request" : {
+        "parameters" : {
+          "roomId" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.searchRoom" : {
+      "path" : "roommanagement/searchRoom",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.searchRoom",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.addReservation" : {
+      "path" : "roommanagement/addReservation",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.addReservation",
+      "request" : {
+        "parameters" : {
+          "roomId" : {
+            "type" : "string",
+            "required" : true
+          },
+          "startDate" : {
+            "type" : "datetime",
+            "required" : true
+          },
+          "endDate" : {
+            "type" : "datetime",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.getAllRooms" : {
+      "path" : "roommanagement/getAllRooms",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getAllRooms",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.removeReservation" : {
+      "path" : "roommanagement/removeReservation",
+      "httpMethod" : "DELETE",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.removeReservation",
+      "request" : {
+        "parameters" : {
+          "reservationId" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.getAllBuildings" : {
+      "path" : "roommanagement/getAllBuildings",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getAllBuildings",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.getAllRoomProperties" : {
+      "path" : "roommanagement/getAllRoomProperties",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getAllRoomProperties",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.getAllRoomsOfBuilding" : {
+      "path" : "roommanagement/getAllRoomsOfBuilding",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getAllRoomsOfBuilding",
+      "request" : {
+        "parameters" : {
+          "buildingID" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.getReservationById" : {
+      "path" : "roommanagement/getReservationById",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getReservationById",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.getRoomById" : {
+      "path" : "roommanagement/getRoomById",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getRoomById",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.getReservationsOfRoom" : {
+      "path" : "roommanagement/getReservationsOfRoom",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getReservationsOfRoom",
+      "request" : {
+        "parameters" : {
+          "roomId" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.registerAtRoom" : {
+      "path" : "roommanagement/registerAtRoom",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.registerAtRoom",
+      "request" : {
+        "parameters" : {
+          "reservationId" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.getReservationsOfUser" : {
+      "path" : "roommanagement/getReservationsOfUser",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getReservationsOfUser",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.roommanagement.unregisterFromRoom" : {
+      "path" : "roommanagement/unregisterFromRoom",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.unregisterFromRoom",
+      "request" : {
+        "parameters" : {
+          "reservationId" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.phonesensors.setGSNServerAddress" : {
+      "path" : "setGSNServerAddress/{address}",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.sensors.phone.PhoneSensorService.setGSNServerAddress",
+      "request" : {
+        "parameters" : {
+          "address" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "smartmeetings.phonesensors.processSensorData" : {
+      "path" : "processSensorData",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com" ],
+      "clientIds" : [ "826403670175.apps.googleusercontent.com", "826403670175-42lje7umi8nh9jarua6eg5i3a7qasj2r.apps.googleusercontent.com", "826403670175-t0uuep1kb660pbmffk6dvp43bci4relc.apps.googleusercontent.com", "826403670175-tv314bb8akqsn526jf4hlaecj120267i.apps.googleusercontent.com", "826403670175-nlb7esqm0us09j5ffh97knjg2edt0r91.apps.googleusercontent.com", "826403670175-tdjutel02qr26rqsadd0u9f6c6s4eus3.apps.googleusercontent.com", "826403670175-59nlp42fst6ph2o2kvgv9j9e2bri3fdo.apps.googleusercontent.com", "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "edu.kit.cm.ivu.smartmeetings.backend.sensors.phone.PhoneSensorService.processSensorData",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "empty"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "Discussion" : {
+        "id" : "Discussion",
+        "type" : "object",
+        "properties" : {
+          "topic" : {
+            "type" : "string"
+          },
+          "publicName" : {
+            "type" : "string"
+          }
+        }
+      },
+      "PostContainer" : {
+        "id" : "PostContainer",
+        "type" : "object",
+        "properties" : {
+          "userName" : {
+            "type" : "string"
+          },
+          "date" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "text" : {
+            "type" : "string"
+          },
+          "userId" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "string",
+            "format" : "int64"
+          }
+        }
+      },
+      "PostContainerCollection" : {
+        "id" : "PostContainerCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "PostContainer"
+            }
+          }
+        }
+      },
+      "Post" : {
+        "id" : "Post",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "user" : {
+            "$ref" : "User"
+          },
+          "date" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "topic" : {
+            "type" : "string"
+          },
+          "text" : {
+            "type" : "string"
+          }
+        }
+      },
+      "User" : {
+        "id" : "User",
+        "type" : "object",
+        "properties" : {
+          "email" : {
+            "type" : "string"
+          },
+          "authDomain" : {
+            "type" : "string"
+          },
+          "userId" : {
+            "type" : "string"
+          },
+          "federatedIdentity" : {
+            "type" : "string"
+          },
+          "nickname" : {
+            "type" : "string"
+          }
+        }
+      },
+      "UserInfo" : {
+        "id" : "UserInfo",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "user" : {
+            "$ref" : "User"
+          },
+          "userName" : {
+            "type" : "string"
+          },
+          "topics" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "topicsList" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Discussion"
+            }
+          }
+        }
+      },
+      "RoomProperty" : {
+        "id" : "RoomProperty",
+        "type" : "object",
+        "properties" : {
+          "name" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "string"
+          },
+          "children" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "RoomProperty"
+            }
+          }
+        }
+      },
+      "RoomPropertyCollection" : {
+        "id" : "RoomPropertyCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "RoomProperty"
+            }
+          }
+        }
+      },
+      "RoomSearchCriteria" : {
+        "id" : "RoomSearchCriteria",
+        "type" : "object",
+        "properties" : {
+          "criteria" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "RoomProperty"
+            }
+          }
+        }
+      },
+      "Room" : {
+        "id" : "Room",
+        "type" : "object",
+        "properties" : {
+          "uri" : {
+            "type" : "string"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "roomNumber" : {
+            "type" : "string"
+          },
+          "numberOfSeats" : {
+            "type" : "integer"
+          },
+          "floorSpace" : {
+            "type" : "integer"
+          },
+          "building" : {
+            "$ref" : "Building"
+          }
+        }
+      },
+      "Building" : {
+        "id" : "Building",
+        "type" : "object",
+        "properties" : {
+          "uri" : {
+            "type" : "string"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "buildingNumber" : {
+            "type" : "string"
+          },
+          "campusAreaName" : {
+            "type" : "string"
+          },
+          "buildYear" : {
+            "type" : "string"
+          },
+          "address" : {
+            "$ref" : "Address"
+          }
+        }
+      },
+      "Address" : {
+        "id" : "Address",
+        "type" : "object",
+        "properties" : {
+          "street" : {
+            "type" : "string"
+          },
+          "zipCode" : {
+            "type" : "string"
+          },
+          "city" : {
+            "type" : "string"
+          },
+          "latitude" : {
+            "type" : "number"
+          },
+          "longitude" : {
+            "type" : "number"
+          }
+        }
+      },
+      "RoomCollection" : {
+        "id" : "RoomCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Room"
+            }
+          }
+        }
+      },
+      "ReturnStatus" : {
+        "id" : "ReturnStatus",
+        "type" : "object",
+        "properties" : {
+          "success" : {
+            "type" : "boolean"
+          }
+        }
+      },
+      "BuildingCollection" : {
+        "id" : "BuildingCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Building"
+            }
+          }
+        }
+      },
+      "Reservation" : {
+        "id" : "Reservation",
+        "type" : "object",
+        "properties" : {
+          "reservationId" : {
+            "type" : "string"
+          },
+          "userId" : {
+            "type" : "string"
+          },
+          "room" : {
+            "$ref" : "Room"
+          },
+          "timestamp" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "startDate" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "endDate" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "loginState" : {
+            "type" : "boolean"
+          },
+          "roomId" : {
+            "type" : "string"
+          }
+        }
+      },
+      "ReservationCollection" : {
+        "id" : "ReservationCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Reservation"
+            }
+          }
+        }
+      },
+      "SensorData" : {
+        "id" : "SensorData",
+        "type" : "object",
+        "properties" : {
+          "temperature" : {
+            "type" : "integer"
+          },
+          "pressure" : {
+            "type" : "integer"
+          },
+          "humidity" : {
+            "type" : "integer"
+          },
+          "roomURI" : {
+            "type" : "string"
+          }
+        }
+      }
+    },
+    "methods" : {
+      "edu.kit.cm.ivu.smartdiscussions.DiscussionService.getTopicInfo" : {
+        "response" : {
+          "$ref" : "Discussion"
+        }
+      },
+      "edu.kit.cm.ivu.smartdiscussions.DiscussionService.list" : {
+        "response" : {
+          "$ref" : "PostContainerCollection"
+        }
+      },
+      "edu.kit.cm.ivu.smartdiscussions.DiscussionService.insert" : {
+        "request" : {
+          "$ref" : "Post"
+        },
+        "response" : {
+          "$ref" : "Post"
+        }
+      },
+      "edu.kit.cm.ivu.smartdiscussions.DiscussionService.getUserInfo" : {
+        "response" : {
+          "$ref" : "UserInfo"
+        }
+      },
+      "edu.kit.cm.ivu.smartdiscussions.DiscussionService.removeUserTopic" : {
+        "response" : {
+          "$ref" : "UserInfo"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.SmartMeetingsBackendService.setUsername" : {
+        "response" : {
+          "$ref" : "UserInfo"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getPropertiesOfRoom" : {
+        "response" : {
+          "$ref" : "RoomPropertyCollection"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.searchRoom" : {
+        "request" : {
+          "$ref" : "RoomSearchCriteria"
+        },
+        "response" : {
+          "$ref" : "RoomCollection"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.addReservation" : {
+        "response" : {
+          "$ref" : "ReturnStatus"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getAllRooms" : {
+        "response" : {
+          "$ref" : "RoomCollection"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.removeReservation" : {
+        "response" : {
+          "$ref" : "ReturnStatus"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getAllBuildings" : {
+        "response" : {
+          "$ref" : "BuildingCollection"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getAllRoomProperties" : {
+        "response" : {
+          "$ref" : "RoomPropertyCollection"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getAllRoomsOfBuilding" : {
+        "response" : {
+          "$ref" : "RoomCollection"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getReservationById" : {
+        "response" : {
+          "$ref" : "Reservation"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getRoomById" : {
+        "response" : {
+          "$ref" : "Room"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getReservationsOfRoom" : {
+        "response" : {
+          "$ref" : "ReservationCollection"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.registerAtRoom" : {
+        "response" : {
+          "$ref" : "ReturnStatus"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.getReservationsOfUser" : {
+        "response" : {
+          "$ref" : "ReservationCollection"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.rooms.RoomManagementAPI.unregisterFromRoom" : {
+        "response" : {
+          "$ref" : "ReturnStatus"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.sensors.phone.PhoneSensorService.setGSNServerAddress" : {
+        "response" : {
+          "$ref" : "ReturnStatus"
+        }
+      },
+      "edu.kit.cm.ivu.smartmeetings.backend.sensors.phone.PhoneSensorService.processSensorData" : {
+        "request" : {
+          "$ref" : "SensorData"
+        }
+      }
+    }
+  }
+}

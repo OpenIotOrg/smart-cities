@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_reservation_remove" android:title="@string/menu_reservation_remove"></item>
+    <item android:id="@+id/menu_reservation_login" android:title="@string/menu_reservation_login"></item>
+    <item android:id="@+id/menu_reservation_share" android:title="@string/menu_reservation_share"></item>
+    
+
+</menu>

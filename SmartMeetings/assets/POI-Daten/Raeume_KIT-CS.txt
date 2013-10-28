@@ -1,0 +1,887 @@
+﻿Geb.*R.Nr.*R.Bez.*OE.Abk.*OE.Bez.*Fläche*Sitzplätze*RNA*RNA.Bez.
+01.70*201*Institutsbibliothek*SLE-ZIB*Zentrum für Information und Beratung(Allgemeiner Betrieb)*75*18*541*Bibliotheksräume allgemein
+01.70*202*Seminarraum*SLE-ZIB*Zentrum für Information und Beratung(Allgemeiner Betrieb)*16**524*Mehrzweckunterrichtsräume
+01.70*203*Seminarraum*SLE-ZIB*Zentrum für Information und Beratung(Allgemeiner Betrieb)*26**524*Mehrzweckunterrichtsräume
+01.80*220*PC-Pool*IISM-IM*Informations-BWL (Allgem. Betrieb)*48**533*Medienunterstützte Unterrichtsräume
+01.85*101*Seminarraum*MATH*Dekanat / Sekretariat*70**524*Mehrzweckunterrichtsräume
+01.85*103*Seminarraum*MATH*Dekanat / Sekretariat*47**524*Mehrzweckunterrichtsräume
+01.85*107*PC-Pool*FSM*Lehrstuhl Prof. Gabi (Allgem. Betrieb)*90**533*Medienunterstützte Unterrichtsräume
+01.85*119*Leseraum*MATH*Dekanat / Sekretariat*63**541*Bibliotheksräume allgemein
+01.85*122*Fakultätsbibliothek*MATH-BIB*Mathematische Bibliothek*453**541*Bibliotheksräume allgemein
+01.85*409*Bibliothek*FAST*Allgemeiner Institutsbetrieb*35**541*Bibliotheksräume allgemein
+01.85*410*PC-Pool A*FAST*Allgemeiner Institutsbetrieb*36**533*Medienunterstützte Unterrichtsräume
+01.85*411*PC-Pool B*FAST*Allgemeiner Institutsbetrieb*45**533*Medienunterstützte Unterrichtsräume
+01.90*115*Seminarraum*GIK*Allgemeiner Institutsbetrieb*18**524*Mehrzweckunterrichtsräume
+01.93*101*Seminarraum*MATH*Dekanat / Sekretariat*83**524*Mehrzweckunterrichtsräume
+01.93*106*Bibliothek*MATH*Dekanat / Sekretariat*36**541*Bibliotheksräume allgemein
+01.94*103*Freihandstellfläche*FBV-INSURANCE*Allgemeiner Betrieb Prof. Hipp*8**543*Freihandstellfläche
+01.94*112*Seminarraum*FBV-INSURANCE*Allgemeiner Betrieb Prof. Hipp*29**524*Mehrzweckunterrichtsräume
+01.96*305*Bibliothek*IWW-NETZE*Bereich Netzwerkökonomie - Allg. Betrieb*21**541*Bibliotheksräume allgemein
+01.96*404*Seminarraum*IWW-NETZE*Bereich Netzwerkökonomie - Allg. Betrieb*29**524*Mehrzweckunterrichtsräume
+05.01*004*Bibliothek*CEL*Bereich Prof. Jondral (Allgem. Betrieb)*17,93*0*541*Bibliotheksräume allgemein
+05.01*110*PC-Pool 1*CEL*Bereich Prof. Jondral (Allgem. Betrieb)*22,96*6*533*Medienunterstützte Unterrichtsräume
+05.01*210*PC-Pool 2*CEL*Bereich Prof. Jondral (Allgem. Betrieb)*24,65*6*533*Medienunterstützte Unterrichtsräume
+05.01*301*Seminarraum*CEL*Bereich Prof. Jondral (Allgem. Betrieb)*85*24*524*Mehrzweckunterrichtsräume
+05.02*005*Seminarraum*MINT*Allgemeiner Betrieb*184,06**524*Mehrzweckunterrichtsräume
+05.02*006*Seminarraum*MINT*Allgemeiner Betrieb*56,08**524*Mehrzweckunterrichtsräume
+05.02*007*Seminarraum*MINT*Allgemeiner Betrieb*55,84**524*Mehrzweckunterrichtsräume
+05.20*1A-02*Praktikumslabor Multimedia*AIFB*Institutsgeschäftsführung (allgemein)*29**533*Medienunterstützte Unterrichtsräume
+05.20*1A-08*PC-Pool*AIFB*Institutsgeschäftsführung (allgemein)*29**533*Medienunterstützte Unterrichtsräume
+05.20*1A-11*Seminarraum*AIFB*Institutsgeschäftsführung (allgemein)*71**524*Mehrzweckunterrichtsräume
+05.20*1C-01*Seminarraum 1*MATH*Dekanat / Sekretariat*63**524*Mehrzweckunterrichtsräume
+05.20*1C-02*PC-Pool*MATH*Dekanat / Sekretariat*66**533*Medienunterstützte Unterrichtsräume
+05.20*1C-03.1*Seminarraum 3*MATH*Dekanat / Sekretariat*94**524*Mehrzweckunterrichtsräume
+05.20*1C-04*Seminarraum 2*MATH*Dekanat / Sekretariat*95**524*Mehrzweckunterrichtsräume
+06.31*014*PC-Pool*SPORT-PSYCH*Angewandte Psychologie*21**533*Medienunterstützte Unterrichtsräume
+06.31*017*Seminarraum*SPORT-PSYCH*Angewandte Psychologie*52**524*Mehrzweckunterrichtsräume
+06.33*-102*Bibliothek*IIP-Knauth*HR Management (Allgem. Betrieb)*59*2*541*Bibliotheksräume allgemein
+06.33*013*Freihandstellfläche*IIP-Knauth*HR Management (Allgem. Betrieb)*16**543*Freihandstellfläche
+06.33*017*Seminarraum*IIP-Knauth*HR Management (Allgem. Betrieb)*50**524*Mehrzweckunterrichtsräume
+06.33*103*Praktikumsraum*IIP-Knauth*HR Management (Allgem. Betrieb)*67**535*Physikal./Technische Übungsräume
+06.33*115*Seminarraum*IIP-Knauth*HR Management (Allgem. Betrieb)*56**524*Mehrzweckunterrichtsräume
+06.33*216*Praktikumsraum*IIP-Knauth*HR Management (Allgem. Betrieb)*66**535*Physikal./Technische Übungsräume
+06.34*006.1*Praktikumsraum*GPI*Elektronikwerkstatt*91**535*Physikal./Technische Übungsräume
+06.34*110.1*PC-Pool*GPI-Wenzel*Lehrstuhl Prof. Wenzel (Allgem. Betrieb)*113**533*Medienunterstützte Unterrichtsräume
+06.35*001*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*21**525*Zeichenübungsräume
+06.35*002*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*12**525*Zeichenübungsräume
+06.35*003*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*22**525*Zeichenübungsräume
+06.35*004*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*15**525*Zeichenübungsräume
+06.35*011*Freihandstellfläche*EBI-FFB*Brandschutztechnik (Dokumentation)*22**543*Freihandstellfläche
+06.35*012*Bibliothek*EBI-FFB*Brandschutztechnik (Allgem. Betrieb)*45*2*541*Bibliotheksräume allgemein
+06.35*112*Seminarraum*IIIT*Allgemeiner Betrieb Bereich 1*46*15*524*Mehrzweckunterrichtsräume
+06.35*113*Seminarraum*IIIT*Allgemeiner Betrieb Bereich 1*46**524*Mehrzweckunterrichtsräume
+06.35*117.1*Bibliothek*IIIT*Allgemeiner Betrieb Bereich 1*35**541*Bibliotheksräume allgemein
+06.35*120.1*Seminarraum ZVW*ZVW*zentral verwaltete Hörsäle allgemein*46*20*524*Mehrzweckunterrichtsräume
+06.35*121*Seminarraum*IIIT*Allgemeiner Betrieb Bereich 1*45**524*Mehrzweckunterrichtsräume
+06.35*215*Praktikumsraum*IFGG-1*Labor*60**536*Naßpräparative Übungsräume
+06.35*217.1*Praktikumsraum*IFGG-1*Labor*36**536*Naßpräparative Übungsräume
+06.35*219*Seminarraum 06.35 ZVW*ZVW*zentral verwaltete Hörsäle allgemein*53*32*524*Mehrzweckunterrichtsräume
+06.35*220*Praktikumsraum*ZOO-NEUROBIO*Zell- u. Neurobiologie (Allgem. Betrieb)*141**536*Naßpräparative Übungsräume
+06.35*221*Bibliothek*ZDMKA*Abteilung für Didaktik der Mathematik*45**543*Freihandstellfläche
+06.35*303*Seminarraum ZDMKA*ZDMKA*Abteilung für Didaktik der Mathematik*90**524*Mehrzweckunterrichtsräume
+06.36*105*Seminarraum*GPI-Bohlen*Angew. Geophysik (Allgem. Betrieb)*19**524*Mehrzweckunterrichtsräume
+06.36*106*Seminarraum*GPI-Bohlen*Angew. Geophysik (Allgem. Betrieb)*20**524*Mehrzweckunterrichtsräume
+06.40*-107*Sportübungsraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*43**556*Sportübungsräume
+06.40*-108*Sportübungsraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*43**556*Sportübungsräume
+06.40*-109*Sportübungsraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*43**556*Sportübungsräume
+06.40*-110*Sportübungsraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*43**556*Sportübungsräume
+06.40*010*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*46**524*Mehrzweckunterrichtsräume
+06.40*010.1*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*46**524*Mehrzweckunterrichtsräume
+06.40*011*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*90**524*Mehrzweckunterrichtsräume
+06.40*014*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*61**524*Mehrzweckunterrichtsräume
+06.40*015*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*61**524*Mehrzweckunterrichtsräume
+06.40*018*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*92**524*Mehrzweckunterrichtsräume
+06.40*019*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*92**524*Mehrzweckunterrichtsräume
+06.40*110*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*90**524*Mehrzweckunterrichtsräume
+06.40*112*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*92**524*Mehrzweckunterrichtsräume
+06.40*115*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*60**524*Mehrzweckunterrichtsräume
+06.40*116*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*60**524*Mehrzweckunterrichtsräume
+06.40*119*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*45**524*Mehrzweckunterrichtsräume
+06.40*120*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*45**524*Mehrzweckunterrichtsräume
+06.40*121*Seminarraum*PFS*Pädagog.Fachseminar-Regpräs.KA Abt. Schu*92**524*Mehrzweckunterrichtsräume
+06.40*301*Seminarraum*IAB*Gemeinsame Einrichtungen*63**524*Mehrzweckunterrichtsräume
+06.41*102*Praktikumsraum*IMS*Lehrstuhl Prof. Siegel (Allgem. Betrieb)*106**533*Medienunterstützte Unterrichtsräume
+06.41*105*Bibliothek*IMS*Lehrstuhl Prof. Siegel (Allgem. Betrieb)*27**541*Bibliotheksräume allgemein
+06.41*108*Seminarraum ZVW*ZVW*zentral verwaltete Hörsäle allgemein*58*24*524*Mehrzweckunterrichtsräume
+06.41*116*Bibliothek*FSM*Lehrstuhl Prof. Gabi (Allgem. Betrieb)*12**541*Bibliotheksräume allgemein
+06.41*214*Bibliothek*IBP-B*Abteilung Berufspäd. (Allgem. Betrieb)*23**541*Bibliotheksräume allgemein
+06.41*218*Seminarraum*IBP-B*Abteilung Berufspäd. (Allgem. Betrieb)*28**524*Mehrzweckunterrichtsräume
+06.41*236*Bibliothek*IBP-A*Abt. Allgemeine Pädagogik*28,2**541*Bibliotheksräume allgemein
+06.42*001*Seminarraum*GPI*Geschäftsstelle Haushalt*70**524*Mehrzweckunterrichtsräume
+06.42*010*Bibliothek (R009, R010)*GPI*Bibliothek*75**541*Bibliotheksräume allgemein
+06.42*012*Bibliothek*GPI*Bibliothek*14**541*Bibliotheksräume allgemein
+06.42*015*Seminarraum*GPI*Bibliothek*72*30*524*Mehrzweckunterrichtsräume
+06.42*201*Seminarraum*GPI-Wenzel*Lehrstuhl Prof. Wenzel (Allgem. Betrieb)*27**524*Mehrzweckunterrichtsräume
+06.42*207*Seminarraum*GPI*Geschäftsstelle Haushalt*33**524*Mehrzweckunterrichtsräume
+06.42*208*Seminarraum*GPI-Wenzel*Lehrstuhl Prof. Wenzel (Allgem. Betrieb)*24**524*Mehrzweckunterrichtsräume
+07.01*104*Seminarraum*ZOO-ÖKO*Abt. Ökologie (Allgem. Betrieb)*19**524*Mehrzweckunterrichtsräume
+07.01*107*Praktikumsraum*ZOO-NEUROBIO*Zell- u. Neurobiologie (Allgem. Betrieb)*80**535*Physikal./Technische Übungsräume
+07.03*002*Seminarraum*ZOO-NEUROBIO*Zell- u. Neurobiologie (Allgem. Betrieb)*13**524*Mehrzweckunterrichtsräume
+07.07*201*Seminarraum*frei*Verfügungsräume*44**524*Mehrzweckunterrichtsräume
+07.07*402*Seminarraum*PEW*DE Personalentwicklung*97**524*Mehrzweckunterrichtsräume
+07.08*303*Bibliothek*ZAR*Gemeinsame Einrichtungen*26,21**541*Bibliotheksräume allgemein
+07.08*304*Bibliothek*ZAR*Gemeinsame Einrichtungen*46,67**541*Bibliotheksräume allgemein
+07.08*313*Seminarraum*ZAR*Gemeinsame Einrichtungen*37,82**524*Mehrzweckunterrichtsräume
+07.08*331*Seminarraum*IFRT-IR*Bereich Innovative Reaktorsysteme*42,68**524*Mehrzweckunterrichtsräume
+07.21*316d*Seminarraum u. Bibliothek*ITEC*Gemeinsame Einrichtungen*42,82**524*Mehrzweckunterrichtsräume
+07.21*407b*Seminarraum*IPR*Mikrorechnertechnologien für die Automatisierung*32,65**524*Mehrzweckunterrichtsräume
+07.21*412b*Seminarraum*IKM*Allgemeiner Institutsbetrieb*69,09**524*Mehrzweckunterrichtsräume
+07.21*417b*Seminarraum*IKM*Allgemeiner Institutsbetrieb*42,92**524*Mehrzweckunterrichtsräume
+07.21*A.U.08*Praktikumsraum*ITEC-Tahoori*NFG Design and Computing in the nano era*37,11**535*Physikal./Technische Übungsräume
+07.21*A.U.10*PC-Pool*ITEC-Tahoori*NFG Design and Computing in the nano era*37,33**533*Medienunterstützte Unterrichtsräume
+07.21*A.U.11*Praktikumsraum*ITEC-Henkel*Bereich Prof. Henkel allg. Betrieb*73,04**535*Physikal./Technische Übungsräume
+07.21*A.U.12*PC-Pool*ITEC-Karl*Bereich Prof. Karl allg. Betrieb*72,32**535*Physikal./Technische Übungsräume
+07.21*A.U.21*Seminarraum*BEA*DE Berufliche Ausbildung*77,57**524*Mehrzweckunterrichtsräume
+07.30*2o125*Seminarraum*ZOO-NEUROBIO*Zell- u. Neurobiologie (Allgem. Betrieb)*19**524*Mehrzweckunterrichtsräume
+08.03*-115*MultiMediaZentrum*SPZ*Allgemeiner Betrieb*65*18*533*Medienunterstützte Unterrichtsräume
+08.03*018*Seminarraum*FSZ*Fernstudienzentrum (Allgemeiner Betrieb)*56**524*Mehrzweckunterrichtsräume
+08.03*113*Seminarraum*STK*Allgemeiner Betrieb*54,86**523*Übungsräume
+08.03*114*Seminarraum*STK*Allgemeiner Betrieb*63,31**523*Übungsräume
+08.03*204*Seminarraum*STK*Allgemeiner Betrieb*71**523*Übungsräume
+08.03*212*Seminarraum*STK*Allgemeiner Betrieb*57**524*Mehrzweckunterrichtsräume
+08.03*214*Seminarraum*STK*Allgemeiner Betrieb*66**524*Mehrzweckunterrichtsräume
+08.03*304*Seminarraum*FSZ*Fernstudienzentrum (Allgemeiner Betrieb)*65**524*Mehrzweckunterrichtsräume
+08.03*311*Seminarraum*STK*Allgemeiner Betrieb*123**524*Mehrzweckunterrichtsräume
+08.03*312*Seminarraum*STK*Allgemeiner Betrieb*52**524*Mehrzweckunterrichtsräume
+10.11*126*Hertz-Hörsaal  (HES) *ZVW*HS Hertz*204*242*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.21*110*Carl-Benz-Hörsaal  (HMU)*ZVW*Hörsaal Mathematik unten (HMU)*326,65*378*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.21*301*Gottlieb-Daimler-Hörsaal  (HMO)*ZVW*Hörsaal Mathematik oben (HMO)*327,35*380*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.23*104*Seminarraum 1  ZVW*ZVW*SR 10.23, 104*91*48*524*Mehrzweckunterrichtsräume
+10.23*110*Nusselt-Hörsaal*ZVW*Nusselt-Hörsaal*208*266*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.23*207*Seminarraum*ITM-DYNAMIK*Lehrstuhl Technische Mechanik (Allgem. Betrieb)*36**524*Mehrzweckunterrichtsräume
+10.23*302.2*Seminarraum*IFAB*Lehrstuhl Prof. Zülch (Labor)*27**524*Mehrzweckunterrichtsräume
+10.23*302.3*Seminarraum*IFAB*Lehrstuhl Prof. Zülch (Allgem. Betrieb)*57**524*Mehrzweckunterrichtsräume
+10.23*401*Zeichenübungsraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*103**525*Zeichenübungsräume
+10.23*402*Zeichenübungsraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*134**525*Zeichenübungsräume
+10.23*403*Zeichenübungsraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*161**525*Zeichenübungsräume
+10.23*404.2*Zeichenübungsraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*58**525*Zeichenübungsräume
+10.23*501*Zeichenübungsraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*103**525*Zeichenübungsräume
+10.23*502*Seminarraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*134**524*Mehrzweckunterrichtsräume
+10.23*503*Zeichenübungsraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*161**525*Zeichenübungsräume
+10.23*504.2*Zeichenübungsraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*58**525*Zeichenübungsräume
+10.23*609*Bibliothek*ISL*Lehrstuhl Prof. Oertel (Allgem. Betrieb)*71*0*541*Bibliotheksräume allgemein
+10.23*711*Seminarraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*25**524*Mehrzweckunterrichtsräume
+10.23*801.1*Leseraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*33**542*Leseräume
+10.23*805*Seminarraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*90*38*524*Mehrzweckunterrichtsräume
+10.30*-103*Bibliothek*ISE*Mechanische Werkstatt*90**541*Bibliotheksräume allgemein
+10.30*006.1*Seminarraum*IFM*Lehrstuhl Prof. Schweizerhof (Allgemeine Lehre und Forschung)*125**524*Mehrzweckunterrichtsräume
+10.30*224*Bibliothek*ISE-EISENBAHN*Abt. Eißenbahnwesen (Allgem. Betrieb)*28**541*Bibliotheksräume allgemein
+10.30*302*Bibliothek*IFV*Bibliothek*50*6*541*Bibliotheksräume allgemein
+10.30*323*Seminarraum*IFV*Allgemeiner Betrieb*50**524*Mehrzweckunterrichtsräume
+10.40*-118*Praktikumsraum*BOTANIK-1*Lehrstuhl Botanik I*33**536*Naßpräparative Übungsräume
+10.40*007*Praktikumsraum*BOTANIK-1*Lehrstuhl Botanik I*30**536*Naßpräparative Übungsräume
+10.40*011*Seminarraum*BOTANIK-1*Lehrstuhl Botanik I*55**524*Mehrzweckunterrichtsräume
+10.40*104*Praktikumsraum*BOTANIK-1*Lehrstuhl Botanik I*42**535*Physikal./Technische Übungsräume
+10.40*110*Praktikumsraum*BOTANIK-1*Lehrstuhl Botanik I*46**535*Physikal./Technische Übungsräume
+10.40*211*Seminarraum*BOTANIK-1*Lehrstuhl Botanik I*62*20*524*Mehrzweckunterrichtsräume
+10.50*-102*Seminarraum*IBS*Abt. Versuchswesen und Meßtechnik (Werkstatt)*45**524*Mehrzweckunterrichtsräume
+10.50*001*Bauingenieure, Grosser Hörsaal*ZVW*großer Hörsaal Bauingenieurwesen*230*236*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.50*002*Bauingenieure, Kleiner Hörsaal *ZVW*kleiner Hörsaal Bauingenieurwesen*180*176*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.50*101*Seminarraum 101 ZVW*ZVW*Seminarraum 10.50, 101 ZVW*88*36*524*Mehrzweckunterrichtsräume
+10.50*102*Seminarraum 102 ZVW*ZVW*Seminarraum 10.50, 102 ZVW*135*60*524*Mehrzweckunterrichtsräume
+10.50*105*PC-Pool*IBS*Abt. Baustatik (Allgem. Betrieb)*21**533*Medienunterstützte Unterrichtsräume
+10.50*107*Seminarraum 103*BGU*Geschäftsführung / Verwaltung*85**524*Mehrzweckunterrichtsräume
+10.50*206*PC-Pool*IBS*Abt. Baustatik (Allgem. Betrieb)*42**533*Medienunterstützte Unterrichtsräume
+10.50*207*Seminarraum*IBS*Abt. Baustatik (Allgem. Betrieb)*43**524*Mehrzweckunterrichtsräume
+10.50*301*Seminarraum*IFR*Allgem. Lehrstuhlbetrieb*12**524*Mehrzweckunterrichtsräume
+10.50*303*Seminarraum*IFR*Allgem. Lehrstuhlbetrieb*19**524*Mehrzweckunterrichtsräume
+10.50*314*Bibliothek*IFR*Allgem. Lehrstuhlbetrieb*64**541*Bibliotheksräume allgemein
+10.50*401*CIP-Pool*BGU*Geschäftsführung / Verwaltung*129**533*Medienunterstützte Unterrichtsräume
+10.50*402*CIP-Pool*BGU*Geschäftsführung / Verwaltung*88**533*Medienunterstützte Unterrichtsräume
+10.50*409*Bibliothek*IFR-ISL*Allgemeiner Lehrstuhlbetrieb*42**541*Bibliotheksräume allgemein
+10.50*501*Seminarraum*BGU*Geschäftsführung / Verwaltung*129**524*Mehrzweckunterrichtsräume
+10.50*608*Seminarraum 602 ZVW*ZVW*Seminarraum 10.50, 602 ZVW*88*48*524*Mehrzweckunterrichtsräume
+10.50*615*MKL-Lernraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*85**525*Zeichenübungsräume
+10.50*705*Seminarraum 701 ZVW*ZVW*Seminarraum 10.50, 701 ZVW*85*46*524*Mehrzweckunterrichtsräume
+10.50*707*Seminarraum 702 ZVW*ZVW*Seminarraum 10.50, 702 ZVW*69*40*524*Mehrzweckunterrichtsräume
+10.50*708*Seminarraum*IFGG-1*Allgemeiner Lehrstuhlbetrieb*67**524*Mehrzweckunterrichtsräume
+10.50*711*CIP Pool*BGU*Geschäftsführung / Verwaltung*64**533*Medienunterstützte Unterrichtsräume
+10.50*817*Bibliothek*IFGG-2*Allgemeiner Lehrstuhlbetrieb*42**541*Bibliotheksräume allgemein
+10.81*121*Praktikumsraum*IFH*Allgemeiner Institutsbetrieb*124**535*Physikal./Technische Übungsräume
+10.81*127*Seminarraum*IFH*Allgemeiner Institutsbetrieb*31**524*Mehrzweckunterrichtsräume
+10.81*131*Institutsbibliothek*IFH*Allgemeiner Institutsbetrieb*20**543*Freihandstellfläche
+10.81*150*Theodor-Rehbock-Hörsaal (HS59)*ZVW*Theodor-Rehbock-Hörsaal (HS 59)*96*50*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.81*153*Bauingenieure Hörsaal 62  (HS62)*ZVW*Bauingenieure, Hörsaal 62 (HS 62)*66*32*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.81*218*Seminarraum*VAKA-STAHL*Prof. Saal Lehrstuhl*37**524*Mehrzweckunterrichtsräume
+10.81*219.1*Seminarraum ZVW*ZVW*zentral verwaltete Hörsäle allgemein*69*32*524*Mehrzweckunterrichtsräume
+10.81*219.2*Freihandstellfläche*ISE*Bibliothek*39**543*Freihandstellfläche
+10.81*222*Seminarraum*IFH*Allgemeiner Institutsbetrieb*51**524*Mehrzweckunterrichtsräume
+10.81*240*Seminarraum*ISE*Allgemeiner Institutsbetrieb*41**524*Mehrzweckunterrichtsräume
+10.81*241*Seminarraum*ISE*Allgemeiner Institutsbetrieb*56**524*Mehrzweckunterrichtsräume
+10.81*293*Engesser-Hörsaal  (HS93)*ZVW*Engesser-Hörsaal (HS 93)*132*150*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.81*305*Seminarraum*BGU*Geschäftsführung / Verwaltung*96**524*Mehrzweckunterrichtsräume
+10.81*318*Seminarraum*BGU*Geschäftsführung / Verwaltung*74**524*Mehrzweckunterrichtsräume
+10.81*420.5*Seminarraum*IWG-IWK*Allgemeiner Institutsbetrieb*66**524*Mehrzweckunterrichtsräume
+10.83*001*Seminarraum*IWG-IWK*Allgemeiner Institutsbetrieb*56**524*Mehrzweckunterrichtsräume
+10.83*109*Bibliothek*IWG-IWK*Allgemeiner Institutsbetrieb*35*6*541*Bibliotheksräume allgemein
+10.91*012*Seminarraum*WBK*Personal- und Wirtschaftsverwaltung*50,42**524*Mehrzweckunterrichtsräume
+10.91*020.2*Bibliothek*IFAB*Lehrstuhl Prof. Zülch (Allgem. Betrieb)*20,03*6*541*Bibliotheksräume allgemein
+10.91*034*Bibliothek*IAM-WK*Allgemeiner Institutsbetrieb*30,93*12*541*Bibliotheksräume allgemein
+10.91*050*Redtenbacher-Hörsaal*ZVW*Redtenbacher-Hörsaal*219,21*200*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.91*124.4*PC-Pool*ITT*Lehrstuhl Prof. Maas (Allgemeiner Betrieb)*17,35**533*Medienunterstützte Unterrichtsräume
+10.91*150*Maschinenbau, Mittlerer Hörsaal *ZVW*Maschinenbau, Mittlerer Hörsaal*74,05*66*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.91*222*Maschinenbau, Oberer Hörsaal*ZVW*Maschinenbau, Oberer Hörsaal*78,18*77*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+10.91*223.1*Bibliothek, Besprechung*IFKM*Lehrstuhl Prof. Spicher (Allgem. Betrieb)*36,45**541*Bibliotheksräume allgemein
+10.91*228*Seminarraum*IFKM*Lehrstuhl Prof. Spicher (Allgem. Betrieb)*76**524*Mehrzweckunterrichtsräume
+10.91*231*Grashof-Hörsaal*ZVW*Grashof-Hörsaal*196,88*181*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+10.91*340*PC Pool*TVT*Allgemeiner Institutsbetrieb*98,58**533*Medienunterstützte Unterrichtsräume
+10.91*376*PC-Pool*IAM-WK*Allgemeiner Institutsbetrieb*63,97**533*Medienunterstützte Unterrichtsräume
+10.91*380*Seminarraum*IAM-WK*Allgemeiner Institutsbetrieb*107,14*12*524*Mehrzweckunterrichtsräume
+10.96*115*PC-Pool*IAM-WK*Allgemeiner Institutsbetrieb*98**533*Medienunterstützte Unterrichtsräume
+11.10*008*Praktikumsraum*ETI*Lehrstuhl Prof. Braun (Allgem. Betrieb)*265**535*Physikal./Technische Übungsräume
+11.10*009*Praktikumsraum*ETI*Lehrstuhl Prof. Braun (Allgem. Betrieb)*49**535*Physikal./Technische Übungsräume
+11.10*016*Seminarraum*ETI*Lehrstuhl Prof. Braun (Allgem. Betrieb)*62*24*524*Mehrzweckunterrichtsräume
+11.10*101*PC-Pool*ETI*Lehrstuhl Prof. Braun (Allgem. Betrieb)*17**533*Medienunterstützte Unterrichtsräume
+11.10*102*PC-Pool*ETI*Lehrstuhl Prof. Braun (Allgem. Betrieb)*36**533*Medienunterstützte Unterrichtsräume
+11.10*103*PC-Pool*ETI*Lehrstuhl Prof. Braun (Allgem. Betrieb)*37**533*Medienunterstützte Unterrichtsräume
+11.10*105*Elektrotechnik  Kleiner Hörsaal  (kl. ETI)*ZVW*Elektrotechnik, kleiner Hörsaal (kl.ETI)*76*62*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+11.10*107*Engelbert-Arnold-Hörsaal  (EAS)*ZVW*Engelbert-Arnold-Hörsaal (EAS)*154*201*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+11.10*110.1*Praktikumsraum*IIIT*Allgemeiner Betrieb Bereich 1*29**535*Physikal./Technische Übungsräume
+11.10*110.2*Praktikumsraum*IIIT*Allgemeiner Betrieb Bereich 1*62**535*Physikal./Technische Übungsräume
+11.10*110.3*Praktikumsraum*IIIT*Allgemeiner Betrieb Bereich 1*72**535*Physikal./Technische Übungsräume
+11.10*110.4*Praktikumsraum*IIIT*Allgemeiner Betrieb Bereich 1*19**535*Physikal./Technische Übungsräume
+11.10*117*Bibliothek*ETI*Lehrstuhl Prof. Braun (Allgem. Betrieb)*50*0*541*Bibliotheksräume allgemein
+11.20*-102*Praktikumsraum*IRS*Bereich Regelungs-und Steuerungssysteme - Allgemeiner Betrieb*18*3*535*Physikal./Technische Übungsräume
+11.20*-103*Praktikumsraum*IRS*Bereich Regelungs-und Steuerungssysteme - Allgemeiner Betrieb*68**535*Physikal./Technische Übungsräume
+11.20*003*Seminarraum Engler-Villa ZVW*ZVW*Seminarraum Englervilla ZVW*63*36*524*Mehrzweckunterrichtsräume
+11.20*101*Bibliothek*IRS*Bereich Regelungs-und Steuerungssysteme - Allgemeiner Betrieb*32*8*541*Bibliotheksräume allgemein
+11.20*203*Seminarraum*IRS*Bereich Regelungs-und Steuerungssysteme - Allgemeiner Betrieb*40*14*524*Mehrzweckunterrichtsräume
+11.20*204*Seminarraum*IRS*Bereich Regelungs-und Steuerungssysteme - Allgemeiner Betrieb*58*7*524*Mehrzweckunterrichtsräume
+11.20*205*Seminarraum*IRS*Bereich Regelungs-und Steuerungssysteme - Allgemeiner Betrieb*20*4*524*Mehrzweckunterrichtsräume
+11.21*006*Hörsaal 006*ZVW*Hörsaal 006, 11.21, 006*93*36*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+11.21*104*Seminarraum*ITCP*Allgemeiner Betrieb*92*28*524*Mehrzweckunterrichtsräume
+11.21*313*Bibliothek*ITCP*Allgemeiner Betrieb*6**541*Bibliotheksräume allgemein
+11.30*006*Freihandstellfläche*umbau*Temporär nicht nutzbare Räume (im Umbau)*10**543*Freihandstellfläche
+11.30*205*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*40**536*Naßpräparative Übungsräume
+11.40*003*Ausstellungshalle*ZVW*Halle 11.40, 003*333*0*581*Schauräume allgemein
+11.40*004*PC-Pool (Green)*ARCH-IT*EDV-Management (Rechnerpool)*53**533*Medienunterstützte Unterrichtsräume
+11.40*013*Seminarraum*ARCH*Geschäftsführung / Verwaltung*54**524*Mehrzweckunterrichtsräume
+11.40*014*Zeichenübungsraum m. Treppe zur Galerie*ARCH*Geschäftsführung / Verwaltung*241**525*Zeichenübungsräume
+11.40*017*Bibliothek*IESL-STQP*Fachgebiet Stadtquartiersplanung (Allgem. Betrieb)*44**541*Bibliotheksräume allgemein
+11.40*026*Seminarraum*IESL-STQP*Fachgebiet Stadtquartiersplanung (Allgem. Betrieb)*50**524*Mehrzweckunterrichtsräume
+11.40*027*Zeichenübungsraum m. Treppe zur Galerie*ARCH*Geschäftsführung / Verwaltung*241**525*Zeichenübungsräume
+11.40*103*Johann-Gottfried-Tulla-Hörsaal*ZVW*Johann-Gottfried-Tulla-Hörsaal*329*299*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+11.40*104*PC-Pool (Red)*ARCH-IT*EDV-Management (Rechnerpool)*54**533*Medienunterstützte Unterrichtsräume
+11.40*113*Seminarraum*IESL-STBA*Fachgebiet Städtebau (Allgem. Betrieb)*54**524*Mehrzweckunterrichtsräume
+11.40*114*Zeichenübungsraum m. Treppe zur Galerie*ARCH*Geschäftsführung / Verwaltung*241**525*Zeichenübungsräume
+11.40*123*Bibliothek R123, R124 m. Treppe z. Galerie*IESL-LUG*Fachgebiet Landschaftsarchitektur (Allgem. Betrieb)*45**541*Bibliotheksräume allgemein
+11.40*127*Zeichenübungsraum m. Treppe zur Galerie*ARCH*Geschäftsführung / Verwaltung*241**525*Zeichenübungsräume
+11.40*202*Seminarraum*WIWI*Fakultätsgeschäftsführung*53*28*524*Mehrzweckunterrichtsräume
+11.40*209*Bibliothek*ETS-STATISTIK*Abt. Statistik (Allgem. Betrieb)*15**541*Bibliotheksräume allgemein
+11.40*214*Seminarraum*WIWI*Fakultätsgeschäftsführung*53*26*524*Mehrzweckunterrichtsräume
+11.40*221*Seminarraum*WIWI*Fakultätsgeschäftsführung*74*28*524*Mehrzweckunterrichtsräume
+11.40*226*Tele-Seminarraum ZVW*ZVW*zentral verwaltete Hörsäle allgemein*38*18*533*Medienunterstützte Unterrichtsräume
+11.40*231*Seminarraum ZVW*WIWI*Fakultätsgeschäftsführung*74*40*524*Mehrzweckunterrichtsräume
+11.40*255*Bibliothek (R255, R256)*AIFB*Institutsgeschäftsführung (allgemein)*65*10*541*Bibliotheksräume allgemein
+11.40*G006*Bibliothek*IESL-STBA*Fachgebiet Städtebau (Allgem. Betrieb)*29**541*Bibliotheksräume allgemein
+11.40*G014*Zeichenübungsraum (Galerie von R014)*ARCH*Geschäftsführung / Verwaltung*165**525*Zeichenübungsräume
+11.40*G018*Bibliothek (G017, G018)*IESL-STQP*Fachgebiet Stadtquartiersplanung (Allgem. Betrieb)*21**541*Bibliotheksräume allgemein
+11.40*G021*Bibliothek (G021, G022)*IESL-STQP*Fachgebiet Stadtquartiersplanung (Allgem. Betrieb)*21**541*Bibliotheksräume allgemein
+11.40*G027*Zeichenübungsraum (Galerie von R027)*ARCH*Geschäftsführung / Verwaltung*165**525*Zeichenübungsräume
+11.40*G114*Zeichenübungsraum (als Galerie v. R114)*ARCH*Geschäftsführung / Verwaltung*165**525*Zeichenübungsräume
+11.40*G123*Literaturarchiv (als Galerie über R123, R124)*IESL-LUG*Fachgebiet Landschaftsarchitektur (Allgem. Betrieb)*21**541*Bibliotheksräume allgemein
+11.40*G125*Zeitschriftenarchiv (als Galerie über R125)*IESL-LUG*Fachgebiet Landschaftsarchitektur (Allgem. Betrieb)*10**541*Bibliotheksräume allgemein
+11.40*G127*Zeichenübungsraum (als Galerie v. R127)*ARCH*Geschäftsführung / Verwaltung*165**525*Zeichenübungsräume
+11.40*S107*PC-Pool (Yellow)*ARCH-IT*EDV-Management (Rechnerpool)*34**533*Medienunterstützte Unterrichtsräume
+11.40*S108*Seminarraum*IESL-STBA*Fachgebiet Städtebau (Allgem. Betrieb)*11**524*Mehrzweckunterrichtsräume
+11.40*S109*Seminarraum*IESL-STBA*Fachgebiet Städtebau (Allgem. Betrieb)*17**524*Mehrzweckunterrichtsräume
+11.40*S110*CIP-Pool 3*AIFB*Institutsgeschäftsführung (allgemein)*28**533*Medienunterstützte Unterrichtsräume
+11.40*S115*CIP-Pool 5*SZM*Abt. 3 : Multimedia (Allgem. Betrieb)*81*0*533*Medienunterstützte Unterrichtsräume
+11.40*S116*Seminarraum ZVW*ZVW*zentral verwaltete Hörsäle allgemein*76*44*524*Mehrzweckunterrichtsräume
+11.40*S149*CIP-Pool 2*WIWI-IT*CIP-Rechner-Pool*42*0*533*Medienunterstützte Unterrichtsräume
+11.40*S151*CIP-Pool 1*WIWI-IT*CIP-Rechner-Pool*146*3*533*Medienunterstützte Unterrichtsräume
+20.11*004*Seminarraum*WIWI*Fakultätsgeschäftsführung*83**524*Mehrzweckunterrichtsräume
+20.11*012*Bibliothek*WIWI-BIB*Fakultätsbibliothek*37**541*Bibliotheksräume allgemein
+20.11*013*Katalogräume/-flächen*WIWI-BIB*Fakultätsbibliothek*17**544*Katalogräume/-flächen
+20.11*014*Seminarraum*WIWI*Fakultätsgeschäftsführung*37**524*Mehrzweckunterrichtsräume
+20.11*016*Seminarraum*WIWI*Fakultätsgeschäftsführung*18**524*Mehrzweckunterrichtsräume
+20.11*101*Seminarraum*WIWI-BIB*Fakultätsbibliothek*29**524*Mehrzweckunterrichtsräume
+20.11*102*Seminarraum*WIWI-BIB*Fakultätsbibliothek*18**524*Mehrzweckunterrichtsräume
+20.11*103*Seminarraum*WIWI-BIB*Fakultätsbibliothek*24**524*Mehrzweckunterrichtsräume
+20.11*104*Bibliothek*WIWI-BIB*Fakultätsbibliothek*51**541*Bibliotheksräume allgemein
+20.11*105*Freihandstellfläche*WIWI-BIB*Fakultätsbibliothek*102**543*Freihandstellfläche
+20.11*110*Bibliothek*WIWI-BIB*Fakultätsbibliothek*46**541*Bibliotheksräume allgemein
+20.11*121*Freihandstellfläche*WIWI-BIB*Fakultätsbibliothek*81**543*Freihandstellfläche
+20.11*122*Bibliothek*WIWI-BIB*Fakultätsbibliothek*41**541*Bibliotheksräume allgemein
+20.11*125*Freihandstellfläche*WIWI-BIB*Fakultätsbibliothek*126**543*Freihandstellfläche
+20.11*126*Bibliothek*WIWI-BIB*Fakultätsbibliothek*40**541*Bibliotheksräume allgemein
+20.12*002*Seminarraum*WIWI*Fakultätsgeschäftsführung*79*36*524*Mehrzweckunterrichtsräume
+20.12*019*Freihandstellfläche*PHILOSOPHIE*Lehrstuhl Prof. Schütt (Allgem. Betrieb)*15**543*Freihandstellfläche
+20.12*110*Seminarraum*PHILOSOPHIE*Lehrstuhl Prof. Schütt (Allgem. Betrieb)*100*60*524*Mehrzweckunterrichtsräume
+20.12*214*Seminarraum*SOZIOLOGIE*Abt. 1 : Soziologie (Allgem. Betrieb)*84*36*524*Mehrzweckunterrichtsräume
+20.13*001*Kollegium am Schloss, Hörsaal 001*ZVW*Seminarraum 20.13, 001 ZVW*162*66*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+20.13*006*Seminarraum*WIWI*Fakultätsgeschäftsführung*70*34*524*Mehrzweckunterrichtsräume
+20.13*102*Seminarraum*FBV-FINANCE*Allgemeiner Betrieb Finanzwirtschaft und Banken*22**524*Mehrzweckunterrichtsräume
+20.13*107*Seminarraum*IOR-KOP*Prof. Stein (Allgem. Betrieb)*18**524*Mehrzweckunterrichtsräume
+20.13*108.1*Bibliothek*IOR-KOP*Prof. Stein (Allgem. Betrieb)*16**541*Bibliotheksräume allgemein
+20.13*108.2*Seminarraum*IOR-KOP*Prof. Stein (Allgem. Betrieb)*18**524*Mehrzweckunterrichtsräume
+20.13*109*Seminarraum*WIWI*Fakultätsgeschäftsführung*93*40*524*Mehrzweckunterrichtsräume
+20.13*110*Bibliothek**Bereich Marketing*61*0*541*Bibliotheksräume allgemein
+20.13*110*Bibliothek*FBV-FINANCE*Allgemeiner Betrieb Finanzwirtschaft und Banken*61*0*541*Bibliotheksräume allgemein
+20.13*111*Kollegium am Schloss, Hörsaal 111*ZVW*Seminarraum 20.13, 111 ZVW*112*52*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+20.13*209*Seminarraum**Bereich Marketing*18**524*Mehrzweckunterrichtsräume
+20.13*210*Seminarraum**Bereich Marketing*23**524*Mehrzweckunterrichtsräume
+20.14*006*Freihandstellfläche*OEW*Allgemeiner Lehrstuhlbetrieb*74**543*Freihandstellfläche
+20.14*006*Seminarraum*OEW*Allgemeiner Lehrstuhlbetrieb*74**524*Mehrzweckunterrichtsräume
+20.14*103.1*Seminarraum*WIWI*Fakultätsgeschäftsführung*54*32*524*Mehrzweckunterrichtsräume
+20.14*103.2*Seminarraum*WIWI*Fakultätsgeschäftsführung*100*46*524*Mehrzweckunterrichtsräume
+20.14*113*Seminarraum*IOR-SMO*Prof. Waldmann (Allgem. Betrieb)*32**524*Mehrzweckunterrichtsräume
+20.14*201*Seminarraum*ETS-VWL1*VWL1 (Allgem. Betrieb)*18**524*Mehrzweckunterrichtsräume
+20.14*213*Freihandstellfläche*ETS-VWL1*VWL1 (Allgem. Betrieb)*23**543*Freihandstellfläche
+20.20*060.1*Praktikumsraum (Open Experience)*LESC*LESC (Life Cycle Engineering Solution Center)*36**535*Physikal./Technische Übungsräume
+20.20*060.2*Praktikumsraum*LESC*LESC (Life Cycle Engineering Solution Center)*50**535*Physikal./Technische Übungsräume
+20.20*062*Seminarraum 062*LESC*LESC (Life Cycle Engineering Solution Center)*115*54*524*Mehrzweckunterrichtsräume
+20.20*167*Seminarraum*IISM-EM*Informationsdienste (Allgem. Betrieb)*59*25*524*Mehrzweckunterrichtsräume
+20.20*172.1*Seminarraum*ITEC*Gemeinsame Einrichtungen*69**524*Mehrzweckunterrichtsräume
+20.20*268*Praktikumsraum*IMI*Lehrstuhl Prof. Ovtcharova (Allgem. Betrieb)*34**535*Physikal./Technische Übungsräume
+20.20*269*Praktikumsraum*IMI*Lehrstuhl Prof. Ovtcharova (Allgem. Betrieb)*25**535*Physikal./Technische Übungsräume
+20.20*271*Praktikumsraum*IMI*Lehrstuhl Prof. Ovtcharova (Allgem. Betrieb)*25**535*Physikal./Technische Übungsräume
+20.20*272.2*Praktikumsraum*IMI*Lehrstuhl Prof. Ovtcharova (Allgem. Betrieb)*58**535*Physikal./Technische Übungsräume
+20.20*367*Seminarraum*TM*Gemeinsame Einrichtungen*59**524*Mehrzweckunterrichtsräume
+20.20*372.1*Bibliothek, Kopierer*TM-TELEMATICS*Forschungsbereich Prof. Zitterbart*60*0*543*Freihandstellfläche
+20.20*372.2*PC-Pool*TM-TELEMATICS*Forschungsbereich Prof. Zitterbart*39**533*Medienunterstützte Unterrichtsräume
+20.21*-101*CIP-Pool RZ  (F-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*72**533*Medienunterstützte Unterrichtsräume
+20.21*-108*CIP-Pool RZ  (E-Pool), Frauenrechnerr.*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*23**533*Medienunterstützte Unterrichtsräume
+20.21*-109*CIP-Pool RZ  (D-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*49**533*Medienunterstützte Unterrichtsräume
+20.21*-110*CIP-Pool RZ  (C-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*114**533*Medienunterstützte Unterrichtsräume
+20.21*-111.1*CIP-Pool RZ  (B-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*89**533*Medienunterstützte Unterrichtsräume
+20.21*-112*CIP-Pool RZ  (A-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*93**533*Medienunterstützte Unterrichtsräume
+20.21*-119*CIP-Pool RZ  (G-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*78**533*Medienunterstützte Unterrichtsräume
+20.21*-120*CIP-Pool RZ  (H-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*83**533*Medienunterstützte Unterrichtsräume
+20.21*-121*CIP-Pool RZ  (I-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*82**533*Medienunterstützte Unterrichtsräume
+20.21*106*PC-Pool*ETS-VWL3*VWL3 (Allgem. Betrieb)*28**533*Medienunterstützte Unterrichtsräume
+20.21*114.1*CIP-Pool RZ  (K-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*79**533*Medienunterstützte Unterrichtsräume
+20.21*114.2*CIP-Pool RZ  (L-Pool)*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*78**533*Medienunterstützte Unterrichtsräume
+20.21*115*PC-Poolraum*ETS-VWL3*VWL3 (Allgem. Betrieb)*39**533*Medienunterstützte Unterrichtsräume
+20.21*217*Seminarraum*SCC*Allgemeiner Betrieb (abteilungsübergreifend)*119*70*524*Mehrzweckunterrichtsräume
+20.30*-102*Praktikumslabor Datennetze*umbau*Temporär nicht nutzbare Räume (im Umbau)*28**535*Physikal./Technische Übungsräume
+20.30*-103*Praktikumslabor Mobilkommunikation*umbau*Temporär nicht nutzbare Räume (im Umbau)*25**535*Physikal./Technische Übungsräume
+20.30*-113.2*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*50**533*Medienunterstützte Unterrichtsräume
+20.30*-115.1*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*27**543*Freihandstellfläche
+20.30*-115.2*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*70**543*Freihandstellfläche
+20.30*-120*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*47**533*Medienunterstützte Unterrichtsräume
+20.30*-124.2*PC-Poolraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*16**533*Medienunterstützte Unterrichtsräume
+20.30*-125.1*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*22**533*Medienunterstützte Unterrichtsräume
+20.30*-125.2*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*33**533*Medienunterstützte Unterrichtsräume
+20.30*-144*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*51**524*Mehrzweckunterrichtsräume
+20.30*012*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*20**533*Medienunterstützte Unterrichtsräume
+20.30*013*Seminarraum 2*umbau*Temporär nicht nutzbare Räume (im Umbau)*47**524*Mehrzweckunterrichtsräume
+20.30*125*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*80**524*Mehrzweckunterrichtsräume
+20.30*129*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*69**524*Mehrzweckunterrichtsräume
+20.30*132*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*33**524*Mehrzweckunterrichtsräume
+20.30*139*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*15**541*Bibliotheksräume allgemein
+20.30*221*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*61**524*Mehrzweckunterrichtsräume
+20.30*222*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*74**541*Bibliotheksräume allgemein
+20.30*223*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*112**541*Bibliotheksräume allgemein
+20.30*224.3*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*68**541*Bibliotheksräume allgemein
+20.30*225*Freihandstellfläche*umbau*Temporär nicht nutzbare Räume (im Umbau)*52**543*Freihandstellfläche
+20.30*229*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*24**541*Bibliotheksräume allgemein
+20.30*306*Freihandstellfläche*umbau*Temporär nicht nutzbare Räume (im Umbau)*23**543*Freihandstellfläche
+20.30*325*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*61**524*Mehrzweckunterrichtsräume
+20.30*328.1*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*40**524*Mehrzweckunterrichtsräume
+20.30*329.1*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*57**524*Mehrzweckunterrichtsräume
+20.30*330*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*18**541*Bibliotheksräume allgemein
+20.30*333*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*61**524*Mehrzweckunterrichtsräume
+20.40*-111*Bibliothek*IKB-BG*Bibliothek Baugeschichte*33**541*Bibliotheksräume allgemein
+20.40*-112*Musisch-technische Unterrichtsräume*ARCH*Werkstattverbund*48**531*Musisch-technische Unterrichtsräume
+20.40*-113*Musisch-technische Unterrichtsräume*ARCH*Werkstattverbund*20**531*Musisch-technische Unterrichtsräume
+20.40*-114*Musisch-technische Unterrichtsräume*ARCH*Werkstattverbund*21**531*Musisch-technische Unterrichtsräume
+20.40*-115*Musisch-technische Unterrichtsräume*ARCH*Werkstattverbund*52**531*Musisch-technische Unterrichtsräume
+20.40*-116*Musisch-technische Unterrichtsräume*ARCH*Werkstattverbund*21**531*Musisch-technische Unterrichtsräume
+20.40*-117*Schausammlungsraum*GIK*Allgemeiner Institutsbetrieb*29**583*Lehr- und Schausammlungsräume
+20.40*-127*Schausammlungsraum*GIK*Allgemeiner Institutsbetrieb*22**583*Lehr- und Schausammlungsräume
+20.40*-130*Seminarraum*GIK*Allgemeiner Institutsbetrieb*33**524*Mehrzweckunterrichtsräume
+20.40*-131*Schausammlungsraum*GIK*Allgemeiner Institutsbetrieb*27**583*Lehr- und Schausammlungsräume
+20.40*-132*Schausammlungsraum*GIK*Allgemeiner Institutsbetrieb*28**583*Lehr- und Schausammlungsräume
+20.40*-143*Bibliothek*GIK*Bibliothek*38**541*Bibliotheksräume allgemein
+20.40*-148.1*Musisch-technische Unterrichtsräume*ARCH*Werkstattverbund*92**531*Musisch-technische Unterrichtsräume
+20.40*-149*Musisch-technische Unterrichtsräume*ARCH*Werkstattverbund*44**531*Musisch-technische Unterrichtsräume
+20.40*001*Architektur, Hörsaal Nr.37  (HS37)*ZVW*Architektur, Hörsaal Nr. 37 (HS 37)*254,72*302*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+20.40*002*Jordan-Hörsaal*GIK*Allgemeiner Institutsbetrieb*112,12*52*522*Unterrichtsgroßräume
+20.40*003*Architektur, Neuer Hörsaal (NH)*ZVW*Architektur, neuer Hörsaal (NH)*111,68*100*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+20.40*015*Seminarraum*IKB-BG*Bibliothek Baugeschichte*58,38**524*Mehrzweckunterrichtsräume
+20.40*016*Bibliothek*IKB-BG*Bibliothek Baugeschichte*59,86**541*Bibliotheksräume allgemein
+20.40*019*Bibliothek*IKB-KG*Bibliothek Kunstgeschichte*51,01*14*541*Bibliotheksräume allgemein
+20.40*039.3*Seminarraum*GIK*Allgemeiner Institutsbetrieb*44,63**524*Mehrzweckunterrichtsräume
+20.40*040*Haid-Hörsaal (HS32)*GIK*Allgemeiner Institutsbetrieb*61,25*28*522*Unterrichtsgroßräume
+20.40*048*Schwidefsky-Hörsaal*GIK*Allgemeiner Institutsbetrieb*64,09*36*522*Unterrichtsgroßräume
+20.40*101*Egon-Eiermann-Hörsaal  (HS16)*ZVW*Egon-Eiermann-Hörsaal (HS 16)*170*154*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+20.40*102*Architektur, Hörsaal Nr.9 (HS9)*ZVW*Architektur, Hörsaal Nr. 9 (HS9)*112*90*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+20.40*103*Studentischer Arbeitsraum*ARCH*Geschäftsführung / Verwaltung*112*21*523*Übungsräume
+20.40*104*Seminarraum*ARCH*Geschäftsführung / Verwaltung*84**524*Mehrzweckunterrichtsräume
+20.40*105*Studentischer Arbeitsraum*ARCH*Geschäftsführung / Verwaltung*112*28*523*Übungsräume
+20.40*106*Fakultätsbibliothek*ARCH-BIB*Fakultätsbücherei*80*21*541*Bibliotheksräume allgemein
+20.40*113*Seminarraum*EKUT-GBL*Fachgebiet Gebäudelehre (Allgem. Betrieb)*55**524*Mehrzweckunterrichtsräume
+20.40*116.1*Bibliothek*EKUT-GBL*Fachgebiet Gebäudelehre (Allgem. Betrieb)*54**541*Bibliotheksräume allgemein
+20.40*117*Seminarraum*IEB-BLM*Fachgebiet Building Lifecycle Management (Allgem. Betrieb)*30**524*Mehrzweckunterrichtsräume
+20.40*117.1*Bibliothek*IEB-BLM*Fachgebiet Building Lifecycle Management (Allgem. Betrieb)*26**541*Bibliotheksräume allgemein
+20.40*123*Bibliothek*IKB-KG*Fachgebiet Kunstgeschichte (Allgem. Betrieb)*27**541*Bibliotheksräume allgemein
+20.40*124*Seminarraum*IKB-KG*Fachgebiet Kunstgeschichte (Allgem. Betrieb)*58**524*Mehrzweckunterrichtsräume
+20.40*127.1*Freihandstellfläche*IEB-FGT*Fachgebiet Tragkonstruktion (Bibliothek)*16**543*Freihandstellfläche
+20.40*128*Bibliothek*IEB-FGT*Fachgebiet Tragkonstruktion (Bibliothek)*57*0*541*Bibliotheksräume allgemein
+20.40*133*Studentischer Arbeitsraum*ARCH*Geschäftsführung / Verwaltung*78*19*523*Übungsräume
+20.40*134*Studentischer Arbeitsraum*ARCH*Geschäftsführung / Verwaltung*68*15*523*Übungsräume
+20.40*141.3*Bibliothek*IEB-BUP*Lehrgebiet Baustoffe & Produkte (AlLehrgebietem. Betrieb)*40**541*Bibliotheksräume allgemein
+20.40*201*Seminarraum*ARCH*Geschäftsführung / Verwaltung*18**524*Mehrzweckunterrichtsräume
+20.40*202*Seminarraum*ARCH*Geschäftsführung / Verwaltung*18**524*Mehrzweckunterrichtsräume
+20.40*203*Studentischer Arbeitsraum*ARCH*Geschäftsführung / Verwaltung*88*18*523*Übungsräume
+20.40*204.4*Studentischer Arbeitsraum*EKUT-BK*Fachgebiet Bildende Kunst (Allgem.Betrieb)*81*18*523*Übungsräume
+20.40*204.5*Seminarraum*EKUT-BK*Fachgebiet Bildende Kunst (Allgem.Betrieb)*16**524*Mehrzweckunterrichtsräume
+20.40*204.6*Seminarraum*EKUT-BK*Fachgebiet Bildende Kunst (Allgem.Betrieb)*16**524*Mehrzweckunterrichtsräume
+20.40*206*Studentischer Arbeitsraum*ARCH*Geschäftsführung / Verwaltung*112*28*523*Übungsräume
+20.40*207*Praktikumsraum*IEB-BLM*Fachgebiet Building Lifecycle Management (Allgem. Betrieb)*82*5*533*Medienunterstützte Unterrichtsräume
+20.40*208*Studentischer Arbeitsraum*ARCH*Geschäftsführung / Verwaltung*112*28*523*Übungsräume
+20.40*213.1*Bibliothek*ARCH*Geschäftsführung / Verwaltung*53*8*541*Bibliotheksräume allgemein
+20.40*220*Bibliothek*EKUT-LGA*Fachgebiet Grundlagen d. Architektur (Allgem. Betrieb)*17**541*Bibliotheksräume allgemein
+20.40*233*Bibliothek*EKUT-BK*Fachgebiet Bildende Kunst (Allgem.Betrieb)*45**541*Bibliotheksräume allgemein
+20.40*240*Seminarraum*IEB-IBG*Fachgebiet Baukonstruktion (Allgem. Betrieb)*45**524*Mehrzweckunterrichtsräume
+20.40*245*Bibliothek*IEB-NB*Fachgebiet Nachhaltiges Bauen (Allgem. Betrieb)*18**541*Bibliotheksräume allgemein
+20.40*246*Seminarraum*IEB-NB*Fachgebiet Nachhaltiges Bauen (Allgem. Betrieb)*27**524*Mehrzweckunterrichtsräume
+20.40*257*Seminarraum*EKUT-AKOMM*Fachgebiet Architekturkommunikation (Allgem. Betrieb)*35**524*Mehrzweckunterrichtsräume
+20.40*262*PC-Pool (Blue)*ARCH-IT*EDV-Management (Rechnerpool)*68**533*Medienunterstützte Unterrichtsräume
+20.51*003*Seminarraum*SZS*Studienzentrum für Sehgeschädigte*20**524*Mehrzweckunterrichtsräume
+20.51*004*Bibliothek*SZS*Studienzentrum für Sehgeschädigte*17*4*541*Bibliotheksräume allgemein
+20.51*010*Seminarraum*SZS*Studienzentrum für Sehgeschädigte*20**524*Mehrzweckunterrichtsräume
+20.54*205*Seminarraum*TM-C&M*Verteilte Rechnersysteme und Rechnerkommunikation*21**524*Mehrzweckunterrichtsräume
+30.10*030*Nachrichtentechnik-Hörsaal  (NTI)*ZVW*Nachrichtentechnik-Hörsaal (NTI)*212*206*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.10*124*Praktikumsraum*IPQ*Bereich Prof. Leuthold (Allgem. Betrieb)*64**535*Physikal./Technische Übungsräume
+30.10*132*Praktikumslabor HF& ONT*IHE*Bereich Hochfrequenztechnik und Elektonik (Allgem. Betrieb)*42**535*Physikal./Technische Übungsräume
+30.10*217*Übungsraum*ITIV*Technik d. Infoverarbeitung (Allgem. Betrieb)*20**535*Physikal./Technische Übungsräume
+30.10*234*Seminarraum*IPQ*Bereich Prof. Leuthold (Allgem. Betrieb)*42**524*Mehrzweckunterrichtsräume
+30.10*235*Seminarraum*IPQ*Bereich Prof. Leuthold (Allgem. Betrieb)*42**524*Mehrzweckunterrichtsräume
+30.10*339*Seminarraum*ITIV*Technik d. Infoverarbeitung (Allgem. Betrieb)*65*25*524*Mehrzweckunterrichtsräume
+30.10*342*Lernraum*IPQ*Bereich Prof. Leuthold (Allgem. Betrieb)*65**523*Übungsräume
+30.21*-114*Schausammlungsraum*PHYSIK*Geschäftsführung / Dekanat*92**583*Lehr- und Schausammlungsräume
+30.21*001*Gerthsen-Hörsaal*ZVW*Gerthsen-Hörsaal*530*682*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.22*001*PC-Pool*PHYSIK*Rechnerabteilung*26**533*Medienunterstützte Unterrichtsräume
+30.22*002*PC-Pool*PHYSIK*Rechnerabteilung*15**533*Medienunterstützte Unterrichtsräume
+30.22*003*PC-Pool*PHYSIK*Rechnerabteilung*20**533*Medienunterstützte Unterrichtsräume
+30.22*004*PC-Pool*PHYSIK*Rechnerabteilung*19**533*Medienunterstützte Unterrichtsräume
+30.22*005*Praktikumsraum*IIAI*Allgemeiner Geschäftsbetrieb*34**535*Physikal./Technische Übungsräume
+30.22*007*Praktikumsraum*PHI*Allgemeiner Institutsbetrieb*21**535*Physikal./Technische Übungsräume
+30.22*020*Physik-Hörsaal Nr.3  (Kl.HS.A)*ZVW*Physik-Hörsaal Nr. 3 (Kl. HS. A)*73*70*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.22*021*Physik-Hörsaal Nr.4  (Kl.HS.B)*ZVW*Physik-Hörsaal Nr. 4 (Kl. HS.B)*73*70*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.22*022*Otto-Lehmann-Hörsaal (Mittl. HS)*ZVW*Otto-Lehmann-Hörsaal (Mittl. HS)*181*174*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.22*101*Praktikumsraum*PHYSIK*Praktikum*42**535*Physikal./Technische Übungsräume
+30.22*102*Praktikumsraum*PHYSIK*Praktikum*42**535*Physikal./Technische Übungsräume
+30.22*103*Praktikumsraum*PHYSIK*Praktikum*42**535*Physikal./Technische Übungsräume
+30.22*104*Praktikumsraum*PHYSIK*Praktikum*48**535*Physikal./Technische Übungsräume
+30.22*105*Praktikumsraum*PHYSIK*Praktikum*42**535*Physikal./Technische Übungsräume
+30.22*106*Praktikumsraum*PHYSIK*Praktikum*39**535*Physikal./Technische Übungsräume
+30.22*108*Praktikumsraum*PHYSIK*Praktikum*72**535*Physikal./Technische Übungsräume
+30.22*109*Praktikumsraum*PHYSIK*Praktikum*84**535*Physikal./Technische Übungsräume
+30.22*110*Praktikumsraum*PHYSIK*Praktikum*55**535*Physikal./Technische Übungsräume
+30.22*111*Praktikumsraum*PHYSIK*Praktikum*54**535*Physikal./Technische Übungsräume
+30.22*112.1*Praktikumsraum*PHYSIK*Praktikum*28**535*Physikal./Technische Übungsräume
+30.22*112.2*Praktikumsraum*PHYSIK*Praktikum*13**535*Physikal./Technische Übungsräume
+30.22*113*Praktikumsraum*PHYSIK*Praktikum*67**535*Physikal./Technische Übungsräume
+30.22*114*Praktikumsraum*PHYSIK*Praktikum*58**535*Physikal./Technische Übungsräume
+30.22*115*Praktikumsraum*PHYSIK*Praktikum*53**535*Physikal./Technische Übungsräume
+30.22*116*Praktikumsraum*PHYSIK*Praktikum*45**535*Physikal./Technische Übungsräume
+30.22*117*Praktikumsraum*PHYSIK*Praktikum*63**535*Physikal./Technische Übungsräume
+30.22*118*Praktikumsraum*PHYSIK*Praktikum*93**535*Physikal./Technische Übungsräume
+30.22*119*Praktikumsraum*PHYSIK*Praktikum*43**535*Physikal./Technische Übungsräume
+30.22*120*Praktikumsraum*PHYSIK*Praktikum*17**535*Physikal./Technische Übungsräume
+30.22*121*Praktikumsraum*PHYSIK*Praktikum*26**535*Physikal./Technische Übungsräume
+30.22*126*Praktikumsraum*PHYSIK*Praktikum*34**535*Physikal./Technische Übungsräume
+30.22*127*Praktikumsraum*PHYSIK*Praktikum*44**535*Physikal./Technische Übungsräume
+30.22*128*Praktikumsraum*PHYSIK*Praktikum*55**535*Physikal./Technische Übungsräume
+30.22*129*Praktikumsraum*PHYSIK*Praktikum*49**535*Physikal./Technische Übungsräume
+30.22*130.1*Gaede-Hörsaal*ZVW*Gaede-Hörsaal*211*304*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.22*216*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*50**524*Mehrzweckunterrichtsräume
+30.22*217*Praktikumsraum*PHYSIK*Praktikum*19**535*Physikal./Technische Übungsräume
+30.22*219*Praktikumsraum*PHYSIK*Praktikum*55**535*Physikal./Technische Übungsräume
+30.22*220*Praktikumsraum*PHYSIK*Praktikum*61**535*Physikal./Technische Übungsräume
+30.22*221*Praktikumsraum*PHYSIK*Praktikum*45**535*Physikal./Technische Übungsräume
+30.22*222*Praktikumsraum*PHYSIK*Praktikum*54**535*Physikal./Technische Übungsräume
+30.22*223*Praktikumsraum*PHYSIK*Praktikum*61**535*Physikal./Technische Übungsräume
+30.22*224*Praktikumsraum*PHYSIK*Praktikum*55**535*Physikal./Technische Übungsräume
+30.22*229.1*Bibliothek*PHYSIK-BIB*Fakultätsbibliothek*265*75*541*Bibliotheksräume allgemein
+30.22*229.3*Seminarraum ZVW*ZVW*zentral verwaltete Hörsäle allgemein*100*48*524*Mehrzweckunterrichtsräume
+30.22*229.4*Seminarraum ZVW*ZVW*zentral verwaltete Hörsäle allgemein*100*48*524*Mehrzweckunterrichtsräume
+30.23*1001*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*71**524*Mehrzweckunterrichtsräume
+30.23*1010*PC-Pool**Bereich Theorie der Kondensierten Materie - Allgem. Betrieb*23**533*Medienunterstützte Unterrichtsräume
+30.23*1011*Bibliothek, Besprechung**Bereich Theorie der Kondensierten Materie - Allgem. Betrieb*46**541*Bibliotheksräume allgemein
+30.23*1015*Seminarraum**Bereich Theorie der Kondensierten Materie - Allgem. Betrieb*40**524*Mehrzweckunterrichtsräume
+30.23*1112*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*46**524*Mehrzweckunterrichtsräume
+30.23*1115*Institutsbibliothek*TTP*Allgemeiner Institutsbetrieb*46*15*541*Bibliotheksräume allgemein
+30.23*1201*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*49,87**524*Mehrzweckunterrichtsräume
+30.23*1214.2*Institutsbibliothek*ITHP*Lehrstuhl Prof. Zeppenfeld (Allgem. Betrieb)*43,5**541*Bibliotheksräume allgemein
+30.23*1302*Seminarraum*IMK-TRO*Lehrstuhl Prof. Kottmeier (Allgem.Betrieb)*60**524*Mehrzweckunterrichtsräume
+30.23*1316*Institutsbibliothek*IMK-TRO*Lehrstuhl Prof. Kottmeier (Allgem.Betrieb)*62*12*541*Bibliotheksräume allgemein
+30.23*201.1*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*55**524*Mehrzweckunterrichtsräume
+30.23*201.2*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*51**524*Mehrzweckunterrichtsräume
+30.23*216*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*38**524*Mehrzweckunterrichtsräume
+30.23*301*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*113**524*Mehrzweckunterrichtsräume
+30.23*403*Seminarraum*PHI-Ustinov*Prof. Ustinov (Allgem. Betrieb)*36**524*Mehrzweckunterrichtsräume
+30.23*421*Seminarraum*PHI-Löhneysen*Lehrstuhl Prof. von Löhneysen (Allgem. Betrieb)*25**524*Mehrzweckunterrichtsräume
+30.23*601*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*126**524*Mehrzweckunterrichtsräume
+30.23*602*Seminarraum*PHYSIK*Geschäftsführung / Dekanat*52**524*Mehrzweckunterrichtsräume
+30.23*806*Seminarraum*APH-Wegener*Lehrstuhl Prof. Wegener (Allgem. Betrieb)*25**524*Mehrzweckunterrichtsräume
+30.23*820*Seminarraum*APH-Nienhaus*Prof. Nienhaus (Allgem. Betrieb)*35**524*Mehrzweckunterrichtsräume
+30.23*902*Seminarraum*EKP*Verwaltung / Buchhaltung / Bibliothek*32**524*Mehrzweckunterrichtsräume
+30.23*916*Besprechungsraum*PHYSIK*Geschäftsführung / Dekanat*61**524*Mehrzweckunterrichtsräume
+30.25*007*Multifunktionsfläche*CFN*TP V, Verwaltung*178,63**563*Mehrzweckhallen
+30.25*090*Multifunktionsfläche (unter Lichthof)*CFN*TP V, Verwaltung*45,2**563*Mehrzweckhallen
+30.31*-101*Seminarraum*IBT*Lehrstuhl Prof. Dössel (Allgem. Betrieb)*49*20*524*Mehrzweckunterrichtsräume
+30.33*001*Messtechnik-Hörsaal  (MTI)*ZVW*HS Messtechnik*243*232*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.33*117.2*Freihandstellfläche*ITE*Lehrstuhl Prof. Trommer (Allgem. Betrieb)*40**543*Freihandstellfläche
+30.33*208*Seminarraum*ITE*Lehrstuhl Prof. Trommer (Allgem. Betrieb)*40**524*Mehrzweckunterrichtsräume
+30.33*219*Seminarraum*ITE*Lehrstuhl Prof. Trommer (Allgem. Betrieb)*40**524*Mehrzweckunterrichtsräume
+30.33*310*Seminarraum*ITE*Lehrstuhl Prof. Trommer (Allgem. Betrieb)*60*30*524*Mehrzweckunterrichtsräume
+30.33*313*Praktikumsraum*ITE*Lehrstuhl Prof. Trommer (Allgem. Betrieb)*99*45*535*Physikal./Technische Übungsräume
+30.33*408*Seminarraum*IBT*Lehrstuhl Prof. Dössel (Allgem. Betrieb)*40**524*Mehrzweckunterrichtsräume
+30.33*412*Praktikumsraum*ITE*Lehrstuhl Prof. Trommer (Allgem. Betrieb)*99*45*535*Physikal./Technische Übungsräume
+30.33*413.3*Seminarraum*ETIT*Geschäftsführung / Verwaltung*48**524*Mehrzweckunterrichtsräume
+30.34*022*Lichttechnik-Hörsaal  (LTI)*ZVW*HS Lichttechnik (LTI)*122*102*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.34*024*Praktikumsraum*LTI*Allgem. Institutsbetrieb (abt.übergreifend)*52**535*Physikal./Technische Übungsräume
+30.34*112*Seminarraum*LTI-LTIK*Prüfstelle für Lichttechnische Einrichtungen (Allgem. Betrieb)*21**524*Mehrzweckunterrichtsräume
+30.34*119*Seminarraum*LTI*Allgem. Institutsbetrieb (abt.übergreifend)*49*24*524*Mehrzweckunterrichtsräume
+30.34*227*Freihandstellfläche*LTI*Bibliothek*50**543*Freihandstellfläche
+30.35*020*Praktikumsraum*IEH*EMV - Elekromagnetische Verträglichkeit*333**535*Physikal./Technische Übungsräume
+30.35*040*Hochspannungstechnik-Hörsaal (HSI)*ZVW*HS Hochspannungstechnik (HSI)*213*163*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.36*-115*Praktikumsraum*IEH*Bereich Prof. Leibfried (Allgem. Betrieb)*44**535*Physikal./Technische Übungsräume
+30.36*011*Lernraum*IEH*Bereich Prof. Leibfried (Allgem. Betrieb)*88*48*523*Übungsräume
+30.36*012.1*Seminarraum*IEH*Bereich Prof. Leibfried (Allgem. Betrieb)*61*6*524*Mehrzweckunterrichtsräume
+30.36*012.2*Seminarraum*IEH*Bereich Prof. Leibfried (Allgem. Betrieb)*44*6*524*Mehrzweckunterrichtsräume
+30.36*115*Seminarraum*IEH*EMV - Elekromagnetische Verträglichkeit*45**524*Mehrzweckunterrichtsräume
+30.36*209*Bibliothek*IEH*Bibliothek*44*3*541*Bibliotheksräume allgemein
+30.36*215.1*Seminarraum*IEH*Bereich Prof. Leibfried (Allgem. Betrieb)*45**524*Mehrzweckunterrichtsräume
+30.36*217*Praktikumsraum*IEH*Bereich Prof. Leibfried (Allgem. Betrieb)*22**535*Physikal./Technische Übungsräume
+30.36*218*Zuschauerräume*IEH*Bereich Prof. Leibfried (Allgem. Betrieb)*42**562*Zuschauerräume
+30.36*311*Seminarraum*IEH*TWR - Technisch - Wissenschaft.-Rechnen*22**524*Mehrzweckunterrichtsräume
+30.36*315*Seminarraum*IEH*TWR - Technisch - Wissenschaft.-Rechnen*44**524*Mehrzweckunterrichtsräume
+30.36*318*Zuschauerräume*IEH*Bereich Prof. Leibfried (Allgem. Betrieb)*42**562*Zuschauerräume
+30.41*004*Chemie-Hörsaal Nr. 1  (HS1)*ZVW*Chemie-Hörsaal Nr. 1 (HS 1)*138*113*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.41*005*Chemie-Hörsaal Nr. 2 (HS2)*ZVW*Chemie-Hörsaal Nr. 2 (HS 2)*138*118*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.41*016*Praktikumsraum*ITCP*Allgemeiner Betrieb*114**536*Naßpräparative Übungsräume
+30.41*101*Praktikumsraum*IOC*Gemeinsamer Institutsbetrieb*57**536*Naßpräparative Übungsräume
+30.41*101*Praktikumsraum*IBG*FZK / Inst. Biologische Grenzflächen*57**536*Naßpräparative Übungsräume
+30.41*102*Praktikumsraum*IOC*Gemeinsamer Institutsbetrieb*62**536*Naßpräparative Übungsräume
+30.41*102*Praktikumsraum*IBG*FZK / Inst. Biologische Grenzflächen*62**536*Naßpräparative Übungsräume
+30.41*104*Rudolf-Criegee-Hörsaal (HS4)*ZVW*Rudolf-Criegée-Hörsaal (HS 4)*163*168*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.41*105*Chemie-Hörsaal Nr. 3  (HS3)*ZVW*Chemie-Hörsaal Nr. 3 (HS 3)*163*168*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.41*111.1*PC-Poolraum*IOC-Ulrich*Biochemie (Allgem. Betrieb)*21**533*Medienunterstützte Unterrichtsräume
+30.41*117*Praktikumsraum*CVT*Lehrstuhl Prof. Kraushaar (Allgem.Betrieb)*18**535*Physikal./Technische Übungsräume
+30.41*118*Praktikumsraum*CVT*Lehrstuhl Prof. Kraushaar (Allgem.Betrieb)*31**536*Naßpräparative Übungsräume
+30.41*119.1*Praktikumsraum*CVT*Lehrstuhl Prof. Kraushaar (Allgem.Betrieb)*43**536*Naßpräparative Übungsräume
+30.41*133.2*Praktikumsraum*FSM*Lehrstuhl Prof. Gabi (Allgem. Betrieb)*86**535*Physikal./Technische Übungsräume
+30.42*002*Praktikumsraum*IOC*Institutslabor*153**536*Naßpräparative Übungsräume
+30.42*003*Praktikumsraum*IOC*Institutslabor*151**536*Naßpräparative Übungsräume
+30.42*011*Praktikumsraum*IOC-Meier*Angewandte Chemie (Allgem. Betrieb)*32**536*Naßpräparative Übungsräume
+30.42*102*Praktikumsraum*IOC*Institutslabor*174**536*Naßpräparative Übungsräume
+30.42*103*Praktikumsraum*IOC*Institutslabor*147**536*Naßpräparative Übungsräume
+30.42*110*Praktikumsraum*IOC-Bräse*Organische Chemie I (Labor)*32**536*Naßpräparative Übungsräume
+30.42*201*Seminarraum*IOC*Gemeinsamer Institutsbetrieb*101**524*Mehrzweckunterrichtsräume
+30.42*501.1*Praktikumsraum*IOC-Ulrich*Biochemie (Labor)*50**536*Naßpräparative Übungsräume
+30.42*501.2*Praktikumsraum*IOC-Ulrich*Biochemie (Labor)*75**536*Naßpräparative Übungsräume
+30.42*505*Bibliothek*IOC-Ulrich*Biochemie (Allgem. Betrieb)*16**541*Bibliotheksräume allgemein
+30.43*004*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*27**524*Mehrzweckunterrichtsräume
+30.43*005.2*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*27**524*Mehrzweckunterrichtsräume
+30.43*112*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*24**536*Naßpräparative Übungsräume
+30.43*113*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*27**536*Naßpräparative Übungsräume
+30.43*114*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*27**536*Naßpräparative Übungsräume
+30.43*115*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*27**536*Naßpräparative Übungsräume
+30.43*116*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*27**536*Naßpräparative Übungsräume
+30.43*117*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*36**536*Naßpräparative Übungsräume
+30.43*118*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*173**536*Naßpräparative Übungsräume
+30.43*120*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*12**535*Physikal./Technische Übungsräume
+30.43*122*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*18**535*Physikal./Technische Übungsräume
+30.43*309*Freihandstellfläche*umbau*Temporär nicht nutzbare Räume (im Umbau)*37**543*Freihandstellfläche
+30.43*310*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*116**541*Bibliotheksräume allgemein
+30.43*510*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*36**524*Mehrzweckunterrichtsräume
+30.43*606*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*79**524*Mehrzweckunterrichtsräume
+30.43*607.4*Seminarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*45**524*Mehrzweckunterrichtsräume
+30.43*616*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*24**541*Bibliotheksräume allgemein
+30.43*813.1*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*75**536*Naßpräparative Übungsräume
+30.43*813.2*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*9**536*Naßpräparative Übungsräume
+30.43*815*Praktikumsraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*83**535*Physikal./Technische Übungsräume
+30.44*007*Seminarraum*ZVW*zentral verwaltete Hörsäle allgemein*82,85**524*Mehrzweckunterrichtsräume
+30.44*106*Seminarraum*BLT-BVT*Bereich III (Allgem. Betrieb)*36,61**524*Mehrzweckunterrichtsräume
+30.44*206*Seminarraum*ZOO-ZEBIO*Zoologie II (Allgem. Betrieb)*36,61**524*Mehrzweckunterrichtsräume
+30.44*308*Seminarraum*CVT*Lehrstuhl Prof. Kraushaar (Allgem.Betrieb)*64,2**524*Mehrzweckunterrichtsräume
+30.44*405*Instituts-Bibliothek*IPC*Gemeinsame Einrichtungen*30,41**541*Bibliotheksräume allgemein
+30.44*408*Seminarraum*IPC*Gemeinsame Einrichtungen*73,52**524*Mehrzweckunterrichtsräume
+30.44*415*Praktikum*IPC*Gemeinsame Einrichtungen*173,9**535*Physikal./Technische Übungsräume
+30.44*421*Praktikum*IPC*Gemeinsame Einrichtungen*18,2**535*Physikal./Technische Übungsräume
+30.44*604*Seminarraum*IPC-MOL*Lehrstuhl Prof. Hippler (Allgem. Betrieb)*36,61**524*Mehrzweckunterrichtsräume
+30.44*706*Seminarraum*IPC-KOM*Bereich Physikalische Chemie kondensierter Materie*36,61**524*Mehrzweckunterrichtsräume
+30.44*803*Seminarraum*IPC-THEOCHEM*Theoretische Chemie*42,42**524*Mehrzweckunterrichtsräume
+30.44*812*PC-Pool*IPC*Gemeinsame Einrichtungen*54,96**533*Medienunterstützte Unterrichtsräume
+30.45*006*Bibliothek*CHEM-BIO*Fakultätsbibliothek*535*92*541*Bibliotheksräume allgemein
+30.45*007*Leseraum*CHEM-BIO*Fakultätsbibliothek*29**542*Leseräume
+30.45*008*Leseraum*CHEM-BIO*Fakultätsbibliothek*56**542*Leseräume
+30.45*010*Bibliothek*CHEM-BIO*Fakultätsbibliothek*319*55*541*Bibliotheksräume allgemein
+30.45*101*Seminarraum AC 101  (ZVW)*ZVW*SR 30.45, AC 101 (ZVW)*90*89*524*Mehrzweckunterrichtsräume
+30.45*107*Praktikumsraum*ITCP*Allgemeiner Betrieb*203**536*Naßpräparative Übungsräume
+30.45*113*Praktikumsraum*AOC*Verwaltung (Allgemeiner Institutsbetrieb)*203**536*Naßpräparative Übungsräume
+30.45*201*Seminarraum AC 201 (ZVW)*ZVW*SR 30.45, AC 201 (ZVW)*90*50*524*Mehrzweckunterrichtsräume
+30.45*207*Praktikumsraum*AOC*Labor*203**536*Naßpräparative Übungsräume
+30.45*301*Seminarraum AC 301*AOC*Verwaltung (Allgemeiner Institutsbetrieb)*90**524*Mehrzweckunterrichtsräume
+30.45*307*Praktikumsraum*AOC*Labor*203**536*Naßpräparative Übungsräume
+30.45*317*Praktikumsraum*AOC-Feldmann*Anorg. Chemie (Allgem. Betrieb)*203**536*Naßpräparative Übungsräume
+30.45*401*Seminarraum AC 401 (ZVW)*AOC*Verwaltung (Allgemeiner Institutsbetrieb)*90**524*Mehrzweckunterrichtsräume
+30.45*407*Praktikumsraum*AOC*Labor*203**536*Naßpräparative Übungsräume
+30.45*417*Praktikumsraum*AOC*Labor*203**536*Naßpräparative Übungsräume
+30.45*501*Seminarraum AC 501 (ZVW)*AOC*Verwaltung (Allgemeiner Institutsbetrieb)*90*46*524*Mehrzweckunterrichtsräume
+30.45*507*Praktikumsraum*AOC*Labor*203**536*Naßpräparative Übungsräume
+30.45*516*Praktikumsraum*AOC*Labor*101**536*Naßpräparative Übungsräume
+30.45*517*Praktikumsraum*AOC*Labor*101**536*Naßpräparative Übungsräume
+30.45*607*Bibliothek*LAS*Lehrstuhl Prof. Baumbach (Allgem. Betrieb)*76**541*Bibliotheksräume allgemein
+30.45*611*Seminarraum*LAS*Lehrstuhl Prof. Baumbach (Allgem. Betrieb)*33**524*Mehrzweckunterrichtsräume
+30.46*-102*Schausammlungsraum*AOC*Labor*30**583*Lehr- und Schausammlungsräume
+30.46*-105*Schausammlungsraum*AOC*Labor*44**583*Lehr- und Schausammlungsräume
+30.46*-106*Schausammlungsraum*AOC*Labor*34**583*Lehr- und Schausammlungsräume
+30.46*001*Chemie, Neuer Hörsaal*ZVW*Chemie, neuer Hörsaal*374*376*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+30.50*001*Lehrbuchsammlung*BIB-B*Benutzung - Allgemeiner Betrieb*223,25**543*Freihandstellfläche
+30.50*002*Lehrbuchsammlung*BIB-B*Benutzung - Allgemeiner Betrieb*213,9**543*Freihandstellfläche
+30.50*101.1*Aufsicht*BIB-B*Benutzung - Allgemeiner Betrieb*24,97**541*Bibliotheksräume allgemein
+30.50*102.2*Lernraum Studenten*BIB-B*Benutzung - Informationskompetenz (Auskunft)*13,98**523*Übungsräume
+30.50*102.3*Lernraum Studenten*BIB-B*Benutzung - Informationskompetenz (Auskunft)*14,47**523*Übungsräume
+30.50*102.4*Lernraum Studenten*BIB-B*Benutzung - Informationskompetenz (Auskunft)*29,47**523*Übungsräume
+30.50*102.5*Lernraum Studenten*BIB-B*Benutzung - Informationskompetenz (Auskunft)*29,47**523*Übungsräume
+30.50*102.6*Lernraum Studenten*BIB-B*Benutzung - Informationskompetenz (Auskunft)*29,47**523*Übungsräume
+30.50*102.7*Lernraum Studenten*BIB-B*Benutzung - Informationskompetenz (Auskunft)*29,47**523*Übungsräume
+30.50*102.8*Lernraum Studenten*BIB-B*Benutzung - Informationskompetenz (Auskunft)*14,47**523*Übungsräume
+30.50*102.9*Lernraum Studenten*BIB-B*Benutzung - Informationskompetenz (Auskunft)*13,98**523*Übungsräume
+30.50*103*Lesesaal*BIB-B*Benutzung - Allgemeiner Betrieb*212,95**541*Bibliotheksräume allgemein
+30.50*202*Lesesaal Naturwissenschaften (LSN Ostseite)*BIB-B*Benutzung - Allgemeiner Betrieb*218,56**541*Bibliotheksräume allgemein
+30.50*203*Lesesaal Naturwissenschaften (LSN Westseite)*BIB-B*Benutzung - Allgemeiner Betrieb*218,57**541*Bibliotheksräume allgemein
+30.50*304*Bibliothek*umbau*Temporär nicht nutzbare Räume (im Umbau)*224,33**541*Bibliotheksräume allgemein
+30.50*305.1*Schnittraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*29**541*Bibliotheksräume allgemein
+30.50*305.2*Videokonferenzraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*42**541*Bibliotheksräume allgemein
+30.50*305.3*Regieraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*27**541*Bibliotheksräume allgemein
+30.50*305.4*Studio*umbau*Temporär nicht nutzbare Räume (im Umbau)*42**541*Bibliotheksräume allgemein
+30.50*G219*Empore Lesesaal Naturwissenschaften (LSN Westseite)*BIB-B*Benutzung - Allgemeiner Betrieb*99,42**541*Bibliotheksräume allgemein
+30.50*G220*Empore Lesesaal Naturwisswissenschaften (LSN Ostseite)*BIB-B*Benutzung - Allgemeiner Betrieb*99,42**541*Bibliotheksräume allgemein
+30.50*G226.1*Studio*BIB-B*Benutzung - Allgemeiner Betrieb*22,7**545*Mediothekräume
+30.50*G227*Flur vor Personenaufzüge*BIB-B*Benutzung - Allgemeiner Betrieb*27,52**543*Freihandstellfläche
+30.51*008*Foyer (Halle)*BIB-B*Benutzung - Allgemeiner Betrieb*480,64*0*561*Versammlungsräume allgemein
+30.51*014*Zeitungsauslage*BIB-B*Benutzung - Allgemeiner Betrieb*29,58**543*Freihandstellfläche
+30.51*015*Wartebereich, Hieronymus*BIB-B*Benutzung - Allgemeiner Betrieb*57,87*0*545*Mediothekräume
+30.51*018*OPAC (Ost)*BIB-B*Benutzung - Allgemeiner Betrieb*25,52*0*541*Bibliotheksräume allgemein
+30.51*101*Lesesaal Wirtschaftswissenschaften/Informatik (LSW)*BIB-B*Benutzung - Allgemeiner Betrieb*942,72*77*542*Leseräume
+30.51*106*Aufsicht*BIB-B*Benutzung - Allgemeiner Betrieb*23,7*0*541*Bibliotheksräume allgemein
+30.51*201*Lesesaal Technik (LST)*BIB-B*Benutzung - Allgemeiner Betrieb*1.114,29*85*542*Leseräume
+30.51*206*Aufsicht*BIB-B*Benutzung - Allgemeiner Betrieb*23,7*0*541*Bibliotheksräume allgemein
+30.51*301*Lesesaal Geisteswissenschaften (LSG)*BIB-B*Benutzung - Allgemeiner Betrieb*987,14*85*542*Leseräume
+30.51*306*Aufsicht*BIB-B*Benutzung - Allgemeiner Betrieb*23,7*0*541*Bibliotheksräume allgemein
+30.51*338*"Seminarraum und ""Radio KIT"""*BIB*Direktion / Sekretariat*82,85*20*524*Mehrzweckunterrichtsräume
+30.60*208*PC-Pool*ITS*Allgemeiner Institutsbetrieb*43**533*Medienunterstützte Unterrichtsräume
+30.60*214*Seminarraum*ITS*Allgemeiner Institutsbetrieb*88**524*Mehrzweckunterrichtsräume
+30.70*020.2*Praktikumsraum*MVM-VM*Prof. Nirschl*83**535*Physikal./Technische Übungsräume
+30.70*020.4*Praktikumsraum*MVM-VM*Prof. Nirschl*137**535*Physikal./Technische Übungsräume
+30.70*035*Seminarraum*MVM*Allgemeiner Intitutsbetrieb*17**524*Mehrzweckunterrichtsräume
+30.70*203*Bibliothek*MVM*Allgemeiner Intitutsbetrieb*36*6*541*Bibliotheksräume allgemein
+30.70*206*Seminarraum*MVM*Allgemeiner Intitutsbetrieb*104**524*Mehrzweckunterrichtsräume
+30.80*008*Gymnastikhalle 2 (Dojo)*SPORT*Allgem. Institutsbetrieb*150**551*Hallen für Turnen und Spiele
+30.80*008*Gymnastikhalle 2 (Dojo)*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*150**551*Hallen für Turnen und Spiele
+30.80*011*Sporthalle 2*SPORT*Allgem. Institutsbetrieb*889**551*Hallen für Turnen und Spiele
+30.80*011*Sporthalle 2*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*889**551*Hallen für Turnen und Spiele
+30.80*012.1*Kraftraum 2*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*105**556*Sportübungsräume
+30.81*-101*Halle*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*301*0*551*Hallen für Turnen und Spiele
+30.81*-101*Halle*AKK*Arbeitskreis Kultur und Kommunikation*301*0*551*Hallen für Turnen und Spiele
+30.81*002*Bibliothek*AKK*Arbeitskreis Kultur und Kommunikation*14**543*Freihandstellfläche
+30.81*008*Klavierraum 'EKZ'  AKK*AKK*Arbeitskreis Kultur und Kommunikation*14**534*Musik-/Sprechunterrichtsräume
+30.81*101*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*49**525*Zeichenübungsräume
+30.81*114*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*49**525*Zeichenübungsräume
+30.81*201*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*40**525*Zeichenübungsräume
+30.81*203*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*16**525*Zeichenübungsräume
+30.81*204*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*16**525*Zeichenübungsräume
+30.81*206*Zeichenübungsraum*ARCH*Geschäftsführung / Verwaltung*40**525*Zeichenübungsräume
+30.91*009*Bibliothek*GESCHICHTE*Allgemeiner Institutsbetrieb*111**541*Bibliotheksräume allgemein
+30.91*010*Seminarraum*GESCHICHTE*Allgemeiner Institutsbetrieb*46**524*Mehrzweckunterrichtsräume
+30.91*012*Seminarraum*GESCHICHTE*Allgemeiner Institutsbetrieb*69**524*Mehrzweckunterrichtsräume
+30.91*016*Seminarraum u. Bibliothek*GESCHICHTE*Allgemeiner Institutsbetrieb*60**524*Mehrzweckunterrichtsräume
+30.91*026*Seminarraum*LITWISS-NDL*Lehrstuhl Prof. Japp (Allgem. Betrieb)*41**524*Mehrzweckunterrichtsräume
+30.91*110*Bibliothek*LITWISS-NDL*Lehrstuhl Prof. Japp (Allgem. Betrieb)*85**541*Bibliotheksräume allgemein
+30.95*001.1*Forum Hörsaal A (Audimax)*ZVW*HS Audimax, Teil A*291*367*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+30.95*001.2*Forum Hörsaal B (Audimax)*ZVW*HS Audimax, Teil B*291*367*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+30.95*018.1*Ausstellungshalle (Foyer)*ZVW*Foyer 30.95, 018 (Ausstellungshalle)*609*0*581*Schauräume allgemein
+30.95*101.1*Forum Hörsaal A Empore*ZVW*HS Audimax, Teil A*174*0*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+30.95*101.2*Forum Hörsaal B Empore*ZVW*HS Audimax, Teil B*174*0*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+30.95*121.1*Seminarraum Forum A  (ZVW)*ZVW*SR 30.95, 121.1 (ZVW)*73*30*524*Mehrzweckunterrichtsräume
+30.95*121.2*Seminarraum Forum B  (ZVW)*ZVW*SR 30.95, 121.2*49*10*524*Mehrzweckunterrichtsräume
+30.96*006*Seminarraum ZOM C  (ZVW)*ZVW*SR 30.96, 006, ZOM C (ZVW)*48*20*524*Mehrzweckunterrichtsräume
+30.96*017*Leseraum*ZVW*zentral verwaltete Hörsäle allgemein*22**542*Leseräume
+30.96*104*Seminarraum ZOM D  (ZVW)*ZVW*SR 30.96, 104*48*20*524*Mehrzweckunterrichtsräume
+40.02*204*Seminarraum*EIB-CEB*Bereich I - Chemische Energieträger - Brennstofftechnologie*49**524*Mehrzweckunterrichtsräume
+40.04*-104*Praktikumsraum*EBI-WASSERCHEMIE*Bereich III - Wasserchemie und -technologie - Labor*54**535*Physikal./Technische Übungsräume
+40.11*001*Engler-Bunte-Hörsaal  (EBI)*ZVW*Engler-Bunte-Hörsaal (EBI)*126*64*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+40.11*101.3*Seminarraum*EIB-CEB*Bereich I - Chemische Energieträger - Brennstofftechnologie*74**524*Mehrzweckunterrichtsräume
+40.11*204*Seminarraum*BLT-MAB*Bereich IV (Allgem. Betrieb)*32**524*Mehrzweckunterrichtsräume
+40.11*205*Seminarraum*BLT-MAB*Bereich IV (Allgem. Betrieb)*32**524*Mehrzweckunterrichtsräume
+40.12*304*Praktikumsraum*EIB-CEB*Bereich I - Chemische Energieträger - Brennstofftechnologie*43**536*Naßpräparative Übungsräume
+40.13*001.1*Zeichenübungsraum*EBI-VBT*Bereich II - Verbrennungstechnik*32**525*Zeichenübungsräume
+40.13*011*PC-Pool*EBI-VBT*Bereich II - Verbrennungstechnik*27**533*Medienunterstützte Unterrichtsräume
+40.14*002.1*Praktikumsraum*EBI-WASSERCHEMIE*Bereich III - Wasserchemie und -technologie - Labor*44**536*Naßpräparative Übungsräume
+40.14*118*Bibliothek*EBI-WASSERCHEMIE*Bereich III - Wasserchemie und -technologie*13**541*Bibliotheksräume allgemein
+40.19*006*Bibliothek (m. Treppe ins OG1)*EBI*Bibliothek*125*11*541*Bibliotheksräume allgemein
+40.19*011*Praktikumsraum*BLT-TEBI*Bereich II (Allgem. Betrieb)*44**536*Naßpräparative Übungsräume
+40.19*101*Praktikumsraum*BLT-TEBI*Bereich II (Allgem. Betrieb)*44**535*Physikal./Technische Übungsräume
+40.21*112*Seminarraum*IBF*Allgemeiner Institutsbetrieb (Verwaltung)*67**524*Mehrzweckunterrichtsräume
+40.22*105*Bibliothek*IBF*Bibliothek*48*16*541*Bibliotheksräume allgemein
+40.28*-103.1*Seminarraum*IPR*Komplexe Systeme in Automation undRobotik*25**524*Mehrzweckunterrichtsräume
+40.28*-103.2*Seminarraum*IPR*Mikrorechnertechnologien für die Automatisierung*25**524*Mehrzweckunterrichtsräume
+40.28*-105*Medizin. Labor*IPR*Komplexe Systeme in Automation undRobotik*85**536*Naßpräparative Übungsräume
+40.28*001*Seminarraum*IPR*Komplexe Systeme in Automation undRobotik*76**524*Mehrzweckunterrichtsräume
+40.28*003.1*Seminarraum*IPR*Komplexe Systeme in Automation undRobotik*22**524*Mehrzweckunterrichtsräume
+40.28*003.2*Seminarraum*IPR*Prof. Schweizer*31**524*Mehrzweckunterrichtsräume
+40.28*116*Seminarraum*IPR*Komplexe Systeme in Automation undRobotik*17**524*Mehrzweckunterrichtsräume
+40.28*126*Bibliothek*IPR*Komplexe Systeme in Automation undRobotik*43**543*Freihandstellfläche
+40.29*-106*Seminarraum*IFAB*Lehrstuhl Prof. Zülch (Labor)*26**524*Mehrzweckunterrichtsräume
+40.29*003*Seminarraum*IFAB*Lehrstuhl Prof. Zülch (Labor)*37**524*Mehrzweckunterrichtsräume
+40.29*006*Seminarraum*IFAB*Lehrstuhl Prof. Zülch (Labor)*67**524*Mehrzweckunterrichtsräume
+40.32*032*Seminarraum*MRT*Lehrstuhl Prof. Stiller - Werkstatt Elektrotechnik*34**524*Mehrzweckunterrichtsräume
+40.32*038*Seminarraum*AIA*Lehrstuhl Prof. Bretthauer (Allgem. Betrieb)*30**524*Mehrzweckunterrichtsräume
+40.32*039*Seminarraum*MRT*Lehrstuhl Prof. Stiller (Allgem. Betrieb)*30**524*Mehrzweckunterrichtsräume
+40.32*045*Rudolf-Plank-Hörsaal*ZVW*HS Rudolf Plank*160*129*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+40.32*234*Seminarraum*MRT*Lehrstuhl Prof. Stiller (Allgem. Betrieb)*33**524*Mehrzweckunterrichtsräume
+40.32*237*Seminarraum*MRT*Lehrstuhl Prof. Stiller (Allgem. Betrieb)*34**524*Mehrzweckunterrichtsräume
+40.32*240*Bibliothek*MRT*Lehrstuhl Prof. Stiller (Bibliothek)*30*12*541*Bibliotheksräume allgemein
+40.32*246*Bibliothek*TTK*Lehrstuhl Prof. Schaber (Allgem. Betrieb)*30*0*543*Freihandstellfläche
+40.33*061*Praktikumsraum*MRT*Lehrstuhl Prof. Stiller (Allgem. Betrieb)*34**535*Physikal./Technische Übungsräume
+40.33*062.3*Praktikumsraum*MRT*Lehrstuhl Prof. Stiller (Allgem. Betrieb)*33**535*Physikal./Technische Übungsräume
+40.40*-135*Fitness 2*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*112**556*Sportübungsräume
+40.40*-149*Fitness 1*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*132**556*Sportübungsräume
+40.40*007*Hörsaal Sport*ZVW*zentral verwaltete Hörsäle allgemein*152*105*511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+40.40*022.1*Sporthalle 1A*SPORT*Allgem. Institutsbetrieb*406**551*Hallen für Turnen und Spiele
+40.40*022.1*Sporthalle 1A*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*406**551*Hallen für Turnen und Spiele
+40.40*022.2*Sporthalle 1B*SPORT*Allgem. Institutsbetrieb*406**551*Hallen für Turnen und Spiele
+40.40*022.2*Sporthalle 1B*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*406**551*Hallen für Turnen und Spiele
+40.40*022.3*Sporthalle 1C*SPORT*Allgem. Institutsbetrieb*406**551*Hallen für Turnen und Spiele
+40.40*022.3*Sporthalle 1C*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*406**551*Hallen für Turnen und Spiele
+40.40*043*Schwimmhalle*SPORT*Allgem. Institutsbetrieb*757**552*Schwimmhallen
+40.40*043*Schwimmhalle*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*757**552*Schwimmhallen
+40.40*050*Gymnastik Halle 1*SPORT*Allgem. Institutsbetrieb*287**551*Hallen für Turnen und Spiele
+40.40*050*Gymnastik Halle 1*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*287**551*Hallen für Turnen und Spiele
+40.40*101*Seminarraum*IBP-B*Abteilung Berufspäd. (Allgem. Betrieb)*42**524*Mehrzweckunterrichtsräume
+40.40*102*Seminarraum*SPORT*Allgem. Institutsbetrieb*49**524*Mehrzweckunterrichtsräume
+40.40*103*Seminarraum*SPORT*Allgem. Institutsbetrieb*42**524*Mehrzweckunterrichtsräume
+40.40*140*Tribüne für Sporthalle 1A+1B+1C*SPORT*Allgem. Institutsbetrieb*148**551*Hallen für Turnen und Spiele
+40.40*140*Tribüne für Sporthalle 1A+1B+1C*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*148**551*Hallen für Turnen und Spiele
+40.44*001*Sporthalle Feld 1*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*330,1*0*551*Hallen für Turnen und Spiele
+40.44*002*Sporthalle Feld 2*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*330,7*0*551*Hallen für Turnen und Spiele
+40.44*003*Walk-In*HOCHSCHULSPORT*Allgemeiner Geschäftsbetrieb*332,1*0*551*Hallen für Turnen und Spiele
+50.20*-134*Praktikum Elektron. Schaltungen*IFA-ISAS*Intelligente Sensor-Aktor-Systeme (Prof. Hanebeck)*22,15**535*Physikal./Technische Übungsräume
+50.20*001*Clubraum*INTL-ISTO*International Students Office*39,06**561*Versammlungsräume allgemein
+50.20*003*Seminarraum 50.20 Nr.1  (ZVW)*ZVW*zentral verwaltete Hörsäle allgemein*121,22*60*524*Mehrzweckunterrichtsräume
+50.20*004*Bibliothek, Medien*INTL-ISTO*International Students Office*28,63**541*Bibliotheksräume allgemein
+50.20*012*Seminarraum 50.20 Nr.2  (ZVW)*STK*Allgemeiner Betrieb*60,88**511*Hör-/Lehrsäle ansteigend m. Exp.Bühne
+50.20*035*Praktikumsraum*IFA-HIS*Bereich Prof. Dillmann - Allgem. Betrieb*55**535*Physikal./Technische Übungsräume
+50.20*101*Seminarraum 50.20 Nr.4*STK*Allgemeiner Betrieb*38,12**524*Mehrzweckunterrichtsräume
+50.20*102*Seminarraum 50.20 Nr.5*STK*Allgemeiner Betrieb*37,73**524*Mehrzweckunterrichtsräume
+50.20*103*Seminarraum 50.20 Nr.6*STK*Allgemeiner Betrieb*78,25**524*Mehrzweckunterrichtsräume
+50.20*131*Praktikumsraum*IFA-ISAS*Intelligente Sensor-Aktor-Systeme (Prof. Hanebeck)*30,42**535*Physikal./Technische Übungsräume
+50.20*143*Praktikum Robotergest. Chirugie*IFA-ISAS*Intelligente Sensor-Aktor-Systeme (Prof. Hanebeck)*39,87**535*Physikal./Technische Übungsräume
+50.20*147*Seminarraum*INFORMATIK*Fakultät (zentral)*81,74*22*524*Mehrzweckunterrichtsräume
+50.20*201*Seminarraum 50.20 Nr.8*STK*Allgemeiner Betrieb*39,37**524*Mehrzweckunterrichtsräume
+50.20*204.1*Seminarraum 50.20 Nr.9*STK*Allgemeiner Betrieb*78,56**524*Mehrzweckunterrichtsräume
+50.20*207*Seminarraum 50.20 Nr.10*STK*Allgemeiner Betrieb*73,03**524*Mehrzweckunterrichtsräume
+50.20*214*Seminarraum 50.20 Nr.11*STK*Allgemeiner Betrieb*49,97**524*Mehrzweckunterrichtsräume
+50.20*256*Seminarraum 50.20 Nr.7  ZVW*ZVW*zentral verwaltete Hörsäle allgemein*81,74*48*524*Mehrzweckunterrichtsräume
+50.20*301*Seminarraum 50.20 Nr.13*STK*Allgemeiner Betrieb*37,43**524*Mehrzweckunterrichtsräume
+50.20*302*Bibliothek*STK*Allgemeiner Betrieb*19,42**541*Bibliotheksräume allgemein
+50.20*307*Seminarraum 50.20 Nr.14*STK*Allgemeiner Betrieb*42,97**524*Mehrzweckunterrichtsräume
+50.20*342*Seminarraum 50.20 Nr.15 ZVW*ZVW*zentral verwaltete Hörsäle allgemein*82,66*48*524*Mehrzweckunterrichtsräume
+50.21*015.1*PC-Pool*IFA-IES*Bereich  Prof. Beyerer - Allgem. Betrieb*53,84**533*Medienunterstützte Unterrichtsräume
+50.21*018*PC-Pool*IFA-IES*Bereich  Prof. Beyerer - Allgem. Betrieb*41,47**533*Medienunterstützte Unterrichtsräume
+50.21*113.1*PC-Poolraum*IFA-CSL*Bereich CSL (Prof. Schultz) - Allg. Betrieb*37,77**533*Medienunterstützte Unterrichtsräume
+50.21*118.1*PC-Poolraum*IFA-CSL*Bereich CSL (Prof. Schultz) - Allg. Betrieb*37,65**533*Medienunterstützte Unterrichtsräume
+50.21*214*PC-Pool*IFA-HIS*Bereich Prof. Dillmann - Allgem. Betrieb*39,18**533*Medienunterstützte Unterrichtsräume
+50.21*215.1*PC-Poolraum*IFA-HIS*Bereich Prof. Dillmann - Allgem. Betrieb*32,77**533*Medienunterstützte Unterrichtsräume
+50.21*216.1*PC-Poolraum*IFA-HIS*Bereich Prof. Dillmann - Allgem. Betrieb*32,77**533*Medienunterstützte Unterrichtsräume
+50.21*217.1*PC-Poolraum*IFA-HIS*Bereich Prof. Dillmann - Allgem. Betrieb*39,18**533*Medienunterstützte Unterrichtsräume
+50.22*080*Seminarraum*IFA*Gemeinsame Einrichtungen*64*16*524*Mehrzweckunterrichtsräume
+50.31*001*Schausammlungsraum*TMB*Allgemeiner Lehrstuhlbetrieb*47,64**583*Lehr- und Schausammlungsräume
+50.31*009*Seminarraum*MVM-AME*Prof. Willenbacher*38,28**524*Mehrzweckunterrichtsräume
+50.31*012*Seminarraum ZVW*ZVW*zentral verwaltete Hörsäle allgemein*102,02*46*524*Mehrzweckunterrichtsräume
+50.31*101*Seminarraum GRK450*GRK-450*Allgemeiner Betrieb*67**524*Mehrzweckunterrichtsräume
+50.31*106*Seminarraum*ZVW*zentral verwaltete Hörsäle allgemein*68*36*524*Mehrzweckunterrichtsräume
+50.31*107.1*Bauingenieure Hörsaal 107  (HS107)*ZVW*zentral verwaltete Hörsäle allgemein*156*78*514*Hör-/Lehrsäle eben ohne Exp.Bühne
+50.31*210*Seminarraum*MVM-AME*Prof. Willenbacher*38**524*Mehrzweckunterrichtsräume
+50.31*312*Bibliothek*IWG-ISWW*Allgem. Betrieb Abt. VII*19**541*Bibliotheksräume allgemein
+50.31*322*Seminarraum*IWG-ISWW*Allgem. Betrieb Abt. VII*58**524*Mehrzweckunterrichtsräume
+50.31*419*Seminarraum*IBA*Lehrstuhl Prof. Winter (Allgem. Betrieb)*47**524*Mehrzweckunterrichtsräume
+50.31*508*Büro*IMB-BT*Allgemeiner Abteilungsbetrieb*27**541*Bibliotheksräume allgemein
+50.31*607*Bibliothek*MPA*Allgemeiner Betrieb*50*2*543*Freihandstellfläche
+50.31*608*Bibliothek*MPA*Allgemeiner Betrieb*52**541*Bibliotheksräume allgemein
+50.31*613*Seminarraum*MPA*Allgemeiner Betrieb*62**524*Mehrzweckunterrichtsräume
+50.33*111*Seminarraum*IPEK*Lehrstuhl Prof. Albers (Allgem. Betrieb)*25**524*Mehrzweckunterrichtsräume
+50.33*137*Seminarraum*TMB*Werkstatt*143**524*Mehrzweckunterrichtsräume
+50.34*-101*Informatik Hörsaal 1*INFORMATIK*Fakultät (zentral)*141*125*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+50.34*-102*Informatik Hörsaal 2*INFORMATIK*Fakultät (zentral)*116*75*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+50.34*-105*Seminarraum*INFORMATIK*Fakultät (zentral)*29**524*Mehrzweckunterrichtsräume
+50.34*-106*Informatik MM-Labor*INFORMATIK*Fakultät (zentral)*45**576*Bildstudioräume
+50.34*-107*Seminarraum*INFORMATIK*Fakultät (zentral)*45**524*Mehrzweckunterrichtsräume
+50.34*-108*Seminarraum*INFORMATIK*Fakultät (zentral)*45*24*524*Mehrzweckunterrichtsräume
+50.34*-109*Seminarraum*INFORMATIK*Fakultät (zentral)*45*20*524*Mehrzweckunterrichtsräume
+50.34*-118*Seminarraum*INFORMATIK*Fakultät (zentral)*70*36*524*Mehrzweckunterrichtsräume
+50.34*-119*Seminarraum*INFORMATIK*Fakultät (zentral)*70*40*524*Mehrzweckunterrichtsräume
+50.34*-120*Seminarraum*INFORMATIK*Fakultät (zentral)*73*37*524*Mehrzweckunterrichtsräume
+50.34*-140*PC-Pool*ATIS*Abteilung Technische Infrastruktur*107**533*Medienunterstützte Unterrichtsräume
+50.34*-141*PC-Pool*ATIS*Abteilung Technische Infrastruktur*159**533*Medienunterstützte Unterrichtsräume
+50.34*-142*Seminarraum*IKS-Vollmar*Bereich LIIN*41**524*Mehrzweckunterrichtsräume
+50.34*-143*PC-Pool*ATIS*Abteilung Technische Infrastruktur*77**533*Medienunterstützte Unterrichtsräume
+50.34*001.1*Bibliothek*INFORMATIK-BIB*Fakultätsbibliothek*519,6**541*Bibliotheksräume allgemein
+50.34*010*Seminarraum*ATIS*Abteilung Technische Infrastruktur*50**524*Mehrzweckunterrichtsräume
+50.34*012*Seminarraum*IBDS-OS*Systemarchitekturen - Forschung und Lehre (allgemein)*29**524*Mehrzweckunterrichtsräume
+50.34*020*PC-Pool*IKS-Vollmar*Bereich LIIN*56**533*Medienunterstützte Unterrichtsräume
+50.34*021*Praktikumsraum Integr. Schaltungen*IKS-Vollmar*Bereich LIIN*34**535*Physikal./Technische Übungsräume
+50.34*104*Seminarraum*ITI-Schmitt*Bereich Prof. P.Schmitt*39**524*Mehrzweckunterrichtsräume
+50.34*131*Seminarraum*INFORMATIK*Fakultät (zentral)*64**524*Mehrzweckunterrichtsräume
+50.34*132*Seminarraum*IBDS-Schmitt*Dialogsysteme u. Graph.DV - Forschung und Lehre (allgemein)*77**524*Mehrzweckunterrichtsräume
+50.34*134*Seminarraum*IBDS-Schmitt*Dialogsysteme u. Graph.DV - Forschung und Lehre (allgemein)*23**524*Mehrzweckunterrichtsräume
+50.34*135*Seminarraum*IBDS-Schmitt*Dialogsysteme u. Graph.DV - Forschung und Lehre (allgemein)*28**524*Mehrzweckunterrichtsräume
+50.34*149*Seminarraum*IBDS-OS*Systemarchitekturen - Forschung und Lehre (allgemein)*50**524*Mehrzweckunterrichtsräume
+50.34*154*Seminarraum*IBDS-OS*Systemarchitekturen - Forschung und Lehre (allgemein)*51**524*Mehrzweckunterrichtsräume
+50.34*205*Seminarraum*ITI-Sanders*Bereich Prof. Sanders*28**524*Mehrzweckunterrichtsräume
+50.34*236*Seminarraum*INFORMATIK*Fakultät (zentral)*65**524*Mehrzweckunterrichtsräume
+50.34*237*Seminarraum*IKS-Müller-Quade*Algorithmen-Engineering, Computer-Algebra*43**524*Mehrzweckunterrichtsräume
+50.34*240*PC-Pool*IKS-Müller-Quade*Algorithmen-Engineering, Computer-Algebra*36**533*Medienunterstützte Unterrichtsräume
+50.34*243*Seminarraum*IKS-Vollmar*Bereich LIIN*36**524*Mehrzweckunterrichtsräume
+50.34*245*Seminarraum*IKS-Vollmar*Bereich LIIN*17**524*Mehrzweckunterrichtsräume
+50.34*252*PC-Pool*IKS-Müller-Quade*Algorithmen-Engineering, Computer-Algebra*50**533*Medienunterstützte Unterrichtsräume
+50.34*254*PC-Pool*IFA-Nagel*Emeritus Prof. Nagel*36**533*Medienunterstützte Unterrichtsräume
+50.34*255*Seminarraum*IFA-Nagel*Emeritus Prof. Nagel*17**524*Mehrzweckunterrichtsräume
+50.34*257*Seminarraum*IKS-Müller-Quade*Algorithmen-Engineering, Computer-Algebra*51**524*Mehrzweckunterrichtsräume
+50.34*258*Seminarraum*IKS-Müller-Quade*Algorithmen-Engineering, Computer-Algebra*36**524*Mehrzweckunterrichtsräume
+50.34*261*Seminarraum*IKS-Müller-Quade*Algorithmen-Engineering, Computer-Algebra*34**524*Mehrzweckunterrichtsräume
+50.34*265*Bibliothek*IKS-Müller-Quade*Algorithmen-Engineering, Computer-Algebra*28**543*Freihandstellfläche
+50.34*301*Sitzungsraum Fakultät*INFORMATIK*Fakultät (zentral)*64**561*Versammlungsräume allgemein
+50.34*304*Seminarraum*ITI-Wagner*Bereich Prof. Wagner*60**524*Mehrzweckunterrichtsräume
+50.34*333*Seminarraum/Rechnerlabor*IPD-Reussner*Prof. Reussner - Forschung und Lehre (allgemein)*43**524*Mehrzweckunterrichtsräume
+50.34*335*Seminarraum*IPD-Tichy*Programmiersysteme - Forschung undLehre (allgemein)*36**524*Mehrzweckunterrichtsräume
+50.34*336*Seminarraum*IPD-Böhm*Systeme der Informationsverwaltung(Allgem. Betrieb)*28**524*Mehrzweckunterrichtsräume
+50.34*337*Seminarraum*IPD-Böhm*Systeme der Informationsverwaltung(Allgem. Betrieb)*36**524*Mehrzweckunterrichtsräume
+50.34*348*Seminarraum*IPD*Gemeinsame Einrichtungen*50**524*Mehrzweckunterrichtsräume
+50.34*350*PC-Pool*IPD-Böhm*Systeme der Informationsverwaltung(Allgem. Betrieb)*50**533*Medienunterstützte Unterrichtsräume
+50.34*353*PC-Pool*IPD-Tichy*Programmiersysteme - Forschung undLehre (allgemein)*50**533*Medienunterstützte Unterrichtsräume
+50.34*355*Seminarraum*IPD-Tichy*Programmiersysteme - Forschung undLehre (allgemein)*17**524*Mehrzweckunterrichtsräume
+50.34*356*PC-Pool*IPD-Tichy*Programmiersysteme - Forschung undLehre (allgemein)*51**533*Medienunterstützte Unterrichtsräume
+50.35*006*Fasanengarten-Hörsaal  (HS.a.F)*ZVW*HS Fasanengarten mit Empore*462*448*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+50.35*101*Seminarraum ZVW*ZVW*SR 50.35, 101*50*24*524*Mehrzweckunterrichtsräume
+50.35*103*Empore Fasanengarten-Hörsaal*ZVW*HS Fasanengarten mit Empore*113*133*513*Hör-/Lehrsäle anst.ohne Exp.Bühne
+50.36*007*Seminarraum*WBK-W&H*Lehrstuhl Prof. Fleischer*38**524*Mehrzweckunterrichtsräume
+50.36*009*Seminarraum*WBK*Personal- und Wirtschaftsverwaltung*36**524*Mehrzweckunterrichtsräume
+50.36*010*Seminarraum*WBK*Personal- und Wirtschaftsverwaltung*101**524*Mehrzweckunterrichtsräume
+50.36*012*Seminarraum*WBK-W&H*Lehrstuhl Prof. Fleischer*35**524*Mehrzweckunterrichtsräume
+50.36*127*Bibliothek*WBK*Personal- und Wirtschaftsverwaltung*57*6*541*Bibliotheksräume allgemein
+50.38*013*Seminarraum*IFL*Allgemeiner Institutsbetrieb*43**524*Mehrzweckunterrichtsräume
+50.38*022*Selmayr-Hörsaal*IFL*Allgemeiner Institutsbetrieb*70*56*522*Unterrichtsgroßräume
+50.40*048*Seminarraum*AGW-HYDRO*Allgemeiner Betrieb Abt. Hydrogeologie*32**524*Mehrzweckunterrichtsräume
+50.40*157*Seminarraum*IMG*Allg. Betrieb Gemeinsame Einrichtungen*51**524*Mehrzweckunterrichtsräume
+50.40*158*Bibliothek*IMG*Allg. Betrieb Gemeinsame Einrichtungen*51**541*Bibliotheksräume allgemein
+50.40*261.1*Seminarraum*AGW-PETRO*Allgemeiner Betrieb Bereich Petrophysik*30**524*Mehrzweckunterrichtsräume
+50.40*363.1*Seminarraum*IWE*Lehrstuhl Prof. Ivers-Tiffée (Allgem. Betrieb)*30*16*524*Mehrzweckunterrichtsräume
+50.41*-108*Seminarraum ZVW*ZVW*SR 50.41, -108*57*32*524*Mehrzweckunterrichtsräume
+50.41*-109*Seminarraum ZVW*ZVW*SR 50.41, -109*72*40*524*Mehrzweckunterrichtsräume
+50.41*-133*Seminarraum ZVW*ZVW*SR 50.41, -133*66*35*524*Mehrzweckunterrichtsräume
+50.41*-134*Seminarraum ZVW*ZVW*SR 50.41, -134*66*35*524*Mehrzweckunterrichtsräume
+50.41*012*Seminarraum*AGW*Labor*46**524*Mehrzweckunterrichtsräume
+50.41*013*CAD-Übungsraum*AGW*Labor*48**533*Medienunterstützte Unterrichtsräume
+50.41*046*Seminarraum  ZVW*ZVW*SR 50.41, 046*132*40*524*Mehrzweckunterrichtsräume
+50.41*145*Seminarraum AVG 1  ZVW*ZVW*SR 50.41, 145 (AVG 1 ZVW)*66*20*524*Mehrzweckunterrichtsräume
+50.41*146*Seminarraum AVG 2  ZVW*ZVW*SR 50.41, 146 (AVG 2 ZVW)*66*20*524*Mehrzweckunterrichtsräume
+50.41*213*Praktikumslabor*IAB-LMC-Metzler*Abt 1 (Praktikum Labor)*48**535*Physikal./Technische Übungsräume
+50.41*214*Praktikumslabor*IAB-LMC-Metzler*Abt 1 (Praktikum Labor)*50**535*Physikal./Technische Übungsräume
+50.41*215*Praktikumslabor*IAB-LMC-Metzler*Abt 1 (Praktikum Labor)*50**535*Physikal./Technische Übungsräume
+50.41*228*Messraum Praktikum*IAB-LMC-Metzler*Abt 1 (Praktikum Labor)*21**535*Physikal./Technische Übungsräume
+50.41*229*Messraum Praktikum*IAB-LMC-Metzler*Abt 1 (Praktikum Labor)*33**535*Physikal./Technische Übungsräume
+70.04*004*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*35,34*0*533*Medienunterstützte Unterrichtsräume
+70.04*026*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*21,93*0*533*Medienunterstützte Unterrichtsräume
+70.04*108*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*32,79*0*533*Medienunterstützte Unterrichtsräume
+70.04*112*Semianarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*49,6*33*524*Mehrzweckunterrichtsräume
+70.04*124*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*22,53*0*533*Medienunterstützte Unterrichtsräume
+70.04*125*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*36,05*0*533*Medienunterstützte Unterrichtsräume
+70.04*204*PC-Pool*umbau*Temporär nicht nutzbare Räume (im Umbau)*36,27*0*533*Medienunterstützte Unterrichtsräume
+70.04*219*Semianarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*93,08*57*524*Mehrzweckunterrichtsräume
+70.04*220*Semianarraum*umbau*Temporär nicht nutzbare Räume (im Umbau)*59,99*33*524*Mehrzweckunterrichtsräume
+70.16*284.1*Seminarraum*IFKM*Labor I*93**524*Mehrzweckunterrichtsräume
+99.01*314*Bibliothek*IMT*Lehrstuhl Prof. Saile (Allgem. Betrieb)*13**543*Freihandstellfläche
+99.01*405*Seminarraum*IMT*Lehrstuhl Prof. Saile (Allgem. Betrieb)*132,4**524*Mehrzweckunterrichtsräume
+99.70*003*Vortragsraum*IFGG-GA*Allg. Betrieb Gewässer und Auenökologie*80**561*Versammlungsräume allgemein
+99.70*004*Ausstellungsraum*IFGG-GA*Allg. Betrieb Gewässer und Auenökologie*70**581*Schauräume allgemein
+99.70*005*Informationsraum*IFGG-GA*Allg. Betrieb Gewässer und Auenökologie*9**581*Schauräume allgemein
+99.70*107*Bibliothek*IFGG-GA*Allg. Betrieb Gewässer und Auenökologie*31**541*Bibliotheksräume allgemein
+99.70*205*Bibliothek*IFGG-GA*Allg. Betrieb Gewässer und Auenökologie*32**541*Bibliotheksräume allgemein

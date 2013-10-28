@@ -1,0 +1,15 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:spinnerDropDownItemStyle">@style/DropDownItemStyle</item>
+    </style>
+
+    <style name="DropDownItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/DropDownItemTextStyle</item>
+    </style>
+
+    <style name="DropDownItemTextStyle" parent="@android:style/TextAppearance.Inverse">
+        <item name="android:textSize" tools:ignore="SpUsage">18dp</item>
+    </style>
+
+</resources>

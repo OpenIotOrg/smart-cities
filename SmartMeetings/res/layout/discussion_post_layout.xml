@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewDiscussionTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#555555"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:text="topic"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <edu.kit.cm.ivu.smartmeetings.ui.ScrollListView
+        android:id="@+id/listViewPosts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        tools:listitem="@layout/discussion_post_item_layout" >
+    </edu.kit.cm.ivu.smartmeetings.ui.ScrollListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/discussion_post_hint"
+            android:imeOptions="actionSend" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:src="@drawable/ic_menu_send" />
+    </LinearLayout>
+
+</LinearLayout>

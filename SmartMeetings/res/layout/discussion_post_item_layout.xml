@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/textViewPosterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Max Mustermann"
+        android:textAllCaps="true"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textViewPostText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:text="Blablabla" />
+
+    <TextView
+        android:id="@+id/textViewPostDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01.01.2013"
+        android:textColor="@color/secondary_grey" />
+
+</LinearLayout>

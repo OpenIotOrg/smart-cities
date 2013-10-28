@@ -1,0 +1,756 @@
+Campus*Campusbereich*Geb.Nr.*Geb.Bezeichnung*Straße*PLZ*Ort*Baujahr*Anmietung*Nutzer*Nutzungsbereich KIT*Koordinaten
+CN*Campus-Nord, Forschungszentrum*0100*Regenhebeanlage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2007*0*KIT*gesamtes Gebäude*lat=49,09128 lon=8,42664
+CN*Campus-Nord, Forschungszentrum*0101*Fortbildungszentrum für Technik und Umwelt*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1961 / 1980*0*KIT*gesamtes Gebäude*lat=49,09132 lon=8,42737
+CN*Campus-Nord, Forschungszentrum*0102*Meßmast*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1966/1984*0*KIT*gesamtes Gebäude*lat=49,09135 lon=8,42472
+CN*Campus-Nord, Forschungszentrum*0103*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,09188 lon=8,42703
+CN*Campus-Nord, Forschungszentrum*0104*Fertiggarage bei Meßmast*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978*0*KIT*gesamtes Gebäude*lat=49,09151 lon=8,42482
+CN*Campus-Nord, Forschungszentrum*0104-1*Fertiggarage - Meßgelände*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09253 lon=8,42527
+CN*Campus-Nord, Forschungszentrum*0104-2*Meß-Container auf Meßgelände*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09316 lon=8,42578
+CN*Campus-Nord, Forschungszentrum*0121*Lager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1982*0*KIT*gesamtes Gebäude*lat=49,09202 lon=8,42823
+CN*Campus-Nord, Forschungszentrum*0122*Toxikologisches Labor*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1972*0*KIT*gesamtes Gebäude*lat=49,09209 lon=8,42739
+CN*Campus-Nord, Forschungszentrum*0123*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1962*0*KIT*gesamtes Gebäude*lat=49,09237 lon=8,42802
+CN*Campus-Nord, Forschungszentrum*0123-1*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,0922 lon=8,42805
+CN*Campus-Nord, Forschungszentrum*0124*Med. Abteilung u. Dekont. Passage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1968*0*KIT*gesamtes Gebäude*lat=49,09247 lon=8,42707
+CN*Campus-Nord, Forschungszentrum*0125*Wache Süd (Tor 1) Ein/Ausfahrt*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1972*0*KIT*gesamtes Gebäude*lat=49,09195 lon=8,4285
+CN*Campus-Nord, Forschungszentrum*0126*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1979/2007*0*KIT*gesamtes Gebäude*lat=49,0927 lon=8,42673
+CN*Campus-Nord, Forschungszentrum*0131*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09231 lon=8,42656
+CN*Campus-Nord, Forschungszentrum*0140*Casino (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0141*Zentralgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1963*0*KIT*gesamtes Gebäude*lat=49,09339 lon=8,428
+CN*Campus-Nord, Forschungszentrum*0142*Reprografie*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,09347 lon=8,4275
+CN*Campus-Nord, Forschungszentrum*0144*Rechenzentrum*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1984/2004*0*KIT*gesamtes Gebäude*lat=49,09373 lon=8,4276
+CN*Campus-Nord, Forschungszentrum*0145*Casino (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,0911 lon=8,42566
+CN*Campus-Nord, Forschungszentrum*0151*Wasserwerk Süd, (Rückspülbecken)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09472 lon=8,42571
+CN*Campus-Nord, Forschungszentrum*0152*ANKA Nutzerhaus*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2004*0*KIT*gesamtes Gebäude*lat=49,09415 lon=8,42627
+CN*Campus-Nord, Außenstellen*0191*Ostendorf-Haus*Weberstraße 5*76133*Karlsruhe*1961*0*KIT**lat=49,01426 lon=8,38326
+CN*Campus-Nord, Außenstellen*0192*Gelände ehemaliger Hengsthof****1969*0*unbekannt**
+CN*Campus-Nord, Außenstellen*0193*Gästehaus Mühlburger Tor*Reinhold-Frank-Straße 48c*76133*Karlsruhe**1*KIT u. a.**lat=49,01118 lon=8,38771
+CN*Campus-Nord, Außenstellen*0195*Sportgelände Leopoldshafen*****0*unbekannt**
+CN*Campus-Nord, Außenstellen*0197*Gastdozentenhaus Karlsruhe*Engesserstraße 3*76131*Karlsruhe**0*KIT u. a.**
+CN*Campus-Nord, Außenstellen*0198*LEG-Wohnungen, Leopoldshafen*****1*unbekannt**
+CN*Campus-Nord, Forschungszentrum*0210*Dienstleistungsgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*BBB**lat=49,09154 lon=8,4296
+CN*Campus-Nord, Forschungszentrum*0211*Kantine*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1969*0*KIT*gesamtes Gebäude*lat=49,09117 lon=8,42915
+CN*Campus-Nord, Forschungszentrum*0211-H*Hebeanlage (Ch) ist stillgelegt*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0212*Getränkeleergutlager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09084 lon=8,42967
+CN*Campus-Nord, Forschungszentrum*0213*"KiTa ""nanos"""*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2004/2008*0*KIT*gesamtes Gebäude*lat=49,09109 lon=8,4309
+CN*Campus-Nord, Forschungszentrum*0220*Garagen, westl. Tankstelle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1980*0*KIT*gesamtes Gebäude*lat=49,09224 lon=8,43081
+CN*Campus-Nord, Forschungszentrum*0221*Anmeldung, Hauptwache*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1961*0*KIT*gesamtes Gebäude*lat=49,09206 lon=8,42882
+CN*Campus-Nord, Forschungszentrum*0222*Telefonzentrale*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1960*0*KIT*gesamtes Gebäude*lat=49,09185 lon=8,4292
+CN*Campus-Nord, Forschungszentrum*0223*Laborgebäude Fischzucht*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1988*0*KIT*gesamtes Gebäude*lat=49,09197 lon=8,42955
+CN*Campus-Nord, Forschungszentrum*0224*Garagen Fahrdienst*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09175 lon=8,42975
+CN*Campus-Nord, Forschungszentrum*0225*KFZ-Werkstatt*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,0919 lon=8,43024
+CN*Campus-Nord, Forschungszentrum*0226*Garagen Fahrdienst, Büroräume*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,0916 lon=8,43055
+CN*Campus-Nord, Forschungszentrum*0227*Garagen Fahrdienst*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1983*0*KIT*gesamtes Gebäude*lat=49,09181 lon=8,43079
+CN*Campus-Nord, Forschungszentrum*0228*Pumpwerk Süd, Zerkleinerungsanlage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09147 lon=8,43126
+CN*Campus-Nord, Forschungszentrum*0229*Materiallager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1960/2000*0*KIT*gesamtes Gebäude*lat=49,09159 lon=8,43143
+CN*Campus-Nord, Forschungszentrum*0230*Technikumshalle (Mikroelektronik)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2001*0*KIT*gesamtes Gebäude*lat=49,09288 lon=8,43057
+CN*Campus-Nord, Forschungszentrum*0231*Chemikalienlager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1962*0*KIT*gesamtes Gebäude*lat=49,09145 lon=8,43303
+CN*Campus-Nord, Forschungszentrum*0232*Schneidhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1971*0*KIT*gesamtes Gebäude*lat=49,09123 lon=8,43308
+CN*Campus-Nord, Forschungszentrum*0234*Güterkontrolle (Tor 10)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1981*0*KIT*gesamtes Gebäude*lat=49,09122 lon=8,43564
+CN*Campus-Nord, Forschungszentrum*0235*Lehrwerkstätten II - Betriebliche Ausbildung*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2002*0*KIT*gesamtes Gebäude*lat=49,09313 lon=8,43255
+CN*Campus-Nord, Forschungszentrum*0237*Lehrwerkstätten I*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1985*0*KIT*gesamtes Gebäude*lat=49,09301 lon=8,43266
+CN*Campus-Nord, Forschungszentrum*0242*Büro-/Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1962*0*KIT*gesamtes Gebäude*lat=49,09281 lon=8,43092
+CN*Campus-Nord, Forschungszentrum*0243*Hauptwerkstatt*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1959*0*KIT*gesamtes Gebäude*lat=49,09246 lon=8,43137
+CN*Campus-Nord, Forschungszentrum*0244*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09296 lon=8,4313
+CN*Campus-Nord, Forschungszentrum*0245*Werkstattgebäude mit Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1965/2004*0*KIT*gesamtes Gebäude*lat=49,09281 lon=8,43223
+CN*Campus-Nord, Forschungszentrum*0246*Tankstelle, Garagen*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,092 lon=8,43176
+CN*Campus-Nord, Forschungszentrum*0247*Abwassersammelstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09296 lon=8,43112
+CN*Campus-Nord, Forschungszentrum*0248*Lager und Werkstattgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1972*0*KIT*gesamtes Gebäude*lat=49,0929 lon=8,4316
+CN*Campus-Nord, Forschungszentrum*0249*Entrostungsanlage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1980/1988*0*KIT*gesamtes Gebäude*lat=49,09279 lon=8,43137
+CN*Campus-Nord, Forschungszentrum*0250*Fertiggaragen Tankstelle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1987*0*KIT*gesamtes Gebäude*lat=49,09209 lon=8,4316
+CN*Campus-Nord, Forschungszentrum*0251*Lagerhalle für Holz*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1986*0*KIT*gesamtes Gebäude*lat=49,09258 lon=8,43318
+CN*Campus-Nord, Forschungszentrum*0252*Bauhof - Lagerhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1966*0*KIT*gesamtes Gebäude*lat=49,09203 lon=8,43408
+CN*Campus-Nord, Forschungszentrum*0252-1*Fertiggarage (2 Stück) östl. Bau 0252*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1988/1991*0*KIT*gesamtes Gebäude*lat=49,09196 lon=8,43439
+CN*Campus-Nord, Forschungszentrum*0253*Bauhof - Verwaltung/Personalgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1965*0*KIT*gesamtes Gebäude*lat=49,09154 lon=8,43495
+CN*Campus-Nord, Forschungszentrum*0254*Bauhof - Werkhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1961*0*KIT*gesamtes Gebäude*lat=49,09173 lon=8,43522
+CN*Campus-Nord, Forschungszentrum*0255*Fernheizwerk mit Blockheizkraftwerk*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1987/2000*0*KIT*gesamtes Gebäude*lat=49,09232 lon=8,43511
+CN*Campus-Nord, Forschungszentrum*0256*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1976*0*KIT*gesamtes Gebäude*lat=49,09205 lon=8,43297
+CN*Campus-Nord, Forschungszentrum*0257*Prüfhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1981*0*KIT*gesamtes Gebäude*lat=49,09246 lon=8,4335
+CN*Campus-Nord, Forschungszentrum*0258*Gasübergabestation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,0921 lon=8,43571
+CN*Campus-Nord, Forschungszentrum*0259*Dieselhaus*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09207 lon=8,43502
+CN*Campus-Nord, Forschungszentrum*0260*Fertiggarage, westl. Bau 255*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,09246 lon=8,43425
+CN*Campus-Nord, Forschungszentrum*0260-1*Lagergebäude, westl. Bau 255*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09251 lon=8,43428
+CN*Campus-Nord, Forschungszentrum*0261*Fertiggarage, nördl. Bau 257*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2006*0*KIT*gesamtes Gebäude*lat=49,09257 lon=8,43352
+CN*Campus-Nord, Forschungszentrum*0262*Gasstation (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0263*Antenne TETRA-Netz, Höhe SF1*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09152 lon=8,43609
+CN*Campus-Nord, Forschungszentrum*0272*Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,09272 lon=8,43538
+CN*Campus-Nord, Forschungszentrum*0272A*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09255 lon=8,4357
+CN*Campus-Nord, Forschungszentrum*0272B*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09255 lon=8,4357
+CN*Campus-Nord, Forschungszentrum*0273*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09269 lon=8,43467
+CN*Campus-Nord, Forschungszentrum*0274*Anbau (elektrische Anlagen Schlosserei)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,09259 lon=8,43519
+CN*Campus-Nord, Forschungszentrum*0276*Lagerhalle und Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1975*0*KIT*gesamtes Gebäude*lat=49,09295 lon=8,43405
+CN*Campus-Nord, Forschungszentrum*0277*Chemiehebewerk*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09257 lon=8,43557
+CN*Campus-Nord, Forschungszentrum*0278*Gasflaschenlager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1991*0*KIT*gesamtes Gebäude*lat=49,09245 lon=8,43597
+CN*Campus-Nord, Forschungszentrum*0300*Technikzentrale Maskenlabor*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09416 lon=8,42953
+CN*Campus-Nord, Forschungszentrum*0301*Büro-/Laborgebäude u. Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1977 (Umbau 1998/2004)*0*KIT*gesamtes Gebäude*lat=49,09466 lon=8,42966
+CN*Campus-Nord, Forschungszentrum*0302*Abwassersammel- und Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,0947 lon=8,42914
+CN*Campus-Nord, Forschungszentrum*0303*KIT-Bibliothek Nord*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1963*0*KIT*gesamtes Gebäude*lat=49,09473 lon=8,42831
+CN*Campus-Nord, Forschungszentrum*0304*Büro-/Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1959*0*KIT*gesamtes Gebäude*lat=49,09512 lon=8,42749
+CN*Campus-Nord, Forschungszentrum*0305*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1983*0*KIT*gesamtes Gebäude*lat=49,09499 lon=8,42812
+CN*Campus-Nord, Forschungszentrum*0306*Abwassersammelstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09505 lon=8,42717
+CN*Campus-Nord, Forschungszentrum*0307*Erweiterung Arbeitsräume*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1969 (Umbau 1993/2001)*0*KIT*gesamtes Gebäude*lat=49,09439 lon=8,42891
+CN*Campus-Nord, Forschungszentrum*0308*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1972*0*KIT*gesamtes Gebäude*lat=49,0947 lon=8,42935
+CN*Campus-Nord, Forschungszentrum*0309*Laborgebäude (Reinraum)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973/2007*0*KIT*gesamtes Gebäude*lat=49,09412 lon=8,42919
+CN*Campus-Nord, Forschungszentrum*0310*Erweiterung Arbeitsräume*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1976*0*KIT*gesamtes Gebäude*lat=49,09467 lon=8,42899
+CN*Campus-Nord, Forschungszentrum*0311*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1959*0*KIT*gesamtes Gebäude*lat=49,09521 lon=8,42633
+CN*Campus-Nord, Forschungszentrum*0312*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1974*0*KIT*gesamtes Gebäude*lat=49,09468 lon=8,427
+CN*Campus-Nord, Forschungszentrum*0312A*1 Garage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2010*0*KIT*gesamtes Gebäude*lat=49,09469 lon=8,42695
+CN*Campus-Nord, Forschungszentrum*0313*Büro- und Werkstattgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1977*0*KIT*gesamtes Gebäude*lat=49,09442 lon=8,42758
+CN*Campus-Nord, Forschungszentrum*0314*Gasflaschenlager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978*0*KIT*gesamtes Gebäude*lat=49,09477 lon=8,42941
+CN*Campus-Nord, Forschungszentrum*0315*Feuerwache*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1980*0*KIT*gesamtes Gebäude*lat=49,09592 lon=8,42692
+CN*Campus-Nord, Forschungszentrum*0316*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978*0*KIT*gesamtes Gebäude*lat=49,09461 lon=8,42648
+CN*Campus-Nord, Forschungszentrum*0317*Tierställe, Technikzentrale*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1960/1985*0*KIT*gesamtes Gebäude*lat=49,0945 lon=8,42695
+CN*Campus-Nord, Forschungszentrum*0318*Gefahrstofflager-Boxen*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1994/1999*0*KIT*gesamtes Gebäude*lat=49,09481 lon=8,4292
+CN*Campus-Nord, Forschungszentrum*0319*Erweiterung Tierhaltung (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0320A*Fertiggarage bei Bau 326 Nord*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09556 lon=8,42888
+CN*Campus-Nord, Forschungszentrum*0321*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1959*0*KIT*gesamtes Gebäude*lat=49,09536 lon=8,42998
+CN*Campus-Nord, Forschungszentrum*0322*Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1962/1988*0*KIT*gesamtes Gebäude*lat=49,09546 lon=8,4293
+CN*Campus-Nord, Forschungszentrum*0323*Abwassersammel- und Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09577 lon=8,4295
+CN*Campus-Nord, Forschungszentrum*0324*Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2004*0*KIT*gesamtes Gebäude*lat=49,09601 lon=8,42819
+CN*Campus-Nord, Forschungszentrum*0326*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1977*0*KIT*gesamtes Gebäude*lat=49,09524 lon=8,42886
+CN*Campus-Nord, Forschungszentrum*0327*Büro und Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2009*0*KIT*gesamtes Gebäude*lat=49,09584 lon=8,42926
+CN*Campus-Nord, Forschungszentrum*0328*Gasflaschenlager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1980*0*KIT*gesamtes Gebäude*lat=49,09514 lon=8,42932
+CN*Campus-Nord, Forschungszentrum*0329*Verfügungsgebäude (Containeranlage)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2002*0*KIT*gesamtes Gebäude*lat=49,09599 lon=8,42904
+CN*Campus-Nord, Forschungszentrum*0330*Büro- / Laborgebäude u. Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1983/2004*0*KIT*gesamtes Gebäude*lat=49,09638 lon=8,42615
+CN*Campus-Nord, Forschungszentrum*0331*Regenhebewerk*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09547 lon=8,42617
+CN*Campus-Nord, Forschungszentrum*0332*Fertiggarage östl. Bau 0330*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1998*0*KIT*gesamtes Gebäude*lat=49,09605 lon=8,42603
+CN*Campus-Nord, Forschungszentrum*0333*Fertiggarage westl. Bau 0315*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1997*0*KIT*gesamtes Gebäude*lat=49,09593 lon=8,42598
+CN*Campus-Nord, Forschungszentrum*0340*ISS - Institutsgebäude (Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0341*Verfügungsgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1962/1992*0*KIT*gesamtes Gebäude*lat=49,09675 lon=8,43046
+CN*Campus-Nord, Forschungszentrum*0343*Abwassersammelstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09667 lon=8,42926
+CN*Campus-Nord, Forschungszentrum*0344*Gasflaschenlager, Süd-West Bau 351/8*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09728 lon=8,42617
+CN*Campus-Nord, Forschungszentrum*0345*Bürogebäude ISS*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2009*0*KIT*gesamtes Gebäude*lat=49,09643 lon=8,42993
+CN*Campus-Nord, Forschungszentrum*0347*Gasflaschen- u. Gerätelager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1990*0*KIT*gesamtes Gebäude*lat=49,09689 lon=8,43043
+CN*Campus-Nord, Forschungszentrum*0348*Technikumshalle ANKA*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1997-1999/2008*0*KIT*gesamtes Gebäude*lat=49,09711 lon=8,42838
+CN*Campus-Nord, Forschungszentrum*0349*Kälteanlage ANKA*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09699 lon=8,42937
+CN*Campus-Nord, Forschungszentrum*0351*Laborgebäude ZAG*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1962/2004*0*ZAG u. KIT*gesamtes Gebäude*lat=49,09736 lon=8,42658
+CN*Campus-Nord, Forschungszentrum*0352*Zyklotron Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09716 lon=8,42748
+CN*Campus-Nord, Forschungszentrum*0353*Trafostation Kompaktzyklotron*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09676 lon=8,42613
+CN*Campus-Nord, Forschungszentrum*0400*Abwassersammelstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09299 lon=8,43623
+CN*Campus-Nord, Forschungszentrum*0401*Büro-/Laborgebäude u. Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1963*0*KIT*gesamtes Gebäude*lat=49,09408 lon=8,4306
+CN*Campus-Nord, Forschungszentrum*0401A*Fertiggarage (Doppel)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2001/2002*0*KIT*gesamtes Gebäude*lat=49,09416 lon=8,431
+CN*Campus-Nord, Forschungszentrum*0402*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1962/1980*0*KIT*gesamtes Gebäude*lat=49,09433 lon=8,43155
+CN*Campus-Nord, Forschungszentrum*0403*Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1960*0*KIT*gesamtes Gebäude*lat=49,0942 lon=8,43186
+CN*Campus-Nord, Forschungszentrum*0404*Technikumshalle/TAMARA*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1967*0*KIT*gesamtes Gebäude*lat=49,0939 lon=8,43219
+CN*Campus-Nord, Forschungszentrum*0404-1*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0405*Abwassersammelstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09352 lon=8,43229
+CN*Campus-Nord, Forschungszentrum*0406*Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1969/1980*0*KIT*gesamtes Gebäude*lat=49,09363 lon=8,43322
+CN*Campus-Nord, Forschungszentrum*0406A*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09342 lon=8,43266
+CN*Campus-Nord, Forschungszentrum*0406B*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09341 lon=8,4327
+CN*Campus-Nord, Forschungszentrum*0406C*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09347 lon=8,43246
+CN*Campus-Nord, Forschungszentrum*0406D*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09346 lon=8,43251
+CN*Campus-Nord, Forschungszentrum*0406E*Trafo*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09337 lon=8,43297
+CN*Campus-Nord, Forschungszentrum*0406F*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1984*0*KIT*gesamtes Gebäude*lat=49,09415 lon=8,43277
+CN*Campus-Nord, Forschungszentrum*0406G*Kälteanlage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09352 lon=8,43229
+CN*Campus-Nord, Forschungszentrum*0406H*Gaslager TIMO 1*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09352 lon=8,43229
+CN*Campus-Nord, Forschungszentrum*0407*Werkstattgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,09382 lon=8,43167
+CN*Campus-Nord, Forschungszentrum*0408*Kaltverformung*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1974*0*KIT*gesamtes Gebäude*lat=49,09393 lon=8,43258
+CN*Campus-Nord, Forschungszentrum*0409*Kälteanlage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1975/1992*0*KIT*gesamtes Gebäude*lat=49,09396 lon=8,43336
+CN*Campus-Nord, Forschungszentrum*0410*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1971*0*KIT*gesamtes Gebäude*lat=49,09376 lon=8,43375
+CN*Campus-Nord, Forschungszentrum*0411*Leichtbauhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1977*0*KIT*gesamtes Gebäude*lat=49,09417 lon=8,4326
+CN*Campus-Nord, Forschungszentrum*0412*Kühltürme (2 x 6 MW)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09289 lon=8,43596
+CN*Campus-Nord, Forschungszentrum*0413*Prüfstandhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1969*0*KIT*gesamtes Gebäude*lat=49,09313 lon=8,43548
+CN*Campus-Nord, Forschungszentrum*0413A*Gasflaschenlager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2007*0*KIT*gesamtes Gebäude*lat=49,09289 lon=8,43542
+CN*Campus-Nord, Forschungszentrum*0414*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09346 lon=8,4349
+CN*Campus-Nord, Forschungszentrum*0415*Laboratorium*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1972*0*KIT*gesamtes Gebäude*lat=49,09344 lon=8,43533
+CN*Campus-Nord, Forschungszentrum*0416*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,09324 lon=8,43412
+CN*Campus-Nord, Forschungszentrum*0417*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,0936 lon=8,43443
+CN*Campus-Nord, Forschungszentrum*0418*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,09392 lon=8,43408
+CN*Campus-Nord, Forschungszentrum*0419*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,09384 lon=8,43481
+CN*Campus-Nord, Forschungszentrum*0420*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,09366 lon=8,4355
+CN*Campus-Nord, Forschungszentrum*0421*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1958*0*KIT*gesamtes Gebäude*lat=49,09487 lon=8,43099
+CN*Campus-Nord, Forschungszentrum*0422*Werkstattgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1958*0*KIT*gesamtes Gebäude*lat=49,09488 lon=8,43181
+CN*Campus-Nord, Forschungszentrum*0423*Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1956*0*KIT*gesamtes Gebäude*lat=49,09505 lon=8,43222
+CN*Campus-Nord, Forschungszentrum*0423-1*Fertiggarage, östl. Bau 423*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09491 lon=8,43252
+CN*Campus-Nord, Forschungszentrum*0424*Werkstattgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1967*0*KIT*gesamtes Gebäude*lat=49,09483 lon=8,43263
+CN*Campus-Nord, Forschungszentrum*0424-1*Fertiggarage, nördl. Bau 424*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09494 lon=8,43254
+CN*Campus-Nord, Forschungszentrum*0425*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1966*0*KIT*gesamtes Gebäude*lat=49,09459 lon=8,43326
+CN*Campus-Nord, Forschungszentrum*0426*Van-de-Graaff Beschleuniger*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,09518 lon=8,43332
+CN*Campus-Nord, Forschungszentrum*0427*Schmutzwasser-Hebeanlage YV-C3*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1995*0*KIT*gesamtes Gebäude*lat=49,09489 lon=8,43277
+CN*Campus-Nord, Forschungszentrum*0428*Versuchsstände*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,09536 lon=8,43234
+CN*Campus-Nord, Forschungszentrum*0429*Abwassersammel- und Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09534 lon=8,43173
+CN*Campus-Nord, Forschungszentrum*0430*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2007*0*KIT*gesamtes Gebäude*lat=49,09374 lon=8,43144
+CN*Campus-Nord, Forschungszentrum*0431*Garage, südl. Bau 442*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*09.2005*0*KIT*gesamtes Gebäude*lat=49,09569 lon=8,4321
+CN*Campus-Nord, Forschungszentrum*0432*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09441 lon=8,43431
+CN*Campus-Nord, Forschungszentrum*0433*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1977*0*KIT*gesamtes Gebäude*lat=49,09472 lon=8,43416
+CN*Campus-Nord, Forschungszentrum*0434*Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1981*0*KIT*gesamtes Gebäude*lat=49,09521 lon=8,43296
+CN*Campus-Nord, Forschungszentrum*0435*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1989*0*KIT*gesamtes Gebäude*lat=49,09394 lon=8,43645
+CN*Campus-Nord, Forschungszentrum*0436*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1980*0*KIT*gesamtes Gebäude*lat=49,0949 lon=8,43465
+CN*Campus-Nord, Forschungszentrum*0436-1*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09477 lon=8,43534
+CN*Campus-Nord, Forschungszentrum*0437*Regenrückhaltebecken mit Hebewerk*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09474 lon=8,43155
+CN*Campus-Nord, Forschungszentrum*0438*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1985*0*KIT*gesamtes Gebäude*lat=49,09463 lon=8,43517
+CN*Campus-Nord, Forschungszentrum*0439*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1989*0*KIT*gesamtes Gebäude*lat=49,094 lon=8,43593
+CN*Campus-Nord, Forschungszentrum*0440*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1985/2003*0*KIT*gesamtes Gebäude*lat=49,09312 lon=8,43636
+CN*Campus-Nord, Forschungszentrum*0441*Rechenzentrum*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1969/2007*0*KIT*gesamtes Gebäude*lat=49,09627 lon=8,43211
+CN*Campus-Nord, Forschungszentrum*0441-1*Büro-Containeranlage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2003*0*KIT*gesamtes Gebäude*lat=49,09649 lon=8,43181
+CN*Campus-Nord, Forschungszentrum*0442*Erweiterung Rechenzentrum*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1969/2007*0*KIT*gesamtes Gebäude*lat=49,0962 lon=8,43248
+CN*Campus-Nord, Forschungszentrum*0443*Verteilerstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09507 lon=8,43381
+CN*Campus-Nord, Forschungszentrum*0445*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,096 lon=8,43377
+CN*Campus-Nord, Forschungszentrum*0446*Gaslager u. Garagen*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09435 lon=8,43617
+CN*Campus-Nord, Forschungszentrum*0447*LAN-Verteilerstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09502 lon=8,4338
+CN*Campus-Nord, Forschungszentrum*0448*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1976/1997*0*KIT*gesamtes Gebäude*lat=49,09445 lon=8,4362
+CN*Campus-Nord, Forschungszentrum*0449*Institutsgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2012*0*KIT*gesamtes Gebäude*lat=49,09573 lon=8,43305
+CN*Campus-Nord, Forschungszentrum*0450*Netzersatzanlage Tritiumlabor*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1966*0*KIT*gesamtes Gebäude*lat=49,09526 lon=8,43479
+CN*Campus-Nord, Forschungszentrum*0451*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1966*0*KIT*gesamtes Gebäude*lat=49,09564 lon=8,43451
+CN*Campus-Nord, Forschungszentrum*0452*Tritiumlabor*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1966/2006*0*KIT*gesamtes Gebäude*lat=49,09541 lon=8,43485
+CN*Campus-Nord, Forschungszentrum*0453*Versuchshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KBHF*gesamtes Gebäude*lat=49,09523 lon=8,4369
+CN*Campus-Nord, Forschungszentrum*0454*SUAK-Bunker*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KBHF*gesamtes Gebäude*lat=49,095 lon=8,43672
+CN*Campus-Nord, Forschungszentrum*0456*Technikgebäude KATRIN*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09523 lon=8,43666
+CN*Campus-Nord, Forschungszentrum*0457*Transporthalle KATRIN, Bau 457*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09541 lon=8,43635
+CN*Campus-Nord, Forschungszentrum*0458*Fertiggarage östl. Bau 453 (Fa. Goraieb)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09521 lon=8,43701
+CN*Campus-Nord, Forschungszentrum*0459*Fertiggarage süd.-östl. Bau 454 (Fa. Goraieb)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09488 lon=8,43673
+CN*Campus-Nord, Forschungszentrum*0460*Spektrometerhalle KATRIN*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2008*0*KIT*gesamtes Gebäude*lat=49,09578 lon=8,43655
+CN*Campus-Nord, Forschungszentrum*0461*Monitorgebäude KATRIN*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09552 lon=8,43684
+CN*Campus-Nord, Forschungszentrum*0462*Versorgung Spektrometerhalle KATRIN*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09572 lon=8,43693
+CN*Campus-Nord, Forschungszentrum*0464*Kaltwasserversorgung KATRIN*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09534 lon=8,43675
+CN*Campus-Nord, Forschungszentrum*0466*Gasversorgung KATRIN West*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09546 lon=8,43621
+CN*Campus-Nord, Forschungszentrum*0467*Sanitärcontainer KATRIN*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2008*0*KIT*gesamtes Gebäude*lat=49,09594 lon=8,43641
+CN*Campus-Nord, Forschungszentrum*0500*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09827 lon=8,42687
+CN*Campus-Nord, Forschungszentrum*0506*Trafostation, östl. Bau 522*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2010*0*KIT*gesamtes Gebäude*lat=49,09881 lon=8,43141
+CN*Campus-Nord, Forschungszentrum*0507*Trafostation, nödl. Bau 522*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2009*0*KIT*gesamtes Gebäude*lat=49,09892 lon=8,43107
+CN*Campus-Nord, Forschungszentrum*0508*HELOKA-Techikhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2008*0*KIT*gesamtes Gebäude*lat=49,095 lon=8,43672
+CN*Campus-Nord, Forschungszentrum*0510*Abwasserüberwachungszentrale*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1985*0*KIT*gesamtes Gebäude*lat=49,09816 lon=8,42793
+CN*Campus-Nord, Forschungszentrum*0511*Kläranlagen für Sanitärabwasser*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1990*0*KIT*gesamtes Gebäude*lat=49,09779 lon=8,42714
+CN*Campus-Nord, Forschungszentrum*0512*Betriebsgebäude und Dosierstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09874 lon=8,42775
+CN*Campus-Nord, Forschungszentrum*0513*Chemiekläranlage (Behandlungsstufe und Speicherbec*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09884 lon=8,42738
+CN*Campus-Nord, Forschungszentrum*0514*Chemiekläranlage (Pumpwerk 1, Schlammbehandlungsan*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09917 lon=8,42681
+CN*Campus-Nord, Forschungszentrum*0515*Wasserlabor*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1989*0*KIT*gesamtes Gebäude*lat=49,0988 lon=8,42676
+CN*Campus-Nord, Forschungszentrum*0516*Chemiekläranlage (Eingangsstufe)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09892 lon=8,42809
+CN*Campus-Nord, Forschungszentrum*0517*Sanitärkläranlage (Endbecken und Pumpwerk 2)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09824 lon=8,42651
+CN*Campus-Nord, Forschungszentrum*0518*Lagerraum*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09803 lon=8,42699
+CN*Campus-Nord, Forschungszentrum*0520*Regenrückhaltebecken und Hebewerk*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**1*KIT*gesamtes Gebäude*lat=49,09743 lon=8,42885
+CN*Campus-Nord, Forschungszentrum*0521*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1967*0*KIT*gesamtes Gebäude*lat=49,09854 lon=8,43051
+CN*Campus-Nord, Forschungszentrum*0522*Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,09889 lon=8,4312
+CN*Campus-Nord, Forschungszentrum*0523*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09887 lon=8,43059
+CN*Campus-Nord, Forschungszentrum*0525*Lager-/Leichtbauhalle (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09824 lon=8,42651
+CN*Campus-Nord, Forschungszentrum*0540*Regenhebewerk, im HDB-Areal, südl. Bau 9657*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09942 lon=8,42985
+CN*Campus-Nord, Forschungszentrum*0541*Werkstattgebäude (-Betrieb)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,09921 lon=8,43134
+CN*Campus-Nord, Forschungszentrum*0542*Abwassersammelstation (stillgelegt)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*WAK u. KIT**lat=49,09915 lon=8,4313
+CN*Campus-Nord, Forschungszentrum*0544*Betriebswerkstatt*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964/1997*0*KIT*gesamtes Gebäude*lat=49,09997 lon=8,43192
+CN*Campus-Nord, Forschungszentrum*0546*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10012 lon=8,4311
+CN*Campus-Nord, Forschungszentrum*0549*Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1998*1*KIT*gesamtes Gebäude*lat=49,09974 lon=8,43024
+CN*Campus-Nord, Forschungszentrum*0554*Regenhebewerk*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10034 lon=8,43188
+CN*Campus-Nord, Forschungszentrum*0572*Werkstattgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1965*0*KIT*gesamtes Gebäude*lat=49,10059 lon=8,42833
+CN*Campus-Nord, Forschungszentrum*0573*Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1965*0*KIT*gesamtes Gebäude*lat=49,10056 lon=8,4279
+CN*Campus-Nord, Forschungszentrum*0574*Laborgebäude / Erweiterung*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1971*0*KIT*gesamtes Gebäude*lat=49,10098 lon=8,42799
+CN*Campus-Nord, Forschungszentrum*0575*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1974/1982*0*KIT*gesamtes Gebäude*lat=49,10115 lon=8,42766
+CN*Campus-Nord, Forschungszentrum*0601*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1967/2001*0*KIT*gesamtes Gebäude*lat=49,0969 lon=8,43214
+CN*Campus-Nord, Forschungszentrum*0602*Versuchshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1965*0*KIT*gesamtes Gebäude*lat=49,09673 lon=8,43298
+CN*Campus-Nord, Forschungszentrum*0603*Schweißwerkstatt*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1961*0*KIT*gesamtes Gebäude*lat=49,09692 lon=8,43328
+CN*Campus-Nord, Forschungszentrum*0604*Lagerhalle (Abfalllager)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1966*0*KIT*gesamtes Gebäude*lat=49,09654 lon=8,43415
+CN*Campus-Nord, Forschungszentrum*0605*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1960*0*KIT*gesamtes Gebäude*lat=49,09715 lon=8,43196
+CN*Campus-Nord, Forschungszentrum*0606*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT u. WAK**lat=49,09737 lon=8,43232
+CN*Campus-Nord, Forschungszentrum*0608*Experimentierhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2002*0*KIT*gesamtes Gebäude*lat=49,09705 lon=8,4343
+CN*Campus-Nord, Forschungszentrum*0608A*Gasflaschenlager, nördl. Bau 608*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09743 lon=8,43452
+CN*Campus-Nord, Forschungszentrum*0609*LAN-Verteilerstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09901 lon=8,43218
+CN*Campus-Nord, Forschungszentrum*0610*Verteilerstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09903 lon=8,43206
+CN*Campus-Nord, Forschungszentrum*0611*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09849 lon=8,43284
+CN*Campus-Nord, Forschungszentrum*0612*Kältezentrale (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0614*Wasserhochbehälter / Fortluftkamin*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09881 lon=8,43201
+CN*Campus-Nord, Forschungszentrum*0615*Vollentsalzungsanlage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1961*0*KIT*gesamtes Gebäude*lat=49,09867 lon=8,43318
+CN*Campus-Nord, Forschungszentrum*0616*Pumpwerk Nord I (Sanitär)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09878 lon=8,43373
+CN*Campus-Nord, Forschungszentrum*0618*LCF-Halle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1977/2005*0*KIT*gesamtes Gebäude*lat=49,09838 lon=8,43476
+CN*Campus-Nord, Forschungszentrum*0620*Gewächshaus*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1982*0*KIT*gesamtes Gebäude*lat=49,09711 lon=8,43667
+CN*Campus-Nord, Forschungszentrum*0622*Gewächshaus*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1988*0*KIT*gesamtes Gebäude*lat=49,09693 lon=8,43664
+CN*Campus-Nord, Forschungszentrum*0629*Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1977-1979*0*KIT*gesamtes Gebäude*lat=49,09725 lon=8,43559
+CN*Campus-Nord, Forschungszentrum*0630*Büro-/Laborgebäude und Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1977*0*KIT*gesamtes Gebäude*lat=49,09703 lon=8,43549
+CN*Campus-Nord, Forschungszentrum*0631*Versorgungszentrale*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09655 lon=8,43628
+CN*Campus-Nord, Forschungszentrum*0633*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09683 lon=8,43497
+CN*Campus-Nord, Forschungszentrum*0638*Abfalldepot, INT*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09844 lon=8,43308
+CN*Campus-Nord, Forschungszentrum*0639*Chemikalienlager, INT*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09838 lon=8,43336
+CN*Campus-Nord, Forschungszentrum*0640*Institutsgebäude, INT*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2008*0*KIT*gesamtes Gebäude*lat=49,09804 lon=8,43302
+CN*Campus-Nord, Forschungszentrum*0650*Thermit-Versuchshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1969*0*KIT*gesamtes Gebäude*lat=49,09847 lon=8,43501
+CN*Campus-Nord, Forschungszentrum*0660*Versuchsgebäude BETA*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1983*0*KIT*gesamtes Gebäude*lat=49,09897 lon=8,43467
+CN*Campus-Nord, Forschungszentrum*0661*Seism. Beobachtungsstation (200 m-Bohrung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09934 lon=8,43863
+CN*Campus-Nord, Forschungszentrum*0663*Fertiggarage östl. Bau 0660*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1995*0*KIT*gesamtes Gebäude*lat=49,09897 lon=8,43511
+CN*Campus-Nord, Forschungszentrum*0670*Experimentiergebäude (Biomasse)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2007*0*KIT*gesamtes Gebäude*lat=49,09944 lon=8,43476
+CN*Campus-Nord, Forschungszentrum*0671*Biomasse Gebäude (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0672*Biomasse Gebäude (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0673*Biomasse Gebäude (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0674*Biomasse Gebäude (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0675*Biomasse Gebäude (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0676*Biomasse Gebäude (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0677*Biomasse Gebäude (in Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0679*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978*0*KIT*gesamtes Gebäude*lat=49,10075 lon=8,43398
+CN*Campus-Nord, Forschungszentrum*0680*Fertiggarage Kältemaschine*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1985*0*KIT*gesamtes Gebäude*lat=49,10034 lon=8,43401
+CN*Campus-Nord, Forschungszentrum*0681*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1969*0*KIT*gesamtes Gebäude*lat=49,10063 lon=8,43405
+CN*Campus-Nord, Forschungszentrum*0682*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1972*0*KIT*gesamtes Gebäude*lat=49,10025 lon=8,43382
+CN*Campus-Nord, Forschungszentrum*0683*Gasflaschenlager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1977*0*KIT*gesamtes Gebäude*lat=49,10068 lon=8,43423
+CN*Campus-Nord, Forschungszentrum*0684*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978*0*KIT*gesamtes Gebäude*lat=49,10085 lon=8,43464
+CN*Campus-Nord, Forschungszentrum*0684-1*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,1008 lon=8,43457
+CN*Campus-Nord, Forschungszentrum*0684-2*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10077 lon=8,43455
+CN*Campus-Nord, Forschungszentrum*0685*Pumpwerk Nord II (Sanitär)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10152 lon=8,43333
+CN*Campus-Nord, Forschungszentrum*0686*Elektrozentrale Nord*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,10132 lon=8,43379
+CN*Campus-Nord, Forschungszentrum*0688*Laborgebäude für Analytik*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1965*0*KIT*gesamtes Gebäude*lat=49,10083 lon=8,43671
+CN*Campus-Nord, Forschungszentrum*0689*Autoklav*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1966*0*KIT*gesamtes Gebäude*lat=49,10067 lon=8,43628
+CN*Campus-Nord, Forschungszentrum*0690*Fertiggaragen (3 Stück) östl. Bau 691*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2001*0*KIT*gesamtes Gebäude*lat=49,10022 lon=8,43587
+CN*Campus-Nord, Forschungszentrum*0691*Büro-/Laborgebäude u. Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978*0*KIT*gesamtes Gebäude*lat=49,10015 lon=8,43532
+CN*Campus-Nord, Forschungszentrum*0692*Gasflaschenlager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978*0*KIT*gesamtes Gebäude*lat=49,09972 lon=8,43558
+CN*Campus-Nord, Forschungszentrum*0693*Sozialgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978*0*KIT*gesamtes Gebäude*lat=49,10048 lon=8,43591
+CN*Campus-Nord, Forschungszentrum*0695*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1988*0*KIT*gesamtes Gebäude*lat=49,10019 lon=8,43341
+CN*Campus-Nord, Forschungszentrum*0696*Büro- / Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09994 lon=8,43409
+CN*Campus-Nord, Forschungszentrum*0701*Heiße Zellen*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964/1984*0*WAK u. KIT**lat=49,10064 lon=8,43229
+CN*Campus-Nord, Forschungszentrum*0704*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10143 lon=8,43244
+CN*Campus-Nord, Forschungszentrum*0705*Betriebswäscherei*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1981*0*KIT*gesamtes Gebäude*lat=49,10143 lon=8,43244
+CN*Campus-Nord, Forschungszentrum*0706*Abwassersammelstation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10157 lon=8,43231
+CN*Campus-Nord, Forschungszentrum*0707*Bürogebäude (Hightech-Inkubator)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1980*0*KIT*gesamtes Gebäude*lat=49,10147 lon=8,43222
+CN*Campus-Nord, Forschungszentrum*0708*Heiße Zellen*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1984*0*KIT*gesamtes Gebäude*lat=49,10108 lon=8,43265
+CN*Campus-Nord, Forschungszentrum*0709*Abluftschornstein 2*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10128 lon=8,43229
+CN*Campus-Nord, Forschungszentrum*0711*Regenhebewerk und Rückhaltebecken*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10146 lon=8,42813
+CN*Campus-Nord, Forschungszentrum*0712*Büro-/Laborgebäude und Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978/1983/2000*0*KIT*gesamtes Gebäude*lat=49,10168 lon=8,42926
+CN*Campus-Nord, Forschungszentrum*0713*Trafostation*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10114 lon=8,4298
+CN*Campus-Nord, Forschungszentrum*0714*Büro-/Laborgebäude und Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1993*0*KIT*gesamtes Gebäude*lat=49,1009 lon=8,42909
+CN*Campus-Nord, Forschungszentrum*0715*Doppelgarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1982*0*KIT*gesamtes Gebäude*lat=49,1021 lon=8,42907
+CN*Campus-Nord, Forschungszentrum*0716*Leichtbauhalle Lager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1986*0*KIT*gesamtes Gebäude*lat=49,10211 lon=8,4292
+CN*Campus-Nord, Forschungszentrum*0717*Büro- und Laborgebäude (Hightech-Inkubator)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2003*0*KIT*gesamtes Gebäude*lat=49,10185 lon=8,43048
+CN*Campus-Nord, Forschungszentrum*0718*Leichtbauhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10241 lon=8,4281
+CN*Campus-Nord, Forschungszentrum*0719*Chemielager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2005*0*KIT*gesamtes Gebäude*lat=49,10142 lon=8,43046
+CN*Campus-Nord, Forschungszentrum*0720*Celitement-Gebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10186 lon=8,43009
+CN*Campus-Nord, Forschungszentrum*0721*Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964/1972/2001/2002*0*KIT*gesamtes Gebäude*lat=49,1027 lon=8,43237
+CN*Campus-Nord, Forschungszentrum*0722*Abluftschornstein*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,10215 lon=8,43224
+CN*Campus-Nord, Forschungszentrum*0723*Versorgungszentrale*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1973*0*KIT*gesamtes Gebäude*lat=49,10246 lon=8,43207
+CN*Campus-Nord, Forschungszentrum*0724*Technikumshalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1967/1976*0*KIT*gesamtes Gebäude*lat=49,10274 lon=8,43207
+CN*Campus-Nord, Forschungszentrum*0725*Erweiterung Laborgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1967*0*KIT*gesamtes Gebäude*lat=49,10277 lon=8,43312
+CN*Campus-Nord, Forschungszentrum*0726*Elektronik-Werkstatt*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10237 lon=8,43239
+CN*Campus-Nord, Forschungszentrum*0727*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1975*0*KIT*gesamtes Gebäude*lat=49,10213 lon=8,43293
+CN*Campus-Nord, Forschungszentrum*0727-1*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10239 lon=8,43192
+CN*Campus-Nord, Forschungszentrum*0727-2*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10245 lon=8,43207
+CN*Campus-Nord, Forschungszentrum*0728*Gasflaschenlager*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1982*0*KIT*gesamtes Gebäude*lat=49,10321 lon=8,43209
+CN*Campus-Nord, Forschungszentrum*0729*Personalgebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1987*0*KIT*gesamtes Gebäude*lat=49,10258 lon=8,43295
+CN*Campus-Nord, Forschungszentrum*0730*Fahrradhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1990*0*KIT*gesamtes Gebäude*lat=49,10259 lon=8,43332
+CN*Campus-Nord, Forschungszentrum*0731*Laborgebäude für Analytik (Planung)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0732*Technikum Biomassevergasung*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2001*0*KIT*gesamtes Gebäude*lat=49,10211 lon=8,43272
+CN*Campus-Nord, Forschungszentrum*0733*Lagerzelt ITC-CPV, nördl. Bau 724*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10314 lon=8,43226
+CN*Campus-Nord, Forschungszentrum*0734*Fertiggarage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10265 lon=8,43329
+CN*Campus-Nord, Forschungszentrum*0735*Gasflaschenlager, Ostseite Bau 729*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,10265 lon=8,43334
+CN*Campus-Nord, Forschungszentrum*0736*Lagerhalle, südl. Bau 721*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2006*0*KIT*gesamtes Gebäude*lat=49,10211 lon=8,43171
+CN*Campus-Nord, Forschungszentrum*0737*Lagerzelt ITC-CPV, nördl. Bau 721*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*2009*0*KIT*gesamtes Gebäude*lat=49,1027 lon=8,43237
+CN*Campus-Nord, Forschungszentrum*0907*20 kV-Schalthaus*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,1047 lon=8,43136
+CN*Campus-Nord, Forschungszentrum*0908*Freiluftschaltanlage*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1964*0*KIT*gesamtes Gebäude*lat=49,10495 lon=8,43106
+CN*Campus-Nord, Forschungszentrum*0913*Bürogebäude*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*WAK u. KIT**lat=49,10444 lon=8,43295
+CN*Campus-Nord, Forschungszentrum*0925*Heizkanäle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*0927*Hebeanlage (Sanitär)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Außenstellen*1191*Wasserwerk Tiefgestade*****0*unbekannt**
+CN*Campus-Nord, Außenstellen*1193*Reinwasserfernleitung Linkenh.-Hochst.******unbekannt**
+CN*Campus-Nord, Außenstellen*1194*Spülwasserleitung Tiefgestade******unbekannt**
+CN*Campus-Nord, Außenstellen*1195*Evtl. Notwasserversorgung Linkenheim-Hochstetten******unbekannt**
+CN*Campus-Nord, Dresden (PTKA-PFT, Außenstelle)*1200*Dresden - Gästeappartments PTKA, Rosenbergstr. 12*Rosenbergstraße 12*01277*Dresden**1*KIT u. a.**
+CN*Campus-Nord, Dresden (PTKA-PFT, Außenstelle)*1201*Dresden - Büroräume PTKA, Hallwachsstr.3*Hallwachsstraße 3*01069*Dresden**1*KIT u. a.**lat=51,0261 lon=13,72682
+CN*Campus-Nord, Forschungszentrum*1520*Hebewerk (Sanitär)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT**
+CN*Campus-Nord, Forschungszentrum*1600*Wache Nord (Tor 7)*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1978/2000*0*KIT*gesamtes Gebäude*lat=49,11182 lon=8,43718
+CN*Campus-Nord, Außenstellen*2091*Forsthaus/Werkswohnung****1964*1*unbekannt**
+CN*Campus-Nord, Außenstellen*2092*Vorfluter Hirschkanal*****0*unbekannt**
+CN*Campus-Nord, Außenstellen*2093*Meßstelle Forsthaus/Werkswohnung*Friedrichstaler Straße 25*76351*Linkenheim-Hochstetten*1989*1*KIT u. WAK**
+CN*Campus-Nord, Außenstellen*2094*Meßstelle-Kurbelmast, Friedrichstal*****1*KIT u. WAK*gesamtes Objekt*
+CN*Campus-Nord, Außenstellen*2095*Meßstelle-Kurbelmast, Eggenstein*Kirchenstraße 17-19*76344*Eggenstein-Leopoldshafen**1*KIT u. WAK*gesamtes Objekt*
+CN*Campus-Nord, Außenstellen*2096*Meßstelle-Kurbelmast, Linkenheim-Hochst.*****1*KIT u. WAK*gesamtes Objekt*
+CN*Campus-Nord, Außenstellen*2097*Meßstelle-Kurbelmast, Graben-Neudorf*Kaiserstraße 36*76676*Graben-Neudorf**1*KIT u. WAK*gesamtes Objekt*
+CN*Campus-Nord, Außenstellen*2098*Meßstation-Zählrohr, Leopoldshafen*Albert-Einstein-Straße 6*76344*Eggenstein-Leopoldshafen**1*KIT u. WAK*gesamtes Objekt*
+CN*Campus-Nord, Alpin (IMK-IFU)*3100*Garmisch - Kreuzeckbahnstraße 19 (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen**1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3101*Garmisch - Büro-und Laborgebäude (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen*2002*1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3102*Garmisch - Remise LKW (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen*2003*1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3103*Garmisch - Gaslager / Carport (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen*2003*1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3104*Garmisch - Gewächshaus alt (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen*2003*1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3105*Garmisch - Lagercontainer 1+2 (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen**1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3106*Garmisch - Lasercontainer (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen**1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3107*Garmisch - Trafostation (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen**1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3108*Garmisch - Lagercontainer 1+2  (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen**1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3109*Garmisch - Gewächshaus, Solardome  (IMK-IFU)*Kreuzeckbahnstraße 19*82467*Garmisch-Partenkirchen**1***lat=47,47618 lon=11,06309
+CN*Campus-Nord, Alpin (IMK-IFU)*3110*Wank - Meßstation  (IMK-IFU)****2002*0***lat=47.510.825 lon=11.140.653
+CN*Campus-Nord, Alpin (IMK-IFU)*3111*Wank - Meßstation (Reserve)  (IMK-IFU)*****0***lat=47.510.825 lon=11.140.653
+CN*Campus-Nord, Alpin (IMK-IFU)*3112*Wank - Meßstation (Reserve)  (IMK-IFU)*****0***lat=47.510.825 lon=11.140.653
+CN*Campus-Nord, Alpin (IMK-IFU)*3113*Wank - Meßstation (Reserve)  (IMK-IFU)*****0***lat=47.510.825 lon=11.140.653
+CN*Campus-Nord, Alpin (IMK-IFU)*3114*Wank - Meßstation (Reserve)  (IMK-IFU)*****0***lat=47.510.825 lon=11.140.653
+CN*Campus-Nord, Alpin (IMK-IFU)*3115*Zugspitze - Gipfellabor + Serverraum  (IMK-IFU)*****0***lat=47,42107 lon=10,98587
+CN*Campus-Nord, Alpin (IMK-IFU)*3116*Zugspitze - UVB Container groß  (IMK-IFU)*****0***lat=47,42107 lon=10,98587
+CN*Campus-Nord, Alpin (IMK-IFU)*3117*Zugspitze - UVB Container klein  (IMK-IFU)*****0***lat=47,42107 lon=10,98587
+CN*Campus-Nord, Alpin (IMK-IFU)*3118*Zugspitze - Klimacontainer  (IMK-IFU)*****0***lat=47,42107 lon=10,98587
+CN*Campus-Nord, Alpin (IMK-IFU)*3119*Zugspitze - ZSP Reserve  (IMK-IFU)*****0***lat=47,42107 lon=10,98587
+CN*Campus-Nord, Alpin (IMK-IFU)*3120*Höglwald - Meßturm  (IMK-IFU)****2004*0***lat=48,30078 lon=11,02238
+CN*Campus-Nord, Alpin (IMK-IFU)*3121*Höglwald - Container 1  (IMK-IFU)*****0***lat=48,30078 lon=11,02238
+CN*Campus-Nord, Alpin (IMK-IFU)*3122*Höglwald - Container 2  (IMK-IFU)*****0***lat=48,30078 lon=11,02238
+CN*Campus-Nord, Alpin (IMK-IFU)*3123*Höglwald - Container 3  (IMK-IFU)*****0***lat=48,30078 lon=11,02238
+CN*Campus-Nord, Alpin (IMK-IFU)*3124*Höglwald - Container 4  (IMK-IFU)*****0***lat=48,30078 lon=11,02238
+CN*Campus-Nord, Alpin (IMK-IFU)*3125*Höglwald - Freisinger Hütte  (IMK-IFU)*****0***lat=48,30078 lon=11,02238
+CN*Campus-Nord, Alpin (IMK-IFU)*3126*Höglwald - HGW Reserve  (IMK-IFU)*****0***
+CN*Campus-Nord, Alpin (IMK-IFU)*3127*Höglwald - HGW Reserve  (IMK-IFU)*****0***
+CN*Campus-Nord, Alpin (IMK-IFU)*3128*Höglwald - HGW Reserve  (IMK-IFU)*****0***
+CN*Campus-Nord, Alpin (IMK-IFU)*3129*Höglwald - HGW Reserve  (IMK-IFU)*****0***
+CN*Campus-Nord, Alpin (IMK-IFU)*3130*Dickelschwaig - Meßstation (IMK-IFU)****2009*0***lat=47,56909 lon=11,03172
+CN*Campus-Nord, Alpin (IMK-IFU)*3131*Dickelschwaig - Meßstation Reserve (IMK-IFU)*****0***
+CN*Campus-Nord, Alpin (IMK-IFU)*3132*Dickelschwaig - Meßstation Reserve (IMK-IFU)*****0***
+CN*Campus-Nord, Alpin (IMK-IFU)*3133*Fendt - Meßstation (IMK-IFU)****2009*0***lat=47,83061 lon=11,05681
+CN*Campus-Nord, Alpin (IMK-IFU)*3134*Fendt - Meßstation Reserve (IMK-IFU)****2009*0***lat=47,83061 lon=11,05681
+CN*Campus-Nord, Alpin (IMK-IFU)*3135*Fendt - Meßstation Reserve (IMK-IFU)*****0***
+CN*Campus-Nord, Alpin (IMK-IFU)*3136*Geigersau - Meßstation  (IMK-IFU)*****0***lat=47,72905 lon=11,02998
+CN*Campus-Nord, Alpin (IMK-IFU)*3137*Geigersau - Meßstation Reserve (IMK-IFU)*****0***
+CN*Campus-Nord, Alpin (IMK-IFU)*3138*Geigersau - Meßstation Reserve (IMK-IFU)*****0***
+CN*Campus-Nord, Außenstellen*3300*Bürogebäude ITAS, Karlstraße 11*Karlstraße 11*76133*Karlsruhe**1*KIT u. a.*EG teilweise, OG1 bis OG4 komplett*lat=49,0111 lon=8,39537
+CN*Campus-Nord, Forschungszentrum*5131*Eichhalle und Erweiterung*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1963*0*KIT*gesamtes Gebäude*lat=49,09184 lon=8,42613
+CN*Campus-Nord, Forschungszentrum*5252*Bürobaracke*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1960*0*KIT*gesamtes Gebäude*lat=49,09183 lon=8,43338
+CN*Campus-Nord, Forschungszentrum*5254*Bauhof - Lagerbaracke*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,0919 lon=8,43564
+CN*Campus-Nord, Forschungszentrum*5311*Meßhütte West*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09873 lon=8,42596
+CN*Campus-Nord, Forschungszentrum*5402*Laborbaracke*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,0942 lon=8,43129
+CN*Campus-Nord, Forschungszentrum*5404*Leichtbauhalle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1986*0*KIT*gesamtes Gebäude*lat=49,09404 lon=8,43222
+CN*Campus-Nord, Forschungszentrum*5414*Fertiggaragen (4 St.) Bau 415 Ost*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1976/1983/1984*0*KIT*gesamtes Gebäude*lat=49,09334 lon=8,43613
+CN*Campus-Nord, Forschungszentrum*5523*Druckluftversorgung*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1982*0*KIT*gesamtes Gebäude*lat=49,09907 lon=8,43077
+CN*Campus-Nord, Forschungszentrum*5621*Halle*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09707 lon=8,43628
+CN*Campus-Nord, Forschungszentrum*5691*Fertiggarage Westseite Bau 0691*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1992*0*KIT*gesamtes Gebäude*lat=49,10043 lon=8,435
+CN*Campus-Nord, Forschungszentrum*5812*Meßhütte Nord*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1966*0*KIT*gesamtes Gebäude*lat=49,10393 lon=8,44128
+CN*Campus-Nord, Forschungszentrum*5813*Meßhütte Nordost*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1991*0*KIT*gesamtes Gebäude*lat=49,1051 lon=8,43483
+CN*Campus-Nord, Forschungszentrum*9002*Basis Objektschutz*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1976*0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9005*Basis Objektschutz*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9030*Haupteinfahrt Süd*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09198 lon=8,4285
+CN*Campus-Nord, Forschungszentrum*9092*KIT Campus-Nord Bahnhof*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1990*0*KIT*gesamtes Gebäude*lat=49,09709 lon=8,4305
+CN*Campus-Nord, Forschungszentrum*9601*1 Lagercontainer südl. Bau 717*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9603*Werkstattcontainer, südl. Bau 406*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9605*WC-Doppelcontainer bei Fremdfirmenlager, östl. Bau*****0*9999**
+CN*Campus-Nord, Forschungszentrum*9606*WC-Container im Fremdfirmendepot*****0*9999**
+CN*Campus-Nord, Forschungszentrum*9611*2 Container, Nordost Bau 608*****0*KIT*gesamtes Gebäude*lat=49,09722 lon=8,43447
+CN*Campus-Nord, Forschungszentrum*9612*2 Container, Nordwest Bau 608*****0*KIT*gesamtes Gebäude*lat=49,09716 lon=8,43472
+CN*Campus-Nord, Forschungszentrum*9613*Fertiggarage (3 Stück) bei Bau 415 Nord****1991*0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9614*4-fach Container nördl. Bau 660*****0*KIT*gesamtes Gebäude*lat=49,09913 lon=8,43491
+CN*Campus-Nord, Forschungszentrum*9617*Laborcontainer, südwestl. Bau 726*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9618*2 Bürocontainer bei Bau 620*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9620*3 Container bei Bau 405*****0*KIT*gesamtes Gebäude*lat=49,09357 lon=8,43238
+CN*Campus-Nord, Forschungszentrum*9621*Lager-Container bei Bau 249*****0*KIT*gesamtes Gebäude*lat=49,09284 lon=8,43129
+CN*Campus-Nord, Forschungszentrum*9623*WC-Container bei Fremdfirmenlager, westl. Fa. BWB*****0*9999**
+CN*Campus-Nord, Forschungszentrum*9624*1 Container für Notstromaggregat, östl. Bau 223****2008*0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9625*Lagercontainer*****0*KIT*gesamtes Gebäude*lat=49,09478 lon=8,42722
+CN*Campus-Nord, Forschungszentrum*9627*2-fach Container bei Bau 434*****0*KIT*gesamtes Gebäude*lat=49,09516 lon=8,4327
+CN*Campus-Nord, Forschungszentrum*9629*Container südwestl. Bau 549*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**1*KIT*gesamtes Gebäude*lat=49,09934 lon=8,42987
+CN*Campus-Nord, Forschungszentrum*9630*3 Quarantäne Container nördl. Bau 0317*****0*KIT*gesamtes Gebäude*lat=49,09469 lon=8,427
+CN*Campus-Nord, Forschungszentrum*9633A*1 Doppelcontainer östl. Bau 415*****1*KIT*gesamtes Gebäude*lat=49,09322 lon=8,43589
+CN*Campus-Nord, Forschungszentrum*9633B*1 Container östl. Bau 415*****1*KIT*gesamtes Gebäude*lat=49,09327 lon=8,43584
+CN*Campus-Nord, Forschungszentrum*9634*Wasch-Container bei Fremdfirmendepot, westl. Fa. B*****0*9999**
+CN*Campus-Nord, Forschungszentrum*9635*Wasch- und WC-Container bei Bau 620*****0*KIT*gesamtes Gebäude*lat=49,09734 lon=8,43666
+CN*Campus-Nord, Forschungszentrum*9636*1 Lagercontainer bei Bau 712*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9638*2 Labor-Container bei Bau 620 und Klimakammer*****0*KIT*gesamtes Gebäude*lat=49,09739 lon=8,43636
+CN*Campus-Nord, Forschungszentrum*9642*Doppelcontainer südl. Bau 348*****0*KIT*gesamtes Gebäude*lat=49,09668 lon=8,42915
+CN*Campus-Nord, Forschungszentrum*9642-1*1 Container östl. Bau 348*****0*KIT*gesamtes Gebäude*lat=49,09661 lon=8,42882
+CN*Campus-Nord, Forschungszentrum*9642-2*Doppelcontainer nördl. Bau 348*****0*KIT*gesamtes Gebäude*lat=49,09715 lon=8,42891
+CN*Campus-Nord, Forschungszentrum*9643*1 Container nordöstl. Bau 348*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9644*Doppelcontainer nördl. Bau 315*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9647*1 Lagercontainer süd/Westl. Bau 349*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9649*Container nördl. Bau 439****2010*0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9650*1 Container bei Bau 650*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9651*Containeranlage bei Bau 452 Süd****2010*0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9652*Bürocontainer, südl. Bau 452*****0*KIT*gesamtes Gebäude*lat=49,09515 lon=8,43539
+CN*Campus-Nord, Forschungszentrum*9653*Bürocontainer, südl. Bau 452*****0*KIT*gesamtes Gebäude*lat=49,09518 lon=8,43524
+CN*Campus-Nord, Forschungszentrum*9654*2 Lagercontainer, östl. Bau 453*****0*KIT*gesamtes Gebäude*lat=49,0953 lon=8,43699
+CN*Campus-Nord, Forschungszentrum*9655*Sozialcontainer (Fa.Goraieb Versuchstechnik)****2007*0*KBHF**lat=49,09496 lon=8,43661
+CN*Campus-Nord, Forschungszentrum*9663*Lagercontainer, INT 3, (in Planung)*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9664*Lagercontainer, INT 3, (in Planung)*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9665*Lagercontainer, INT 3, (in Planung)*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9668*IMK - Meßcontainer*****0*KIT*gesamtes Gebäude*lat=49,10058 lon=8,4381
+CN*Campus-Nord, Forschungszentrum*9669*Lagercontainer nördl. Bau 640*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9670*Büro-Containeranlage südl. Bau 758*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9671*Doppelcontainer, östl. Bau 462****2009*0*KIT*gesamtes Gebäude*lat=49,09564 lon=8,43733
+CN*Campus-Nord, Forschungszentrum*9800*Fremdfirmendepot*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*9999**lat=49,09763 lon=8,43535
+CN*Campus-Nord, Forschungszentrum*9900*KASCADE Zentraldetektor*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen**0*KIT*gesamtes Gebäude*lat=49,09951 lon=8,43761
+CN*Campus-Nord, Forschungszentrum*9901*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9902*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9903*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9904*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9905*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9906*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9907*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9908*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9909*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9910*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9911*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9912*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9913*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9914*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9915*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9916*KASCADE Meß-Cluster*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9930*KASCADE-Streamer-Tunnel*****0*KIT*gesamtes Gebäude*lat=49,10005 lon=8,43774
+CN*Campus-Nord, Forschungszentrum*9931*KASCADE-Tunnel Meß-Container*****0*KIT*gesamtes Gebäude*
+CN*Campus-Nord, Forschungszentrum*9940*Meßanordnung KASCADE Grande*****0*KIT*gesamtes Gebäude*lat=49,09784 lon=8,43298
+CN*Campus-Nord, Forschungszentrum*9941*Meßanordnung KASCADE Piccolo*****0*KIT*gesamtes Gebäude*
+CS*Campus-Süd, Zentral*01.13*Mensa Neubau*Straße am Forum 4*76131*Karlsruhe*1985*1*KIT u. a.*Teilnutzung im EG*lat=49,0118 lon=8,41688
+CS*Campus-Süd, Zentral*01.70*Zentrum für Information und Beratung (zib)*Zähringerstraße 65*76131*Karlsruhe*1785*1*KIT u. a.*Teil von OG2*lat=49,00883 lon=8,40473
+CS*Campus-Süd, Zentral*01.80*Englerstraße 14 (Wachter-Haus)*Englerstraße 14*76131*Karlsruhe*1960*1*KIT u. a.*OG 2*lat=49,00956 lon=8,41032
+CS*Campus-Süd, Zentral*01.85*Fritz-Erler-Straße 1-3 (Zähringer-Haus)*Fritz-Erler-Straße 1-3*76133*Karlsruhe*1984*1*KIT u. a.*Teile von OG1, OG2, OG4, OG5*lat=49,00871 lon=8,41039
+CS*Campus-Süd, Zentral*01.86*Fritz-Erler-Straße 23 (Röser-Haus)*Fritz-Erler-Straße 23*76133*Karlsruhe*1996*1*KIT u. a.*OG2, OG3, OG4*lat=49,00624 lon=8,41056
+CS*Campus-Süd, Zentral*01.87*Rüppurrer Straße 1a (PSD)*Rüppurrer Straße 1a*76137*Karlsruhe*2003*1*KIT u. a.*OG 5*lat=49,00517 lon=8,41178
+CS*Campus-Süd, Zentral*01.90*Kaiserstraße 14*Kaiserstraße 14*76131*Karlsruhe*1950*1*KIT u. a.*nur OG 1*lat=49,00951 lon=8,41099
+CS*Campus-Süd, Zentral*01.92*Kronenstraße 30*Kronenstraße 30*76133*Karlsruhe*1975**KIT u. a.*OG 1*lat=49,00831 lon=8,40903
+CS*Campus-Süd, Zentral*01.93*Kronenstraße 32*Kronenstraße 32*76133*Karlsruhe*1975*1*KIT u. a.*nur OG 1*lat=49,00823 lon=8,40911
+CS*Campus-Süd, Zentral*01.94*Kronenstraße 34*Kronenstraße 34*76133*Karlsruhe*1975*1*KIT u. a.*nur OG 1*lat=49,00813 lon=8,4092
+CS*Campus-Süd, Zentral*01.95*Kaiserstraße 53*Kaiserstraße 53*76131*Karlsruhe*1900*1*KIT u. a.*EG, OG 1*lat=49,00909 lon=8,41226
+CS*Campus-Süd, Zentral*01.96*Waldhornstraße 27*Waldhornstraße 27*76131*Karlsruhe*1987*1*KIT*alle Geschosse*lat=49,00889 lon=8,41133
+CS*Campus-Süd, Zentral*02.95*International Department*Schlossplatz 19*76131*Karlsruhe*1951*1*KIT-ID**lat=49,01075 lon=8,40215
+CS*Campus-Süd, Zentral*05.01*Kreuzstraße 11*Kreuzstraße 11*76133*Karlsruhe*1890*0*KIT*alle Geschosse*lat=49,009 lon=8,40549
+CS*Campus-Süd, Zentral*05.02*Kappellenstraße 17 (LGL)*Kapellenstraße 17*76131*Karlsruhe*1950*0*KIT u. a.*nur Erdgeschoss*lat=49,00639 lon=8,41352
+CS*Campus-Süd, Zentral*05.20*Kaiserstraße 89-93 (Allianz-Gebäude)*Kaiserstraße 89-93*76133*Karlsruhe*1991*1*KIT u. a.*OG1 bis OG5, zwei Räume im UG*lat=49,00926 lon=8,40968
+CS*Campus-Süd, West*06.31*Westhochschule - Bau 31*Hertzstraße 16*76187*Karlsruhe*1938*0*KIT u. a.*EG, UG teilweise*lat=49,02245 lon=8,36713
+CS*Campus-Süd, West*06.32*Westhochschule - Bau 32*Hertzstraße 16*76187*Karlsruhe*1938*0*KIT*EG*lat=49,02205 lon=8,36728
+CS*Campus-Süd, West*06.33*Westhochschule - Bau 33*Hertzstraße 16*76187*Karlsruhe*1940*0*KIT*alle Geschosse*lat=49,02152 lon=8,36688
+CS*Campus-Süd, West*06.34*Westhochschule - Bau 34*Hertzstraße 16*76187*Karlsruhe*1908*0*KIT*gesamtes Gebäude*lat=49,02106 lon=8,36698
+CS*Campus-Süd, West*06.35*Westhochschule - Bau 35*Hertzstraße 16*76187*Karlsruhe*1909*0*KIT*alle Geschosse*lat=49,02194 lon=8,36627
+CS*Campus-Süd, West*06.36*Westhochschule - Bau 36*Hertzstraße 16*76187*Karlsruhe*1906*0*KIT*alle Geschosse*lat=49,02118 lon=8,36605
+CS*Campus-Süd, West*06.38*Westhochschule - Bau 38*Hertzstraße 16*76187*Karlsruhe*1900*0*KIT*alle Geschosse*lat=49,02186 lon=8,36816
+CS*Campus-Süd, West*06.40*Westhochschule - Bau 40*Hertzstraße 16*76187*Karlsruhe*1900*0*KIT*alle Geschosse*lat=49,02178 lon=8,36753
+CS*Campus-Süd, West*06.41*Westhochschule - Bau 41*Hertzstraße 16*76187*Karlsruhe*1910*0*KIT*alle Geschosse*lat=49,02139 lon=8,36821
+CS*Campus-Süd, West*06.42*Westhochschule - Bau 42*Hertzstraße 16*76187*Karlsruhe*1939*0*KIT*alle Geschosse*lat=49,02067 lon=8,36734
+CS*Campus-Süd, West*06.45*Westhochschule - Bau 45*Hertzstraße 16*76187*Karlsruhe*1936*0*KIT*UG*lat=49,02048 lon=8,36783
+CS*Campus-Süd, West*06.46*Westhochschule - Bau 46*Hertzstraße 16*76187*Karlsruhe*1976*0*KIT*UG*lat=49,02051 lon=8,36748
+CS*Campus-Süd, West*06.47*Westhochschule - Bau 47*Hertzstraße 16*76187*Karlsruhe*1976*0*KIT*EG*lat=49,02034 lon=8,36728
+CS*Campus-Süd, West*06.50*Westhochschule - Schadstofflager*Hertzstraße 16*76187*Karlsruhe*2002*0*KIT*EG*lat=49,02212 lon=8,3666
+CS*Campus-Süd, West*06.60*St.-Barbara-Weg 5*St.-Barbara-Weg 5*76187*Karlsruhe*1910*0*KIT*alle Geschosse*lat=49,02352 lon=8,36766
+CS*Campus-Süd, Zentral*07.01*Zoologisches Institut, Institutsgebäude*Kornblumenstraße 13*76131*Karlsruhe*1953*0*KIT*alle Geschosse*lat=49,01445 lon=8,42426
+CS*Campus-Süd, Zentral*07.02*Zoologisches Institut, Lager*Kornblumenstraße 13*76131*Karlsruhe*1954*0*KIT*alle Räume*lat=49,01445 lon=8,42426
+CS*Campus-Süd, Zentral*07.03*Zoologisches Institut, Container*Kornblumenstraße 13*76131*Karlsruhe*1970*0*KIT*alle Räume*lat=49,01445 lon=8,42426
+CS*Campus-Süd, Zentral*07.07*Vincenz-Prießnitz-Straße 1*Vincenz-Prießnitz-Straße 1*76131*Karlsruhe*1988*1*KIT u. a.*UG, OG2, OG 3, DG*lat=49,01299 lon=8,42429
+CS*Campus-Süd, Zentral*07.08*Vincenz-Prießnitz-Straße 3*Vincenz-Prießnitz-Straße 3*76131*Karlsruhe*1993*1*KIT u. a.*OG3*lat=49,0139 lon=8,4242
+CS*Campus-Süd, Zentral*07.21*Technologiefabrik*Haid-und-Neu-Straße 7-9*76131*Karlsruhe*1985*1*KIT u. TFKA*Teilnutzung UG, EG, OG2, OG3*lat=49,01254 lon=8,42519
+CS*Campus-Süd, Zentral*07.30*Max Rubner-Institut (MRI), Gebäudeteil ZIT*Haid-und-Neu-Straße 9*76131*Karlsruhe*1999*1*KIT u. MRI*Teile von 2u1, 2eg, 2o1*lat=49,01308 lon=8,42663
+CS*Campus-Süd, Zentral*07.31*Max Rubner-Institut (MRI), Gebäudeteil Technikum*Haid-und-Neu-Straße 9*76131*Karlsruhe*1999*1*KIT u. MRI*Teile von 3u1, 3eg, 2o1*lat=49,01308 lon=8,42663
+CS*Campus-Süd, Zentral*07.39*Emmy-Noether-Straße 10*Emmy-Noether-Straße 10*76131*Karlsruhe*2000*1*KIT u. a.*Geschoss ?*lat=49,02022 lon=8,44001
+CS*Campus-Süd, Zentral*07.40*Emmy-Noether-Straße 11*Emmy-Noether-Straße 11*76131*Karlsruhe*2000*1*KIT u. a.*Teile des Gebäudes*lat=49,01997 lon=8,43935
+CS*Campus-Süd, Zentral*08.03*Sprachen- und Fernstudienzentrum*Karl-Friedrich-Straße 17*76133*Karlsruhe*1965*0*KIT u. a.*Teile des Gebäudes*lat=49,00717 lon=8,40373
+CS*Campus-Süd, Zentral*08.04*Südwestdeut. Archiv für Architektur u. Ingenieurbau, Lager*Hans-Thoma-Straße 13*76131*Karlsruhe*1965*0*KIT u. a.*OG 1*lat=49,01318 lon=8,39838
+CS*Campus-Süd, Zentral*09.01*Münze KA, östl. Nebengebäude*Stephanienstraße 28*76133*Karlsruhe*1827*0*KIT u. a.*Teile des EG*lat=49,01223 lon=8,39527
+CS*Campus-Süd, Zentral*09.02*Münze KA, Hauptgebäude*Stephanienstraße 28a*76133*Karlsruhe*1827*0*KIT u. a.*Teile von EG und OG1*lat=49,01223 lon=8,39527
+CS*Campus-Süd, Zentral*10.11*Verwaltungsgebäude, Hauptbau*Kaiserstraße 12*76131*Karlsruhe*1836*0*KIT*alle Geschosse*lat=49,00938 lon=8,41224
+CS*Campus-Süd, Zentral*10.12*Verwaltungsgebäude, Nordflügel*Englerstraße 13*76131*Karlsruhe*1852*0*KIT*alle Geschosse*lat=49,00977 lon=8,41176
+CS*Campus-Süd, Zentral*10.21*Hörsaalgebäude*Wilhelm-Nusselt-Weg 2*76131*Karlsruhe*1959*0*KIT*alle Geschosse*lat=49,0096 lon=8,41317
+CS*Campus-Süd, Zentral*10.23*Kollegiengebäude Maschinenbau II*Kaiserstraße 10*76131*Karlsruhe*1962*0*KIT*alle Geschosse*lat=49,00952 lon=8,41432
+CS*Campus-Süd, Zentral*10.30*Verkehrstechnisches Institut*Otto-Ammann-Platz 9*76131*Karlsruhe*1780*0*KIT*alle Geschosse*lat=49,00966 lon=8,41551
+CS*Campus-Süd, Zentral*10.31*Kavaliershäuschen West*Kaiserstraße 8a*76131*Karlsruhe*1780*0*KIT*alle Geschosse*lat=49,00948 lon=8,41496
+CS*Campus-Süd, Zentral*10.32*Südwestdeutsches Archiv für Architektur u. Ingenieurbau*Kaiserstraße 8*76131*Karlsruhe*1780*0*KIT*alle Geschosse*lat=49,00924 lon=8,41511
+CS*Campus-Süd, Zentral*10.33*Kavaliershäuschen Ost*Kaiserstraße 4a*76131*Karlsruhe*1780*0*KIT*alle Geschosse*lat=49,00945 lon=8,41599
+CS*Campus-Süd, Zentral*10.34*Südwestdeutsches Archiv für Architektur u. Ingenieurbau*Kaiserstraße 4*76131*Karlsruhe*1780*0*KIT*alle Geschosse*lat=49,00923 lon=8,41584
+CS*Campus-Süd, Zentral*10.40*Botanisches Institut*Kaiserstraße 2a/b*76131*Karlsruhe*1899*0*KIT*alle Geschosse*lat=49,00931 lon=8,41665
+CS*Campus-Süd, Zentral*10.50*Kollegiengebäude Bauingenieure II*Reinhard-Baumeister-Platz 1*76131*Karlsruhe*1963*0*KIT*alle Geschosse*lat=49,00966 lon=8,41689
+CS*Campus-Süd, Zentral*10.61*Versuchsanstalt Stahl/Holz/Steine, Prüfkammer+Materiallager*Ernst-Gaber-Straße 3*76131*Karlsruhe*1960*0*KIT*alle Geschosse*lat=49,01024 lon=8,41743
+CS*Campus-Süd, Zentral*10.62*Fernleihe-Station*Ernst-Gaber-Straße 1a*76131*Karlsruhe*2001*0*KIT*alle Geschosse*lat=49,01059 lon=8,41746
+CS*Campus-Süd, Zentral*10.63*Windkanalhalle*Ernst-Gaber-Straße 1*76131*Karlsruhe*1975*0*KIT*alle Geschosse*lat=49,01031 lon=8,41701
+CS*Campus-Süd, Zentral*10.64*Versuchsanstalt Stahl/Holz/Steine, Maschinengebäude*Ernst-Gaber-Straße 3*76131*Karlsruhe*1984*0*KIT*alle Geschosse*lat=49,00991 lon=8,41736
+CS*Campus-Süd, Zentral*10.70*Versuchsanstalt Stahl/Holz/Steine, 50MN-Presse*Otto-Ammann-Platz 7*76131*Karlsruhe*1942*0*KIT*alle Geschosse*lat=49,00993 lon=8,41611
+CS*Campus-Süd, Zentral*10.81*Bauingenieure, Altes Bauingenieurgebäude*Otto-Ammann-Platz 1*76131*Karlsruhe*1921*0*KIT*alle Geschosse*lat=49,01014 lon=8,4153
+CS*Campus-Süd, Zentral*10.82*Windkanallabor (Kinzighalle)*Otto-Ammann-Platz 1*76131*Karlsruhe*1939*0*KIT*alle Geschosse*lat=49,01051 lon=8,41551
+CS*Campus-Süd, Zentral*10.83*Wasserwirtschaft und Kulturtechnik, Institutsgebäude*Engesserstraße 22*76131*Karlsruhe*1939*0*KIT*alle Geschosse*lat=49,01073 lon=8,41509
+CS*Campus-Süd, Zentral*10.84*Theodor-Rehbock-Flußbaulaboratorium*Engesserstraße 22*76131*Karlsruhe*1921*0*KIT*alle Geschosse*lat=49,01055 lon=8,41592
+CS*Campus-Süd, Zentral*10.85*Wasserwirtschaft und Kulturtechnik, Werkstattgebäude*Ernst-Gaber-Straße 2*76131*Karlsruhe*1953*0*KIT*alle Geschosse*lat=49,01053 lon=8,41656
+CS*Campus-Süd, Zentral*10.86*Versuchsanstalt Stahl/Holz/Steine, Laborgebäude*Otto-Ammann-Platz 5*76131*Karlsruhe*1934*0*KIT*alle Geschosse*lat=49,01005 lon=8,41649
+CS*Campus-Süd, Zentral*10.87*Versuchsanstalt Stahl/Holz/Steine, Versuchshalle*Ernst-Gaber-Straße 6*76131*Karlsruhe*1975, 2011*0*KIT*alle Geschosse*lat=49,01004 lon=8,41701
+CS*Campus-Süd, Zentral*10.88*Wasserwirtschaft und Kulturtechnik, Anbau*Ernst-Gaber-Straße 4a*76131*Karlsruhe*1922*0*KIT*alle Geschosse*lat=49,01039 lon=8,4164
+CS*Campus-Süd, Zentral*10.89*Wasserwirtschaft und Kulturtechnik, Bodenlabor*Ernst-Gaber-Straße 4b*76131*Karlsruhe*1996*0*KIT*alle Geschosse*lat=49,01039 lon=8,4164
+CS*Campus-Süd, Zentral*10.91*Maschinenbau, Altes Maschinenbaugebäude*Engelbert-Arnold-Straße 4*76131*Karlsruhe*1859*0*KIT*alle Geschosse*lat=49,00991 lon=8,41278
+CS*Campus-Süd, Zentral*10.92*wbk-Laborhalle*Engelbert-Arnold-Straße 6*76131*Karlsruhe*1899*0*KIT*alle Geschosse*lat=49,01028 lon=8,41315
+CS*Campus-Süd, Zentral*10.93*Fördertechnik / wbk, Laborhalle*Engelbert-Arnold-Straße 8*76131*Karlsruhe*1930*0*KIT*alle Geschosse*lat=49,01025 lon=8,41356
+CS*Campus-Süd, Zentral*10.94*Thermische Verfahrenstechnik, Laborhalle*Engelbert-Arnold-Straße 10*76131*Karlsruhe*1940*0*KIT*alle Geschosse*lat=49,0102 lon=8,41395
+CS*Campus-Süd, Zentral*10.95*Strömungslabor*Engelbert-Arnold-Straße 12*76131*Karlsruhe*1944*0*KIT*alle Geschosse*lat=49,01021 lon=8,41439
+CS*Campus-Süd, Zentral*10.96*Kolbenmaschinen / Kraftfahrzeugbau, Laborhalle*Rudolf-Plank-Straße 1*76131*Karlsruhe*1939*0*KIT*alle Geschosse*lat=49,00985 lon=8,41424
+CS*Campus-Süd, Zentral*10.99*Pförtnerhaus, Haupt-Einfahrt*Engesserstraße 21*76131*Karlsruhe*1972*0*KIT*gesamtes Gebäude*lat=49,01074 lon=8,41679
+CS*Campus-Süd, Zentral*11.10*Elektrotechnisches Institut (ETI)*Engelbert-Arnold-Straße 5*76131*Karlsruhe*1899*0*KIT*alle Geschosse*lat=49,01057 lon=8,41278
+CS*Campus-Süd, Zentral*11.11*Dienstgaragen*Engelbert-Arnold-Straße 5a*76131*Karlsruhe*1942*0*KIT*alle Geschosse*lat=49,01105 lon=8,41258
+CS*Campus-Süd, Zentral*11.20*Engler-Villa*Engesserstraße 14*76131*Karlsruhe*1900*0*KIT*alle Geschosse*lat=49,01106 lon=8,41206
+CS*Campus-Süd, Zentral*11.21*Chemische Technik*Engesserstraße 20*76131*Karlsruhe*1962*0*KIT*alle Geschosse*lat=49,01076 lon=8,41382
+CS*Campus-Süd, Zentral*11.22*Zentrale Betriebstechnik (ZBT)*Engelbert-Arnold-Straße 7*76131*Karlsruhe*2003*0*KIT*alle Geschosse*lat=49,01056 lon=8,41378
+CS*Campus-Süd, Zentral*11.23*Neue Chemische Technik + Polymer-Institut*Engesserstraße 18*76131*Karlsruhe*2002*0*KIT*alle Geschosse*lat=49,0108 lon=8,41346
+CS*Campus-Süd, Zentral*11.24*Fahrradgarage (für Geb.11.2x)*Engesserstraße 18*76131*Karlsruhe*2003*0*KIT*gesamtes Gebäude*lat=49,01082 lon=8,41367
+CS*Campus-Süd, Zentral*11.30*Chemische Technik, Altbau (im Umbau)*Engelbert-Arnold-Straße 2*76131*Karlsruhe*1881*0*KIT*alle Geschosse*lat=49,01011 lon=8,41257
+CS*Campus-Süd, Zentral*11.40*Kollegiengebäude am Ehrenhof*Englerstraße 11*76131*Karlsruhe*1903*0*KIT*alle Geschosse*lat=49,01019 lon=8,41153
+CS*Campus-Süd, Zentral*20.11*Kollegium am Schloss - Bau I*Schlossbezirk 11*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,01306 lon=8,40637
+CS*Campus-Süd, Zentral*20.12*Kollegium am Schloss - Bau II*Schlossbezirk 12*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,01262 lon=8,40681
+CS*Campus-Süd, Zentral*20.13*Kollegium am Schloss - Bau III*Schlossbezirk 13*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,01228 lon=8,40725
+CS*Campus-Süd, Zentral*20.14*Kollegium am Schloss - Bau IV*Schloßbezirk 14*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,01199 lon=8,40764
+CS*Campus-Süd, Zentral*20.15*Tiefgarage Universität Kollegiengebäude*Schlossbezirk 11*76131*Karlsruhe*1968*0*APCOA**lat=49,01148 lon=8,40801
+CS*Campus-Süd, Zentral*20.20*Kollegiengebäude am Zirkel, Teil 1*Zirkel 2*73131*Karlsruhe*1971*0*KIT*alle Geschosse*lat=49,01236 lon=8,40825
+CS*Campus-Süd, Zentral*20.21*Kollegiengebäude am Zirkel, Teil 2 (SCC)*Zirkel 2*73131*Karlsruhe*1971*0*KIT*alle Geschosse*lat=49,01203 lon=8,40811
+CS*Campus-Süd, Zentral*20.22*Außenbauwerk für Geb.20.20*Engesserstraße 2b*76131*Karlsruhe*1971*0*KIT*gesamtes Gebäude*lat=49,01253 lon=8,4085
+CS*Campus-Süd, Zentral*20.30*Kollegiengebäude Mathematik (im Umbau)*Englerstraße 2*76131*Karlsruhe*1962*0*KIT*komplettes Gebäude*lat=49,01119 lon=8,40934
+CS*Campus-Süd, Zentral*20.40*Architekturgebäude*Englerstraße 7*76131*Karlsruhe*1899*0*KIT*alle Geschosse*lat=49,01085 lon=8,41084
+CS*Campus-Süd, Zentral*20.42*Kondensatrückspeisestation (ehemals)*Englerstraße 7*76131*Karlsruhe**0*VBAKA**lat=49,01175 lon=8,41083
+CS*Campus-Süd, Zentral*20.50*Winkelwohnblock E2*Engesserstraße 2*76131*Karlsruhe*1927*0*KIT u. VBAKA*einzelne Wohnungen*lat=49,0125 lon=8,40877
+CS*Campus-Süd, Zentral*20.51*Winkelwohnblock E4*Engesserstraße 4*76131*Karlsruhe*1927*0*KIT u. VBAKA*einzelne Wohnungen*lat=49,01238 lon=8,4091
+CS*Campus-Süd, Zentral*20.52*Winkelwohnblock E6*Engesserstraße 6*76131*Karlsruhe*1923*0*KIT u. VBAKA*einzelne Wohnungen*lat=49,01226 lon=8,40944
+CS*Campus-Süd, Zentral*20.53*Winkelwohnblock NZ3*Neuer Zirkel 3*76131*Karlsruhe*1923*0*KIT u. VBAKA*einzelne Wohnungen*lat=49,01211 lon=8,40943
+CS*Campus-Süd, Zentral*20.54*Winkelwohnblock NZ1*Neuer Zirkel 1*76131*Karlsruhe*1923*0*KIT u. VBAKA*Teil des Gebäudes*lat=49,01192 lon=8,40929
+CS*Campus-Süd, Zentral*30.10*Nachrichtentechnik, Institutsgebäude*Engesserstraße 5*76131*Karlsruhe*1961*0*KIT*alle Geschosse*lat=49,01282 lon=8,40969
+CS*Campus-Süd, Zentral*30.11*Nachrichtentechnik, Technische Station*Engesserstraße 5b*76131*Karlsruhe*1961*0*KIT*alle Geschosse*lat=49,01303 lon=8,40979
+CS*Campus-Süd, Zentral*30.12*Nachrichtentechnik, Meßplatz*Engesserstraße 5b*76131*Karlsruhe*1981*0*KIT*alle Geschosse*lat=49,01305 lon=8,4091
+CS*Campus-Süd, Zentral*30.21*Gerthsen-Hörsaalgebäude*Engesserstraße 9*76131*Karlsruhe*1956*0*KIT*alle Geschosse*lat=49,01218 lon=8,41148
+CS*Campus-Süd, Zentral*30.22*Physik-Flachbau*Engesserstraße 7*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,01238 lon=8,41084
+CS*Campus-Süd, Zentral*30.23*Physik-Hochhaus*Wolfgang-Gaede-Straße 1*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,01285 lon=8,41087
+CS*Campus-Süd, Zentral*30.24*Physik-Werkstattgebäude*Wolfgang-Gaede-Straße 3*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,01313 lon=8,41098
+CS*Campus-Süd, Zentral*30.25*Centrum für Funktionelle Nanostrukturen (CFN)*Wolfgang-Gaede-Straße 1a*76131*Karlsruhe*2008*0*KIT*alle Geschosse*lat=49,0129 lon=8,41176
+CS*Campus-Süd, Zentral*30.29*Start-up Pavillon*Engesserstraße 9*76131*Karlsruhe*2009*0*KIT*gesamtes Gebäude*lat=49,01196 lon=8,41151
+CS*Campus-Süd, Zentral*30.31*Biomedizinische Technik, Laborgebäude*Fritz-Haber-Weg 1*76131*Karlsruhe*1975*0*KIT*alle Geschosse*lat=49,01244 lon=8,41335
+CS*Campus-Süd, Zentral*30.32*Trafostation 30*Leonhard-Sohnke-Weg 4*76131*Karlsruhe*1961*0*KIT*alle Geschosse*lat=49,01246 lon=8,41271
+CS*Campus-Süd, Zentral*30.33*Allgemeine Elektrotechnik*Fritz-Haber-Weg 1*76131*Karlsruhe*1961*0*KIT*alle Geschosse*lat=49,0122 lon=8,41297
+CS*Campus-Süd, Zentral*30.34*Lichttechnik*Engesserstraße 13*76131*Karlsruhe*1961*0*KIT*alle Geschosse*lat=49,01148 lon=8,4129
+CS*Campus-Süd, Zentral*30.35*Hochspannungstechnik, Institutsgebäude*Engesserstraße 11b*76131*Karlsruhe*1961*0*KIT*alle Geschosse*lat=49,01173 lon=8,41267
+CS*Campus-Süd, Zentral*30.36*Hochspannungstechnik, Laborhalle*Engesserstraße 11a*76131*Karlsruhe*1961*0*KIT*alle Geschosse*lat=49,01168 lon=8,41235
+CS*Campus-Süd, Zentral*30.37*MeRegioMobil-Container (Smart-Home)*Wolfgang-Gaede-Straße ?*76131*Karlsruhe*2010*0*KIT u. a.*gesamtes Gebäude*lat=49,01277 lon=8,41239
+CS*Campus-Süd, Zentral*30.41*Chemie-Flachbau*Fritz-Haber-Weg 2-6*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,01207 lon=8,41378
+CS*Campus-Süd, Zentral*30.42*Organische Chemie*Fritz-Haber-Weg 6*76131*Karlsruhe*1965*0*KIT*alle Geschosse*lat=49,01303 lon=8,41422
+CS*Campus-Süd, Zentral*30.43*Chemie-Turm I*Fritz-Haber-Weg 4*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,0124 lon=8,41454
+CS*Campus-Süd, Zentral*30.44*Chemie-Turm II*Fritz-Haber-Weg 2*76131*Karlsruhe*1968*0*KIT*alle Geschosse*lat=49,01194 lon=8,4144
+CS*Campus-Süd, Zentral*30.45*Chemie-Turm III - Anorganische Chemie (AC)*Engesserstraße 15*76131*Karlsruhe*1976*0*KIT*alle Geschosse*lat=49,01134 lon=8,41347
+CS*Campus-Süd, Zentral*30.46*Chemie-Hörsaalgebäude*Engesserstraße 15*76131*Karlsruhe*1983*0*KIT*alle Geschosse*lat=49,01165 lon=8,41414
+CS*Campus-Süd, Zentral*30.50*KIT-Bibliothek Süd, Altbau*Straße am Forum 2*76131*Karlsruhe*1966*0*KIT*alle Geschosse*lat=49,01125 lon=8,41638
+CS*Campus-Süd, Zentral*30.51*KIT-Bibliothek Süd, Neubau*Straße am Forum 2*76131*Karlsruhe*2006*0*KIT*alle Geschosse*lat=49,01095 lon=8,41613
+CS*Campus-Süd, Zentral*30.52*KIT-Bibliothek, Betriebshof*Straße am Forum 2*76131*Karlsruhe*2006*0*KIT*alle Geschosse*lat=49,0112 lon=8,41678
+CS*Campus-Süd, Zentral*30.60*Therm.Strömungsmaschinen / Techn.Thermodynamik, Laborhalle*Straße am Forum 6*76131*Karlsruhe*1954*0*KIT*alle Geschosse*lat=49,01239 lon=8,41651
+CS*Campus-Süd, Zentral*30.61*Therm.Strömungsmaschinen / Techn.Thermodynamik, Anbau*Straße am Forum 6*76131*Karlsruhe*1972*0*KIT*alle Geschosse*lat=49,0123 lon=8,4175
+CS*Campus-Süd, Zentral*30.62*Wasserrückkühlanlage*Straße am Forum 6*76131*Karlsruhe*1972*0*KIT*Komplett*lat=49,01251 lon=8,41722
+CS*Campus-Süd, Zentral*30.70*Mechanische Verfahrenstechnik und Mechanik, Institutsgebäude*Straße am Forum 8*76131*Karlsruhe*1962*0*KIT*alle Geschosse*lat=49,0131 lon=8,41673
+CS*Campus-Süd, Zentral*30.79*Kinderbetreuung*Richard-Willstätter-Allee 8*76131*Karlsruhe*2003*0*KIT*alle Geschosse*lat=49,01332 lon=8,4171
+CS*Campus-Süd, Zentral*30.80*Sporthalle II*Straße am Forum 7*76131*Karlsruhe*1956*0*KIT*alle Geschosse*lat=49,01329 lon=8,41527
+CS*Campus-Süd, Zentral*30.81*Altes Stadiongebäude / Studentenzentrum AKK*Engesserstraße 17*76131*Karlsruhe*1931*0*KIT*alle Geschosse*lat=49,01105 lon=8,41493
+CS*Campus-Süd, Zentral*30.82*Gerätehaus Gebäudebetriebssdienst*Engesserstraße 19*76131*Karlsruhe*1931*0*KIT*alle Geschosse*lat=49,01112 lon=8,4153
+CS*Campus-Süd, Zentral*30.90*Lösungsmittel- und Säurelager*Fritz-Haber-Weg 8*76131*Karlsruhe*1990*0*KIT*alle Geschosse*lat=49,01337 lon=8,41423
+CS*Campus-Süd, Zentral*30.91*Franz-Schnabel-Haus*Fritz-Haber-Weg 7*76131*Karlsruhe*1950*0*KIT*alle Geschosse*lat=49,0132 lon=8,41354
+CS*Campus-Süd, Zentral*30.93*Sonderabfall-Zwischenlager*Fritz-Haber-Weg 5*76131*Karlsruhe*1997*0*KIT*alle Geschosse*lat=49,0128 lon=8,41341
+CS*Campus-Süd, Zentral*30.95*Hörsaal-Gebäude am Forum (AUDIMAX)*Straße am Forum 1*76131*Karlsruhe*2002*0*KIT*alle Geschosse*lat=49,01251 lon=8,41569
+CS*Campus-Süd, Zentral*30.96*Zentrum für Ost- und Mitteleuropa (ZOM)*Straße am Forum 3*76131*Karlsruhe*2003*0*KIT*alle Geschosse*lat=49,01306 lon=8,41592
+CS*Campus-Süd, Zentral*40.02*Engler-Bunte-Institut (EBI) - Gas, Erdöl u. Kohle, Anbau*Engler-Bunte-Ring 3*76131*Karlsruhe*1992*0*KIT*alle Geschosse*lat=49,01445 lon=8,415
+CS*Campus-Süd, Zentral*40.04*Engler-Bunte-Institut (EBI) - Wasserchemie, Anbau*Engler-Bunte-Ring 9a*76131*Karlsruhe*1992*0*KIT*alle Geschosse*lat=49,01533 lon=8,41428
+CS*Campus-Süd, Zentral*40.11*Engler-Bunte-Institut (EBI) - Institutsleitung*Engler-Bunte-Ring 1*76131*Karlsruhe*1962*0*KIT*alle Geschosse*lat=49,01398 lon=8,41493
+CS*Campus-Süd, Zentral*40.12*Engler-Bunte-Institut (EBI) - Gas, Erdöl und Kohle*Engler-Bunte-Ring 3*76131*Karlsruhe*1962*0*KIT*alle Geschosse*lat=49,0144 lon=8,41483
+CS*Campus-Süd, Zentral*40.13*Engler-Bunte-Institut (EBI) - Feuerungstechnik*Engler-Bunte-Ring 7*76131*Karlsruhe*1962*0*KIT*alle Geschosse, DVGW im OG3*lat=49,01491 lon=8,41502
+CS*Campus-Süd, Zentral*40.14*Engler-Bunte-Institut (EBI) - Wasserchemie*Engler-Bunte-Ring 9b*76131*Karlsruhe*1962*0*KIT*alle Geschosse*lat=49,01504 lon=8,41424
+CS*Campus-Süd, Zentral*40.15*Engler-Bunte-Institut (EBI) - Werkstattgebäude*Engler-Bunte-Ring 11a*76131*Karlsruhe*1961*0*KIT*alle Geschosse*lat=49,01519 lon=8,4151
+CS*Campus-Süd, Zentral*40.16*Kälteanlage, Zentrale*Engler-Bunte-Ring 11b*76131*Karlsruhe*1971*0*KIT*alle Geschosse*lat=49,01541 lon=8,41512
+CS*Campus-Süd, Zentral*40.17*Abspannwerk (110 kV)*Engler-Bunte-Ring 11d*76131*Karlsruhe*1971*0*KIT*alle Geschosse*lat=49,01565 lon=8,41425
+CS*Campus-Süd, Zentral*40.18*Trafostation TG40*Engler-Bunte-Ring 11c*76131*Karlsruhe*1971*0*KIT*alle Geschosse*lat=49,01565 lon=8,41467
+CS*Campus-Süd, Zentral*40.19*Engler-Bunte-Institut (EBI) - Petrochemie*Engler-Bunte-Ring 5*76131*Karlsruhe*1984*0*KIT*alle Geschosse*lat=49,01458 lon=8,41421
+CS*Campus-Süd, Zentral*40.21*Boden- und Felsmechanik Bauteil 1, Institutsgebäude*Engler-Bunte-Ring 14*76131*Karlsruhe*1960*0*KIT*alle Geschosse*lat=49,01414 lon=8,41542
+CS*Campus-Süd, Zentral*40.22*Boden- und Felsmechanik Bauteil 2, Institutsgebäude*Engler-Bunte-Ring 14*76131*Karlsruhe*1960*0*KIT*alle Geschosse*lat=49,01405 lon=8,41625
+CS*Campus-Süd, Zentral*40.23*Boden- und Felsmechanik Bauteil 3, Institutsgebäude*Engler-Bunte-Ring 14*76131*Karlsruhe*1959*0*KIT*alle Geschosse*lat=49,01424 lon=8,41625
+CS*Campus-Süd, Zentral*40.24*Boden- und Felsmechanik Bauteil 4, Institutsgebäude*Engler-Bunte-Ring 14*76131*Karlsruhe*1959*0*KIT*alle Geschosse*lat=49,01436 lon=8,41603
+CS*Campus-Süd, Zentral*40.25*Boden- und Felsmechanik Bauteil 5, Institutsgebäude*Engler-Bunte-Ring 12*76131*Karlsruhe*1959*0*KIT*alle Geschosse*lat=49,01467 lon=8,41607
+CS*Campus-Süd, Zentral*40.26*Boden- und Felsmechanik Bauteil 6, Institutsgebäude*Engler-Bunte-Ring 2*76131*Karlsruhe*1966*0*KIT*alle Geschosse*lat=49,0146 lon=8,41587
+CS*Campus-Süd, Zentral*40.27*Boden- und Felsmechanik, Laborhalle*Engler-Bunte-Ring 2*76131*Karlsruhe*1990*0*KIT*alle Geschosse*lat=49,01448 lon=8,41551
+CS*Campus-Süd, Zentral*40.28*Prozeßrechentechnik und Robotik, Institutsgebäude*Engler-Bunte-Ring 8*76131*Karlsruhe*1983*0*KIT*alle Geschosse*lat=49,01524 lon=8,41587
+CS*Campus-Süd, Zentral*40.29*Maschinenbau / Bauingenieure, Versuchshalle*Engler-Bunte-Ring 4*76131*Karlsruhe*1990*0*KIT*alle Geschosse*lat=49,01472 lon=8,41546
+CS*Campus-Süd, Zentral*40.31*Technische Thermodynamik und Kältetechnik, Versuchshalle*Engler-Bunte-Ring 21*76131*Karlsruhe*1962*0*KIT*alle Geschosse*lat=49,01413 lon=8,41709
+CS*Campus-Süd, Zentral*40.32*Tech.Thermodyn.u.Kältetechn./Mess-u.Regelungstechn., Institutsgeb.*Engler-Bunte-Ring 21*76131*Karlsruhe*1962*0*KIT*alle Geschosse*lat=49,01463 lon=8,41726
+CS*Campus-Süd, Zentral*40.33*Mess- u. Regelungstechnik, Maschinenlaboratorium*Engler-Bunte-Ring 21*76131*Karlsruhe*1962*0*KIT*alle Geschosse*lat=49,01492 lon=8,4168
+CS*Campus-Süd, Zentral*40.39*Pförtnerhaus, Nord-Einfahrt*Engler-Bunte-Ring 19*76131*Karlsruhe*1970*0*KIT*gesamtes Gebäude*lat=49,01523 lon=8,41763
+CS*Campus-Süd, Zentral*40.40*Sport und Sportwissenschaft, Schwimmhalle, Institutsgebäude*Engler-Bunte-Ring 15*76131*Karlsruhe*1979*0*KIT*alle Geschosse*lat=49,01557 lon=8,41644
+CS*Campus-Süd, Zentral*40.41*"Sport und Sportwissenschaft, Tennishaus ""heimspiel."""*Lärchenallee 3*76131*Karlsruhe*1974*0*KIT*alle Geschosse*lat=49,01796 lon=8,41407
+CS*Campus-Süd, Zentral*40.43*Sport und Sportwissenschaft, Gerätehaus*Hagsfelder Allee 3*76131*Karlsruhe*1984*0*KIT*alle Geschosse*lat=49,01674 lon=8,4158
+CS*Campus-Süd, Zentral*40.44*Sporthalle*Engler-Bunte-Ring 13*76131*Karlsruhe*2011*0*KIT*alle Geschosse*lat=49,01584 lon=8,41516
+CS*Campus-Süd, Zentral*50.10*Botanischer Garten, Labor- und Gewächshaus*Am Fasanengarten 2*76131*Karlsruhe*1956*0*KIT*alle Geschosse*lat=49,01312 lon=8,41926
+CS*Campus-Süd, Zentral*50.12*Botanischer Garten, Gewächshaus*Am Fasanengarten 2*76131*Karlsruhe*1978*0*KIT*alle Geschosse*lat=49,01291 lon=8,41952
+CS*Campus-Süd, Zentral*50.15*Botanischer Garten, Gerätehaus*Am Fasanengarten 1*76131*Karlsruhe*1979*0*KIT*alle Geschosse*lat=49,01512 lon=8,41896
+CS*Campus-Süd, Zentral*50.20*Ergänzungsbauten am Ring - Hauptgebäude*Adenauerring 2*76131*Karlsruhe*1907*0*KIT*alle Geschosse*lat=49,0103 lon=8,4189
+CS*Campus-Süd, Zentral*50.21*Ergänzungsbauten am Ring - ehem. Infektbau*Adenauerring 4*76131*Karlsruhe*1955*0*KIT*alle Geschosse*lat=49,01075 lon=8,41868
+CS*Campus-Süd, Zentral*50.22*Ergänzungsbauten am Ring - Studentenwohnheim Kolleg am Ring*Adenauerring 6*76131*Karlsruhe*1955*0*KIT u. a.*nur Seminarraum im Anbau*lat=49,0109 lon=8,41972
+CS*Campus-Süd, Zentral*50.24*Ergänzungsbauten am Ring - Kindertagesstätte WiKi*Karl-Wilhelm-Straße 1*76131*Karlsruhe*1953*0*KIT u. a.*alle Geschosse*lat=49,01016 lon=8,41937
+CS*Campus-Süd, Zentral*50.25*Ergänzungsbauten am Ring - ehem. Verwaltung*Adenauerring 8*76131*Karlsruhe*1907*0*KIT u. a.*alle Geschosse*lat=49,01001 lon=8,41915
+CS*Campus-Süd, Zentral*50.26*KinderUni-Versum (in Planung)****geplant: 2011-2013*0*9999**lat=49,01056 lon=8,41955
+CS*Campus-Süd, Zentral*50.27*Trafo-Container*Adenauerring ?*76131*Karlsruhe*2011**KIT u. a.*gesamtes Gebäude*lat=49,01082 lon=8,41815
+CS*Campus-Süd, Zentral*50.29*Pförtnerhaus, Ring-Einfahrt*Adenauerring 10*76131*Karlsruhe*1955*0*KIT*gesamtes Gebäude*lat=49,01119 lon=8,41838
+CS*Campus-Süd, Zentral*50.31*Bauingenieure, Kollegiengebäude III*Gotthard-Franz-Straße 3*76131*Karlsruhe*1970*0*KIT*alle Geschosse*lat=49,01413 lon=8,42058
+CS*Campus-Süd, Zentral*50.32*Bauingenieure, Prüfhalle*Gotthard-Franz-Straße 2*76131*Karlsruhe*1970*0*KIT*alle Geschosse*lat=49,0141 lon=8,42141
+CS*Campus-Süd, Zentral*50.33*Bauingenieure / Maschinenbau, Versuchshalle*Gotthard-Franz-Straße 9-10*76131*Karlsruhe*1978*0*KIT*alle Geschosse*lat=49,01461 lon=8,42085
+CS*Campus-Süd, Zentral*50.34*INFORMATIK, Kollegiengebäude am Fasanengarten*Am Fasanengarten 5a/b*76131*Karlsruhe*1989*0*KIT*alle Geschosse*lat=49,01379 lon=8,41948
+CS*Campus-Süd, Zentral*50.35*Fasanengarten-Hörsaalgebäude*Gotthard-Franz-Straße 7*76131*Karlsruhe*1985*0*KIT*alle Geschosse*lat=49,01479 lon=8,4205
+CS*Campus-Süd, Zentral*50.36*wbk - Versuchs- und Bürogebäude*Gotthard-Franz-Straße 5*76131*Karlsruhe*1987*0*KIT*alle Geschosse*lat=49,01462 lon=8,41951
+CS*Campus-Süd, Zentral*50.37*Tiefgarage Fasanengarten*Am Fasanengarten 7*76131*Karlsruhe*1990*0*APCOA**lat=49,01363 lon=8,42047
+CS*Campus-Süd, Zentral*50.38*Fördertechnik u. Logistiksysteme, Institutsgeb. mit Laborhalle*Gotthard-Franz-Straße 8*76131*Karlsruhe*1999*0*KIT*alle Geschosse*lat=49,01507 lon=8,42077
+CS*Campus-Süd, Zentral*50.40*Forschungszentrum Umwelt (FZU)*Adenauerring 20b*76131*Karlsruhe*1997*0*KIT*alle Geschosse*lat=49,01552 lon=8,42021
+CS*Campus-Süd, Zentral*50.41*Allgemeines Verfügungsgebäude (AVG) mit Rundbau*Adenauerring 20a*76131*Karlsruhe*1997*0*KIT*alle Geschosse*lat=49,01545 lon=8,41968
+CS*Campus-Ost, Mackensen*70.01*BW Pforte*Rintheimer Querallee 2*76131*Karlsruhe**0*BW**lat=49,02104 lon=8,43158
+CS*Campus-Ost, Mackensen*70.02*BW Kantine*Rintheimer Querallee 2*76131*Karlsruhe**0*BW**lat=49,02138 lon=8,43249
+CS*Campus-Ost, Mackensen*70.03*BW Mannschaftsgebäude*Rintheimer Querallee 2*76131*Karlsruhe**0*BW**lat=49,02229 lon=8,43392
+CS*Campus-Ost, Mackensen*70.04*Mackensen-Bau 04*Rintheimer Querallee 2*76131*Karlsruhe*1930*0*KIT u. a.**lat=49,02276 lon=8,43357
+CS*Campus-Ost, Mackensen*70.11*Kolbenmaschinen, Motorenprüfstandshalle*Rintheimer Querallee 2*76131*Karlsruhe*1930*0*KIT*gesamtes Gebäude*lat=49,02377 lon=8,43121
+CS*Campus-Ost, Mackensen*70.12*Technikzentrale Ost*Rintheimer Querallee 2*76131*Karlsruhe*2005*0*KIT*alle Geschosse*lat=49,0242 lon=8,43189
+CS*Campus-Ost, Mackensen*70.13*Containeranlage Motorenprüfstände*Rintheimer Querallee 2*76131*Karlsruhe*2002*0*KIT*gesamtes Gebäude*lat=49,02339 lon=8,43143
+CS*Campus-Ost, Mackensen*70.14*KFZ-und Motorenprüfstandshalle*Rintheimer Querallee 2*76131*Karlsruhe*2005*0*KIT*alle Geschosse*lat=49,02387 lon=8,43239
+CS*Campus-Ost, Mackensen*70.15*Kolbenmaschinen, Tanklager*Rintheimer Querallee 2*76131*Karlsruhe*2002*0*KIT*gesamtes Gebäude*lat=49,02394 lon=8,431
+CS*Campus-Ost, Mackensen*70.16*Mackensen-Bau 16*Rintheimer Querallee 2*76131*Karlsruhe*1930*0*KIT*nur OG 2*lat=49,02176 lon=8,43091
+CS*Campus-Ost, Mackensen*70.17*BW Halle*Rintheimer Querallee 2*76131*Karlsruhe**0*BW**lat=49,02242 lon=8,43263
+CS*Campus-Ost, Mackensen*70.18*Mackensen-Bau 18*Rintheimer Querallee 2*76131*Karlsruhe*1930*0*StudW*keine Nutzung*lat=49,02138 lon=8,4316
+CS*Campus-Ost, Mackensen*70.19*BW Sporthalle*Rintheimer Querallee 2*76131*Karlsruhe**0*BW**lat=49,02305 lon=8,42982
+CS*Campus-Ost, Mackensen*70.20*BW Kapelle*Rintheimer Querallee 2*76131*Karlsruhe**0*BW**lat=49,02186 lon=8,4328
+CS*Campus-Ost, Mackensen*70.21*KFZ-Prüfhalle*Rintheimer Querallee 2*76131*Karlsruhe*2011*0*KIT*gesamtes Gebäude*lat=49,02373 lon=8,43287
+CS*Campus-Ost, Mackensen*70.22*KFZ-Rollenprüfstand*Rintheimer Querallee 2*76131*Karlsruhe*2011*0*KIT*alle Geschosse*lat=49,02419 lon=8,43273
+CS*Campus-Ost, Mackensen*70.24*BW  Technik*Rintheimer Querallee 2*76131*Karlsruhe**0*BW**lat=49,02341 lon=8,43013
+CS*Campus-Ost, Mackensen*70.25*BW Technik*Rintheimer Querallee 2*76131*Karlsruhe**0*BW**lat=49,0233 lon=8,43034
+CS*Campus-Ost, Mackensen*70.26*Mackensen-Halle 26*Rintheimer Querallee 2*76131*Karlsruhe*2001*0*KIT*gesamte Halle*lat=49,023 lon=8,43348
+CS*Campus-Ost, Mackensen*70.30*BW Kantine, Technikgebäude*Rintheimer Querallee 2*76131*Karlsruhe**0*BW**lat=49,02133 lon=8,43303
+CS*Campus-Ost, Mackensen*70.99*Lagercontainer-Standfläche*Rintheimer Querallee 2*76131*Karlsruhe*2003*0*KIT*alle Container*lat=49,02322 lon=8,43322
+CS*Campus-Ost, Mackensen*71.14*BW Halle 14*Rintheimer Querallee 2*76131*Karlsruhe*1930*0*KIT u. BW*Teile des Gebäudes*lat=49,02248 lon=8,43028
+CS*Campus-Ost, Mackensen*71.15*BW Halle 15*Rintheimer Querallee 2*76131*Karlsruhe*1930*0*KIT u. BW*Teile des Gebäudes*lat=49,02227 lon=8,43052
+CS*Campus-Süd, Extern*99.01*Mikrostrukturtechnik (IMT) CN 0301*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1959*0*KIT*alle Geschosse*lat=49,09469 lon=8,42942
+CS*Campus-Süd, Extern*99.02*Trafobunker CN 0308*Hermann-von-Helmholtz-Platz 1*76344*Eggenstein-Leopoldshafen*1962*0*KIT*gesamtes Gebäude*lat=49,09469 lon=8,42942
+CS*Campus-Süd, Extern*99.13*Halle, Rastatt-Wintersdorf*Beinheimer Straße 9*76437*Rastatt-Wintersdorf*2001*1*KIT u. a.*Teile des EG*lat=48,8423 lon=8,13729
+CS*Campus-Süd, Extern*99.20*TMB, Versuchsgelände in Hochstetten*Gewann Unterhochstetter ?*76351*Linkenheim-Hochstetten*1971*0*KIT*gesamtes Gelände*lat=49,13 lon=8,43965
+CS*Campus-Süd, Extern*99.30*Forschungsstelle Brandschutztechnik (FFB), Brandversuchshalle*In den Kuhwiesen 7*76149*Karlsruhe*1988*0*KIT*alle Geschosse*lat=49,06619 lon=8,36879
+CS*Campus-Süd, Extern*99.50*Geowiss. Gemeinschaftsobservatorium Schiltach, Labor*Heubach 206a*77773*Schenkenzell*1971*0*KIT u. a.*gesamtes Gebäude*lat=48,33048 lon=8,32296
+CS*Campus-Süd, Extern*99.51*Geowiss. Gemeinschaftsobservatorium Schiltach, Garage*Heubach 206b*77773*Schenkenzell*1976*0*KIT u. a.*gesamtes Gebäude*lat=48,33048 lon=8,32296
+CS*Campus-Süd, Extern*99.52*Geowiss. Gemeinschaftsobservatorium Schiltach, Meßhütte*Heubach 206c*77773*Schenkenzell*1971*0*KIT u. a.*gesamtes Gebäude*lat=48,33048 lon=8,32296
+CS*Campus-Süd, Extern*99.53*Geowiss. Gemeinschaftsobservatorium Schiltach, Grube Anton*Heubach 206d*77773*Schenkenzell*1971*0*KIT u. a.*gesamte Grube*lat=48,33048 lon=8,32296
+CS*Campus-Süd, Extern*99.60*Zündhütle (Schrotturm)*Tiefentalstraße 101*76228*Karlsruhe*1953*0*KIT*gesamtes Gebäude*lat=48,9815 lon=8,46226
+CS*Campus-Süd, Extern*99.70*WWF-Auen-Institut*Josefstraße 1*76347*Rastatt*1900*1*KIT*alle Geschosse*lat=48,85351 lon=8,20677
+CS*Campus-Süd, Extern*99.80*Ruderzentrum KRV Wiking, Teilfläche der Bootshalle*Hansastraße 18*76189*Karlsruhe*1986*1*KIT u. a.*Eine Bootshalle im EG*lat=49,01015 lon=8,33485
+CS*Campus-Süd, Zentral*S110*Schacht, Heizung S110********lat=49,01174 lon=8,4058
+CS*Campus-Süd, Zentral*S111*Schacht, Heizung S111********
+CS*Campus-Süd, Zentral*S112*Schacht, Heizung S112********lat=49,0198 lon=8,41261
+CS*Campus-Süd, Zentral*S113*Schacht, Heizung S113********
+CS*Campus-Süd, Zentral*S122*Schacht, Kühlwasser S122********
+CS*Campus-Süd, Zentral*S160*Schacht, Heizung S160********
+CS*Campus-Süd, Zentral*S171*Schacht, Heizung S171********
+CS*Campus-Süd, Zentral*S173*Schacht, Heizung S173********
+CS*Campus-Süd, Zentral*S180*Schacht, Heizung S180********
+CS*Campus-Süd, Zentral*S200*Schacht, Kühlwasser S200********lat=49,01542 lon=8,41435
+CS*Campus-Süd, Zentral*S201*Schacht, Kühlwasser S201********lat=49,01528 lon=8,41533
+CS*Campus-Süd, Zentral*S202*Schacht, Kühlwasser S202********lat=49,01386 lon=8,41634
+CS*Campus-Süd, Zentral*S203*Schacht, Kühlwasser S203********lat=49,01383 lon=8,41667
+CS*Campus-Süd, Zentral*S204*Schacht, Kühlwasser S204********lat=49,01375 lon=8,41625
+CS*Campus-Süd, Zentral*S205*Schacht, Kühlwasser S205********lat=49,01295 lon=8,41618
+CS*Campus-Süd, Zentral*S206*Schacht, Kühlwasser S206********lat=49,01094 lon=8,41597
+CS*Campus-Süd, Zentral*S207*Schacht, Kühlwasser S207********lat=49,01094 lon=8,41597
+CS*Campus-Süd, Zentral*S208*Schacht, Kühlwasser S208********
+CS*Campus-Süd, Zentral*S209*Schacht, Kühlwasser S209********lat=49,01105 lon=8,41373
+CS*Campus-Süd, Zentral*S210*Schacht, Kühlwasser S210********lat=49,01124 lon=8,41301
+CS*Campus-Süd, Zentral*S211*Schacht, Kühlwasser S211********lat=49,0114 lon=8,41252
+CS*Campus-Süd, Zentral*S212*Schacht, Kühlwasser S212********lat=49,01157 lon=8,41191
+CS*Campus-Süd, Zentral*S213*Schacht, Kühlwasser S213********
+CS*Campus-Süd, Zentral*S214*Schacht, Kühlwasser S214********lat=49,01235 lon=8,40983
+CS*Campus-Süd, Zentral*S215*Schacht, Kühlwasser S215********lat=49,0116 lon=8,40928
+CS*Campus-Süd, Zentral*S216*Schacht, Kühlwasser S216********lat=49,01145 lon=8,40907
+CS*Campus-Süd, Zentral*S217*Schacht, Kühlwasser S217********lat=49,01249 lon=8,4082
+CS*Campus-Süd, Zentral*S218*Schacht, Kühlwasser S218********lat=49,01368 lon=8,41395
+CS*Campus-Süd, Zentral*S219*Schacht, Kühlwasser S219********lat=49,01534 lon=8,4147
+CS*Campus-Süd, Zentral*S220*Schacht, Kühlwasser S220********lat=49,01249 lon=8,4082
+CS*Campus-Süd, Zentral*S221*Schacht, Kühlwasser S221********lat=49,01475 lon=8,41544
+CS*Campus-Süd, Zentral*S230*Schacht, Kühlwasser S230********lat=49,01199 lon=8,40854
+CS*Campus-Süd, Zentral*S232*Schacht, Kühlwasser S232********lat=49,0109 lon=8,41069
+CS*Campus-Süd, Zentral*S233*Schacht, Kühlwasser S233********lat=49,01056 lon=8,4118
+CS*Campus-Süd, Zentral*S234*Schacht, Kühlwasser S234********lat=49,01055 lon=8,41227
+CS*Campus-Süd, Zentral*S235*Schacht, Kühlwasser S235********lat=49,01048 lon=8,41382
+CS*Campus-Süd, Zentral*S236*Schacht, Kühlwasser S236********lat=49,01047 lon=8,41457
+CS*Campus-Süd, Zentral*S237*Schacht, Kühlwasser S237********lat=49,0096 lon=8,41355
+CS*Campus-Süd, Zentral*S238*Schacht, Kühlwasser S238********lat=49,00972 lon=8,41219
+CS*Campus-Süd, Zentral*S239*Schacht, Kühlwasser S239********lat=49,0096 lon=8,41355
+CS*Campus-Süd, Zentral*S240*Schacht, Kühlwasser S240********lat=49,00968 lon=8,41444
+CS*Campus-Süd, Zentral*S241*Schacht, Kühlwasser S241********lat=49,00949 lon=8,41541
+CS*Campus-Süd, Zentral*S242*Schacht, Kühlwasser S242********lat=49,00963 lon=8,41602
+CS*Campus-Süd, Zentral*S243*Schacht, Kühlwasser S243********lat=49,00961 lon=8,4166
+CS*Campus-Süd, Zentral*S244*Schacht, Kühlwasser S244********lat=49,01025 lon=8,41725
+CS*Campus-Süd, Zentral*S245*Schacht, Kühlwasser S245********lat=49,01078 lon=8,41728
+CS*Campus-Süd, Zentral*S246*Schacht, Kühlwasser S246********lat=49,0122 lon=8,41781
+CS*Campus-Süd, Zentral*S247*Schacht, Kühlwasser S247********lat=49,0122 lon=8,40878
+CS*Campus-Süd, Zentral*S248*Schacht, Kühlwasser S248********lat=49,0139 lon=8,4157
+CS*Campus-Süd, Zentral*S249*Schacht, Kühlwasser S249********lat=49,00973 lon=8,41318
+CS*Campus-Süd, Zentral*S250*Schacht, Kühlwasser S250********
+CS*Campus-Süd, Zentral*S251*Schacht, Kühlwasser S251********
+CS*Campus-Süd, Zentral*S401*Schacht, Wasserverteilung S401********lat=49,01388 lon=8,40642
+CS*Campus-Süd, Zentral*S402*Schacht, Wasserverteilung S402********lat=49,01364 lon=8,41188
+CS*Campus-Süd, Zentral*S403*Schacht, Wasserverteilung S403********lat=49,01332 lon=8,41318
+CS*Campus-Süd, Zentral*S404*Schacht, Wasserverteilung S404********lat=49,01315 lon=8,41852
+CS*Campus-Süd, Zentral*S405*Schacht, Wasserverteilung S405********lat=49,01307 lon=8,41849
+CS*Campus-Süd, Zentral*S406*Schacht, Wasserverteilung S406********lat=49,01373 lon=8,41886
+CS*Campus-Süd, West*S411*Schacht, Wasserverteilung S411********lat=49,02074 lon=8,36613
+CS*Campus-Süd, Zentral*S412*Schacht, Wasserverteilung S412********lat=49,01855 lon=8,41656
+CS*Campus-Süd, Zentral*S413*Schacht, Wasserverteilung S413********lat=49,0133 lon=8,42252
+CS*Campus-Süd, Zentral*S414*Schacht, Wasserverteilung S414********lat=49,01053 lon=8,4115
+CS*Campus-Süd, Zentral*S415*Schacht, Wasserverteilung S415********lat=49,00955 lon=8,41445

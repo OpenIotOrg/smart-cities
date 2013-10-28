@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false">
+    <string name="sparql_namespace">http://campus.guide/OpenIoT/owl#</string>
+    <string name="sparql_get_all_rooms">
+        PREFIX w3c: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+		PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+		SELECT ?label ?uri ?latitude ?longitude ?phone
+		WHERE   {
+			?uri  iot:label ?label  .
+			OPTIONAL {
+				?uri  iot:lat ?latitude ;
+				      iot:long ?longitude .
+			}
+			OPTIONAL {
+   				?uri iot:phone ?phone
+			}
+		}
+	</string>
+	<!--  TODO: Sollte nicht voraussetzen, das label eindeutig ist.  -->
+	<string name="sparql_get_room_by_id">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+		SELECT ?uri ?label  ?latitude ?longitude ?phone
+		WHERE {
+			&lt;%s&gt; iot:label ?label .
+			?uri iot:label ?label .
+			OPTIONAL {
+				?uri  iot:lat ?latitude ;
+				      iot:long ?longitude .
+			}
+			OPTIONAL {
+   				?uri iot:phone ?phone
+			}
+		}
+	</string>
+	<string name="sparql_get_room_properties">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+		PREFIX w3ct: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+		SELECT DISTINCT ?propertyClass
+		WHERE   {
+			&lt;%s&gt;  iot:roomProperty    ?property . 
+			?property   w3ct:type           ?propertyClass .
+			FILTER (?propertyClass != iot:Property) .
+			FILTER (?propertyClass != iot:Thing) .
+		}
+	</string>
+	<string name="sparql_get_room_properties_detail" formatted="false">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+		PREFIX w3ct: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+		SELECT ?propertyClass
+		WHERE   {
+			&lt;%s&gt;      iot:roomProperty    ?propertyClass .
+			?propertyClass  w3ct:type           &lt;%s&gt;
+        }
+	</string>
+	<string name="sparql_get_all_properties">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+		PREFIX w3c: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+		SELECT ?propertyClass
+		WHERE   {
+			?propertyClass w3c:subClassOf iot:Property .
+			FILTER (?propertyClass != iot:Property) .
+			FILTER (?propertyClass != iot:Thing) .
+		}
+	</string>
+	<string name="sparql_get_all_property_details">
+	    PREFIX w3c: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+		SELECT ?propertyClass
+		WHERE {
+			?propertyClass w3c:type &lt;%s&gt;
+		}
+	</string>	    
+	
+	
+	<string name="sparql_get_room_by_criteria_frame">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+		PREFIX w3c: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+	    SELECT DISTINCT ?label ?uri ?latitude ?longitude ?phone
+		WHERE   {
+         %s
+         OPTIONAL { ?uri iot:label ?label . }
+         OPTIONAL {
+			?uri  iot:lat ?latitude ;
+			      iot:long ?longitude .
+		 }
+		 OPTIONAL {
+  				?uri iot:phone ?phone
+		 }
+        }
+	</string>
+	<string name="sparql_get_room_by_criteria_content" formatted="false">
+	    "?uri iot:roomProperty ?property%d . ?property%d w3c:type iot:%s ."
+	</string>
+	<string name="sparql_get_room_by_criteria_content_sub" formatted="false">
+	    "?uri iot:roomProperty iot:%s ."
+	</string>
+	
+	<!--  Reservation-handling from here on -->
+	
+	<string name="sparql_get_reservation_by_id" formatted="false">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+	    SELECT
+	    	?room ?user ?startTime ?endTime ?appointmentWasKept
+	    WHERE
+		{
+			&lt;%s&gt;   iot:reservedRoom ?room ;
+			             iot:fromUser ?user ;
+				         iot:startTime ?startTime ;
+				         iot:endTime ?endTime ;
+				         iot:appointmentWasKept ?appointmentWasKept .
+			OPTIONAL {
+						   ?reservation iot:appointmentWasKept ?appointmentWasKept
+			}
+		}
+	</string>
+	<string name="sparql_get_all_reservation_from_user">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+	    SELECT
+	    	?reservation ?room ?startTime ?endTime ?appointmentWasKept
+	    WHERE
+		{
+			?reservation iot:reservedRoom ?room ;
+			             iot:fromUser &lt;%s&gt; ;
+				         iot:startTime ?startTime ;
+				         iot:endTime ?endTime ;
+				         iot:appointmentWasKept ?appointmentWasKept .
+			OPTIONAL {
+						   ?reservation iot:appointmentWasKept ?appointmentWasKept
+			}
+		}
+	</string>
+	<string name="sparql_get_all_reservation_from_room">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+	    SELECT
+	    	?reservation ?room ?startTime ?endTime ?appointmentWasKept
+	    WHERE
+		{
+			?reservation iot:reservedRoom &lt;%s&gt; ;
+			             iot:fromUser ?user ;
+				         iot:startTime ?startTime ;
+				         iot:endTime ?endTime ;
+				         iot:appointmentWasKept ?appointmentWasKept .
+			OPTIONAL {
+						   ?reservation iot:appointmentWasKept ?appointmentWasKept
+			}
+		}
+	</string>
+	<string name="sparql_add_new_reservation" formatted="false">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+	    INSERT DATA
+		{
+			&lt;%s&gt; iot:reservedRoom &lt;%s&gt; ;
+					   iot:fromUser &lt;%s&gt; ;
+					   iot:startTime %d ;
+					   iot:endTime %d ;
+					   iot:appointmentWasKept false .
+		}
+	</string>
+	<string name="sparql_remove_reservation" formatted="false">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+	    DELETE DATA
+		{
+			&lt;%s&gt; iot:reservedRoom ?room ;
+					   iot:fromUser ?user ;
+					   iot:startTime ?startTime ;
+					   iot:endTime ?endTime ;
+					   iot:appointmentWasKept ?appointmentWasKept .
+		}
+	</string>
+	<string name="sparql_ask_reservation" formatted="false">
+		PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+		ASK
+		{
+			?reservation iot:reservedRoom &lt;%s&gt; ;
+						 iot:startTime ?startTime ;
+						 iot:endTime ?endTime .
+			FILTER (
+				(?endTime   &gt; %d &amp;&amp; ?endTime   &lt; %d) || 
+				(?startTime &gt; %d &amp;&amp; ?startTime &lt; %d) ||
+				(?startTime &lt; %d &amp;&amp; ?endTime   &gt; %d) ||
+				(?startTime &gt; %d &amp;&amp; ?endTime   &lt; %d) 
+			)
+		}
+	</string>
+	<string name="sparql_add_appointmentWasKept_to_reservation" formatted="false">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+	    INSERT DATA
+		{
+			&lt;%s&gt; iot:appointmentWasKept true .
+		}
+	</string>
+	<string name="sparql_remove_appointmentWasKept_to_reservation_if_false" formatted="false">
+	    PREFIX iot: &lt;http://campus.guide/OpenIoT/owl#&gt;
+	    DELETE DATA
+		{
+			&lt;%s&gt; iot:appointmentWasKept false .
+		}
+	</string>
+	<!--  End of reservation-handling -->
+</resources>
