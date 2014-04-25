@@ -31,6 +31,8 @@ import org.jdesktop.observablecollections.ObservableList;
 /**
  *
  * @author admin-jacoby
+ * @param <A>
+ * @param <C>
  */
 public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C>> implements RejectedExecutionHandler, SensorStatusChangedListener {
 

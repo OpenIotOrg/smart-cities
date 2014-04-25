@@ -5,17 +5,10 @@
  */
 package org.openiot.gsndatapusher.gui;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.util.EventListener;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.jdesktop.beansbinding.AutoBinding;
-import org.jdesktop.beansbinding.BeanProperty;
-import org.jdesktop.beansbinding.Binding;
 import org.jdesktop.swingbinding.JTableBinding;
-import org.jdesktop.swingbinding.SwingBindings;
 import org.openiot.gsndatapusher.core.SensorManager;
 import org.openiot.gsndatapusher.core.SensorState;
 import static org.openiot.gsndatapusher.core.SensorState.CREATING;
@@ -26,7 +19,6 @@ import static org.openiot.gsndatapusher.core.SensorState.STARTING;
 import static org.openiot.gsndatapusher.core.SensorState.STOPPED;
 import static org.openiot.gsndatapusher.core.SensorState.STOPPING;
 import static org.openiot.gsndatapusher.core.SensorState.UNDEFINED;
-import org.openiot.gsndatapusher.core.SensorStatus;
 import org.openiot.gsndatapusher.core.SensorStatusChangedEvent;
 import org.openiot.gsndatapusher.core.SensorStatusChangedListener;
 
@@ -48,11 +40,10 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         this.removeListener = removeListener;
         this.sensorManager = sensorManager;
         internalThreadPool = new ScheduledThreadPoolExecutor(1);
-        initComponents();        
+        initComponents();
         this.sensorManager.addListener(this);
         tblConfig.setModel(new ReflectionTableModel(sensorManager.getConfig()));
-        setButtonStates(sensorManager.getStatus().getState());  
-
+        setButtonStates(sensorManager.getStatus().getState());
     }
 
     /**
@@ -68,8 +59,10 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
         pnlState = new javax.swing.JPanel();
         lblType = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         lblMultiplicity = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        lblGsnAddress = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -81,6 +74,10 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         btnCreate = new javax.swing.JButton();
         btnDelete = new javax.swing.JButton();
         btnRemoveFromList = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        txtStatus = new javax.swing.JTextArea();
         pnlRuntimeInfo = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         edtThreadCount = new javax.swing.JSpinner();
@@ -90,12 +87,6 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         edtConnectionCount = new javax.swing.JSpinner();
         jLabel9 = new javax.swing.JLabel();
         lblAvgSendDuration = new javax.swing.JLabel();
-        lblGsnAddress = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        txtStatus = new javax.swing.JTextArea();
         pnlDetails = new javax.swing.JPanel();
         jToggleButton1 = new javax.swing.JToggleButton();
         pnlDetailInfo = new javax.swing.JPanel();
@@ -104,11 +95,10 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
         setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createEmptyBorder(3, 3, 3, 3), javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0))));
         setMaximumSize(new java.awt.Dimension(5000, 5000));
-        java.awt.GridBagLayout layout = new java.awt.GridBagLayout();
-        layout.columnWidths = new int[] {0, 5, 0, 5, 0, 5, 0, 5, 0};
-        layout.rowHeights = new int[] {0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0};
-        setLayout(layout);
+        setLayout(new java.awt.GridBagLayout());
 
+        pnlState.setMaximumSize(new java.awt.Dimension(40, 40));
+        pnlState.setMinimumSize(new java.awt.Dimension(40, 40));
         pnlState.setPreferredSize(new java.awt.Dimension(40, 40));
 
         org.jdesktop.beansbinding.Binding binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.status.state}"), pnlState, org.jdesktop.beansbinding.BeanProperty.create("background"));
@@ -119,17 +109,17 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         pnlState.setLayout(pnlStateLayout);
         pnlStateLayout.setHorizontalGroup(
             pnlStateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 40, Short.MAX_VALUE)
         );
         pnlStateLayout.setVerticalGroup(
             pnlStateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 40, Short.MAX_VALUE)
         );
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridheight = 5;
+        gridBagConstraints.gridheight = 3;
         add(pnlState, gridBagConstraints);
 
         lblType.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -139,10 +129,18 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         bindingGroup.addBinding(binding);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
         add(lblType, gridBagConstraints);
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setText("x");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
+        add(jLabel1, gridBagConstraints);
 
         lblMultiplicity.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
 
@@ -151,7 +149,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         bindingGroup.addBinding(binding);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
         gridBagConstraints.insets = new java.awt.Insets(0, 10, 0, 0);
@@ -159,17 +157,30 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
         jLabel3.setText("GSN address");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
         add(jLabel3, gridBagConstraints);
+
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.gsnAddress}"), lblGsnAddress, org.jdesktop.beansbinding.BeanProperty.create("text"));
+        binding.setSourceUnreadableValue("gsn address");
+        bindingGroup.addBinding(binding);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
+        add(lblGsnAddress, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridy = 2;
         gridBagConstraints.gridwidth = 7;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.weightx = 0.01;
         add(jSeparator1, gridBagConstraints);
 
-        jPanel1.setLayout(new java.awt.BorderLayout());
+        jPanel1.setLayout(new java.awt.GridBagLayout());
 
         jScrollPane1.setBorder(null);
         jScrollPane1.setPreferredSize(new java.awt.Dimension(220, 150));
@@ -183,7 +194,10 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         jTableBinding.bind();
         jScrollPane1.setViewportView(tblConfig);
 
-        jPanel1.add(jScrollPane1, java.awt.BorderLayout.LINE_START);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        jPanel1.add(jScrollPane1, gridBagConstraints);
 
         pnlControl.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 5, 1, 5));
         java.awt.GridBagLayout pnlControlLayout = new java.awt.GridBagLayout();
@@ -265,7 +279,39 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         pnlControl.add(btnRemoveFromList, gridBagConstraints);
 
-        jPanel1.add(pnlControl, java.awt.BorderLayout.LINE_END);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 0;
+        jPanel1.add(pnlControl, gridBagConstraints);
+
+        jPanel2.setLayout(new java.awt.BorderLayout());
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel2.setText("Status");
+        jPanel2.add(jLabel2, java.awt.BorderLayout.PAGE_START);
+
+        jScrollPane2.setBorder(null);
+        jScrollPane2.setHorizontalScrollBar(null);
+
+        txtStatus.setEditable(false);
+        txtStatus.setBorder(null);
+        txtStatus.setFocusable(false);
+        txtStatus.setOpaque(false);
+
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.status.message}"), txtStatus, org.jdesktop.beansbinding.BeanProperty.create("text"));
+        bindingGroup.addBinding(binding);
+
+        jScrollPane2.setViewportView(txtStatus);
+
+        jPanel2.add(jScrollPane2, java.awt.BorderLayout.CENTER);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.PAGE_START;
+        gridBagConstraints.weightx = 1.0;
+        jPanel1.add(jPanel2, gridBagConstraints);
 
         pnlRuntimeInfo.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 10, 1, 10));
         pnlRuntimeInfo.setLayout(new java.awt.GridBagLayout());
@@ -339,63 +385,17 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         gridBagConstraints.gridy = 3;
         pnlRuntimeInfo.add(lblAvgSendDuration, gridBagConstraints);
 
-        jPanel1.add(pnlRuntimeInfo, java.awt.BorderLayout.CENTER);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        jPanel1.add(pnlRuntimeInfo, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 8;
+        gridBagConstraints.gridy = 4;
         gridBagConstraints.gridwidth = 7;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         add(jPanel1, gridBagConstraints);
-
-        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.gsnAddress}"), lblGsnAddress, org.jdesktop.beansbinding.BeanProperty.create("text"));
-        binding.setSourceUnreadableValue("gsn address");
-        bindingGroup.addBinding(binding);
-
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 4;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        add(lblGsnAddress, gridBagConstraints);
-
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setText("x");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 4;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        add(jLabel1, gridBagConstraints);
-
-        jPanel2.setPreferredSize(new java.awt.Dimension(150, 160));
-        jPanel2.setLayout(new java.awt.BorderLayout());
-
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel2.setText("Status");
-        jPanel2.add(jLabel2, java.awt.BorderLayout.PAGE_START);
-
-        jScrollPane2.setBorder(null);
-        jScrollPane2.setHorizontalScrollBar(null);
-
-        txtStatus.setEditable(false);
-        txtStatus.setColumns(20);
-        txtStatus.setRows(5);
-        txtStatus.setBorder(null);
-        txtStatus.setFocusable(false);
-        txtStatus.setMargin(new java.awt.Insets(2, 10, 2, 2));
-        txtStatus.setOpaque(false);
-
-        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.status.message}"), txtStatus, org.jdesktop.beansbinding.BeanProperty.create("text"));
-        bindingGroup.addBinding(binding);
-
-        jScrollPane2.setViewportView(txtStatus);
-
-        jPanel2.add(jScrollPane2, java.awt.BorderLayout.CENTER);
-
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 6;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridheight = 5;
-        add(jPanel2, gridBagConstraints);
 
         pnlDetails.setLayout(new java.awt.BorderLayout());
 
@@ -449,9 +449,12 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 10;
-        gridBagConstraints.gridwidth = java.awt.GridBagConstraints.REMAINDER;
-        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridwidth = 7;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTH;
+        gridBagConstraints.weightx = 0.01;
+        gridBagConstraints.weighty = 0.01;
         add(pnlDetails, gridBagConstraints);
 
         bindingGroup.bind();
@@ -475,7 +478,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
     private void btnStopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStopActionPerformed
         try {
-            internalThreadPool.submit(sensorManager.stop());          
+            internalThreadPool.submit(sensorManager.stop());
         } catch (Exception ex) {
             Logger.getLogger(SensorManagerPanel.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -503,19 +506,6 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
         pnlDetailInfo.setVisible(!pnlDetailInfo.isVisible());
-//        if (pnlDetailInfo.isVisible()) {
-//            pnlDetailInfo.setPreferredSize(new Dimension(pnlDetailInfo.getPreferredSize().height + 200, pnlDetailInfo.getPreferredSize().width));
-//        } else
-//        {
-//            pnlDetailInfo.setPreferredSize(new Dimension(pnlDetailInfo.getPreferredSize().height - 200, pnlDetailInfo.getPreferredSize().width));
-//        }
-//        pnlDetailInfo.repaint();
-//        pnlDetailInfo.invalidate();
-//        this.revalidate();
-//        this.validate();
-//        this.invalidate();
-//        this.repaint();
-//        this.getParent().revalidate();
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
 
@@ -570,7 +560,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         // toggle buttons enabled
         setButtonStates(e.getNewStatus().getState());
     }
-    
+
     private void setButtonStates(SensorState state) {
         switch (state) {
             case CREATING:

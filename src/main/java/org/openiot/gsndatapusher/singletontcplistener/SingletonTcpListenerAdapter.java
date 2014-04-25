@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.openiot.gsndatapusher.singletontcplistener;
 
 import java.io.IOException;
@@ -12,12 +7,8 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.Locale;
 import java.util.concurrent.Callable;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.openiot.gsndatapusher.core.AbstractSensorAdapter;
 import org.openiot.gsndatapusher.core.FieldType;
-import static org.openiot.gsndatapusher.core.FieldType.Double;
-import static org.openiot.gsndatapusher.core.FieldType.Int;
 import org.slf4j.LoggerFactory;
 
 /**
@@ -35,26 +26,42 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 	@Override
 	public String getGSNConfigFile(SingletonTcpListenerConfig config) {
 		StringBuilder builder = new StringBuilder();
-		builder.append(String.format(("<virtual-sensor name=\"%s\" priority=\"%d\" publish-to-lsm=\"%s\">%s"), config.getName(), config.getPriority(), String.valueOf(config.isPublishToLSM()), System.lineSeparator()));
-		builder.append(String.format(("   <processing-class>%s"), System.lineSeparator()));
-		builder.append(String.format(("      <class-name>org.openiot.gsn.vsensor.BridgeVirtualSensor</class-name>%s"), System.lineSeparator()));
-		builder.append(String.format(("      <init-params>%s"), System.lineSeparator()));
-		builder.append(String.format(("         <param name=\"allow-nulls\">false</param>%s"), System.lineSeparator()));
-		builder.append(String.format(("         <param name=\"debug-mode\">false</param>%s"), System.lineSeparator()));
-		builder.append(String.format(("      </init-params>%s"), System.lineSeparator()));
-		builder.append(String.format(("      <output-structure>%s"), System.lineSeparator()));
-		for (int i = 1; i <= config.getFieldCount(); i++) {
-			builder.append(String.format(("         <field name=\"field%d\" type=\"%s\" />%s"), i, config.getFieldType().toString(), System.lineSeparator()));
+		builder.append(String.format("<virtual-sensor name=\"%s\" priority=\"%d\" publish-to-lsm=\"%s\">\n", config.getName(), config.getPriority(), Boolean.toString(config.isPublishToLSM())));
+		if (config.isPublishToLSM()) {
+			builder.append(String.format("   <processing-class>\n"));
+			builder.append(String.format("      <class-name>org.openiot.gsn.vsensor.LSMExporter</class-name>\n"));
+			builder.append(String.format("      <init-params>\n"));
+			builder.append(String.format("          <param name='allow-nulls'>false</param>\n"));
+			builder.append(String.format("          <param name='publish-to-lsm'>true</param>\n"));
+			builder.append(String.format("      </init-params>\n"));
+			builder.append(String.format("      <output-structure>\n"));
+			for (int i = 1; i <= config.getFieldCount(); i++) {
+				builder.append(String.format("         <field name=\"field%d\" type=\"%s\" />\n", i, config.getFieldType().toString()));
+			}
+			builder.append(String.format("      </output-structure>\n"));
+			builder.append(String.format("   </processing-class>\n"));
+		} else {
+			builder.append(String.format("   <processing-class>\n"));
+			builder.append(String.format("      <class-name>org.openiot.gsn.vsensor.BridgeVirtualSensor</class-name>\n"));
+			builder.append(String.format("      <init-params>\n"));
+			builder.append(String.format("         <param name=\"allow-nulls\">false</param>\n"));
+			builder.append(String.format("         <param name=\"debug-mode\">false</param>\n"));
+			builder.append(String.format("      </init-params>\n"));
+			builder.append(String.format("      <output-structure>\n"));
+			for (int i = 1; i <= config.getFieldCount(); i++) {
+				builder.append(String.format("         <field name=\"field%d\" type=\"%s\" />\n", i, config.getFieldType().toString()));
+			}
+			builder.append(String.format("      </output-structure>\n"));
+			builder.append(String.format("   </processing-class>\n"));
 		}
-		builder.append(String.format(("      </output-structure>%s"), System.lineSeparator()));
-		builder.append(String.format(("   </processing-class>%s"), System.lineSeparator()));
-		builder.append(String.format(("   <life-cycle pool-size=\"%d\" />%s"), config.getPoolSize(), System.lineSeparator()));
-		builder.append(String.format(("   <addressing />%s"), System.lineSeparator()));
-		builder.append(String.format(("   <storage history-size=\"%s\" />%s"), config.getHistorySize(), System.lineSeparator()));
-		builder.append(String.format(("   <streams>%s"), System.lineSeparator()));
-		builder.append(String.format(("      <stream name=\"input1\">%s"), System.lineSeparator()));
-		builder.append(String.format(("         <source alias=\"source1\" sampling-rate=\"%d\" storage-size=\"%d\">%s"), config.getSamplingRate(), config.getStorageSize(), System.lineSeparator()));
-		builder.append(String.format(("            <address wrapper=\"singletontcp\">%s"), System.lineSeparator()));
+
+		builder.append(String.format("   <life-cycle pool-size=\"%d\" />\n", config.getPoolSize()));
+		builder.append(String.format("   <addressing />\n"));
+		builder.append(String.format("   <storage history-size=\"%s\" />\n", config.getHistorySize()));
+		builder.append(String.format("   <streams>\n"));
+		builder.append(String.format("      <stream name=\"input1\">\n"));
+		builder.append(String.format("         <source alias=\"source1\" sampling-rate=\"%d\" storage-size=\"%d\">\n", config.getSamplingRate(), config.getStorageSize()));
+		builder.append(String.format("            <address wrapper=\"singletontcp\">\n"));
 		String fields = "";
 		String formats = "";
 		for (int i = 1; i <= config.getFieldCount(); i++) {
@@ -65,19 +72,47 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 			fields += String.format("field%d", i);
 			formats += getTransportFormat(config.getFieldType());
 		}
-		builder.append(String.format(("               <predicate key=\"fields\">%s</predicate>%s"), fields, System.lineSeparator()));
-		builder.append(String.format(("               <predicate key=\"formats\">%s</predicate>%s"), formats, System.lineSeparator()));
-		builder.append(String.format(("               <predicate key=\"bad-values\">%s</predicate>%s"), config.getBadValues(), System.lineSeparator()));
-		builder.append(String.format(("               <predicate key=\"timezone\">%s</predicate>%s"), config.getTimeZone(), System.lineSeparator()));
-		builder.append(String.format(("               <predicate key=\"port\">%d</predicate>%s"), config.getPort(), System.lineSeparator()));
-		builder.append(String.format(("               <predicate key=\"id\">%s</predicate>%s"), String.format(Locale.US, "%f", config.getId()), System.lineSeparator()));
-		builder.append(String.format(("            </address>%s"), System.lineSeparator()));
-		builder.append(String.format(("            <query>select * from wrapper</query>%s"), System.lineSeparator()));
-		builder.append(String.format(("         </source>%s"), System.lineSeparator()));
-		builder.append(String.format(("         <query>select * from source1</query>%s"), System.lineSeparator()));
-		builder.append(String.format(("      </stream>%s"), System.lineSeparator()));
-		builder.append(String.format(("   </streams>%s"), System.lineSeparator()));
-		builder.append(String.format(("</virtual-sensor>%s"), System.lineSeparator()));
+		builder.append(String.format("               <predicate key=\"fields\">%s</predicate>\n", fields));
+		builder.append(String.format("               <predicate key=\"formats\">%s</predicate>\n", formats));
+		builder.append(String.format("               <predicate key=\"bad-values\">%s</predicate>\n", config.getBadValues()));
+		builder.append(String.format("               <predicate key=\"timezone\">%s</predicate>\n", config.getTimeZone()));
+		builder.append(String.format("               <predicate key=\"port\">%d</predicate>\n", config.getPort()));
+		builder.append(String.format("               <predicate key=\"id\">%s</predicate>\n", String.format(Locale.US, "%f", config.getId())));
+		builder.append(String.format("            </address>\n"));
+		builder.append(String.format("            <query>select * from wrapper</query>\n"));
+		builder.append(String.format("         </source>\n"));
+		builder.append(String.format("         <query>select * from source1</query>\n"));
+		builder.append(String.format("      </stream>\n"));
+		builder.append(String.format("   </streams>\n"));
+		builder.append(String.format("</virtual-sensor>\n"));
+		return builder.toString();
+	}
+
+	@Override
+	public String getGSNMetadataFile(SingletonTcpListenerConfig config) {
+		StringBuilder builder = new StringBuilder();
+		builder.append(String.format("sensorName=opensense_1\n"));
+		String fields = "";
+		for (int i = 1; i <= config.getFieldCount(); i++) {
+			if (i > 1) {
+				fields += ",";
+			}
+			fields += String.format("field%d", i);
+		}
+		builder.append(String.format("source=\"http://openiot.eu\"\n"));
+		builder.append(String.format("sourceType=lausanne\n"));
+		builder.append(String.format("sensorType=%s\n", config.getType()));
+		builder.append(String.format("information=\"A generated sensor\"\n"));
+		builder.append(String.format("author=\"Fraunhofer IOSB\"\n"));
+		builder.append(String.format("feature=\"http://lsm.deri.ie/OpenIoT/opensensefeature\"\n"));
+
+		builder.append(String.format("fields=\"%s\"\n", fields));
+		for (int i = 1; i <= config.getFieldCount(); i++) {
+			builder.append(String.format("field.field%d.propertyName=\"http://lsm.deri.ie/OpenIoT/Random%d\"\n", i, i));
+			builder.append(String.format("field.field%d.unit=Percent\n", i));
+		}
+		builder.append(String.format("latitude=46.529838\n"));
+		builder.append(String.format("longitude=6.596818\n"));
 		return builder.toString();
 	}
 

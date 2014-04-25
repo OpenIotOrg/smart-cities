@@ -1,18 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.openiot.gsndatapusher.core;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.apache.http.StatusLine;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
@@ -25,6 +21,8 @@ import org.slf4j.LoggerFactory;
 /**
  *
  * @author admin-jacoby
+ * @param <A>
+ * @param <C>
  */
 public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C>> {
 
@@ -40,8 +38,8 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 	private SensorStatus status = new SensorStatus();
 	private String lastData;
 	private final transient PropertyChangeSupport propertyChangeSupport = new java.beans.PropertyChangeSupport(this);
-	;
-    private double averageExecutionTime = 0;
+
+	private double averageExecutionTime = 0;
 	private double averageDuration = 0;
 	private long lastDataSend = 0;
 
@@ -102,15 +100,51 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 	public boolean createSensor() {
 		boolean result = false;
 		setStatus(SensorState.CREATING, "creating sensor");
-		HttpPost request = new HttpPost(config.getGsnAddress() + "/rest/createSensor/" + config.getName());
 		CloseableHttpResponse response = null;
+		HttpPost request = null;
+		String response1 = "";
+		String response2 = "";
 		try {
+			String url = config.getGsnAddress() + "/vs/vsensor/" + URLEncoder.encode(config.getName(), "UTF-8") + "/create";
+			LOGGER.info("Posting sensor to {}.", url);
+			request = new HttpPost(url);
 			StringEntity input = new StringEntity(getAdapter().getGSNConfigFile(config));
 			input.setContentType("text/xml");
 			request.setEntity(input);
 			response = client.execute(request);
-			result = response.getStatusLine().getStatusCode() == 200;
-			setStatus(result ? SensorState.STOPPED : SensorState.NOT_CREATED, EntityUtils.toString(response.getEntity()));
+			StatusLine statusLine = response.getStatusLine();
+			result = statusLine.getStatusCode() == 200;
+			response1 = EntityUtils.toString(response.getEntity());
+			response.getEntity().getContent().close();
+			response.close();
+			if (!result) {
+				LOGGER.info("Failed to create sensor: {}, {}.", statusLine.getStatusCode(), statusLine.getReasonPhrase());
+			} else {
+				if (config.isPublishToLSM()) {
+					url = config.getGsnAddress() + "/vs/vsensor/" + URLEncoder.encode(config.getName(), "UTF-8") + "/register";
+					LOGGER.info("Posting sensor metadata to {}.", url);
+					request = new HttpPost(url);
+					String configString = getAdapter().getGSNMetadataFile(config);
+					input = new StringEntity(configString);
+					input.setContentType("text/xml");
+					request.setEntity(input);
+					response = client.execute(request);
+					statusLine = response.getStatusLine();
+					boolean result2 = statusLine.getStatusCode() == 200;
+					if (!result2) {
+						LOGGER.info("Failed to upload sensor metadata: {}, {}.", statusLine.getStatusCode(), statusLine.getReasonPhrase());
+					}
+					response2 = EntityUtils.toString(response.getEntity());
+					response.getEntity().getContent().close();
+					response.close();
+					result = result && result2;
+				}
+			}
+
+			setStatus(result ? SensorState.STOPPED : SensorState.NOT_CREATED, response1 + response2);
+		} catch (UnsupportedEncodingException ex) {
+			setStatus(SensorState.NOT_CREATED, "Can not encode sensor name.");
+			LOGGER.error("Failed to create sensor.", ex);
 		} catch (HttpHostConnectException ex) {
 			setStatus(SensorState.NOT_CREATED, "HTTP Exception");
 			LOGGER.error("Failed to create sensor.", ex);
@@ -122,10 +156,12 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 				try {
 					response.close();
 				} catch (IOException ex) {
-					Logger.getLogger(Sensor.class.getName()).log(Level.SEVERE, null, ex);
+					LOGGER.error("Error creating sensor.", ex);
 				}
 			}
-			request.releaseConnection();
+			if (request != null) {
+				request.releaseConnection();
+			}
 		}
 		return result;
 	}
@@ -154,13 +190,21 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 
 	public boolean deleteSensor() {
 		boolean result = false;
-		HttpGet request = new HttpGet(config.getGsnAddress() + "/rest/deleteSensor/" + config.getName());
+		HttpPost request = null;
 		CloseableHttpResponse response = null;
 		try {
+			String url = config.getGsnAddress() + "/vs/vsensor/" + URLEncoder.encode(config.getName(), "UTF-8") + "/delete";
+			request = new HttpPost(url);
 			setStatus(SensorState.DELETING, "deleting sensor");
+			StringEntity input = new StringEntity("deleteFromLSM=true");
+			input.setContentType("text/xml");
+			request.setEntity(input);
 			response = client.execute(request);
 			result = response.getStatusLine().getStatusCode() == 200;
 			setStatus(result ? SensorState.NOT_CREATED : SensorState.STOPPED, EntityUtils.toString(response.getEntity()));
+		} catch (UnsupportedEncodingException ex) {
+			setStatus(SensorState.STOPPED, "Can not encode sensor name.");
+			LOGGER.error("Failed to create sensor.", ex);
 		} catch (IOException ex) {
 			LOGGER.error("Failed to delete sensor.", ex);
 			setStatus(SensorState.STOPPED, "IO Exception (" + ex.getMessage() + ")");
@@ -172,7 +216,9 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 					LOGGER.error("Exception while deleting sensor.", ex);
 				}
 			}
-			request.releaseConnection();
+			if (request != null) {
+				request.releaseConnection();
+			}
 		}
 		return result;
 	}

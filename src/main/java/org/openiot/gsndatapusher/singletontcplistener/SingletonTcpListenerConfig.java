@@ -1,15 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package org.openiot.gsndatapusher.singletontcplistener;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.openiot.gsndatapusher.core.AbstractSensorConfig;
-import org.openiot.gsndatapusher.core.ISensorAdapter;
 
 /**
  *
@@ -23,9 +16,9 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
     private String timeZone;
 
     public SingletonTcpListenerConfig() {}
-    
- 
-    
+
+
+
     /**
      * @return the port
      */
@@ -123,6 +116,7 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
         result.setServer(getServer());
         result.setTimeZone(getTimeZone());
         result.setName(getName() + offset);
+		result.setType(getType());
         result.setId(Math.random());
         return result;
     }

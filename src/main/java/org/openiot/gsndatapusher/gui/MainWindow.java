@@ -152,7 +152,7 @@ public class MainWindow extends javax.swing.JFrame implements SensorRemoveListen
 
         pnlConfigScrollPane.setHorizontalScrollBar(null);
 
-        pnlConfigContainer.setLayout(new javax.swing.BoxLayout(pnlConfigContainer, javax.swing.BoxLayout.Y_AXIS));
+        pnlConfigContainer.setLayout(new java.awt.GridLayout(0, 1));
         pnlConfigScrollPane.setViewportView(pnlConfigContainer);
 
         getContentPane().add(pnlConfigScrollPane, java.awt.BorderLayout.CENTER);
