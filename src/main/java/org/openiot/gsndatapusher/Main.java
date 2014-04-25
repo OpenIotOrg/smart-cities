@@ -1,7 +1,7 @@
 package org.openiot.gsndatapusher;
 
-import org.openiot.gsndatapusher.gui.MainWindow;
 import java.awt.Dimension;
+import org.openiot.gsndatapusher.gui.MainWindow;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

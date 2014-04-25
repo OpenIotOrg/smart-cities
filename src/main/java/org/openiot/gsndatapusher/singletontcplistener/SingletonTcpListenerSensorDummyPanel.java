@@ -7,11 +7,6 @@ import org.openiot.gsndatapusher.core.FieldType;
 import org.openiot.gsndatapusher.core.SensorManager;
 import org.openiot.gsndatapusher.gui.AbstractSensorDummyPanel;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 /**
  *
  * @author admin-jacoby
@@ -347,7 +342,6 @@ public class SingletonTcpListenerSensorDummyPanel extends AbstractSensorDummyPan
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
         add(edtServer, gridBagConstraints);
     }// </editor-fold>//GEN-END:initComponents
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JCheckBox chkPublishToLSM;

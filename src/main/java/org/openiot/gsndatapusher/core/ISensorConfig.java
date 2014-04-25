@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.openiot.gsndatapusher.core;
 
 import java.io.Serializable;
@@ -14,45 +9,57 @@ import java.util.List;
  * @param <A>
  * @param <C>
  */
-public interface ISensorConfig<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A,C>> extends Serializable {
+public interface ISensorConfig<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C>> extends Serializable {
 
-    List<C> createAdaptedCopies(int n);
+	List<C> createAdaptedCopies(int n);
 
-    A getAdapter();
+	A getAdapter();
 
-    String getGsnAddress();
-    void setGsnAddress(String gsnAddress);
+	String getGsnAddress();
 
-    String getName();
-    void setName(String name);
+	void setGsnAddress(String gsnAddress);
+
+	String getName();
+
+	void setName(String name);
 
 	String getType();
+
 	void setType(String type);
 
-    long getInterval();
-    void setInterval(long interval);
+	long getInterval();
 
-    int getFieldCount();
-    void setFieldCount(int fieldCount);
+	void setInterval(long interval);
 
-    FieldType getFieldType();
-    void setFieldType(FieldType fieldType);
+	int getFieldCount();
 
-    int getPoolSize();
-    void setPoolSize(int poolSize);
+	void setFieldCount(int fieldCount);
 
-    String getHistorySize();
-    void setHistorySize(String historySize);
+	FieldType getFieldType();
 
-    int getSamplingRate();
-    void setSamplingRate(int samplingRate);
+	void setFieldType(FieldType fieldType);
 
-    int getStorageSize();
-    void setStorageSize(int storageSize);
+	int getPoolSize();
 
-    int getPriority();
-    void setPriority(int priority);
+	void setPoolSize(int poolSize);
 
-    boolean isPublishToLSM();
-    void setPublishToLSM(boolean PublishToLSM);
+	String getHistorySize();
+
+	void setHistorySize(String historySize);
+
+	int getSamplingRate();
+
+	void setSamplingRate(int samplingRate);
+
+	int getStorageSize();
+
+	void setStorageSize(int storageSize);
+
+	int getPriority();
+
+	void setPriority(int priority);
+
+	boolean isPublishToLSM();
+
+	void setPublishToLSM(boolean PublishToLSM);
 }

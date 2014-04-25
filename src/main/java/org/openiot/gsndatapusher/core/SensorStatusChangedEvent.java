@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package org.openiot.gsndatapusher.core;
 
 import java.util.EventObject;
@@ -12,44 +6,43 @@ import java.util.EventObject;
  *
  * @author admin-jacoby
  */
-public class SensorStatusChangedEvent extends EventObject{
+public class SensorStatusChangedEvent extends EventObject {
 
-    private SensorStatus oldStatus;
-    private SensorStatus newStatus;
-    
-    public SensorStatusChangedEvent(Object source, SensorStatus oldStatus, SensorStatus newStatus) {
-        super(source);
-        this.oldStatus = oldStatus;
-        this.newStatus = newStatus;
-    }
+	private SensorStatus oldStatus;
+	private SensorStatus newStatus;
 
-    /**
-     * @return the oldStatus
-     */
-    public SensorStatus getOldStatus() {
-        return oldStatus;
-    }
+	public SensorStatusChangedEvent(Object source, SensorStatus oldStatus, SensorStatus newStatus) {
+		super(source);
+		this.oldStatus = oldStatus;
+		this.newStatus = newStatus;
+	}
 
-    /**
-     * @param oldStatus the oldStatus to set
-     */
-    public void setOldStatus(SensorStatus oldStatus) {
-        this.oldStatus = oldStatus;
-    }
+	/**
+	 * @return the oldStatus
+	 */
+	public SensorStatus getOldStatus() {
+		return oldStatus;
+	}
 
-    /**
-     * @return the newStatus
-     */
-    public SensorStatus getNewStatus() {
-        return newStatus;
-    }
+	/**
+	 * @param oldStatus the oldStatus to set
+	 */
+	public void setOldStatus(SensorStatus oldStatus) {
+		this.oldStatus = oldStatus;
+	}
 
-    /**
-     * @param newStatus the newStatus to set
-     */
-    public void setNewStatus(SensorStatus newStatus) {
-        this.newStatus = newStatus;
-    }
+	/**
+	 * @return the newStatus
+	 */
+	public SensorStatus getNewStatus() {
+		return newStatus;
+	}
 
-    
+	/**
+	 * @param newStatus the newStatus to set
+	 */
+	public void setNewStatus(SensorStatus newStatus) {
+		this.newStatus = newStatus;
+	}
+
 }
