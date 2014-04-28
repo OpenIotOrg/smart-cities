@@ -1,0 +1,65 @@
+package org.openiot.gsndatapusher.core;
+
+import java.io.Serializable;
+import java.util.List;
+
+/**
+ *
+ * @author admin-jacoby
+ * @param <A>
+ * @param <C>
+ */
+public interface ISensorConfig<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C>> extends Serializable {
+
+	List<C> createAdaptedCopies(int n);
+
+	A getAdapter();
+
+	String getGsnAddress();
+
+	void setGsnAddress(String gsnAddress);
+
+	String getName();
+
+	void setName(String name);
+
+	String getType();
+
+	void setType(String type);
+
+	long getInterval();
+
+	void setInterval(long interval);
+
+	int getFieldCount();
+
+	void setFieldCount(int fieldCount);
+
+	FieldType getFieldType();
+
+	void setFieldType(FieldType fieldType);
+
+	int getPoolSize();
+
+	void setPoolSize(int poolSize);
+
+	String getHistorySize();
+
+	void setHistorySize(String historySize);
+
+	int getSamplingRate();
+
+	void setSamplingRate(int samplingRate);
+
+	int getStorageSize();
+
+	void setStorageSize(int storageSize);
+
+	int getPriority();
+
+	void setPriority(int priority);
+
+	boolean isPublishToLSM();
+
+	void setPublishToLSM(boolean PublishToLSM);
+}
