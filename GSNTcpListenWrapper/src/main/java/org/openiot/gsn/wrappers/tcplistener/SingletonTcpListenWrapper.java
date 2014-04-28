@@ -111,8 +111,7 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 			}
 
 			synchronized (this) {
-				nextElement = dataQueue.peek();
-				if (nextElement == null) {
+				if (dataQueue.isEmpty()) {
 					try {
 						this.wait();
 					} catch (InterruptedException ex) {
@@ -131,9 +130,13 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 		TreeMap<String, Serializable> elementData = handler.parseValues(data);
 		StreamElement streamElement = new StreamElement(elementData, getOutputFormat());
 		LOGGER.debug("Sensor {}, Queueing: {}", id, elementData);
-		synchronized (this) {
-			dataQueue.add(streamElement);
-			this.notify();
+		try {
+			synchronized (this) {
+				dataQueue.add(streamElement);
+				this.notify();
+			}
+		} catch (IllegalStateException e) {
+			LOGGER.warn("Could not add data for sensor {}, queue full!", id);
 		}
 	}
 
