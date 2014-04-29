@@ -14,12 +14,14 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Logger;
+
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.jdesktop.observablecollections.ObservableCollections;
 import org.jdesktop.observablecollections.ObservableList;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *
@@ -29,21 +31,26 @@ import org.jdesktop.observablecollections.ObservableList;
  */
 public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C>> implements RejectedExecutionHandler, SensorStatusChangedListener {
 
-	private static final Logger logger = Logger.getLogger(SensorManager.class.getName());
+	/**
+	 * The logger for this class.
+	 */
+	private static final Logger LOGGER = LoggerFactory.getLogger(SensorManager.class);
 
 	private ScheduledThreadPoolExecutor sensorThreadPool;
 	private ScheduledThreadPoolExecutor internalThreadPool;
 	private PoolingHttpClientConnectionManager connectionManager;
 	private CloseableHttpClient client;
 	private final C config;
-	private ObservableList<Sensor> sensors;
+	private final ObservableList<Sensor> sensors = ObservableCollections.observableList(new ArrayList<Sensor>());
 	private SensorStatus status = new SensorStatus();
 	private String lastData;
 	private final int multiplicity;
 	private int threadCount;
 	private int connectionCount;
+	private int interval = 1000;
 	private double averageExecutionTime;
 	private double averageDuration;
+	private int failures = 0;
 	private String displayName;
 	private final transient PropertyChangeSupport propertyChangeSupport = new java.beans.PropertyChangeSupport(this);
 	private List<SensorStatusChangedListener> listeners = new ArrayList<>();
@@ -70,7 +77,6 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 		this.connectionCount = connectionCount;
 		this.config = config;
 		internalThreadPool = new ScheduledThreadPoolExecutor(1, this);
-		sensors = ObservableCollections.observableList(new ArrayList<Sensor>());
 		for (C newConfig : config.createAdaptedCopies(multiplicity)) {
 			Sensor sensor = new Sensor(initialState, newConfig, client);
 			sensor.addListener(this);
@@ -132,7 +138,7 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 				setStatus(SensorState.STARTING);
 				startFetchSensorPerformance();
 				for (Sensor sensor : sensors) {
-					runningSensorTasks.add(sensorThreadPool.scheduleAtFixedRate(sensor.sendData(), 0, sensor.getConfig().getInterval(), TimeUnit.MILLISECONDS));
+					runningSensorTasks.add(sensorThreadPool.scheduleAtFixedRate(sensor.sendData(), 0, interval, TimeUnit.MILLISECONDS));
 					sensor.start();
 					result = true;
 				}
@@ -152,6 +158,7 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 					sensor.start();
 					if (!sensorThreadPool.submit(sensor.sendData(), result).get()) {
 						result = false;
+						setFailures(failures + 1);
 					}
 					sensor.stop();
 				}
@@ -167,7 +174,7 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 
 			@Override
 			public Boolean call() throws Exception {
-				boolean result = true;
+				boolean result;
 				setStatus(SensorState.STOPPING);
 				stopFetchSensorPerformance();
 				for (ScheduledFuture<?> task : runningSensorTasks) {
@@ -260,10 +267,12 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 	 * @param status the status to set
 	 */
 	private void setStatus(SensorStatus status) {
-		org.openiot.gsndatapusher.core.SensorStatus oldStatus = this.status;
+		SensorStatus oldStatus = this.status;
 		this.status = status;
-		propertyChangeSupport.firePropertyChange("status", oldStatus, status);
-		fireSensorStateChanged(new SensorStatusChangedEvent(this, oldStatus, status));
+		if (oldStatus != status) {
+			propertyChangeSupport.firePropertyChange("status", oldStatus, status);
+			fireSensorStateChanged(new SensorStatusChangedEvent(this, oldStatus, status));
+		}
 	}
 
 	/**
@@ -386,12 +395,15 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 	private void calcSensorPerformance() {
 		double avgDuration = 0;
 		double avgExecTime = 0;
+		int failuresSum = 0;
 		for (Sensor sensor : sensors) {
 			avgDuration += sensor.getAverageDuration() / sensors.size();
 			avgExecTime += sensor.getAverageExecutionTime() / sensors.size();
+			failuresSum += sensor.getFailures();
 		}
 		setAverageDuration(avgDuration);
 		setAverageExecutionTime(avgExecTime);
+		setFailures(failuresSum);
 	}
 
 	/**
@@ -420,6 +432,30 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 		this.connectionCount = connectionCount;
 		setConnectionCountInternal();
 		propertyChangeSupport.firePropertyChange("connectionCount", oldconnectionCount, connectionCount);
+	}
+
+	public int getFailures() {
+		return failures;
+	}
+
+	public void setFailures(int failures) {
+		int oldFailures = this.failures;
+		this.failures = failures;
+		propertyChangeSupport.firePropertyChange("failures", oldFailures, failures);
+	}
+
+	/**
+	 * @return the interval
+	 */
+	public int getInterval() {
+		return interval;
+	}
+
+	/**
+	 * @param interval the interval to set
+	 */
+	public void setInterval(int interval) {
+		this.interval = interval;
 	}
 
 }

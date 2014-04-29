@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
  *
  * @author scf
  */
-public class SingletonTcpListenManager implements MessageListener {
+public class SingletonTcpListenManager {
 
 	/**
 	 * An interface for objects that handle messages.
@@ -31,7 +31,36 @@ public class SingletonTcpListenManager implements MessageListener {
 		 *
 		 * @param m The message to deal with.
 		 */
-		public void handle(Message m);
+		public void handle(Message m, NetworkServerConnection serverConnection);
+	}
+
+	private static class ConnectionHandler implements MessageListener {
+
+		private final NetworkServerConnection serverConnection;
+		private final Map<String, MessageHandler> handlers;
+
+		public ConnectionHandler(NetworkServerConnection serverConnection, Map<String, MessageHandler> handlers) {
+			this.serverConnection = serverConnection;
+			this.handlers = handlers;
+		}
+
+		@Override
+		public void messageReceived(Message message) {
+			MessageHandler h = handlers.get(message.getKey());
+			if (h == null) {
+				LOGGER.warn("Unknown message received: {}.", message.getMessage());
+				return;
+			}
+			h.handle(message, serverConnection);
+		}
+
+		@Override
+		public void connectionLost(String reason) {
+		}
+
+		@Override
+		public void connectionClosed() {
+		}
 	}
 
 	private static class ServerInfo {
@@ -146,17 +175,23 @@ public class SingletonTcpListenManager implements MessageListener {
 		handlers.put(MessageIdData.KEY, new MessageHandler() {
 
 			@Override
-			public void handle(Message m) {
+			public void handle(Message m, NetworkServerConnection serverConnection) {
 				LOGGER.trace("Handling message '{}'.", m.getMessage());
 				MessageIdData md = (MessageIdData) m;
 				String data = md.getData();
 				double id = md.getId();
 				if (!wrappers.containsKey(id)) {
 					LOGGER.warn("No wrapper with ID: '{}' in '{}'.", id, wrappers.keySet());
+					MessageResult mr = new MessageResult();
+					mr.setResult(MessageResult.RESULT.FAILED);
+					serverConnection.sendMessage(mr);
 				} else {
-					wrappers.get(id).handleData(data);
+					SingletonTcpListenWrapper wrapper = wrappers.get(id);
+					MessageResult mr = wrapper.handleData(data);
+					serverConnection.sendMessage(mr);
 				}
 			}
+
 		});
 	}
 
@@ -178,26 +213,8 @@ public class SingletonTcpListenManager implements MessageListener {
 	public void newConnection(EventConnectionEstablished e) {
 		NetworkServerConnection serverConnection = e.getServerConnection();
 		if (serverConnection != null) {
-			serverConnection.addMessageListener(this);
+			serverConnection.addMessageListener(new ConnectionHandler(serverConnection, handlers));
 		}
-	}
-
-	@Override
-	public void messageReceived(Message message) {
-		MessageHandler h = handlers.get(message.getKey());
-		if (h == null) {
-			LOGGER.warn("Unknown message received: {}.", message.getMessage());
-			return;
-		}
-		h.handle(message);
-	}
-
-	@Override
-	public void connectionLost(String reason) {
-	}
-
-	@Override
-	public void connectionClosed() {
 	}
 
 }

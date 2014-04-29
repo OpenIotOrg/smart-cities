@@ -1,5 +1,11 @@
 package org.openiot.gsndatapusher.singletontcplistener;
 
+import com.google.common.eventbus.Subscribe;
+import com.usoog.commons.network.NetworkClient;
+import com.usoog.commons.network.event.EventConnectionEstablished;
+import com.usoog.commons.network.event.EventMessageRecieved;
+import com.usoog.commons.network.message.FactoryMessage;
+import com.usoog.commons.network.message.Message;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
@@ -7,6 +13,9 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.Locale;
 import java.util.concurrent.Callable;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.openiot.gsn.wrappers.tcplistener.MessageResult;
 import org.openiot.gsndatapusher.core.AbstractSensorAdapter;
 import org.openiot.gsndatapusher.core.FieldType;
 import org.slf4j.LoggerFactory;
@@ -21,7 +30,21 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 	 * The logger for this class.
 	 */
 	private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(SingletonTcpListenerAdapter.class);
-	private Socket socket;
+	/**
+	 * The factory used to decode incoming lines into Messages.
+	 */
+	private static final FactoryMessage messageFactory = new FactoryMessage();
+
+	static {
+		try {
+			messageFactory.registerMessage(MessageResult.class);
+		} catch (InstantiationException | IllegalAccessException ex) {
+			LOGGER.error("Failed to register message.", ex);
+		}
+	}
+
+	private NetworkClient client;
+	private SendResult sendResult;
 
 	@Override
 	public String getGSNConfigFile(SingletonTcpListenerConfig config) {
@@ -145,20 +168,65 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 	}
 
 	private SendResult sendDataInternal(SingletonTcpListenerConfig config) {
-		SendResult result = new SendResult();
-		result.data = generateData(config);
-//        logger.log(Level.FINE);
-		try {
-			PrintWriter printWriter = new PrintWriter(
-					new OutputStreamWriter(socket.getOutputStream()));
-
-			printWriter.print(result.data);
-			printWriter.flush();
-			result.success = true;
-		} catch (IOException ex) {
-			LOGGER.error("Failed to send data.", ex);
+		final SendResult sr = sendResult;
+		if (sr == null) {
+			LOGGER.warn("Sending data without sendResult.");
+			return sr;
 		}
-		return result;
+
+		sr.success = false;
+		sr.data = generateData(config);
+
+		synchronized (sr) {
+			client.sendLine(sr.data);
+			try {
+				sr.wait();
+			} catch (InterruptedException ex) {
+			}
+		}
+
+		return sr;
+	}
+
+	@Subscribe
+	public void messageReceived(EventMessageRecieved e) {
+		final SendResult sr = sendResult;
+		if (sr == null) {
+			LOGGER.warn("Received response before or after we expected one.");
+			return;
+		}
+		Message m = e.getMessage();
+		if (m instanceof MessageResult) {
+			MessageResult mr = (MessageResult) m;
+			synchronized (sr) {
+				sr.result = mr.getResult();
+				sr.queue = mr.getQueueSize();
+				switch (mr.getResult()) {
+					case OK:
+					case QUEUED:
+						sr.success = true;
+						break;
+
+					default:
+						sr.success = false;
+						break;
+				}
+				sr.notify();
+			}
+		}
+	}
+
+	@Subscribe
+	public void connectionEstablished(EventConnectionEstablished e) {
+		final SendResult sr = sendResult;
+		if (sr == null) {
+			LOGGER.warn("connection established when we are not expecting one.");
+			return;
+		}
+		synchronized (sr) {
+			sr.success = true;
+			sr.notify();
+		}
 	}
 
 	private String generateData(final SingletonTcpListenerConfig config) {
@@ -172,33 +240,40 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 				result += ",";
 			}
 		}
-		result += ("}\n");
+		result += ("}");
 		return result;
 	}
 
 	private boolean connectToServer(SingletonTcpListenerConfig config) {
-		boolean result = false;
-		try {
-			socket = new Socket();
-			socket.setReuseAddress(true);
-			socket.setTcpNoDelay(true);
-			socket.connect(new InetSocketAddress(config.getServer(), config.getPort()));
-			result = socket.isConnected();
-		} catch (IOException ex) {
-			LOGGER.error("Failed to connect to server.", ex);
+		final SendResult sr = new SendResult();
+		sendResult = sr;
+
+		sr.success = false;
+		boolean result;
+		client = new NetworkClient(messageFactory);
+		client.getEventBus().register(this);
+		client.setServer(config.getServer());
+		client.setPort(config.getPort());
+
+		synchronized (sr) {
+			client.connect();
+			try {
+				sr.wait();
+			} catch (InterruptedException e) {
+			}
 		}
+		result = sr.success;
 		return result;
 	}
 
 	private boolean disconnectFromServer() {
+		sendResult = null;
 		boolean result = false;
-		if (socket != null && socket.isConnected()) {
-			try {
-				socket.close();
-				result = socket.isClosed();
-			} catch (IOException ex) {
-				LOGGER.error("Error while disconnecting from server.", ex);
-			}
+		try {
+			client.close();
+			client.getEventBus().unregister(this);
+			result = true;
+		} catch (IllegalArgumentException e) {
 		}
 		return result;
 	}

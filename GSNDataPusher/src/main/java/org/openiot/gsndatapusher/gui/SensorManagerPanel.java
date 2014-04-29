@@ -82,6 +82,10 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         edtConnectionCount = new javax.swing.JSpinner();
         jLabel9 = new javax.swing.JLabel();
         lblAvgSendDuration = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        spnInterval = new javax.swing.JSpinner();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
         pnlDetails = new javax.swing.JPanel();
         jToggleButton1 = new javax.swing.JToggleButton();
         pnlDetailInfo = new javax.swing.JPanel();
@@ -314,7 +318,9 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         jLabel5.setText("# Threads");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_END;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 5);
         pnlRuntimeInfo.add(jLabel5, gridBagConstraints);
 
         edtThreadCount.setModel(new javax.swing.SpinnerNumberModel(Integer.valueOf(1), Integer.valueOf(1), null, Integer.valueOf(1)));
@@ -327,14 +333,16 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridy = 1;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         pnlRuntimeInfo.add(edtThreadCount, gridBagConstraints);
 
         jLabel6.setText("avg exec time");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_END;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 5);
         pnlRuntimeInfo.add(jLabel6, gridBagConstraints);
 
         binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.averageExecutionTime}"), lblAvgExecutionTime, org.jdesktop.beansbinding.BeanProperty.create("text"));
@@ -344,13 +352,15 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridy = 2;
         pnlRuntimeInfo.add(lblAvgExecutionTime, gridBagConstraints);
 
         jLabel8.setText("# connections");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_END;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 5);
         pnlRuntimeInfo.add(jLabel8, gridBagConstraints);
 
         edtConnectionCount.setModel(new javax.swing.SpinnerNumberModel(Integer.valueOf(1), Integer.valueOf(1), null, Integer.valueOf(1)));
@@ -360,14 +370,16 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridy = 3;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         pnlRuntimeInfo.add(edtConnectionCount, gridBagConstraints);
 
         jLabel9.setText("avg send duration");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_END;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 5);
         pnlRuntimeInfo.add(jLabel9, gridBagConstraints);
 
         binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.averageDuration}"), lblAvgSendDuration, org.jdesktop.beansbinding.BeanProperty.create("text"));
@@ -377,8 +389,43 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridy = 4;
         pnlRuntimeInfo.add(lblAvgSendDuration, gridBagConstraints);
+
+        jLabel4.setText("Data Interval");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_END;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 5);
+        pnlRuntimeInfo.add(jLabel4, gridBagConstraints);
+
+        spnInterval.setModel(new javax.swing.SpinnerNumberModel(1000, 100, 100000, 1));
+
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.interval}"), spnInterval, org.jdesktop.beansbinding.BeanProperty.create("value"));
+        bindingGroup.addBinding(binding);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        pnlRuntimeInfo.add(spnInterval, gridBagConstraints);
+
+        jLabel7.setText("Failures");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_END;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 5);
+        pnlRuntimeInfo.add(jLabel7, gridBagConstraints);
+
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.failures}"), jLabel10, org.jdesktop.beansbinding.BeanProperty.create("text"));
+        bindingGroup.addBinding(binding);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 5;
+        pnlRuntimeInfo.add(jLabel10, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -513,10 +560,13 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
     private javax.swing.JSpinner edtConnectionCount;
     private javax.swing.JSpinner edtThreadCount;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
@@ -537,6 +587,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
     private javax.swing.JPanel pnlDetails;
     private javax.swing.JPanel pnlRuntimeInfo;
     private javax.swing.JPanel pnlState;
+    private javax.swing.JSpinner spnInterval;
     private javax.swing.JTable tblConfig;
     private javax.swing.JTextArea txtStatus;
     private org.jdesktop.beansbinding.BindingGroup bindingGroup;
@@ -568,6 +619,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 				btnStop.setEnabled(false);
 				edtThreadCount.setEnabled(false);
 				edtConnectionCount.setEnabled(false);
+				spnInterval.setEnabled(false);
 				break;
 			case NOT_CREATED:
 				btnCreate.setEnabled(true);
@@ -577,6 +629,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 				btnStop.setEnabled(false);
 				edtThreadCount.setEnabled(true);
 				edtConnectionCount.setEnabled(true);
+				spnInterval.setEnabled(true);
 				break;
 			case RUNNING:
 				btnCreate.setEnabled(false);
@@ -586,6 +639,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 				btnStop.setEnabled(true);
 				edtThreadCount.setEnabled(false);
 				edtConnectionCount.setEnabled(false);
+				spnInterval.setEnabled(false);
 				break;
 			case STOPPED:
 				btnCreate.setEnabled(false);
@@ -595,6 +649,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 				btnStop.setEnabled(false);
 				edtThreadCount.setEnabled(true);
 				edtConnectionCount.setEnabled(true);
+				spnInterval.setEnabled(true);
 				break;
 			case UNDEFINED:
 				btnCreate.setEnabled(true);
@@ -604,6 +659,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 				btnStop.setEnabled(true);
 				edtThreadCount.setEnabled(true);
 				edtConnectionCount.setEnabled(true);
+				spnInterval.setEnabled(true);
 				break;
 		}
 

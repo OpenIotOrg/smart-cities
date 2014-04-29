@@ -125,24 +125,29 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 	 * We have received data. See if it's valid, and insert it if it is.
 	 *
 	 * @param data The data that was received.
+	 * @return a message with the result.
 	 */
-	public void handleData(String data) {
+	public MessageResult handleData(String data) {
+		MessageResult mr = new MessageResult();
 		TreeMap<String, Serializable> elementData = handler.parseValues(data);
 		StreamElement streamElement = new StreamElement(elementData, getOutputFormat());
 		LOGGER.debug("Sensor {}, Queueing: {}", id, elementData);
-		try {
-			synchronized (this) {
-				dataQueue.add(streamElement);
+		synchronized (this) {
+			if (dataQueue.offer(streamElement)) {
+				mr.setResult(MessageResult.RESULT.QUEUED);
 				this.notify();
+			} else {
+				LOGGER.warn("Could not add data for sensor {}, queue full!", id);
+				mr.setResult(MessageResult.RESULT.QUEUE_FULL);
 			}
-		} catch (IllegalStateException e) {
-			LOGGER.warn("Could not add data for sensor {}, queue full!", id);
 		}
+		mr.setQueueSize(dataQueue.size());
+		return mr;
 	}
 
 	public void forwardData(StreamElement streamElement) {
 		LOGGER.debug("Sensor {}, forwarding data.", id);
 		boolean insertionSuccess = postStreamElement(streamElement);
-		LOGGER.debug("Sensor {}, success: {}", id, insertionSuccess);
+		LOGGER.debug("Sensor {}, success: {}, queue: {}.", id, insertionSuccess, dataQueue.size());
 	}
 }

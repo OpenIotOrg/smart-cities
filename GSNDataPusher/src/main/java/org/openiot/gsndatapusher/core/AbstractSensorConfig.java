@@ -62,6 +62,7 @@ public abstract class AbstractSensorConfig<A extends ISensorAdapter<A, C>, C ext
 	/**
 	 * @return the type
 	 */
+	@Override
 	public String getType() {
 		return type;
 	}
@@ -69,24 +70,9 @@ public abstract class AbstractSensorConfig<A extends ISensorAdapter<A, C>, C ext
 	/**
 	 * @param type the type to set
 	 */
+	@Override
 	public void setType(String type) {
 		this.type = type;
-	}
-
-	/**
-	 * @return the interval
-	 */
-	@Override
-	public long getInterval() {
-		return interval;
-	}
-
-	/**
-	 * @param interval the interval to set
-	 */
-	@Override
-	public void setInterval(long interval) {
-		this.interval = interval;
 	}
 
 	/**

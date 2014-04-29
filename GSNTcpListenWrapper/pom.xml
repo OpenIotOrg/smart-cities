@@ -75,7 +75,7 @@
 		<dependency>
 			<groupId>com.usoog.usoog-commons</groupId>
 			<artifactId>usoog-network</artifactId>
-			<version>0.3-SNAPSHOT</version>
+			<version>0.4-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 

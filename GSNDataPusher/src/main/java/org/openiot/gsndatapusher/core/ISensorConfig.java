@@ -27,10 +27,6 @@ public interface ISensorConfig<A extends ISensorAdapter<A, C>, C extends ISensor
 
 	void setType(String type);
 
-	long getInterval();
-
-	void setInterval(long interval);
-
 	int getFieldCount();
 
 	void setFieldCount(int fieldCount);

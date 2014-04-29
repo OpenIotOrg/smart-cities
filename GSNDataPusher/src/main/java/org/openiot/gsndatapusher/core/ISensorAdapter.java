@@ -1,10 +1,13 @@
 package org.openiot.gsndatapusher.core;
 
 import java.util.concurrent.Callable;
+import org.openiot.gsn.wrappers.tcplistener.MessageResult;
 
 /**
  *
  * @author admin-jacoby
+ * @param <A>
+ * @param <C>
  */
 public interface ISensorAdapter<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C>> {
 
@@ -12,6 +15,8 @@ public interface ISensorAdapter<A extends ISensorAdapter<A, C>, C extends ISenso
 
 		public boolean success;
 		public String data;
+		public int queue;
+		public MessageResult.RESULT result;
 	}
 
 	String getGSNConfigFile(C config);

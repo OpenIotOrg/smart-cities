@@ -35,8 +35,6 @@ public class TcpListenerSensorDummyPanel extends AbstractSensorDummyPanel {
 
         lblName = new javax.swing.JLabel();
         edtName = new javax.swing.JTextField();
-        lblInterval = new javax.swing.JLabel();
-        edtInterval = new javax.swing.JFormattedTextField();
         lblFieldCount = new javax.swing.JLabel();
         edtFieldCount = new javax.swing.JFormattedTextField();
         lblPoolSize = new javax.swing.JLabel();
@@ -61,236 +59,216 @@ public class TcpListenerSensorDummyPanel extends AbstractSensorDummyPanel {
         lblServer = new javax.swing.JLabel();
         edtServer = new javax.swing.JTextField();
 
-        java.awt.GridBagLayout layout = new java.awt.GridBagLayout();
-        layout.columnWidths = new int[] {0, 5, 0};
-        layout.rowHeights = new int[] {0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0};
-        setLayout(layout);
+        setLayout(new java.awt.GridBagLayout());
 
         lblName.setText("Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridy = 1;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblName, gridBagConstraints);
 
         edtName.setText("testsensor");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.weightx = 0.2;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtName, gridBagConstraints);
-
-        lblInterval.setText("Interval");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
-        add(lblInterval, gridBagConstraints);
-
-        edtInterval.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0"))));
-        edtInterval.setText("1000");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
-        add(edtInterval, gridBagConstraints);
 
         lblFieldCount.setText("Field count");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridy = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblFieldCount, gridBagConstraints);
 
         edtFieldCount.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0"))));
         edtFieldCount.setText("3");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtFieldCount, gridBagConstraints);
 
         lblPoolSize.setText("Pool size");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 10;
+        gridBagConstraints.gridy = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblPoolSize, gridBagConstraints);
 
         edtPoolSize.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0"))));
         edtPoolSize.setText("100");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 10;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 4;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtPoolSize, gridBagConstraints);
 
         lblHistorySize.setText("History size");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 12;
+        gridBagConstraints.gridy = 5;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblHistorySize, gridBagConstraints);
 
         edtBadValues.setText("NaN,null");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 20;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 9;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtBadValues, gridBagConstraints);
 
         lblSamplingRate.setText("Sampling rate");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 14;
+        gridBagConstraints.gridy = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblSamplingRate, gridBagConstraints);
 
         edtSamplingRate.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0"))));
         edtSamplingRate.setText("1");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 14;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 6;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtSamplingRate, gridBagConstraints);
 
         lblStorageSize.setText("Storage size");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 16;
+        gridBagConstraints.gridy = 7;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblStorageSize, gridBagConstraints);
 
         edtStorageSize.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0"))));
         edtStorageSize.setText("1");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 16;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 7;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtStorageSize, gridBagConstraints);
 
         lblPriority.setText("Priority");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 18;
+        gridBagConstraints.gridy = 8;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblPriority, gridBagConstraints);
 
         chkPublishToLSM.setText("Pubslih to LSM");
         chkPublishToLSM.setEnabled(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 28;
-        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.gridy = 13;
+        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 8, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 8, 0, 0);
         add(chkPublishToLSM, gridBagConstraints);
 
         lblBadValues.setText("Bad values");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 20;
+        gridBagConstraints.gridy = 9;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblBadValues, gridBagConstraints);
 
         lblPort.setText("Port");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 24;
+        gridBagConstraints.gridy = 11;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblPort, gridBagConstraints);
 
         edtPort.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0"))));
         edtPort.setText("22002");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 24;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 11;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtPort, gridBagConstraints);
 
         edtPriority.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0"))));
         edtPriority.setText("10");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 18;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 8;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtPriority, gridBagConstraints);
 
         edtTimezone.setText("Etc/GMT-2");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 22;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 10;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtTimezone, gridBagConstraints);
 
         edtHistorySize.setText("2h");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 12;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 5;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtHistorySize, gridBagConstraints);
 
         lblTimezone.setText("Timezone");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 22;
+        gridBagConstraints.gridy = 10;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblTimezone, gridBagConstraints);
 
         cmbDatatype.setModel(new DefaultComboBoxModel(FieldType.values()));
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 8;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 3;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(cmbDatatype, gridBagConstraints);
 
         lblDataype.setText("Datatype");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 8;
+        gridBagConstraints.gridy = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblDataype, gridBagConstraints);
 
         lblServer.setText("Server");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 26;
+        gridBagConstraints.gridy = 12;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 13, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(5, 13, 0, 0);
         add(lblServer, gridBagConstraints);
 
         edtServer.setText("localhost");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 26;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 12;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 11);
+        gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 11);
         add(edtServer, gridBagConstraints);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -300,7 +278,6 @@ public class TcpListenerSensorDummyPanel extends AbstractSensorDummyPanel {
     private javax.swing.JTextField edtBadValues;
     private javax.swing.JFormattedTextField edtFieldCount;
     private javax.swing.JTextField edtHistorySize;
-    private javax.swing.JFormattedTextField edtInterval;
     private javax.swing.JTextField edtName;
     private javax.swing.JFormattedTextField edtPoolSize;
     private javax.swing.JFormattedTextField edtPort;
@@ -313,7 +290,6 @@ public class TcpListenerSensorDummyPanel extends AbstractSensorDummyPanel {
     private javax.swing.JLabel lblDataype;
     private javax.swing.JLabel lblFieldCount;
     private javax.swing.JLabel lblHistorySize;
-    private javax.swing.JLabel lblInterval;
     private javax.swing.JLabel lblName;
     private javax.swing.JLabel lblPoolSize;
     private javax.swing.JLabel lblPort;
@@ -343,7 +319,6 @@ public class TcpListenerSensorDummyPanel extends AbstractSensorDummyPanel {
 		config.setFieldType((FieldType) cmbDatatype.getSelectedItem());
 		config.setFieldCount(Integer.parseInt(edtFieldCount.getText()));
 		config.setHistorySize(edtHistorySize.getText());
-		config.setInterval(Long.parseLong(edtInterval.getText()));
 		config.setName(edtName.getText());
 		config.setPoolSize(Integer.parseInt(edtPoolSize.getText()));
 		config.setPort(Integer.parseInt(edtPort.getText()));

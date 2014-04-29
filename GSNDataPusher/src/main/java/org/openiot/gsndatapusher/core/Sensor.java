@@ -41,6 +41,7 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 	private double averageExecutionTime = 0;
 	private double averageDuration = 0;
 	private long lastDataSend = 0;
+	private int failures = 0;
 
 	public Sensor(SensorState initialState, C config, CloseableHttpClient client) {
 		adapter = config.getAdapter();
@@ -79,21 +80,6 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 
 	public void removePropertyChangeListener(PropertyChangeListener listener) {
 		this.propertyChangeSupport.removePropertyChangeListener(listener);
-	}
-
-	private void setStatus(SensorState state, String message) {
-		SensorStatus newStatus = new SensorStatus();
-		newStatus.setState(state);
-		newStatus.setMessage(message);
-		setStatus(newStatus);
-	}
-
-	private void setStatus(SensorState state) {
-		setStatus(state, getStatus().getMessage());
-	}
-
-	private void setStatus(String message) {
-		setStatus(getStatus().getState(), message);
 	}
 
 	public boolean createSensor() {
@@ -236,11 +222,12 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 						Callable<ISensorAdapter.SendResult> call = getAdapter().sendData(config);
 						ISensorAdapter.SendResult result = call.call();
 						if (result.success) {
-							setStatus(SensorState.RUNNING, "data sent");
+							setStatus(SensorState.RUNNING, "data sent", result.queue);
 							setLastData(result.data);
 							LOGGER.trace("data send: {}", result.data);
 						} else {
-							setStatus(SensorState.RUNNING, "data could not be sent");
+							setFailures(failures + 1);
+							setStatus(SensorState.RUNNING, "data could not be sent", result.queue);
 						}
 						if (!getAdapter().teardownSensorConnection(config).call()) {
 							setStatus(SensorState.RUNNING, "connection could not be closed");
@@ -261,6 +248,7 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 
 	public void start() {
 		lastDataSend = 0;
+		setFailures(0);
 		setStatus(SensorState.RUNNING);
 	}
 
@@ -283,6 +271,27 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 		this.status = status;
 		propertyChangeSupport.firePropertyChange("status", oldStatus, status);
 		fireSensorStateChanged(new SensorStatusChangedEvent(this, oldStatus, status));
+	}
+
+	private void setStatus(SensorState state, String message, int queue) {
+		SensorStatus newStatus = new SensorStatus();
+		newStatus.setState(state);
+		newStatus.setMessage(message);
+		newStatus.setQueue(queue);
+		setStatus(newStatus);
+	}
+
+	private void setStatus(SensorState state, String message) {
+		SensorStatus newStatus = new SensorStatus();
+		newStatus.setState(state);
+		newStatus.setMessage(message);
+		newStatus.setQueue(status.getQueue());
+		setStatus(newStatus);
+	}
+
+	private void setStatus(SensorState state) {
+		SensorStatus oldStatus = getStatus();
+		setStatus(state, oldStatus.getMessage(), oldStatus.getQueue());
 	}
 
 	/**
@@ -336,6 +345,16 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 		double oldAverageDuration = this.averageDuration;
 		this.averageDuration = averageDuration;
 		propertyChangeSupport.firePropertyChange("averageDuration", oldAverageDuration, averageDuration);
+	}
+
+	public int getFailures() {
+		return failures;
+	}
+
+	public void setFailures(int failures) {
+		int oldFailures = this.failures;
+		this.failures = failures;
+		propertyChangeSupport.firePropertyChange("failures", oldFailures, failures);
 	}
 
 	/**

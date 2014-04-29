@@ -105,7 +105,6 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 		result.setFieldType(getFieldType());
 		result.setGsnAddress(getGsnAddress());
 		result.setHistorySize(getHistorySize());
-		result.setInterval(getInterval());
 		result.setPoolSize(getPoolSize());
 		result.setPriority(getPriority());
 		result.setPublishToLSM(isPublishToLSM());

@@ -12,6 +12,7 @@ public class SensorStatus implements Serializable {
 
 	private SensorState state = SensorState.NOT_CREATED;
 	private String message = "object created";
+	private int queue = 0;
 	private final transient PropertyChangeSupport propertyChangeSupport = new java.beans.PropertyChangeSupport(this);
 
 	public SensorStatus() {
@@ -50,6 +51,20 @@ public class SensorStatus implements Serializable {
 		propertyChangeSupport.firePropertyChange("message", oldMessage, message);
 	}
 
+	/**
+	 * @return the queue
+	 */
+	public int getQueue() {
+		return queue;
+	}
+
+	/**
+	 * @param queue the queue to set
+	 */
+	public void setQueue(int queue) {
+		this.queue = queue;
+	}
+
 	public void addPropertyChangeListener(PropertyChangeListener listener) {
 		this.propertyChangeSupport.addPropertyChangeListener(listener);
 	}
@@ -57,5 +72,4 @@ public class SensorStatus implements Serializable {
 	public void removePropertyChangeListener(PropertyChangeListener listener) {
 		this.propertyChangeSupport.removePropertyChangeListener(listener);
 	}
-
 }

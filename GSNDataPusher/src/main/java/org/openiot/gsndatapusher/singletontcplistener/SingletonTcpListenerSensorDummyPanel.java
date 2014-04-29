@@ -40,7 +40,6 @@ public class SingletonTcpListenerSensorDummyPanel extends AbstractSensorDummyPan
 		config.setFieldType((FieldType) cmbDatatype.getSelectedItem());
 		config.setFieldCount(Integer.parseInt(edtFieldCount.getText()));
 		config.setHistorySize(edtHistorySize.getText());
-		config.setInterval(Long.parseLong(edtInterval.getText()));
 		config.setPoolSize(Integer.parseInt(edtPoolSize.getText()));
 		config.setPort(Integer.parseInt(edtPort.getText()));
 		config.setPriority(Integer.parseInt(edtPriority.getText()));
@@ -159,7 +158,7 @@ public class SingletonTcpListenerSensorDummyPanel extends AbstractSensorDummyPan
         add(lblFieldCount, gridBagConstraints);
 
         edtFieldCount.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0"))));
-        edtFieldCount.setText("3");
+        edtFieldCount.setText("1");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 8;
