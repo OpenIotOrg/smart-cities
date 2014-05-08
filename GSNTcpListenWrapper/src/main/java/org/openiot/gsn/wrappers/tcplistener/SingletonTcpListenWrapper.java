@@ -89,6 +89,9 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 	public void dispose() {
 		LOGGER.info("Disposing of wrapper {}.", getName());
 		SingletonTcpListenManager.unsubscribe(port, id, this);
+		synchronized (this) {
+			this.notify();
+		}
 	}
 
 	@Override
