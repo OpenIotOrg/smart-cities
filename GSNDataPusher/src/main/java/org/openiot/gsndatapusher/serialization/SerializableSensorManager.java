@@ -1,6 +1,8 @@
 package org.openiot.gsndatapusher.serialization;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import org.openiot.gsndatapusher.core.ISensorAdapter;
 import org.openiot.gsndatapusher.core.ISensorConfig;
 import org.openiot.gsndatapusher.core.SensorManager;
@@ -9,6 +11,8 @@ import org.openiot.gsndatapusher.core.SensorState;
 /**
  *
  * @author admin-jacoby
+ * @param <A>
+ * @param <C>
  */
 public class SerializableSensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C>> implements Serializable {
 
@@ -18,9 +22,10 @@ public class SerializableSensorManager<A extends ISensorAdapter<A, C>, C extends
 	private int connectionCount;
 	private String displayName;
 	private C config;
+	private List<Double> ids;
 
 	public SerializableSensorManager() {
-
+		ids = new ArrayList<>();
 	}
 
 	public SerializableSensorManager(SensorManager<A, C> manager) {
@@ -30,10 +35,12 @@ public class SerializableSensorManager<A extends ISensorAdapter<A, C>, C extends
 		this.connectionCount = manager.getConnectionCount();
 		this.displayName = manager.getDisplayName();
 		this.config = manager.getConfig();
+		this.ids = manager.getIds();
+
 	}
 
 	public SensorManager<A, C> asManager() {
-		return new SensorManager<A, C>(state, multiplicity, threadCount, connectionCount, displayName, config);
+		return new SensorManager<A, C>(state, multiplicity, threadCount, connectionCount, displayName, config, ids);
 	}
 
 	/**
@@ -118,5 +125,19 @@ public class SerializableSensorManager<A extends ISensorAdapter<A, C>, C extends
 	 */
 	public void setState(SensorState state) {
 		this.state = state;
+	}
+
+	/**
+	 * @return the ids
+	 */
+	public List<Double> getIds() {
+		return ids;
+	}
+
+	/**
+	 * @param ids the ids to set
+	 */
+	public void setIds(List<Double> ids) {
+		this.ids = ids;
 	}
 }

@@ -1,8 +1,6 @@
 package org.openiot.gsndatapusher.gui;
 
 import java.util.concurrent.ScheduledThreadPoolExecutor;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.jdesktop.swingbinding.JTableBinding;
 import org.openiot.gsndatapusher.core.SensorManager;
 import org.openiot.gsndatapusher.core.SensorState;
@@ -16,6 +14,7 @@ import static org.openiot.gsndatapusher.core.SensorState.STOPPING;
 import static org.openiot.gsndatapusher.core.SensorState.UNDEFINED;
 import org.openiot.gsndatapusher.core.SensorStatusChangedEvent;
 import org.openiot.gsndatapusher.core.SensorStatusChangedListener;
+import org.slf4j.LoggerFactory;
 
 /**
  *
@@ -23,6 +22,10 @@ import org.openiot.gsndatapusher.core.SensorStatusChangedListener;
  */
 public class SensorManagerPanel extends javax.swing.JPanel implements SensorStatusChangedListener {
 
+	/**
+	 * The logger for this class.
+	 */
+	private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(SensorManagerPanel.class);
 	private final SensorManager sensorManager;
 	private SensorRemoveListener removeListener;
 	private ScheduledThreadPoolExecutor internalThreadPool;
@@ -400,7 +403,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 5);
         pnlRuntimeInfo.add(jLabel4, gridBagConstraints);
 
-        spnInterval.setModel(new javax.swing.SpinnerNumberModel(1000, 100, 100000, 1));
+        spnInterval.setModel(new javax.swing.SpinnerNumberModel(1000, 1, 100000, 1));
 
         binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, this, org.jdesktop.beansbinding.ELProperty.create("${sensorManager.interval}"), spnInterval, org.jdesktop.beansbinding.BeanProperty.create("value"));
         bindingGroup.addBinding(binding);
@@ -506,7 +509,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 		try {
 			internalThreadPool.submit(sensorManager.start());
 		} catch (Exception ex) {
-			Logger.getLogger(SensorManagerPanel.class.getName()).log(Level.SEVERE, null, ex);
+			LOGGER.warn("Failed to start.", ex);
 		}
     }//GEN-LAST:event_btnStartActionPerformed
 
@@ -514,15 +517,16 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 		try {
 			internalThreadPool.submit(sensorManager.create());
 		} catch (Exception ex) {
-			Logger.getLogger(SensorManagerPanel.class.getName()).log(Level.SEVERE, null, ex);
+			LOGGER.warn("Failed to create.", ex);
 		}
     }//GEN-LAST:event_btnCreateActionPerformed
 
     private void btnStopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStopActionPerformed
 		try {
+			LOGGER.info("Submitting the stop process.");
 			internalThreadPool.submit(sensorManager.stop());
 		} catch (Exception ex) {
-			Logger.getLogger(SensorManagerPanel.class.getName()).log(Level.SEVERE, null, ex);
+			LOGGER.warn("Failed to stop.", ex);
 		}
     }//GEN-LAST:event_btnStopActionPerformed
 
@@ -530,7 +534,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 		try {
 			internalThreadPool.submit(sensorManager.delete());
 		} catch (Exception ex) {
-			Logger.getLogger(SensorManagerPanel.class.getName()).log(Level.SEVERE, null, ex);
+			LOGGER.warn("Failed to delete.", ex);
 		}
     }//GEN-LAST:event_btnDeleteActionPerformed
 
@@ -538,7 +542,7 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 		try {
 			sensorManager.sendDataOnce().call();
 		} catch (Exception ex) {
-			Logger.getLogger(SensorManagerPanel.class.getName()).log(Level.SEVERE, null, ex);
+			LOGGER.warn("Failed to send.", ex);
 		}
     }//GEN-LAST:event_btnSendDataActionPerformed
 

@@ -1,6 +1,7 @@
 package org.openiot.gsndatapusher.singletontcplistener;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import org.openiot.gsndatapusher.core.AbstractSensorConfig;
 
@@ -75,11 +76,21 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 		this.timeZone = timeZone;
 	}
 
+	/**
+	 *
+	 * @param n
+	 * @return
+	 */
 	@Override
-	public List<SingletonTcpListenerConfig> createAdaptedCopies(int n) {
+	public List<SingletonTcpListenerConfig> createAdaptedCopies(int n, List<Double> ids) {
 		List<SingletonTcpListenerConfig> result = new ArrayList<>(n);
+		Iterator<Double> iIds = ids.iterator();
 		for (int i = 1; i <= n; i++) {
-			result.add(createAdaptedCopy(i));
+			Double id = null;
+			if (iIds.hasNext()) {
+				id = iIds.next();
+			}
+			result.add(createAdaptedCopy(i, id));
 		}
 		return result;
 	}
@@ -87,6 +98,7 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 	/**
 	 * @return the id
 	 */
+	@Override
 	public double getId() {
 		return id;
 	}
@@ -99,7 +111,7 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 	}
 
 	@Override
-	protected SingletonTcpListenerConfig createAdaptedCopy(int offset) {
+	protected SingletonTcpListenerConfig createAdaptedCopy(int offset, Double id) {
 		SingletonTcpListenerConfig result = new SingletonTcpListenerConfig();
 		result.setFieldCount(getFieldCount());
 		result.setFieldType(getFieldType());
@@ -116,7 +128,11 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 		result.setTimeZone(getTimeZone());
 		result.setName(getName() + offset);
 		result.setType(getType());
-		result.setId(Math.random());
+		if (id != null) {
+			result.setId(id);
+		} else {
+			result.setId(Math.random());
+		}
 		return result;
 	}
 

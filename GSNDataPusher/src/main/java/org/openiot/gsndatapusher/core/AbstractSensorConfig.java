@@ -1,6 +1,7 @@
 package org.openiot.gsndatapusher.core;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -204,16 +205,21 @@ public abstract class AbstractSensorConfig<A extends ISensorAdapter<A, C>, C ext
 	}
 
 	@Override
-	public List<C> createAdaptedCopies(int n) {
+	public List<C> createAdaptedCopies(int n, List<Double> ids) {
 		List<C> result = new ArrayList<>(n);
+		Iterator<Double> iIds = ids.iterator();
 		for (int i = 0; i < n; i++) {
-			C copy = createAdaptedCopy(i);
+			Double id = null;
+			if (iIds.hasNext()) {
+				id = iIds.next();
+			}
+			C copy = createAdaptedCopy(i, id);
 			copy.setName(getName() + i);
 			result.add(copy);
 		}
 		return result;
 	}
 
-	protected abstract C createAdaptedCopy(int offset);
+	protected abstract C createAdaptedCopy(int offset, Double id);
 
 }

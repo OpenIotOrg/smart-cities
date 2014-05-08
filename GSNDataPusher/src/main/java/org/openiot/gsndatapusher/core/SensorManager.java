@@ -4,6 +4,7 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -66,7 +67,7 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 		this.propertyChangeSupport.removePropertyChangeListener(listener);
 	}
 
-	public SensorManager(SensorState initialState, int multiplicity, int threadCount, int connectionCount, String displayName, C config) {
+	public SensorManager(SensorState initialState, int multiplicity, int threadCount, int connectionCount, String displayName, C config, List<Double> ids) {
 		for (SensorState state : SensorState.values()) {
 			childStatus.put(state, state == initialState ? multiplicity : 0);
 		}
@@ -77,7 +78,7 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 		this.connectionCount = connectionCount;
 		this.config = config;
 		internalThreadPool = new ScheduledThreadPoolExecutor(1, this);
-		for (C newConfig : config.createAdaptedCopies(multiplicity)) {
+		for (C newConfig : config.createAdaptedCopies(multiplicity, ids)) {
 			Sensor sensor = new Sensor(initialState, newConfig, client);
 			sensor.addListener(this);
 			sensors.add(sensor);
@@ -105,7 +106,7 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 	}
 
 	public SensorManager(int multiplicity, int threadCount, int connectionCount, String displayName, C config) {
-		this(SensorState.NOT_CREATED, multiplicity, threadCount, connectionCount, displayName, config);
+		this(SensorState.NOT_CREATED, multiplicity, threadCount, connectionCount, displayName, config, new ArrayList<Double>());
 	}
 
 	private void fireSensorStateChanged(SensorStatusChangedEvent e) {
@@ -174,6 +175,7 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 
 			@Override
 			public Boolean call() throws Exception {
+				LOGGER.info("Starting the stop process.");
 				boolean result;
 				setStatus(SensorState.STOPPING);
 				stopFetchSensorPerformance();
@@ -185,6 +187,13 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 				}
 				result = sensorThreadPool.getQueue().isEmpty();
 				setStatus(SensorState.STOPPED);
+				LOGGER.debug("Finished the stop process.");
+				for (Iterator<ScheduledFuture<?>> it = runningSensorTasks.iterator(); it.hasNext();) {
+					ScheduledFuture<?> task = it.next();
+					if (task.isDone()) {
+						it.remove();
+					}
+				}
 				return result;
 			}
 		};
@@ -336,6 +345,14 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 		return config;
 	}
 
+	public List<Double> getIds() {
+		List<Double> list = new ArrayList<>(sensors.size());
+		for (Sensor s : sensors) {
+			list.add(s.getConfig().getId());
+		}
+		return list;
+	}
+
 	/**
 	 * @param threadCount the threadCount to set
 	 */
@@ -378,8 +395,12 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 	}
 
 	private void stopFetchSensorPerformance() {
-		for (Future<?> task : runningInternalTasks) {
+		for (Iterator<ScheduledFuture<?>> it = runningInternalTasks.iterator(); it.hasNext();) {
+			Future<?> task = it.next();
 			task.cancel(true);
+			if (task.isDone()) {
+				it.remove();
+			}
 		}
 	}
 
