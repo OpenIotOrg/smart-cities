@@ -2,10 +2,13 @@ package org.openiot.gsn.wrappers.tcplistener;
 
 import com.usoog.commons.network.message.Message;
 import java.io.Serializable;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Queue;
 import java.util.TreeMap;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
+import javax.naming.OperationNotSupportedException;
 import org.openiot.gsn.beans.AddressBean;
 import org.openiot.gsn.beans.DataField;
 import org.openiot.gsn.beans.StreamElement;
@@ -59,6 +62,7 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 	 */
 	private double id = -1;
 	private final Queue<StreamElement> dataQueue = new ArrayBlockingQueue<>(5);
+	private final Map<String, String> lastSettings = new HashMap<String, String>();
 
 	@Override
 	public boolean initialize() {
@@ -145,6 +149,11 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 			}
 		}
 		mr.setQueueSize(dataQueue.size());
+		synchronized (lastSettings) {
+			Map<String, String> sets = new HashMap<>(lastSettings);
+			mr.setSettings(sets);
+			lastSettings.clear();
+		}
 		return mr;
 	}
 
@@ -153,4 +162,19 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 		boolean insertionSuccess = postStreamElement(streamElement);
 		LOGGER.debug("Sensor {}, success: {}, queue: {}.", id, insertionSuccess, dataQueue.size());
 	}
+
+	@Override
+	public boolean sendToWrapper(String action, String[] paramNames, Object[] paramValues) throws OperationNotSupportedException {
+		LOGGER.debug("Got action {} with {} params.", action, paramNames.length);
+		synchronized (lastSettings) {
+			for (int i = 0; i < paramNames.length; i++) {
+				String name = paramNames[i];
+				String value = paramValues[i].toString();
+				lastSettings.put(name, value);
+				LOGGER.debug("Set {} to value {}. Map now has {} entries.", name, value, lastSettings.size());
+			}
+		}
+		return true;
+	}
+
 }

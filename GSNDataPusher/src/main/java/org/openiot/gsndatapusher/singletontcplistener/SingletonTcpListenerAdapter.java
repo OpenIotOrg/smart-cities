@@ -6,15 +6,9 @@ import com.usoog.commons.network.event.EventConnectionEstablished;
 import com.usoog.commons.network.event.EventMessageRecieved;
 import com.usoog.commons.network.message.FactoryMessage;
 import com.usoog.commons.network.message.Message;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-import java.net.InetSocketAddress;
-import java.net.Socket;
 import java.util.Locale;
+import java.util.Map;
 import java.util.concurrent.Callable;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.openiot.gsn.wrappers.tcplistener.MessageResult;
 import org.openiot.gsndatapusher.core.AbstractSensorAdapter;
 import org.openiot.gsndatapusher.core.FieldType;
@@ -50,33 +44,30 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 	public String getGSNConfigFile(SingletonTcpListenerConfig config) {
 		StringBuilder builder = new StringBuilder();
 		builder.append(String.format("<virtual-sensor name=\"%s\" priority=\"%d\" publish-to-lsm=\"%s\">\n", config.getName(), config.getPriority(), Boolean.toString(config.isPublishToLSM())));
-		if (config.isPublishToLSM()) {
-			builder.append(String.format("   <processing-class>\n"));
-			builder.append(String.format("      <class-name>org.openiot.gsn.vsensor.LSMExporter</class-name>\n"));
-			builder.append(String.format("      <init-params>\n"));
-			builder.append(String.format("          <param name='allow-nulls'>false</param>\n"));
-			builder.append(String.format("          <param name='publish-to-lsm'>true</param>\n"));
-			builder.append(String.format("      </init-params>\n"));
-			builder.append(String.format("      <output-structure>\n"));
-			for (int i = 1; i <= config.getFieldCount(); i++) {
-				builder.append(String.format("         <field name=\"field%d\" type=\"%s\" />\n", i, config.getFieldType().toString()));
-			}
-			builder.append(String.format("      </output-structure>\n"));
-			builder.append(String.format("   </processing-class>\n"));
-		} else {
-			builder.append(String.format("   <processing-class>\n"));
-			builder.append(String.format("      <class-name>org.openiot.gsn.vsensor.BridgeVirtualSensor</class-name>\n"));
-			builder.append(String.format("      <init-params>\n"));
-			builder.append(String.format("         <param name=\"allow-nulls\">false</param>\n"));
-			builder.append(String.format("         <param name=\"debug-mode\">false</param>\n"));
-			builder.append(String.format("      </init-params>\n"));
-			builder.append(String.format("      <output-structure>\n"));
-			for (int i = 1; i <= config.getFieldCount(); i++) {
-				builder.append(String.format("         <field name=\"field%d\" type=\"%s\" />\n", i, config.getFieldType().toString()));
-			}
-			builder.append(String.format("      </output-structure>\n"));
-			builder.append(String.format("   </processing-class>\n"));
+
+		builder.append(String.format("   <processing-class>\n"));
+		builder.append(String.format("      <class-name>org.openiot.gsn.wrappers.tcplistener.BridgeLsmWebVS</class-name>\n"));
+		builder.append(String.format("      <init-params>\n"));
+		builder.append(String.format("          <param name='allow-nulls'>false</param>\n"));
+		builder.append(String.format("          <param name='publish-to-lsm'>%s</param>\n", (config.isPublishToLSM() ? "true" : "false")));
+		builder.append(String.format("      </init-params>\n"));
+		StringBuilder output = new StringBuilder();
+		StringBuilder input = new StringBuilder();
+
+		output.append(String.format("      <output-structure>\n"));
+		input.append(String.format("      <web-input>\n"));
+		input.append(String.format("        <command name=\"cmd1\">\n"));
+		for (int i = 1; i <= config.getFieldCount(); i++) {
+			output.append(String.format("         <field name=\"field%d\" type=\"%s\" />\n", i, config.getFieldType().toString()));
+			input.append(String.format("             <field name=\"field%d\" type=\"%s\">field%d</field>\n", i, config.getFieldType().toString(), i));
 		}
+		input.append(String.format("        </command>\n"));
+		input.append(String.format("      </web-input>\n"));
+		output.append(String.format("      </output-structure>\n"));
+
+		builder.append(input);
+		builder.append(output);
+		builder.append(String.format("   </processing-class>\n"));
 
 		builder.append(String.format("   <life-cycle pool-size=\"%d\" />\n", config.getPoolSize()));
 		builder.append(String.format("   <addressing />\n"));
@@ -184,6 +175,11 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 			} catch (InterruptedException ex) {
 			}
 		}
+		if (sr.settings != null) {
+			for (Map.Entry<String, String> es : sr.settings.entrySet()) {
+				config.setSetpointFor(es.getKey(), es.getValue());
+			}
+		}
 
 		return sr;
 	}
@@ -201,6 +197,7 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 			synchronized (sr) {
 				sr.result = mr.getResult();
 				sr.queue = mr.getQueueSize();
+				sr.settings = mr.getSettings();
 				switch (mr.getResult()) {
 					case OK:
 					case QUEUED:
@@ -235,13 +232,29 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 		 */
 		String result = String.format("ID %s {", String.format(Locale.US, "%f", config.getId()));
 		for (int i = 1; i <= config.getFieldCount(); i++) {
-			result += String.format(("\"field%d\"=%s"), i, randomValue(config));
+			String name = String.format("field%d", i);
+			result += String.format("\"%s\"=%s", name, getDataFor(config, name));
 			if (i < config.getFieldCount()) {
 				result += ",";
 			}
 		}
 		result += ("}");
 		return result;
+	}
+
+	private String getDataFor(final SingletonTcpListenerConfig config, String field) {
+		if (config.getFieldType() == FieldType.Int) {
+			int sp = config.getIntSetpointFor(field, 0);
+			if (sp == 0) {
+				return randomValue(config);
+			} else {
+				int last = config.getLastIntValueFor(field, 0);
+				int next = last + (int) (0.1 * (sp - last));
+				config.setLastValueFor(field, next);
+				return Integer.toString(next);
+			}
+		}
+		return randomValue(config);
 	}
 
 	private boolean connectToServer(SingletonTcpListenerConfig config) {

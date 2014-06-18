@@ -1,5 +1,6 @@
 package org.openiot.gsndatapusher.core;
 
+import java.util.Map;
 import java.util.concurrent.Callable;
 import org.openiot.gsn.wrappers.tcplistener.MessageResult;
 
@@ -16,6 +17,7 @@ public interface ISensorAdapter<A extends ISensorAdapter<A, C>, C extends ISenso
 		public boolean success;
 		public String data;
 		public int queue;
+		public Map<String, String> settings;
 		public MessageResult.RESULT result;
 	}
 

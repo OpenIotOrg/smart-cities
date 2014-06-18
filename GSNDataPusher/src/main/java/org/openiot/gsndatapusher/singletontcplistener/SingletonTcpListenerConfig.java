@@ -1,9 +1,13 @@
 package org.openiot.gsndatapusher.singletontcplistener;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import org.openiot.gsndatapusher.core.AbstractSensorConfig;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *
@@ -11,11 +15,17 @@ import org.openiot.gsndatapusher.core.AbstractSensorConfig;
  */
 public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTcpListenerAdapter, SingletonTcpListenerConfig> {
 
+	/**
+	 * The logger for this class.
+	 */
+	private static final Logger LOGGER = LoggerFactory.getLogger(SingletonTcpListenerConfig.class);
 	private double id;
 	private int port;
 	private String server;
 	private String badValues;
 	private String timeZone;
+	private final Map<String, String> setPoints = new HashMap<>();
+	private final Map<String, Integer> lastValue = new HashMap<>();
 
 	public SingletonTcpListenerConfig() {
 	}
@@ -141,4 +151,36 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 		return new SingletonTcpListenerAdapter();
 	}
 
+	public int getIntSetpointFor(String name, int dflt) {
+		String sp = setPoints.get(name);
+		if (sp == null) {
+			return dflt;
+		}
+		try {
+			return Integer.parseInt(sp);
+		} catch (NumberFormatException e) {
+			return dflt;
+		}
+	}
+
+	public void setSetpointFor(String name, String value) {
+		setPoints.put(name, value);
+		LOGGER.debug("Setting {} to {}.", name, value);
+	}
+
+	public void setSetpointFor(String name, int value) {
+		setPoints.put(name, Integer.toString(value));
+	}
+
+	public int getLastIntValueFor(String name, int dflt) {
+		Integer sp = lastValue.get(name);
+		if (sp == null) {
+			return dflt;
+		}
+		return sp;
+	}
+
+	public void setLastValueFor(String name, int value) {
+		lastValue.put(name, value);
+	}
 }
