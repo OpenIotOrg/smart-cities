@@ -258,7 +258,8 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 	}
 
 	private void setStatus(String message) {
-		setStatus(getStatus().getState(), message);
+		status.setMessage(message);
+		//setStatus(getStatus().getState(), message);
 	}
 
 	/**
@@ -393,8 +394,6 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 			result.append(String.format("%s: \t%d%s", entry.getKey().toString().toLowerCase().replace('_', ' '), entry.getValue(), System.lineSeparator()));
 		}
 		setStatus(result.toString());
-		//build up new status message
-
 	}
 
 	private void stopFetchSensorPerformance() {
