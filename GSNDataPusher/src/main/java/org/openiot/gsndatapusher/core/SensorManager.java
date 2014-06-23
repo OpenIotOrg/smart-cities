@@ -175,13 +175,16 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 
 			@Override
 			public Boolean call() throws Exception {
-				LOGGER.info("Starting the stop process.");
+				LOGGER.info("Starting the stop process...");
 				boolean result;
 				setStatus(SensorState.STOPPING);
+				LOGGER.info("Stopping sensor statistics...");
 				stopFetchSensorPerformance();
+				LOGGER.info("Stopping the tasks...");
 				for (ScheduledFuture<?> task : runningSensorTasks) {
 					task.cancel(false);
 				}
+				LOGGER.info("Stopping the sensors...");
 				for (Sensor sensor : sensors) {
 					sensor.stop();
 				}

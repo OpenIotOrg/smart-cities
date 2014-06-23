@@ -1,6 +1,7 @@
 package org.openiot.gsndatapusher.gui;
 
 import java.util.concurrent.ScheduledThreadPoolExecutor;
+import javax.swing.SwingUtilities;
 import org.jdesktop.swingbinding.JTableBinding;
 import org.openiot.gsndatapusher.core.SensorManager;
 import org.openiot.gsndatapusher.core.SensorState;
@@ -610,7 +611,17 @@ public class SensorManagerPanel extends javax.swing.JPanel implements SensorStat
 		setButtonStates(e.getNewStatus().getState());
 	}
 
-	private void setButtonStates(SensorState state) {
+	private void setButtonStates(final SensorState state) {
+		if (!SwingUtilities.isEventDispatchThread()) {
+			SwingUtilities.invokeLater(new Runnable() {
+
+				@Override
+				public void run() {
+					setButtonStates(state);
+				}
+			});
+			return;
+		}
 		switch (state) {
 			case CREATING:
 			case DELETING:

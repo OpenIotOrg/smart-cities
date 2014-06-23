@@ -55,16 +55,8 @@ public class BridgeLsmWebVS extends AbstractVirtualSensor {
 
 	@Override
 	public boolean initialize() {
-
 		VSensorConfig vsensor = getVirtualSensorConfiguration();
-		try {
-			loadMetadata(vsensor);
-		} catch (Exception e) {
-			LOGGER.error("Could not load vsensor LSM metadata for {}.", vsensor.getName());
-			LOGGER.error("", e);
-			return false;
-		}
-		//publish_to_lsm = vsensor.getPublishToLSM();
+
 		TreeMap<String, String> params = vsensor.getMainClassInitialParams();
 		sensorName = vsensor.getName();
 
@@ -78,6 +70,16 @@ public class BridgeLsmWebVS extends AbstractVirtualSensor {
 		String publishLsmStr = params.get("publish-to-lsm");
 		if (publishLsmStr != null) {
 			publish_to_lsm = publishLsmStr.equalsIgnoreCase("true");
+		}
+
+		if (publish_to_lsm) {
+			try {
+				loadMetadata(vsensor);
+			} catch (Exception e) {
+				LOGGER.error("Could not load vsensor LSM metadata for {}.", vsensor.getName());
+				LOGGER.error("", e);
+				return false;
+			}
 		}
 
 		// for each field in output structure
