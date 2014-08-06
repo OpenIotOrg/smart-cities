@@ -67,7 +67,7 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 		this.propertyChangeSupport.removePropertyChangeListener(listener);
 	}
 
-	public SensorManager(SensorState initialState, int multiplicity, int threadCount, int connectionCount, String displayName, C config, List<Double> ids) {
+	public SensorManager(SensorState initialState, int multiplicity, int threadCount, int connectionCount, String displayName, C config, List<Integer> ids) {
 		for (SensorState state : SensorState.values()) {
 			childStatus.put(state, state == initialState ? multiplicity : 0);
 		}
@@ -106,7 +106,7 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 	}
 
 	public SensorManager(int multiplicity, int threadCount, int connectionCount, String displayName, C config) {
-		this(SensorState.NOT_CREATED, multiplicity, threadCount, connectionCount, displayName, config, new ArrayList<Double>());
+		this(SensorState.NOT_CREATED, multiplicity, threadCount, connectionCount, displayName, config, new ArrayList<Integer>());
 	}
 
 	private void fireSensorStateChanged(SensorStatusChangedEvent e) {
@@ -349,8 +349,8 @@ public class SensorManager<A extends ISensorAdapter<A, C>, C extends ISensorConf
 		return config;
 	}
 
-	public List<Double> getIds() {
-		List<Double> list = new ArrayList<>(sensors.size());
+	public List<Integer> getIds() {
+		List<Integer> list = new ArrayList<>(sensors.size());
 		for (Sensor s : sensors) {
 			list.add(s.getConfig().getId());
 		}

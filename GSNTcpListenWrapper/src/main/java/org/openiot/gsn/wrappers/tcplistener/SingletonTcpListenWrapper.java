@@ -60,9 +60,15 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 	/**
 	 * Our sensor id.
 	 */
-	private double id = -1;
+	private int id = -1;
+	/**
+	 * The queue of new sensor data that needs to be processed.
+	 */
 	private final Queue<StreamElement> dataQueue = new ArrayBlockingQueue<>(5);
-	private final Map<String, String> lastSettings = new HashMap<String, String>();
+	/**
+	 * The list of settings that still need to be sent to the sensor.
+	 */
+	private final Map<String, String> lastSettings = new HashMap<>();
 
 	@Override
 	public boolean initialize() {
@@ -75,7 +81,7 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 		String timezone = addressBean.getPredicateValueWithDefault("timezone", JsonHandler.LOCAL_TIMEZONE_ID);
 		String nullValues = addressBean.getPredicateValueWithDefault("bad-values", "");
 		port = addressBean.getPredicateValueAsInt("port", port);
-		id = Double.parseDouble(addressBean.getPredicateValueWithException("id"));
+		id = Integer.parseInt(addressBean.getPredicateValueWithException("id"));
 		if (id <= 0) {
 			LOGGER.error("id must be a double >= 0. Current value: " + id);
 		}

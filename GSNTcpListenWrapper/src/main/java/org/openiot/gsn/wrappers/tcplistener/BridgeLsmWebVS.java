@@ -104,10 +104,10 @@ public class BridgeLsmWebVS extends AbstractVirtualSensor {
 		}
 
 		Long t = data.getTimeStamp();
+		Date d = new Date(t);
 		for (int i = 0; i < fields.size(); i++) {
 			String field = fields.get(i);
 			Double v = (Double) data.getData(field);
-			Date d = new Date(t);
 			String fieldName = data.getFieldNames()[i];
 			LOGGER.debug(fieldName + " : t=" + d + " v=" + v);
 

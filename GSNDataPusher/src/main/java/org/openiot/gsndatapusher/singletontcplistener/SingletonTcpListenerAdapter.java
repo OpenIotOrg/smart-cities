@@ -91,7 +91,7 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 		builder.append(String.format("               <predicate key=\"bad-values\">%s</predicate>\n", config.getBadValues()));
 		builder.append(String.format("               <predicate key=\"timezone\">%s</predicate>\n", config.getTimeZone()));
 		builder.append(String.format("               <predicate key=\"port\">%d</predicate>\n", config.getPort()));
-		builder.append(String.format("               <predicate key=\"id\">%s</predicate>\n", String.format(Locale.US, "%f", config.getId())));
+		builder.append(String.format("               <predicate key=\"id\">%s</predicate>\n", Integer.toString(config.getId())));
 		builder.append(String.format("            </address>\n"));
 		builder.append(String.format("            <query>select * from wrapper</query>\n"));
 		builder.append(String.format("         </source>\n"));
@@ -230,7 +230,7 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 		/*
 		 * ID 1.00000 {"temp"=23,"humid"=97}
 		 */
-		String result = String.format("ID %s {", String.format(Locale.US, "%f", config.getId()));
+		String result = String.format("ID %s {", Integer.toString(config.getId()));
 		for (int i = 1; i <= config.getFieldCount(); i++) {
 			String name = String.format("field%d", i);
 			result += String.format("\"%s\"=%s", name, getDataFor(config, name));
@@ -245,13 +245,24 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 	private String getDataFor(final SingletonTcpListenerConfig config, String field) {
 		if (config.getFieldType() == FieldType.Int) {
 			int sp = config.getIntSetpointFor(field, 0);
-			if (sp == 0) {
-				return randomValue(config);
-			} else {
-				int last = config.getLastIntValueFor(field, 0);
-				int next = last + (int) (0.1 * (sp - last));
-				config.setLastValueFor(field, next);
-				return Integer.toString(next);
+			int next;
+			switch (sp) {
+				case 0:
+					next = nextValueInt(config);
+					config.setLastValueFor(field, next);
+					return Integer.toString(next);
+
+				case -1:
+					sp = nextValueInt(config);
+				default:
+					int last = config.getLastIntValueFor(field, Integer.MIN_VALUE);
+					if (last == Integer.MIN_VALUE) {
+						last = nextValueInt(config);
+					}
+					int diff = (int) (0.1 * (sp - last));
+					next = last + diff;
+					config.setLastValueFor(field, next);
+					return Integer.toString(next);
 			}
 		}
 		return randomValue(config);
