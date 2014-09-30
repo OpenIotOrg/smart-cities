@@ -205,11 +205,11 @@ public abstract class AbstractSensorConfig<A extends ISensorAdapter<A, C>, C ext
 	}
 
 	@Override
-	public List<C> createAdaptedCopies(int n, List<Double> ids) {
+	public List<C> createAdaptedCopies(int n, List<Integer> ids) {
 		List<C> result = new ArrayList<>(n);
-		Iterator<Double> iIds = ids.iterator();
+		Iterator<Integer> iIds = ids.iterator();
 		for (int i = 0; i < n; i++) {
-			Double id = null;
+			Integer id = null;
 			if (iIds.hasNext()) {
 				id = iIds.next();
 			}
@@ -220,6 +220,6 @@ public abstract class AbstractSensorConfig<A extends ISensorAdapter<A, C>, C ext
 		return result;
 	}
 
-	protected abstract C createAdaptedCopy(int offset, Double id);
+	protected abstract C createAdaptedCopy(int offset, Integer id);
 
 }

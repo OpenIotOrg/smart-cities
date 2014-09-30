@@ -11,7 +11,7 @@ import java.util.List;
  */
 public interface ISensorConfig<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C>> extends Serializable {
 
-	List<C> createAdaptedCopies(int n, List<Double> ids);
+	List<C> createAdaptedCopies(int n, List<Integer> ids);
 
 	A getAdapter();
 
@@ -23,7 +23,7 @@ public interface ISensorConfig<A extends ISensorAdapter<A, C>, C extends ISensor
 
 	void setName(String name);
 
-	double getId();
+	int getId();
 
 	String getType();
 

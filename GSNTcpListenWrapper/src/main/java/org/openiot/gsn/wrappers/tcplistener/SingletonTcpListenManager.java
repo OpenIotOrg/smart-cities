@@ -97,7 +97,7 @@ public class SingletonTcpListenManager {
 	/**
 	 * Mapping from ID to corresponding wrapper
 	 */
-	private final Map<Double, SingletonTcpListenWrapper> wrappers = new HashMap<>();
+	private final Map<Integer, SingletonTcpListenWrapper> wrappers = new HashMap<>();
 
 	/**
 	 * Mapping from port to corresponding Server
@@ -116,13 +116,13 @@ public class SingletonTcpListenManager {
 		return servers.get(port);
 	}
 
-	public static void subscribe(int port, double id, SingletonTcpListenWrapper wrapper) {
+	public static void subscribe(int port, int id, SingletonTcpListenWrapper wrapper) {
 		if (getInstance(port).server.subscribe(id, wrapper)) {
 			getInstance(port).connections++;
 		}
 	}
 
-	public static void unsubscribe(int port, double id, SingletonTcpListenWrapper wrapper) {
+	public static void unsubscribe(int port, int id, SingletonTcpListenWrapper wrapper) {
 		if (getInstance(port).server.unsubscribe(id, wrapper)) {
 			getInstance(port).connections--;
 			if (getInstance(port).connections <= 0) {
@@ -132,7 +132,7 @@ public class SingletonTcpListenManager {
 		}
 	}
 
-	private boolean subscribe(double id, SingletonTcpListenWrapper wrapper) {
+	private boolean subscribe(int id, SingletonTcpListenWrapper wrapper) {
 		if (wrappers.containsKey(id)) {
 			LOGGER.warn("id is already in use: {}, replacing old wrapper.", id);
 		}
@@ -140,7 +140,7 @@ public class SingletonTcpListenManager {
 		return true;
 	}
 
-	private boolean unsubscribe(double id, SingletonTcpListenWrapper wrapper) {
+	private boolean unsubscribe(int id, SingletonTcpListenWrapper wrapper) {
 		if (!wrappers.containsKey(id)) {
 			LOGGER.warn("can't unsubscribe wrapper. ID not found: ", id);
 			return false;
@@ -179,7 +179,7 @@ public class SingletonTcpListenManager {
 				LOGGER.trace("Handling message '{}'.", m.getMessage());
 				MessageIdData md = (MessageIdData) m;
 				String data = md.getData();
-				double id = md.getId();
+				int id = md.getSenderId();
 				if (!wrappers.containsKey(id)) {
 					LOGGER.warn("No wrapper with ID: '{}' in '{}'.", id, wrappers.keySet());
 					MessageResult mr = new MessageResult();

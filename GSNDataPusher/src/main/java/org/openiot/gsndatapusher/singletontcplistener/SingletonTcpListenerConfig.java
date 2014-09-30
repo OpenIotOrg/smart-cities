@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import org.openiot.gsndatapusher.core.AbstractSensorConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +20,8 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 	 * The logger for this class.
 	 */
 	private static final Logger LOGGER = LoggerFactory.getLogger(SingletonTcpListenerConfig.class);
-	private double id;
+	private static final Random RANDOM = new Random();
+	private int id;
 	private int port;
 	private String server;
 	private String badValues;
@@ -92,15 +94,15 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 	 * @return
 	 */
 	@Override
-	public List<SingletonTcpListenerConfig> createAdaptedCopies(int n, List<Double> ids) {
+	public List<SingletonTcpListenerConfig> createAdaptedCopies(int n, List<Integer> ids) {
 		List<SingletonTcpListenerConfig> result = new ArrayList<>(n);
-		Iterator<Double> iIds = ids.iterator();
+		Iterator<Integer> iIds = ids.iterator();
 		for (int i = 1; i <= n; i++) {
-			Double id = null;
+			Integer cid = null;
 			if (iIds.hasNext()) {
-				id = iIds.next();
+				cid = iIds.next();
 			}
-			result.add(createAdaptedCopy(i, id));
+			result.add(createAdaptedCopy(i, cid));
 		}
 		return result;
 	}
@@ -109,19 +111,19 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 	 * @return the id
 	 */
 	@Override
-	public double getId() {
+	public int getId() {
 		return id;
 	}
 
 	/**
 	 * @param id the id to set
 	 */
-	public void setId(double id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
 	@Override
-	protected SingletonTcpListenerConfig createAdaptedCopy(int offset, Double id) {
+	protected SingletonTcpListenerConfig createAdaptedCopy(int offset, Integer id) {
 		SingletonTcpListenerConfig result = new SingletonTcpListenerConfig();
 		result.setFieldCount(getFieldCount());
 		result.setFieldType(getFieldType());
@@ -141,7 +143,7 @@ public class SingletonTcpListenerConfig extends AbstractSensorConfig<SingletonTc
 		if (id != null) {
 			result.setId(id);
 		} else {
-			result.setId(Math.random());
+			result.setId(RANDOM.nextInt());
 		}
 		return result;
 	}

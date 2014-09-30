@@ -22,7 +22,7 @@ public class SerializableSensorManager<A extends ISensorAdapter<A, C>, C extends
 	private int connectionCount;
 	private String displayName;
 	private C config;
-	private List<Double> ids;
+	private List<Integer> ids;
 
 	public SerializableSensorManager() {
 		ids = new ArrayList<>();
@@ -130,14 +130,14 @@ public class SerializableSensorManager<A extends ISensorAdapter<A, C>, C extends
 	/**
 	 * @return the ids
 	 */
-	public List<Double> getIds() {
+	public List<Integer> getIds() {
 		return ids;
 	}
 
 	/**
 	 * @param ids the ids to set
 	 */
-	public void setIds(List<Double> ids) {
+	public void setIds(List<Integer> ids) {
 		this.ids = ids;
 	}
 }

@@ -8,6 +8,7 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
+import org.apache.http.ParseException;
 import org.apache.http.StatusLine;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -87,7 +88,7 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 		setStatus(SensorState.CREATING, "creating sensor");
 		CloseableHttpResponse response = null;
 		HttpPost request = null;
-		String response1 = "";
+		String response1;
 		String response2 = "";
 		try {
 			String url = config.getGsnAddress() + "/vs/vsensor/" + URLEncoder.encode(config.getName(), "UTF-8") + "/create";
@@ -135,6 +136,9 @@ public class Sensor<A extends ISensorAdapter<A, C>, C extends ISensorConfig<A, C
 			LOGGER.error("Failed to create sensor.", ex);
 		} catch (IOException ex) {
 			setStatus(SensorState.NOT_CREATED, "IO Exception (" + ex.getMessage() + ")");
+			LOGGER.error("Failed to create sensor.", ex);
+		} catch (IllegalStateException | ParseException ex) {
+			setStatus(SensorState.NOT_CREATED, "Unexpected Exception (" + ex.getMessage() + ")");
 			LOGGER.error("Failed to create sensor.", ex);
 		} finally {
 			if (response != null) {

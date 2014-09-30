@@ -1,7 +1,6 @@
 package org.openiot.gsndatapusher.core;
 
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Locale;
 import java.util.Random;
 
@@ -26,6 +25,21 @@ public abstract class AbstractSensorAdapter<A extends ISensorAdapter<A, C>, C ex
 
 	@Override
 	public abstract String getGSNMetadataFile(C config);
+
+	protected int nextValueInt(C config) {
+		long now = System.currentTimeMillis() / 1000;
+		long span = nextHour - now;
+		if (span < 0) {
+			Calendar nextHourCal = Calendar.getInstance();
+			nextHourCal.set(Calendar.MILLISECOND, 0);
+			nextHourCal.set(Calendar.SECOND, 0);
+			nextHourCal.set(Calendar.MINUTE, 0);
+			nextHourCal.add(Calendar.HOUR_OF_DAY, 1);
+			nextHour = nextHourCal.getTimeInMillis() / 1000;
+			span = nextHour - now;
+		}
+		return (int) span;
+	}
 
 	protected String randomValue(C config) {
 		String result = "";
