@@ -105,7 +105,7 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 	@Override
 	public String getGSNMetadataFile(SingletonTcpListenerConfig config) {
 		StringBuilder builder = new StringBuilder();
-		builder.append(String.format("sensorName=opensense_1\n"));
+		builder.append(String.format("sensorName=SomeNameHere\n"));
 		String fields = "";
 		for (int i = 1; i <= config.getFieldCount(); i++) {
 			if (i > 1) {
@@ -115,14 +115,15 @@ public class SingletonTcpListenerAdapter extends AbstractSensorAdapter<Singleton
 		}
 		builder.append(String.format("source=\"http://openiot.eu\"\n"));
 		builder.append(String.format("sourceType=lausanne\n"));
-		builder.append(String.format("sensorType=%s\n", config.getType()));
+		builder.append(String.format("sensorType=\"%s\"\n", config.getType()));
 		builder.append(String.format("information=\"A generated sensor\"\n"));
-		builder.append(String.format("author=\"Fraunhofer IOSB\"\n"));
+		builder.append(String.format("author=\"FraunhoferIOSB\"\n"));
+		// TODO: select from a list of given features.
 		builder.append(String.format("feature=\"http://lsm.deri.ie/OpenIoT/opensensefeature\"\n"));
 
 		builder.append(String.format("fields=\"%s\"\n", fields));
 		for (int i = 1; i <= config.getFieldCount(); i++) {
-			builder.append(String.format("field.field%d.propertyName=\"http://lsm.deri.ie/OpenIoT/Random%d\"\n", i, i));
+			builder.append(String.format("field.field%d.propertyName=\"http://openiot.eu/OpenIoT/Random%d\"\n", i, i));
 			builder.append(String.format("field.field%d.unit=Percent\n", i));
 		}
 		builder.append(String.format("latitude=46.529838\n"));

@@ -20,18 +20,25 @@
  */
 package org.openiot.gsn.wrappers.tcplistener;
 
+import java.io.FileNotFoundException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.TreeMap;
 import javax.naming.OperationNotSupportedException;
+import org.openiot.gsn.beans.DataField;
+import org.openiot.gsn.beans.DataTypes;
 import org.openiot.gsn.beans.InputStream;
 import org.openiot.gsn.beans.StreamElement;
 import org.openiot.gsn.beans.StreamSource;
 import org.openiot.gsn.beans.VSensorConfig;
+import org.openiot.gsn.metadata.LSM.LSMFieldMetaData;
 import org.openiot.gsn.metadata.LSM.LSMRepository;
 import org.openiot.gsn.metadata.LSM.LSMSensorMetaData;
+import org.openiot.gsn.metadata.LSM.SensorAnnotator;
 import org.openiot.gsn.vsensor.AbstractVirtualSensor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -52,13 +59,35 @@ public class BridgeLsmWebVS extends AbstractVirtualSensor {
 	private String sensorName;
 	private boolean allow_nulls = false;
 	private boolean publish_to_lsm = false;
+	private final Map<String, String> fieldUris = new HashMap<>();
 
 	@Override
 	public boolean initialize() {
+		LSMSensorMetaData metadata;
 		VSensorConfig vsensor = getVirtualSensorConfiguration();
+		try {
+			metadata = LSMRepository.getInstance().loadMetadata(vsensor);
+		} catch (FileNotFoundException e) {
+			LOGGER.error("No LSM metadata available for loading vsensor {}", vsensor.getName(), e);
+			return false;
+		}
 
 		TreeMap<String, String> params = vsensor.getMainClassInitialParams();
 		sensorName = vsensor.getName();
+
+		LOGGER.info("Sensor has {} outputfields.", vsensor.getOutputStructure().length);
+		for (DataField df : vsensor.getOutputStructure()) {
+			LOGGER.info("Property: {}--{}", df.getName(), df.getProperty());
+			if (df.getProperty() != null) {
+				fieldUris.put(df.getName().toUpperCase(), df.getProperty());
+			} else {
+				for (LSMFieldMetaData md : metadata.getFields().values()) {
+					if (md.getGsnFieldName().equals(df.getName())) {
+						fieldUris.put(df.getName().toUpperCase(), md.getLsmPropertyName());
+					}
+				}
+			}
+		}
 
 		String allow_nulls_str = params.get("allow-nulls");
 		if (allow_nulls_str != null) {
@@ -106,16 +135,21 @@ public class BridgeLsmWebVS extends AbstractVirtualSensor {
 		Long t = data.getTimeStamp();
 		for (int i = 0; i < fields.size(); i++) {
 			String field = fields.get(i);
-			Double v = (Double) data.getData(field);
+			Object val;
+			if (data.getFieldTypes()[i].equals(DataTypes.VARCHAR)) {
+				val = (String) data.getData(field);
+			} else {
+				val = (Double) data.getData(field);
+			}
 			Date d = new Date(t);
 			String fieldName = data.getFieldNames()[i];
-			LOGGER.debug(fieldName + " : t=" + d + " v=" + v);
+			LOGGER.debug("{} : t={} v={}", fieldName, d, val);
 
-			if (!allow_nulls && v == null) {
-				continue; // skipping null values if allow_nulls flag is not st to true
+			if (!allow_nulls && val == null) {
+				return; // skipping null values if allow_nulls flag is not st to true
 			}
 			if (publish_to_lsm) {
-				LSMRepository.getInstance().publishSensorDataToLSM(sensorName, fieldName, v, d);
+				SensorAnnotator.updateSensorDataOnLSM(sensorName, fieldName, fieldUris.get(fieldName), val, d);
 			}
 		}
 	}
