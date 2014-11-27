@@ -60,7 +60,7 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 	/**
 	 * Our sensor id.
 	 */
-	private int id = -1;
+	private long id = -1;
 	/**
 	 * The queue of new sensor data that needs to be processed.
 	 */
@@ -75,19 +75,22 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 		setName("SingletonTcpListenWrapper-Thread" + (THREAD_COUNTER.decrementAndGet()));
 		LOGGER.info("Initialising wrapper {}.", getName());
 		AddressBean addressBean = getActiveAddressBean();
-		String csvFields = addressBean.getPredicateValueWithException("fields");
-		String csvFormats = addressBean.getPredicateValueWithException("formats");
+		String jsonFields = addressBean.getPredicateValueWithException("fields");
+		String jsonFormats = addressBean.getPredicateValueWithException("formats");
 
 		String timezone = addressBean.getPredicateValueWithDefault("timezone", JsonHandler.LOCAL_TIMEZONE_ID);
 		String nullValues = addressBean.getPredicateValueWithDefault("bad-values", "");
 		port = addressBean.getPredicateValueAsInt("port", port);
-		id = Integer.parseInt(addressBean.getPredicateValueWithException("id"));
-		if (id <= 0) {
-			LOGGER.error("id must be a double >= 0. Current value: " + id);
+		try {
+			id = Long.parseLong(addressBean.getPredicateValueWithException("id"));
+		} catch (NumberFormatException e) {
+			LOGGER.error("Failed to parse sensor id. Value {} is not a long.", addressBean.getPredicateValueWithException("id"));
+			LOGGER.trace("", e);
 		}
 
-		if (!handler.initialize(csvFields, csvFormats, nullValues, timezone)) {
+		if (!handler.initialize(jsonFields, jsonFormats, nullValues, timezone)) {
 			LOGGER.warn("Initialisation of jsonHandler failed.");
+			return false;
 		}
 		dataFields = handler.getDataFields();
 
@@ -140,9 +143,9 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 	 * @param data The data that was received.
 	 * @return a message with the result.
 	 */
-	public MessageResult handleData(String data) {
+	public MessageResult handleData(Map<String, Object> data) {
 		MessageResult mr = new MessageResult();
-		TreeMap<String, Serializable> elementData = handler.parseValues(data);
+		TreeMap<String, Serializable> elementData = handler.convertTo(data);
 		StreamElement streamElement = new StreamElement(elementData, getOutputFormat());
 		LOGGER.debug("Sensor {}, Queueing: {}", id, elementData);
 		synchronized (this) {
@@ -163,7 +166,7 @@ public class SingletonTcpListenWrapper extends AbstractWrapper {
 		return mr;
 	}
 
-	public void forwardData(StreamElement streamElement) {
+	private void forwardData(StreamElement streamElement) {
 		LOGGER.debug("Sensor {}, forwarding data.", id);
 		boolean insertionSuccess = postStreamElement(streamElement);
 		LOGGER.debug("Sensor {}, success: {}, queue: {}.", id, insertionSuccess, dataQueue.size());

@@ -125,30 +125,31 @@ public class BridgeLsmWebVS extends AbstractVirtualSensor {
 		if (allow_nulls) {
 			dataProduced(data);
 		} else {
-			if (!areAnyFieldsNull(data)) {
-				dataProduced(data);
+			if (isAnyFieldNull(data)) {
+				LOGGER.debug("Nulls received for timestamp {}, discarded. Data: {}.", data.getTimeStamp(), data);
 			} else {
-				LOGGER.debug("Nulls received for timestamp {}, discarded", data.getTimeStamp());
+				dataProduced(data);
 			}
 		}
 
-		Long t = data.getTimeStamp();
-		Date d = new Date(t);
-		for (int i = 0; i < fields.size(); i++) {
-			String field = fields.get(i);
-			Object val;
-			if (data.getFieldTypes()[i].equals(DataTypes.VARCHAR)) {
-				val = (String) data.getData(field);
-			} else {
-				val = (Double) data.getData(field);
-			}
-			String fieldName = data.getFieldNames()[i];
-			LOGGER.debug("{} : t={} v={}", fieldName, d, val);
+		if (publish_to_lsm) {
+			Long t = data.getTimeStamp();
+			Date d = new Date(t);
+			for (int i = 0; i < fields.size(); i++) {
+				String field = fields.get(i);
+				Object val;
+				if (data.getFieldTypes()[i].equals(DataTypes.VARCHAR)) {
+					val = (String) data.getData(field);
+				} else {
+					val = (Double) data.getData(field);
+				}
+				String fieldName = data.getFieldNames()[i];
+				LOGGER.debug("{} : t={} v={}", fieldName, d, val);
 
-			if (!allow_nulls && val == null) {
-				return; // skipping null values if allow_nulls flag is not st to true
-			}
-			if (publish_to_lsm) {
+				if (val == null) {
+					// Not sending null values to LSM.
+					continue;
+				}
 				SensorAnnotator.updateSensorDataOnLSM(sensorName, fieldName, fieldUris.get(fieldName), val, d);
 			}
 		}
@@ -184,15 +185,12 @@ public class BridgeLsmWebVS extends AbstractVirtualSensor {
 		return lsm.loadMetadata(vsConfig);
 	}
 
-	public boolean areAnyFieldsNull(StreamElement data) {
-		boolean allFieldsNull = false;
+	private boolean isAnyFieldNull(StreamElement data) {
 		for (Serializable d : data.getData()) {
 			if (d == null) {
-				allFieldsNull = true;
-				break;
+				return true;
 			}
 		}
-
-		return allFieldsNull;
+		return false;
 	}
 }

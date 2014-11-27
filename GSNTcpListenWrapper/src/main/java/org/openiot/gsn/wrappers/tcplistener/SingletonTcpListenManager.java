@@ -95,9 +95,9 @@ public class SingletonTcpListenManager {
 	 */
 	private NetworkServer server;
 	/**
-	 * Mapping from ID to corresponding wrapper
+	 * Mapping from sensor ID to corresponding wrapper
 	 */
-	private final Map<Integer, SingletonTcpListenWrapper> wrappers = new HashMap<>();
+	private final Map<Long, SingletonTcpListenWrapper> wrappers = new HashMap<>();
 
 	/**
 	 * Mapping from port to corresponding Server
@@ -116,13 +116,13 @@ public class SingletonTcpListenManager {
 		return servers.get(port);
 	}
 
-	public static void subscribe(int port, int id, SingletonTcpListenWrapper wrapper) {
+	public static void subscribe(int port, long id, SingletonTcpListenWrapper wrapper) {
 		if (getInstance(port).server.subscribe(id, wrapper)) {
 			getInstance(port).connections++;
 		}
 	}
 
-	public static void unsubscribe(int port, int id, SingletonTcpListenWrapper wrapper) {
+	public static void unsubscribe(int port, long id, SingletonTcpListenWrapper wrapper) {
 		if (getInstance(port).server.unsubscribe(id, wrapper)) {
 			getInstance(port).connections--;
 			if (getInstance(port).connections <= 0) {
@@ -132,7 +132,7 @@ public class SingletonTcpListenManager {
 		}
 	}
 
-	private boolean subscribe(int id, SingletonTcpListenWrapper wrapper) {
+	private boolean subscribe(long id, SingletonTcpListenWrapper wrapper) {
 		if (wrappers.containsKey(id)) {
 			LOGGER.warn("id is already in use: {}, replacing old wrapper.", id);
 		}
@@ -140,7 +140,7 @@ public class SingletonTcpListenManager {
 		return true;
 	}
 
-	private boolean unsubscribe(int id, SingletonTcpListenWrapper wrapper) {
+	private boolean unsubscribe(long id, SingletonTcpListenWrapper wrapper) {
 		if (!wrappers.containsKey(id)) {
 			LOGGER.warn("can't unsubscribe wrapper. ID not found: ", id);
 			return false;
@@ -178,8 +178,8 @@ public class SingletonTcpListenManager {
 			public void handle(Message m, NetworkServerConnection serverConnection) {
 				LOGGER.trace("Handling message '{}'.", m.getMessage());
 				MessageIdData md = (MessageIdData) m;
-				String data = md.getData();
-				int id = md.getSenderId();
+				Map<String, Object> data = md.getDataMap();
+				long id = md.getSenderIdLong();
 				if (!wrappers.containsKey(id)) {
 					LOGGER.warn("No wrapper with ID: '{}' in '{}'.", id, wrappers.keySet());
 					MessageResult mr = new MessageResult();

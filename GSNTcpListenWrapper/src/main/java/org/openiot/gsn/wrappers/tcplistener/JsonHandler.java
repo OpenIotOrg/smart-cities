@@ -95,7 +95,13 @@ public class JsonHandler {
 
 	public boolean initialize(String inFields, String inFormats, String nullValues, String timeZone) {
 
-		this.timeZone = DateTimeZone.forID(timeZone);
+		try {
+			this.timeZone = DateTimeZone.forID(timeZone);
+		} catch (IllegalArgumentException e) {
+			LOGGER.error("Not a recognised time zone: {}.", timeZone);
+			LOGGER.trace("", e);
+			this.timeZone = DateTimeZone.UTC;
+		}
 		String[] tempFormats;
 		try {
 			this.fields = generateFieldIdx(inFields, true);
@@ -138,7 +144,7 @@ public class JsonHandler {
 					return false;
 				}
 			} else {
-				LOGGER.error("The format ({}) used by the CSV-Wrapper doesn't exist.", format);
+				LOGGER.error("The format ({}) used by the CSV-Wrapper doesn't exist. Acceptable formats: numeric, string", format);
 				return false;
 			}
 		}
@@ -176,7 +182,13 @@ public class JsonHandler {
 		return se;
 	}
 
-	private TreeMap<String, Serializable> convertTo(Map<String, Object> values) {
+	/**
+	 * Convert the data map into a StreamElement compatible data map.
+	 *
+	 * @param values The data to convert.
+	 * @return The StreamElement
+	 */
+	public TreeMap<String, Serializable> convertTo(Map<String, Object> values) {
 		TreeMap<String, Serializable> streamElement = new TreeMap<>(new CaseInsensitiveComparator());
 		for (String field : fields) {
 			streamElement.put(field, null);
