@@ -21,7 +21,8 @@ public class MessageResult implements Message {
 		OK,
 		QUEUED,
 		QUEUE_FULL,
-		FAILED
+		FAILED,
+		TIMEOUT
 	}
 	/**
 	 * The logger for this class.
